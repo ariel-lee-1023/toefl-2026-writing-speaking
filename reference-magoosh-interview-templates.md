@@ -5,6 +5,9 @@
 ## Mental Model (read first)
 The binding constraint is **zero preparation time**. The moment the interviewer stops speaking, you start — so any second spent deciding *how to begin* is a second permanently lost from elaboration. The skeleton exists to make the opening reflexive so your working memory goes entirely to *what to say*. The guide is explicit about the tradeoff it creates: reuse "Honestly, I'd say…" on all four questions and you "run the risk of sounding robotic and too rehearsed" — which collides directly with ETS's rule that memorized-sounding language scores lower. **Learn the shape; rotate the phrasing.**
 
+## Output format — HARD CONSTRAINT
+This task is **spoken**, so the risk isn't in your delivery — it's in how a sample answer gets *written down* during practice or coaching. A model answer must be transcribed as **continuous spoken prose**: no bullets, no headings, no bold labels, no `Slot 1:` annotations inside the answer itself. The C–D–E–F slots are a planning device, never a visible structure. Writing a practice answer as a bulleted list trains exactly the wrong thing, because ETS's score-4 speaking band is elaborated content that **"may lack effective sentence-level connectors"** — the connectives *are* the difference between a 4 and a 5, and a bulleted draft has none to practice.
+
 ## The Universal Response Skeleton — C–D–E–F (45 seconds, ~110 words)
 | Slot | ~Time | Job |
 |---|---|---|

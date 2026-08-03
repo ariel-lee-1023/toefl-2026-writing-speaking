@@ -111,6 +111,7 @@ All four rated-5 transcripts are conspicuously **unpolished spoken English**: th
 ---
 
 ## Decision Rules & Judgment
+- **Sentence-level connectors are the named 4→5 discriminator.** The Speaking score-4 band is on-topic and elaborated *"but it may lack effective sentence-level connectors"*; both writing rubrics express the same requirement as ideas that are "well connected, coherent, and easy to follow," and the score-1 band names **"telegraphic language (i.e., short and/or disconnected phrases and sentences)."** Consequence: **never render a response as bullets, headings, or `Label:` lines** — those forms delete the very evidence the criterion looks for. Enumerate in prose (*First… Second… Finally…*) instead.
 - **Optimize in rubric order, not in nervousness order**: (1) address every required action / the actual question, (2) elaborate concretely, (3) vary syntax *for a reason*, (4) accuracy last. Time spent hunting a rarer word is misspent if a bullet is thin.
 - **When a phrase feels impressive, delete it.** ETS's two negative specimens are both elevated-register padding. If a sentence would survive being moved to a different prompt unchanged, it is formulaic — rewrite it around the specific scenario.
 - **When you notice an error mid-response**: writing → fix it in the proofread pass, not now. Speaking → keep going to the end of the sentence. Truncation costs more than the error.

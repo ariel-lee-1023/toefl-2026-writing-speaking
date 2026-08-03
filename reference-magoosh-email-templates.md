@@ -5,6 +5,9 @@
 ## Mental Model (read first)
 Magoosh's own framing: templates are **scaffolding, not a script** — they supply *how to say it*, never *what to say*. The guide is unusually candid that its own phrases are a liability at the top: "if thousands of students are reading this same guide, and everyone always uses [the same line], those emails start to sound alike," and the score-5 rubric demands *idiomatic* word choice, which "means language that sounds like you, not like a template." **Read this file as a map of the required speech acts, then generate your own realizations of them.** The task-type taxonomy is durable; the specific phrases are disposable and should be treated as such.
 
+## Output format — HARD CONSTRAINTS
+Plain prose typed into an email box. **Do** include a greeting and a sign-off (unlike the Discussion task, this one is a message to a person, and register is criterion 3). **Never** include a markdown heading, bullet points, a numbered list, bold/italic markup, or `Label:` lines — even when the prompt's three bullets tempt you to mirror them as three bullets. The prompt's bullets are **your outline, not your format**: each becomes a short paragraph of ~2 connected sentences. A bulleted email reads as a form submission and forfeits the "well connected, coherent, and easy to follow" criterion; ETS's score-1 band explicitly names telegraphic, disconnected phrases.
+
 ## Timing and length (Magoosh's numbers, not ETS's)
 - **7 minutes total**: ~1 min read + plan · 4–5 min write · 1–2 min proofread.
 - **Target 100–120 words**, **~2 sentences per bullet**, one short paragraph per bullet.
