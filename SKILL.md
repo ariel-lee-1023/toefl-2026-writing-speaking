@@ -1,6 +1,6 @@
 ---
 name: toefl-2026-writing-speaking
-description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL iBT Writing and Speaking sections, built from 5 sources: the Official Guide chapters on both sections, the ETS CEFR performance descriptors, and Magoosh's Email, Academic Discussion, and Interview template guides. Use to score or draft responses against the real rubrics, diagnose a response's band, plan practice, or resolve template-vs-authenticity questions. Each source has its own reference-<slug>.md, loaded on demand."
+description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL iBT Writing and Speaking sections, built from 5 sources: the Official Guide chapters on both sections, the ETS CEFR performance descriptors, and Magoosh's Email, Academic Discussion, and Interview template guides. Use to score or draft responses against the real rubrics, diagnose a response's band, plan practice, or resolve template-vs-authenticity questions. ALWAYS write TOEFL responses as continuous prose — never a title, heading, bullet list, or bold label; enumerate with First/Second/Finally instead. Each source has its own reference-<slug>.md, loaded on demand."
 ---
 
 <!-- argument-hint: [task name, rubric criterion, CEFR band, or "score this response"] -->

@@ -2,6 +2,11 @@
 **Format**: md (from pdf) | **Pages**: ~10 (pp. 351–360) | **Sections**: 2 scales × 6 bands | **Depth**: study
 **Role in this library**: this file defines **the target**. `reference-ets-task-specs.md` defines the *tasks*; this one defines what a C2 performance *is*.
 
+> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
+> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
+> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+
+
 ## Mental Model (read first)
 Two different scales are in play and conflating them is the most common analytical error:
 - **Section scores run 1–6 in half-point steps** and map onto CEFR: **6 = C2**, 5–5.5 = C1, 4–4.5 = B2, 3–3.5 = B1, 2–2.5 = A2, 1–1.5 = A1.

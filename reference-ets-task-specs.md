@@ -2,6 +2,11 @@
 **Format**: md (from pdf) | **Pages**: ~50 (pp. 197–247) | **Sections**: 2 chapters, 5 tasks | **Depth**: study
 **Authority**: This is the *only* first-party source in the library. Where it conflicts with any Magoosh reference file, **this file wins.**
 
+> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
+> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
+> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+
+
 ## Mental Model (read first)
 ETS scores **communicative effectiveness under time pressure**, not polish. Every task rubric puts *elaboration* and *addressing the prompt* first, language accuracy last — and explicitly forgives "errors expected from a competent writer/speaker working under timed conditions." The single most consequential thing in these two chapters is the **inverse pair**: errors are cheap, and *memorized or formulaic language is expensive*. ETS states in four separate places that responses appearing to contain memorized text score considerably lower. So the exam rewards a slightly messy authentic voice over a clean rehearsed one.
 

@@ -2,6 +2,11 @@
 **Format**: md (from pdf) | **Pages**: ~15 | **Sections**: C–D–E–F skeleton + 5 phrase menus + practice method | **Depth**: study
 **Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Unique value: a **time-allocated response shape** for the 45-second window, which ETS describes only as "use the full time."
 
+> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
+> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
+> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+
+
 ## Mental Model (read first)
 The binding constraint is **zero preparation time**. The moment the interviewer stops speaking, you start — so any second spent deciding *how to begin* is a second permanently lost from elaboration. The skeleton exists to make the opening reflexive so your working memory goes entirely to *what to say*. The guide is explicit about the tradeoff it creates: reuse "Honestly, I'd say…" on all four questions and you "run the risk of sounding robotic and too rehearsed" — which collides directly with ETS's rule that memorized-sounding language scores lower. **Learn the shape; rotate the phrasing.**
 
@@ -52,6 +57,24 @@ Grouped by function; **two or three across a 45-second response is plenty**, bes
 - **Examples**: *For instance, / Take …, for example. / A case in point is…*
 - **Clarifying / emphasizing**: *What I mean is… / In other words, / In fact,*
 - **Wrapping up**: *Overall, / In short, / All in all,*
+
+## MODEL RESPONSE — copy this shape exactly
+A finished Interview answer, transcribed as spoken prose. **The C–D–E–F slots never appear as visible labels** — they are planning, not structure.
+
+*(Question: do you think students learn better in groups or individually? Give reasons. ~110 words, ≈45 seconds.)*
+
+```
+Honestly, I'd say most students learn better in groups, at least for difficult material. The
+biggest reason is that you find out what you don't understand much faster when you have to
+explain something out loud. When I study alone, I can read the same page three times and still
+think I've got it. Just last term, actually, a few of us met before our statistics exam, and
+someone asked me to walk through a formula I thought I knew perfectly, and I completely froze
+halfway through. That gap would have stayed hidden until the exam otherwise. On the other hand,
+for memorizing things like vocabulary, I still think studying alone is faster. So that's my
+take.
+```
+
+**Why this works**: commits in the first clause with a **scoped hedge** (*at least for difficult material*) rather than sitting on the fence · one reason in D, fully developed · E delivers a **specific invented episode** with a scene, not an abstraction · a **contrast** near the end (group work vs. memorizing vocabulary) shows range and makes it sound like thinking rather than reciting · genuinely spoken register (*Honestly*, *actually*, *I've got it*, *So that's my take*) · **connectives carry the joins** — the score-4 band is elaborated content that lacks exactly these.
 
 ## Worked Example — a debate question, slot by slot
 *(Question: some say it's better to take photos quickly and naturally, others say plan each photo carefully — which do you agree with, and why? Reconstructed, ~110 words.)*

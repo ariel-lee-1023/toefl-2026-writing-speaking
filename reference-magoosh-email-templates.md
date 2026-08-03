@@ -2,6 +2,11 @@
 **Format**: md (from pdf) | **Pages**: ~19 | **Sections**: skeleton + 5 task types + practice method | **Depth**: study
 **Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Its unique value is (a) the **7-minute clock**, which ETS never states, and (b) a taxonomy of **speech acts** the ETS rubric scores under "formulation of actions such as requests, refusals, criticisms."
 
+> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
+> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
+> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+
+
 ## Mental Model (read first)
 Magoosh's own framing: templates are **scaffolding, not a script** — they supply *how to say it*, never *what to say*. The guide is unusually candid that its own phrases are a liability at the top: "if thousands of students are reading this same guide, and everyone always uses [the same line], those emails start to sound alike," and the score-5 rubric demands *idiomatic* word choice, which "means language that sounds like you, not like a template." **Read this file as a map of the required speech acts, then generate your own realizations of them.** The task-type taxonomy is durable; the specific phrases are disposable and should be treated as such.
 
@@ -48,6 +53,33 @@ Each is a **speech act with a three-move bullet structure**. Recognize the type 
 
 ### Transitions by function
 Requests: *With that in mind, / That's why I'm reaching out to ask if / Given the situation,* · Feedback: *That said, / On the other hand, / Even so,* · Advice: *Then again, there's another side to consider. / Regardless of what you choose,* · Recruiting: *Here's where I could use your help. / I immediately thought of you because* · Disagreement: *That said, I do want to find a solution. / I know this isn't what you were hoping to hear, but*
+
+## MODEL RESPONSE — copy this shape exactly
+A finished Write an Email response. Greeting and sign-off yes; headings, bullets, and labels never — **even though the prompt itself is bulleted.**
+
+*(Prompt, Type 1: your campus parking permit is about to expire. Write to the parking office describing your situation, explaining why you need a renewal, and requesting information about the process. ~115 words.)*
+
+```
+Dear Parking Office,
+
+I'm writing because my student parking permit for Lot C expires at the end of this month, and
+I'd like to renew it before the new term begins.
+
+I commute from off campus four days a week for an 8 a.m. lab, and the early bus doesn't arrive
+until after nine, so parking on campus is really the only way I can get to that class on time.
+I've had the same permit since last September without any issues.
+
+Could you let me know what the renewal process involves, and whether I need to reapply or
+simply pay the renewal fee? If there's a deadline I should be aware of, I'd appreciate hearing
+about it soon.
+
+Thank you for your help.
+
+Best regards,
+Wei
+```
+
+**Why this works**: each of the three prompt actions gets its own short paragraph of ~2 connected sentences · the request is **conditional/interrogative** (*Could you let me know…*), never imperative · register is consistent from *Dear Parking Office* through *Best regards* · every paragraph carries an **invented but realistic detail** (Lot C, the 8 a.m. lab, the bus after nine) that the prompt never supplied · no bullet mirrors the prompt's bullets.
 
 ## Worked Example — Type 2, and what each move is doing
 *(Prompt: a coworker organized a team lunch; give feedback and suggest an idea for next time. Reconstructed from the guide's specimen, ~120 words, semi-formal throughout.)*

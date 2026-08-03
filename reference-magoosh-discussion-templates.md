@@ -2,6 +2,11 @@
 **Format**: md (from pdf) | **Pages**: ~14 | **Sections**: skeleton + 5 phrase menus + practice method | **Depth**: study
 **Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Unique value: the **10-minute clock**, an explicit **engagement structure** for the two student posts, and a stated format claim about how the task is built.
 
+> **FORMAT RULE (applies to every response produced from this library, regardless of which passage you are reading):**
+> A TOEFL response is **continuous prose typed into a plain text box, or spoken aloud.** Never emit a title, a heading, a bullet point, a numbered list, bold or italic markup, or a `Label:` line inside a response. Enumerate in prose — *First… Second… Finally…* — never as a list.
+> **The formatting of THIS reference file is not a model for the response.** These notes use bullets and bold labels because they are study notes. A response that imitates their appearance scores as ETS's score-1 "telegraphic language (i.e., short and/or disconnected phrases and sentences)."
+
+
 ## Mental Model (read first)
 The Academic Discussion task has **no greeting, no sign-off, and no register problem** — it is a discussion post, and its structure is purely functional. Magoosh's reliable play is: **agree with one student, disagree with the other, and support everything.** That single decision guarantees you satisfy ETS's "contribution to the discussion" criterion (you engage both posts, take a clear side, and have enough to say) inside ten minutes. Everything else in the guide is phrasing for those moves — and the guide itself warns that its phrasing is the part that will make you sound like everyone else.
 
@@ -69,6 +74,34 @@ Five functional moves. **Order is free** — lead with agreement, disagreement, 
   - **This is the device that replaces a bulleted list.** Three supports → three sequencing connectives → three sentences. Use a **semicolon** to attach the concrete instance to its claim inside one sentence (*"…that could not survive in a smaller town; someone who plays chess can almost always find a group that meets weekly"*), which keeps the chain moving without a new sentence for every clause.
 - **Anti-pattern — a transition per sentence.** "Furthermore… Moreover… Additionally…" makes the post read as a list, not a discussion. Sequencing markers are the exception: when you are genuinely enumerating three parallel supports, *First / Second / Finally* is correct and expected. Everywhere else, **one or two well-placed transitions per response.**
 - **Anti-pattern — the bulleted post.** Covered in full under *Output format* at the top of this file. The tell that you are one keystroke from committing it: you are about to type a colon after a two-word noun phrase.
+
+## MODEL RESPONSE — copy this shape exactly
+This is what a finished Academic Discussion response looks like. **Nothing outside the fence appears in a real response** — no title, no salutation, no labels, no bullets. Match this artifact, not the formatting of these notes.
+
+*(Prompt: Dr. Diaz asks whether urbanization strengthens or erodes community. Claire says cities make residents feel like anonymous strangers; Paul says urbanization reshapes community rather than destroying it. ~200 words.)*
+
+```
+While I understand Claire's concern that the fast-paced, transient lifestyle of cities can
+make residents feel isolated, I agree with Paul that urban environments foster robust, albeit
+different, forms of community. Urbanization does not destroy social cohesion so much as
+redefine it. Historically, communities were mostly geographic, and people bonded with whoever
+happened to live next door. Today, as Paul points out, cities offer the density and diversity
+needed to build communities around shared interests and cultural identities rather than mere
+physical proximity.
+
+This shift has two main benefits. First, interest-based bonding lets people seek out their own
+communities through professional networks, hobby clubs, or local activist groups instead of
+relying on their immediate neighbors; a new resident who joins a language exchange or a
+community garden can form real friendships within weeks, which rarely happens by accident on a
+quiet rural street. Second, the sheer range of social opportunities makes it far easier for
+niche or marginalized groups to find somewhere they belong.
+
+We may not always know our next-door neighbor's name, but we are often connected to a wider
+network across the city. Claire is right that urban life can feel impersonal at first, yet Paul
+is more convincing, because cities keep creating new ways to belong.
+```
+
+**Why this scores where it does**: both students named and paraphrased, never quoted · a clear side taken in sentence one · the two supports enumerated *in prose* with **First / Second**, not bulleted · each support carries a **concrete instance** (the language exchange, the community garden) · a **semicolon** attaches instance to claim without fragmenting · calibrated hedges (*albeit different*, *not… so much as*, *often*) rather than absolutes · a close that **re-weighs both students by name.** Roughly 200 words — above the 120–130 target but comfortably inside "no maximum"; trim the second support's instance first if the clock is tight.
 
 ## Worked Example — the gig-economy post, move by move
 *(Prompt: an economics professor asks whether the gig economy provides valuable independence or exploits workers. Lena argues flexibility, especially for students and parents. Jordan argues missing benefits and the "independent contractor" label. Reconstructed, ~140 words, order = disagreement → agreement → close.)*

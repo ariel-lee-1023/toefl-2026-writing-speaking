@@ -26,6 +26,23 @@ Other roots: `~/.copilot/skills/`, `~/.agents/skills/`, `.claude/skills/`, `.age
 
 Only `SKILL.md` occupies context by default; reference files load when the router points at them.
 
+## Using this with a retrieval host (Gemini Gem, NotebookLM, ChatGPT Project)
+
+**Important.** Agent hosts like Claude Code load `SKILL.md` into context on every turn, so its rules always fire. Retrieval hosts do not: uploading the repo as a ZIP into a Gem's *Knowledge* turns it into a **RAG corpus**, and only chunks semantically similar to your question get retrieved. Ask "write a discussion post about urban communities" and the retriever returns the content menus — a paragraph about output formatting has almost no lexical overlap with your query and may never be retrieved at all.
+
+Every reference file therefore repeats the format rule at the top, so any retrieved chunk carries it, and each task file contains a fenced `MODEL RESPONSE` to imitate. That raises the hit rate but cannot guarantee it.
+
+**For reliable results on a retrieval host, paste this into the system-instruction box** (Gem Instructions / Project Instructions) rather than relying on the uploaded files alone:
+
+```
+When writing any TOEFL response, output continuous prose only. Never use a title,
+heading, bullet point, numbered list, bold or italic markup, or "Label:" line inside
+a response. Enumerate in prose with First / Second / Finally. An email includes a
+greeting and sign-off; a discussion post includes neither. Every claim needs a
+concrete instance, not just a reason. Consult the uploaded library for rubrics,
+task mechanics, and phrasing.
+```
+
 ## Covers
 
 **Writing** — Build a Sentence · Write an Email · Write for an Academic Discussion
