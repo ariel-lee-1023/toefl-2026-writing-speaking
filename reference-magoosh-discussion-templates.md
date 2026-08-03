@@ -1,0 +1,73 @@
+# TOEFL Writing Templates: Academic Discussion Task — Magoosh
+**Format**: md (from pdf) | **Pages**: ~14 | **Sections**: skeleton + 5 phrase menus + practice method | **Depth**: study
+**Status**: third-party. Where it conflicts with `reference-ets-task-specs.md`, ETS wins. Unique value: the **10-minute clock**, an explicit **engagement structure** for the two student posts, and a stated format claim about how the task is built.
+
+## Mental Model (read first)
+The Academic Discussion task has **no greeting, no sign-off, and no register problem** — it is a discussion post, and its structure is purely functional. Magoosh's reliable play is: **agree with one student, disagree with the other, and support everything.** That single decision guarantees you satisfy ETS's "contribution to the discussion" criterion (you engage both posts, take a clear side, and have enough to say) inside ten minutes. Everything else in the guide is phrasing for those moves — and the guide itself warns that its phrasing is the part that will make you sound like everyone else.
+
+## Timing and length
+- **10 minutes total**: 1–2 min read both posts and pick a side (the choice itself should take ~30 s) · 6–7 min write · 1–2 min proofread.
+- **Target 120–130 words.** ETS's stated minimum for an effective response is **100**; there is **no maximum**. Magoosh advises against going far past 130 because it eats proofreading time — its own worked example runs ~140.
+- **Pick the side that's easier to explain in English, not the one you believe.** The rubric rewards clarity and elaboration, not balance or nuance.
+
+## Frameworks & Structure
+
+### The Universal Response Skeleton
+Five functional moves. **Order is free** — lead with agreement, disagreement, or your overall opinion; what matters is that the reader can follow the argument end to end. Pick one order and practice it consistently.
+1. **Opening move** — one sentence stating your opinion or aligning with a student. First thing the reader sees; it should immediately signal which side you're on.
+2. **Agreement block** — 2–3 sentences: name one student, **paraphrase their idea in your own words**, say briefly why you agree, then **add a supporting detail they did not mention.**
+3. **Disagreement block** — 2–3 sentences: name the other student, paraphrase, explain why you see it differently, give a reason or counterexample.
+4. **Support and elaboration** — woven throughout. This is where most of the word count goes and where the rubric's "well-elaborated" criterion lives.
+5. **Closing move** — one sentence, optional: restate your position or tie back to the professor's question, so the post ends rather than stops.
+
+### Menu 1 — Stating your opinion
+*In my opinion, … / I strongly believe that … / From my perspective, … / While both sides have merit, I believe … / Based on my own experience, I would argue that … / I think [Name] is right that …, and I would take it even further.*
+- **Design note worth keeping**: these are deliberately **simple**. "The rubric doesn't reward complicated opinion statements — it rewards the explanations and details that follow. **Spend your complexity budget on supporting your claims, not on your thesis sentence.**"
+
+### Menu 2 — Agreeing with a student
+*Citing*: *I agree with [Name]'s point that … / [Name] makes a strong argument when they say … / I share [Name]'s view that … / [Name]'s perspective resonates with me, especially their point about … / Like [Name], I believe …*
+*Building*: *In addition to what [Name] mentioned, I would add that … / To build on [Name]'s point, … / [Name] touched on [idea], and I think this is especially true when you consider … / What [Name] describes is something I have seen firsthand.*
+- **Anti-pattern — bare agreement.** "Don't just say 'I agree' and move on. That earns you nothing. The value is in what comes after." **Agreement is a springboard, not a destination.** This aligns exactly with ETS: reusing a student's idea without extending it, or presenting it as if you raised it first, is what "contribution" excludes.
+
+### Menu 3 — Disagreeing with a student
+*Acknowledging first*: *While [Name] raises a fair point about …, I believe … / I understand [Name]'s argument that …, but I think … / Although [Name]'s perspective is understandable, I would argue that … / I respectfully disagree with [Name]'s claim that …*
+*Explaining why*: *The issue with this view is that … / **What this argument overlooks is …** / In practice, however, … / This may be true in some cases, but … / From a different angle, …*
+- **How**: the sweet spot is **respectful but clear** — the two failure modes are bluntness ("[Name] is wrong") and evasion (never disagreeing at all).
+- **Judgment**: *"You don't need to prove the other student wrong. You just need to explain why you see the issue differently."* **"What this argument overlooks is…" outperforms "This is wrong because…"** — it reads analytical rather than combative and positions you as a thinker rather than a critic. This is the written form of the C1 can-do *express strong disagreement diplomatically*.
+
+### Menu 4 — Supporting your claims *(where the points are)*
+*Explanation*: *The reason I feel this way is that … / This is because … / One important factor to consider is … / This matters because …*
+*Example*: *For example, … / For instance, in my own experience, … / A good illustration of this is … / Consider the case of … / To give a specific example, …*
+*Elaboration*: *In other words, … / What I mean by this is … / This is particularly important because … / Not only [X], but also [Y].*
+- **Rule**: **every opinion — main position, agreement, and disagreement alike — must be followed by a "why."** The score-5 band names "relevant and well-elaborated explanations, exemplifications, and/or details."
+- **Invented support, done right**: the guide's specimen — a city plastics ban producing a 40% waste reduction in two years, "something no individual effort could have achieved." It is invented, **specific, and plausible**, and it does argumentative work (it establishes that scale matters). Contrast with ETS's penalized specimen: a fabricated *New York Times* poll cited as authority. **Invent the experience; never invent the citation.**
+
+### Menu 5 — Transitions and flow
+*Agreement↔disagreement*: *That said, / On the other hand, / While I agree with [Name], I take a different view on [Name]'s point.* · *Opinion→support*: *The reason for this is straightforward. / Let me explain why. / To illustrate,* · *Returning*: *Ultimately, / For these reasons, / This is why I believe / In the end,*
+- **Anti-pattern — a transition per sentence.** "Furthermore… Moreover… Additionally…" makes the post read as a list, not a discussion. **One or two well-placed transitions per response.**
+
+## Worked Example — the gig-economy post, move by move
+*(Prompt: an economics professor asks whether the gig economy provides valuable independence or exploits workers. Lena argues flexibility, especially for students and parents. Jordan argues missing benefits and the "independent contractor" label. Reconstructed, ~140 words, order = disagreement → agreement → close.)*
+
+**Opening**: one flat sentence taking the side — the gig economy is unfair to workers. **Disagreement block (Lena)**: concede her point that flexibility is real, then relocate the problem — *in practice* that flexibility means **unpredictable income**, so workers can't plan finances when hours and earnings move week to week. Note the move: not "Lena is wrong," but *her benefit has a cost she didn't price*. **Agreement block (Jordan)**: name him, agree on the contractor-label point, then **extend it with something he didn't say** — workers absorb all the risk while companies keep most of the profit — and **land a concrete example**: a friend who drove for a delivery app for over a year with no health coverage or paid time off. **Close**: restate, sharpened into a claim about what's needed (stronger worker protections).
+
+What makes it work: both students named and **paraphrased, not quoted**; every claim followed by a why; one invented but plausible personal example; and the agreement block adds a new mechanism rather than echoing Jordan.
+
+## Decision Rules & Judgment
+- **When you genuinely see both sides**: pick the side you can *explain* better and commit. A muddled two-sided attempt scores below a focused one-sided one. You may concede briefly ("While [Name] raises a fair point…") before committing — that costs one clause and buys diplomatic credit.
+- **When you agree with a student, you owe the reader a new increment** — a mechanism, a consequence, a case they didn't cite. Otherwise the sentence is repetition and scores nothing.
+- **When under 100 words**, you are structurally capped below a 5. Add a **second dimension** to the argument (cost, timing, scale, who bears the risk) rather than more adjectives.
+- **When over ~130 words with time left**, stop writing and proofread. Length past this point buys little; an uncorrected error pattern costs on criterion 4.
+- **Reconciling the menus with ETS's memorization penalty**: these phrases are **discourse framing** — naming, paraphrasing, conceding, exemplifying — which is what real discussion posts do, and ETS never penalizes framing. What it penalizes is memorized *content*: prefabricated intros/conclusions, canned arguments, invented citations. **Test each sentence: could it move to a different prompt unchanged?** If yes, and it isn't a bare connective, rewrite it around this prompt.
+- **Practice protocol — three drafts per prompt**: menus open and deliberately choosing → same prompt again with **every phrase swapped** → same prompt from memory. Five prompts = 15 responses. Draft 2 is the one that builds flexibility, which is precisely what separates C1 from B2.
+- **Format expectation**: Magoosh reports that in the official ETS examples they reviewed, the task is **almost always a two-sided debate** between two students, with occasional yes/no variants and no "propose a solution from scratch" format. Useful prior; the ETS chapter itself describes only the two-student debate structure, so treat anything else as an unlikely-but-survivable case — the skeleton still works.
+
+## Key Takeaways
+1. **10 minutes: 1–2 read/choose · 6–7 write · 1–2 proofread. Target 120–130 words; 100 is the effective minimum, there is no maximum.**
+2. **Agree with one student, disagree with the other** — the most reliable structure, because it forces engagement with both posts and a clear side.
+3. **Name and paraphrase both students in your own words.** Copying their phrasing is explicitly unhelpful in the ETS chapter.
+4. **Bare agreement earns nothing** — always add a new detail, mechanism, or example.
+5. **Disagree by locating the gap, not by declaring error**: "What this argument overlooks is…"
+6. **Keep the thesis sentence simple; spend complexity on the support.**
+7. **Invent the experience, never the citation** — specific and plausible beats abstract and safe; fabricated authorities are penalized.
+8. **One or two transitions per post.** More turns it into a list.
