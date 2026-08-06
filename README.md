@@ -15,14 +15,20 @@ Other roots: `~/.copilot/skills/`, `~/.agents/skills/`, `.claude/skills/`, `.age
 
 ## Layout
 
+```
+toefl-2026-writing-speaking/
+├── SKILL.md
+└── references/
+```
+
 | File | Loaded | Contents |
 |---|---|---|
 | `SKILL.md` | always | Router, operating stance, cross-source topic index |
-| `reference-ets-task-specs.md` | on demand | Official Guide Ch. 4–5 — task mechanics, 0–5 scoring guides, rated samples |
-| `reference-ets-cefr-descriptors.md` | on demand | Section scores 1–6 mapped to CEFR A1–C2; what C2 requires |
-| `reference-magoosh-email-templates.md` | on demand | Write an Email — 7-min plan, register ladder, 5 speech-act types |
-| `reference-magoosh-discussion-templates.md` | on demand | Academic Discussion — 10-min plan, engaging both student posts |
-| `reference-magoosh-interview-templates.md` | on demand | Take an Interview — the C–D–E–F 45-second shape |
+| `references/reference-ets-task-specs.md` | on demand | Official Guide Ch. 4–5 — task mechanics, 0–5 scoring guides, rated samples |
+| `references/reference-ets-cefr-descriptors.md` | on demand | Section scores 1–6 mapped to CEFR A1–C2; what C2 requires |
+| `references/reference-magoosh-email-templates.md` | on demand | Write an Email — 7-min plan, register ladder, 5 speech-act types |
+| `references/reference-magoosh-discussion-templates.md` | on demand | Academic Discussion — 10-min plan, engaging both student posts |
+| `references/reference-magoosh-interview-templates.md` | on demand | Take an Interview — the C–D–E–F 45-second shape |
 
 Only `SKILL.md` occupies context by default; reference files load when the router points at them.
 
@@ -64,4 +70,4 @@ TOEFL and TOEFL iBT are registered trademarks of ETS. This project is unaffiliat
 
 ## Built with
 
-[Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs) — multi-source distillation into a flat, cross-referenced knowledge library.
+[Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs) — multi-source distillation into a cross-referenced knowledge library.

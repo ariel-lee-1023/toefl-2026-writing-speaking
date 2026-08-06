@@ -1,6 +1,6 @@
 ---
 name: toefl-2026-writing-speaking
-description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL iBT Writing and Speaking sections, built from 5 sources: the Official Guide chapters on both sections, the ETS CEFR performance descriptors, and Magoosh's Email, Academic Discussion, and Interview template guides. Use to score or draft responses against the real rubrics, diagnose a response's band, plan practice, or resolve template-vs-authenticity questions. ALWAYS write TOEFL responses as continuous prose — never a title, heading, bullet list, or bold label; enumerate with First/Second/Finally instead. Each source has its own reference-<slug>.md, loaded on demand."
+description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL iBT Writing and Speaking sections, built from 5 sources: the Official Guide chapters on both sections, the ETS CEFR performance descriptors, and Magoosh's Email, Academic Discussion, and Interview template guides. Use to score or draft responses against the real rubrics, diagnose a response's band, plan practice, or resolve template-vs-authenticity questions. ALWAYS write TOEFL responses as continuous prose — never a title, heading, bullet list, or bold label; enumerate with First/Second/Finally instead. Each source has its own references/reference-<slug>.md, loaded on demand."
 ---
 
 <!-- argument-hint: [task name, rubric criterion, CEFR band, or "score this response"] -->
@@ -11,17 +11,17 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 ## How to use
 - No args → read this router, pick the file(s).
 - "about &lt;topic&gt;" → use the Topic Index below.
-- "score/diagnose this response" → open `reference-ets-task-specs.md` (task rubric, 0–5) **and** `reference-ets-cefr-descriptors.md` (capability band, 1–6). They answer different questions.
+- "score/diagnose this response" → open `references/reference-ets-task-specs.md` (task rubric, 0–5) **and** `references/reference-ets-cefr-descriptors.md` (capability band, 1–6). They answer different questions.
 - Drafting or coaching a specific task → open that task's Magoosh file **plus** the ETS task-specs file. Never the Magoosh file alone.
 
 ## Which source for which job (start here)
 | Source (→ file) | Reach for it when you need… | Its one big idea |
 |---|---|---|
-| **Official Guide, Ch. 4–5 (ETS)** → [reference-ets-task-specs.md](reference-ets-task-specs.md) | Task mechanics, timings, the actual 0–5 scoring guides, rated official samples, ETS's own strategies | Elaboration and relevance are criterion #1; errors are forgiven, **memorized language is not** |
-| **Performance Descriptors (ETS)** → [reference-ets-cefr-descriptors.md](reference-ets-cefr-descriptors.md) | What C2/C1/B2 actually mean, band diagnosis, what to build next | C2 = precision, emphasis, **ambiguity elimination**, with no sign of restricting what you want to say |
-| **Write an Email (Magoosh)** → [reference-magoosh-email-templates.md](reference-magoosh-email-templates.md) | 7-min email plan, register ladder, 5 speech-act task types | Requests, criticisms, and refusals each have a required *form*, and that form is scored |
-| **Academic Discussion (Magoosh)** → [reference-magoosh-discussion-templates.md](reference-magoosh-discussion-templates.md) | 10-min post plan, engaging the two student posts, support menus | **Agree with one student, disagree with the other** — and always add a new increment |
-| **Interview (Magoosh)** → [reference-magoosh-interview-templates.md](reference-magoosh-interview-templates.md) | The 45-second, zero-prep response shape | **C–D–E–F**: Commit → Detail → Elaborate → Finish(optional) |
+| **Official Guide, Ch. 4–5 (ETS)** → [reference-ets-task-specs.md](references/reference-ets-task-specs.md) | Task mechanics, timings, the actual 0–5 scoring guides, rated official samples, ETS's own strategies | Elaboration and relevance are criterion #1; errors are forgiven, **memorized language is not** |
+| **Performance Descriptors (ETS)** → [reference-ets-cefr-descriptors.md](references/reference-ets-cefr-descriptors.md) | What C2/C1/B2 actually mean, band diagnosis, what to build next | C2 = precision, emphasis, **ambiguity elimination**, with no sign of restricting what you want to say |
+| **Write an Email (Magoosh)** → [reference-magoosh-email-templates.md](references/reference-magoosh-email-templates.md) | 7-min email plan, register ladder, 5 speech-act task types | Requests, criticisms, and refusals each have a required *form*, and that form is scored |
+| **Academic Discussion (Magoosh)** → [reference-magoosh-discussion-templates.md](references/reference-magoosh-discussion-templates.md) | 10-min post plan, engaging the two student posts, support menus | **Agree with one student, disagree with the other** — and always add a new increment |
+| **Interview (Magoosh)** → [reference-magoosh-interview-templates.md](references/reference-magoosh-interview-templates.md) | The 45-second, zero-prep response shape | **C–D–E–F**: Commit → Detail → Elaborate → Finish(optional) |
 
 ## Operating stance (apply before any advice)
 0. **Output format: continuous prose, always.** Every response on this test is typed into a plain text box or spoken aloud. **Never** emit a title, a markdown heading, bullet points, a numbered list, bold/italic markup, or `Label:` lines — in a drafted response *or* in a sample you show the user. An email adds a greeting and sign-off; a discussion post has neither; neither ever has bullets. Parallel points are rendered as *First… Second… Finally…* in prose. This is scored, not cosmetic: ETS's score-1 band names **"telegraphic language (i.e., short and/or disconnected phrases and sentences)"**, and its score-4 speaking band is elaborated content that **"may lack effective sentence-level connectors."** Bulleting deletes exactly the connective tissue the rubric measures.
