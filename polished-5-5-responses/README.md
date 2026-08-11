@@ -28,7 +28,7 @@ A small web app lives at [`tools/polished5-tool/`](../tools/polished5-tool/) in 
 2. Reformat it into the correct template below.
 3. Commit the finished file straight into the right folder here, with the next sequential `NNN` index — no manual steps, no `incoming/` staging needed.
 
-See [`tools/polished5-tool/README.md`](../tools/polished5-tool/README.md) for setup and how to run/deploy it.
+**If you forked this repo:** the tool is configured entirely through environment variables (which GitHub account/repo to commit to), so forking it does not send your archived responses back to the original author's repo. See [`tools/polished5-tool/README.md`](../tools/polished5-tool/README.md) for setup, configuration, and how to run/deploy it.
 
 ### Option B — manual (no tool needed)
 

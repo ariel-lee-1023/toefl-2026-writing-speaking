@@ -12,7 +12,9 @@ const FOLDER_LABELS: Record<TaskType, string> = {
   "listen-and-repeat": "Listen and Repeat",
 };
 
-const ROOT = "polished-5-5-responses";
+// Root folder inside the target repo where archived responses live.
+// Configurable so a fork can rename it without editing code.
+const ROOT = process.env.ARCHIVE_ROOT_FOLDER || "polished-5-5-responses";
 
 async function nextIndex(taskType: TaskType): Promise<string> {
   const files = await listDirectory(`${ROOT}/${taskType}`);
@@ -73,6 +75,14 @@ export async function registerRoutes(
       console.error("submit failed", err);
       res.status(500).json({ error: (err as Error).message || "Something went wrong." });
     }
+  });
+
+  app.get("/api/config", (_req, res) => {
+    res.json({
+      owner: process.env.GITHUB_REPO_OWNER || "ariel-lee-1023",
+      repo: process.env.GITHUB_REPO_NAME || "toefl-2026-writing-speaking",
+      archiveRoot: ROOT,
+    });
   });
 
   app.get("/api/submissions", async (_req, res) => {

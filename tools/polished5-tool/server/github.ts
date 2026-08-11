@@ -1,20 +1,25 @@
-// GitHub Contents API client used to commit files directly to the
-// ariel-lee-1023/toefl-2026-writing-speaking repository from the backend.
+// GitHub Contents API client used to commit files directly to a
+// toefl-2026-writing-speaking-shaped repository from the backend. The
+// target owner/repo/branch are read from env vars (see below) so this
+// works against any fork, not just the original repo.
 //
-// Auth: shells out to the `gh` CLI, which is pre-authenticated in this
-// sandbox via the connected GitHub account (injected through the
-// `api_credentials=["github"]` proxy passed to start_server). This is the
-// same credential path used elsewhere in this project and is known-good —
-// it avoids a separately-issued custom PAT that may expire or be revoked.
+// Auth: shells out to the `gh` CLI. Whatever `gh auth login` session (or
+// GH_TOKEN / GH_ENTERPRISE_TOKEN env var) is active in the process
+// environment is used automatically — no separate token handling needed
+// in this file.
 
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
 
-const OWNER = "ariel-lee-1023";
-const REPO = "toefl-2026-writing-speaking";
-const BRANCH = "main";
+// Target repo is configurable via env vars so anyone who forks this repo
+// (and the toefl-2026-writing-speaking repo it archives into) can point
+// the tool at their own copy without editing code. Defaults match this
+// project's own repo.
+const OWNER = process.env.GITHUB_REPO_OWNER || "ariel-lee-1023";
+const REPO = process.env.GITHUB_REPO_NAME || "toefl-2026-writing-speaking";
+const BRANCH = process.env.GITHUB_REPO_BRANCH || "main";
 
 async function ghApi(args: string[]): Promise<{ stdout: string; code: number }> {
   try {

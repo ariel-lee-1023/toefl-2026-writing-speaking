@@ -28,6 +28,12 @@ interface SubmitResult {
   markdown: string;
 }
 
+interface RepoConfig {
+  owner: string;
+  repo: string;
+  archiveRoot: string;
+}
+
 const TASK_LABELS: Record<string, string> = {
   "write-an-email": "Write an Email",
   "academic-discussion": "Academic Discussion",
@@ -51,6 +57,11 @@ export default function Home() {
   const { data: submissions, isLoading: submissionsLoading } = useQuery<Submission[]>({
     queryKey: ["/api/submissions"],
   });
+
+  const { data: config } = useQuery<RepoConfig>({
+    queryKey: ["/api/config"],
+  });
+  const repoLabel = config ? `${config.owner}/${config.repo}` : "GitHub";
 
   const submitMutation = useMutation({
     mutationFn: async () => {
@@ -89,7 +100,7 @@ export default function Home() {
             <p className="text-sm text-muted-foreground mt-1 max-w-2xl">
               Paste a raw tutoring transcript — prompt, your draft, and the AI-polished
               final version. It's classified automatically and committed straight to{" "}
-              <span className="font-mono text-xs">toefl-2026-writing-speaking</span> on GitHub.
+              <span className="font-mono text-xs" data-testid="text-repo-label">{repoLabel}</span> on GitHub.
             </p>
           </div>
           <Button
