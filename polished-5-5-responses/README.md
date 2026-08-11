@@ -19,6 +19,19 @@ polished-5-5-responses/
 
 ## Workflow
 
+There are two ways to archive a response — pick either one:
+
+### Option A — the web tool (fastest, fully automatic)
+
+A small web app lives at [`tools/polished5-tool/`](../tools/polished5-tool/) in this repo. Paste the raw tutoring transcript (prompt + your draft + AI-polished version) into it, and it will:
+1. Classify the task type automatically (write-an-email / academic-discussion / interview / listen-and-repeat).
+2. Reformat it into the correct template below.
+3. Commit the finished file straight into the right folder here, with the next sequential `NNN` index — no manual steps, no `incoming/` staging needed.
+
+See [`tools/polished5-tool/README.md`](../tools/polished5-tool/README.md) for setup and how to run/deploy it.
+
+### Option B — manual (no tool needed)
+
 1. **Stage it**: create a new file in `incoming/` (copy `incoming/_template.md`), paste in the original prompt and your raw draft. Formatting doesn't need to be clean at this stage.
 2. **Polish it**: have the AI diagnose the draft against `references/reference-ets-task-specs.md` (scoring rubric) and the matching `references/reference-magoosh-*.md` file (task-specific strategy), then produce a polished version — with an explanation of what changed and why.
 3. **Archive it**: once polished, format it using the template below and save it into the matching task-type folder, named `NNN-topic-slug.md` (three-digit number, increasing by completion order — not by difficulty or category).
