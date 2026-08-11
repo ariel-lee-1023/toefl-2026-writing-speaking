@@ -54,9 +54,9 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 *(Terms appearing in only one source stay in that file — reach them via its router row.)*
 
 ## After answering: offer an archive-ready copy block
-Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **end the answer with a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking) — one question per block, ready to copy, paste into a `.md`/`.txt` file, and upload as-is. Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content). Do not add extra commentary inside the block — it must match the repo's automated archiver output 1:1.
+Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **end the answer with a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content). Do not add extra commentary inside the block — it must match the repo's automated archiver output 1:1.
 
-**Write an Email / Academic Discussion / Take an Interview** — shared template:
+**Write an Email / Academic Discussion** — shared template, one question per block:
 ```markdown
 ## Prompt
 <the exact original question/prompt>
@@ -75,7 +75,54 @@ Whenever a user asks to diagnose, score, or polish a response for one of the fou
 <what was fixed and why, tied to the relevant rubric criterion>
 ```
 
-**Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish):
+**Take an Interview** — session-level template, NOT one block per question. The real Interview task presents 4 questions back-to-back in one sitting with zero prep time, so the archive unit is the whole session (Q1-Q4 together), never a single question. Whenever a user works through an interview session (whether they gave you all 4 up front or one at a time across the conversation), wait until all 4 are answered, then emit exactly ONE block covering all of them:
+```markdown
+## Q1 Prompt
+<question 1>
+
+## Q1 My Polished Response
+<polished answer 1>
+
+## Q1 My Draft
+<user's original draft answer 1, if provided>
+
+## Q2 Prompt
+<question 2>
+
+## Q2 My Polished Response
+<polished answer 2>
+
+## Q2 My Draft
+<user's original draft answer 2, if provided>
+
+## Q3 Prompt
+<question 3>
+
+## Q3 My Polished Response
+<polished answer 3>
+
+## Q3 My Draft
+<user's original draft answer 3, if provided>
+
+## Q4 Prompt
+<question 4>
+
+## Q4 My Polished Response
+<polished answer 4>
+
+## Q4 My Draft
+<user's original draft answer 4, if provided>
+
+## My Key Obstacles Holding You Back from a 5/5
+- <specific recurring error 1, session-wide>
+- <specific recurring error 2, session-wide>
+
+## My What Changed & Why
+<what was fixed and why across the session, tied to the relevant rubric criterion>
+```
+If the user only completed 1-3 questions of a session so far, do not emit the copy block yet — offer it only once the full 4-question session is done. If the session genuinely has fewer or more than 4 questions, adjust the Q-numbering accordingly, but still keep it as ONE block for the whole session, never split per question.
+
+**Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish), one sentence-set per block:
 ```markdown
 ## Prompt
 1. <sentence 1>
@@ -94,7 +141,7 @@ Whenever a user asks to diagnose, score, or polish a response for one of the fou
 - <current score/observation and what to focus on next time>
 ```
 
-Remind the user, briefly, that v1.0 of the archiver expects **one question per file** — if they worked through multiple questions in one session, they need one copy block (and one upload) per question, into the matching `incoming/<task-type>/` subfolder.
+Remind the user, briefly, that v1.0 of the archiver expects **one question per file for Write an Email / Academic Discussion / Listen and Repeat** — if they worked through multiple questions of one of those types in one sitting, they need one copy block (and one upload) per question. **Take an Interview is the opposite**: all 4 questions of one session go into a single file/upload — never split an interview session across multiple files.
 
 ## Scope & limits
 Covers the **Writing** section (Build a Sentence, Write an Email, Write for an Academic Discussion) and the **Speaking** section (Listen and Repeat, Take an Interview) of the 2026 TOEFL iBT, plus the CEFR-aligned section descriptors. **Not covered**: Reading, Listening, registration/logistics, scoring-service policy, or any task-type not in these five sources. For anything outside that, say so rather than inventing it.

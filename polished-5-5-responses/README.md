@@ -32,7 +32,7 @@ Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-
 2. Reformats it into the correct template below, in a fixed section order, leaving anything you didn't include blank.
 3. Commits the finished file straight into the right folder here, with the next sequential `NNN` index, and deletes the file from `incoming/` — no manual steps, no AI/API calls, nothing to run locally.
 
-**v1.0 limitation:** one question per file — it does not split a multi-question upload (e.g. a full mock test) into separate archive entries yet. See [`incoming/README.md`](incoming/README.md) for exactly what labels to use and more detail.
+**v1.0 limitation:** one question per file for write-an-email / academic-discussion / listen-and-repeat — it does not split a multi-question upload (e.g. a full mock test) into separate archive entries yet. **`interview/` is the opposite: one file = one full 4-question session**, never split per question — see below and [`incoming/README.md`](incoming/README.md) for exactly what labels to use and more detail.
 
 **Forking this repo:** this automation runs entirely inside your own fork via GitHub Actions, so it always commits to your own copy of the repo — nothing is sent anywhere else.
 
@@ -44,7 +44,7 @@ Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-
 4. **Clear the scratch pad**: delete the corresponding file in `incoming/<task-type>/` once it's archived, so `incoming/` always stays effectively empty.
 5. **Update the index**: add a row to the master index below.
 
-## Archive file template (write-an-email / academic-discussion / interview)
+## Archive file template (write-an-email / academic-discussion)
 
 ```markdown
 # <Short topic title>
@@ -68,6 +68,60 @@ Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-
 ```
 
 Each task-type folder also has its own `_template.md` you can copy directly.
+
+## Special format for Take an Interview — one SESSION per file
+
+The real Interview task presents 4 connected questions in one sitting with zero prep time. Unlike write-an-email/academic-discussion, **the archive unit is the whole 4-question session, not a single question** — one interview file always contains all 4 Q&A pairs plus one shared diagnosis:
+
+```markdown
+# <Session topic title>
+
+## Q1 Prompt
+...
+
+## Q1 My Polished Response
+...
+
+## Q1 My Draft
+...
+
+## Q2 Prompt
+...
+
+## Q2 My Polished Response
+...
+
+## Q2 My Draft
+...
+
+## Q3 Prompt
+...
+
+## Q3 My Polished Response
+...
+
+## Q3 My Draft
+...
+
+## Q4 Prompt
+...
+
+## Q4 My Polished Response
+...
+
+## Q4 My Draft
+...
+
+## My Key Obstacles Holding You Back from a 5/5
+- ...
+
+## My What Changed & Why
+- Word choice / collocation issues: ...
+- Grammar / structure issues: ...
+- Explain the fix against the relevant criterion in references/reference-ets-task-specs.md
+```
+
+`Key Obstacles` and `What Changed & Why` are session-level, covering all 4 questions together. The automation only recognizes explicit `Q1`–`Q4` labels for interview uploads — it will not guess question boundaries from unlabeled text.
 
 ## Special format for Listen and Repeat
 

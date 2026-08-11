@@ -102,6 +102,52 @@ const PROSE_SECTIONS = [
   },
 ];
 
+// Interview is a 4-question session in one sitting (one interviewer, four
+// consecutive prompts, zero prep time). A single archived file represents
+// the whole session, not one question — see INTERVIEW_SESSION_SECTIONS below.
+const INTERVIEW_SHARED_SECTIONS = [
+  {
+    key: "keyObstacles",
+    labels: [
+      "my key obstacles holding you back from a 5/5",
+      "key obstacles holding you back from a 5/5",
+      "key obstacles",
+      "obstacles",
+    ],
+  },
+  {
+    key: "whatChanged",
+    labels: [
+      "my what changed & why",
+      "my what changed and why",
+      "what changed & why",
+      "what changed and why",
+      "what changed",
+    ],
+  },
+];
+
+/** Build the per-question label set for interview Q1..Q4 ("Q1 Prompt", "Q2 My Draft", etc.). */
+function interviewQuestionSections(qNum) {
+  return [
+    { key: `q${qNum}_prompt`, labels: [`q${qNum} prompt`, `question ${qNum} prompt`, `q${qNum} question`] },
+    {
+      key: `q${qNum}_polishedResponse`,
+      labels: [
+        `q${qNum} my polished response`,
+        `q${qNum} polished response`,
+        `question ${qNum} polished response`,
+        `q${qNum} response`,
+        `q${qNum} answer`,
+      ],
+    },
+    {
+      key: `q${qNum}_myDraft`,
+      labels: [`q${qNum} my draft`, `q${qNum} draft`, `question ${qNum} draft`],
+    },
+  ];
+}
+
 const LISTEN_REPEAT_SECTIONS = [
   { key: "prompt", labels: ["prompt", "sentences", "sentence list", "question"] },
   {
@@ -303,6 +349,32 @@ ${s.whatChanged || "..."}
 `;
 }
 
+function renderInterview({ title, qa, keyObstacles, whatChanged }) {
+  const blocks = qa
+    .map(
+      (q, i) => `## Q${i + 1} Prompt
+${q.prompt || "..."}
+
+## Q${i + 1} My Polished Response
+${q.polishedResponse || "..."}
+
+## Q${i + 1} My Draft
+${q.myDraft || "..."}`
+    )
+    .join("\n\n");
+
+  return `# ${title}
+
+${blocks}
+
+## My Key Obstacles Holding You Back from a 5/5
+${keyObstacles || "..."}
+
+## My What Changed & Why
+${whatChanged || "..."}
+`;
+}
+
 function renderListenRepeat({ title, sections }) {
   return `# ${title}
 
@@ -344,6 +416,34 @@ function processFile(taskType, filePath) {
       sections.prompt = raw.trim();
     }
     slugSource = sections.prompt.split("\n")[0];
+  } else if (taskType === "interview") {
+    // Interview archives a whole 4-question session in one file, not one
+    // question — the real exam presents all four prompts back-to-back with
+    // zero prep time, so splitting them into separate files loses the
+    // session context. Only explicit Q1..Q4 labels are recognized here.
+    // All Q1..Q4 + shared labels must be detected in a single pass so that
+    // e.g. "Q2 Prompt" correctly terminates "Q1 My Draft" — detectSections()
+    // uses the next known header as the boundary for the current one, so a
+    // per-question-only label set would let Q1's last field run all the way
+    // to end of file.
+    const allInterviewSections = [
+      ...[1, 2, 3, 4].flatMap((q) => interviewQuestionSections(q)),
+      ...INTERVIEW_SHARED_SECTIONS,
+    ];
+    const detected = detectSections(raw, allInterviewSections);
+    const shared = { keyObstacles: detected.keyObstacles, whatChanged: detected.whatChanged };
+    const qa = [1, 2, 3, 4].map((q) => ({
+      prompt: detected[`q${q}_prompt`] || "",
+      polishedResponse: detected[`q${q}_polishedResponse`] || "",
+      myDraft: detected[`q${q}_myDraft`] || "",
+    }));
+    // No automatic guessing when Q1..Q4 labels are missing — v1.0 does not
+    // attempt to split or classify raw pasted text. The user is expected to
+    // paste the copy-ready block from SKILL.md (which already carries the
+    // Q1..Q4 labels), so an unlabeled upload archives as an empty skeleton
+    // (all fields "...") rather than a guessed, possibly-wrong split.
+    sections = { qa, keyObstacles: shared.keyObstacles, whatChanged: shared.whatChanged };
+    slugSource = qa.find((q) => q.prompt)?.prompt || baseName;
   } else {
     sections = detectSections(raw, PROSE_SECTIONS);
     if (!sections.prompt && !sections.polishedResponse) {
@@ -359,6 +459,13 @@ function processFile(taskType, filePath) {
   const content =
     taskType === "listen-and-repeat"
       ? renderListenRepeat({ title, sections })
+      : taskType === "interview"
+      ? renderInterview({
+          title,
+          qa: sections.qa,
+          keyObstacles: sections.keyObstacles,
+          whatChanged: sections.whatChanged,
+        })
       : renderProse({ title, promptLabel: "Prompt", sections });
 
   const idx = nextIndex(taskType);

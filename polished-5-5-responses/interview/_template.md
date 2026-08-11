@@ -1,12 +1,39 @@
-# <Short topic title>
+# <Session topic title>
 
-## Prompt
+## Q1 Prompt
 ...
 
-## My Polished Response
+## Q1 My Polished Response
 ...
 
-## My Draft
+## Q1 My Draft
+...
+
+## Q2 Prompt
+...
+
+## Q2 My Polished Response
+...
+
+## Q2 My Draft
+...
+
+## Q3 Prompt
+...
+
+## Q3 My Polished Response
+...
+
+## Q3 My Draft
+...
+
+## Q4 Prompt
+...
+
+## Q4 My Polished Response
+...
+
+## Q4 My Draft
 ...
 
 ## My Key Obstacles Holding You Back from a 5/5

@@ -22,7 +22,7 @@ Just paste your content in with clear labels. The automation looks for these lab
 4. `Key Obstacles Holding You Back from a 5/5` (becomes **My Key Obstacles Holding You Back from a 5/5**)
 5. `What Changed & Why` (becomes **My What Changed & Why**)
 
-Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the first paragraph as the Prompt and everything after it as the Polished Response.
+This applies to `write-an-email/` and `academic-discussion/`. Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the first paragraph as the Prompt and everything after it as the Polished Response.
 
 `listen-and-repeat/` uses its own four labels instead, in this fixed order:
 
@@ -31,9 +31,48 @@ Any label you don't include is simply left blank (`...`) in the archived file fo
 3. `Pronunciation Focus` (becomes **My Pronunciation Focus**; `Difficulty Notes` is also recognized for backward compatibility)
 4. `Self-Assessment` (becomes **My Self-Assessment**)
 
-## v1.0 limitation — one question per file
+`interview/` is different again — see the dedicated section below.
 
-**This automation does not split multiple questions out of a single upload.** If you did a full mock test with, say, three emails or four interview answers, upload each one as its own separate file (you can still batch-upload several files in the same commit — each is processed independently). A future version may add automatic splitting; for now, keep it one question per file so nothing gets misfiled.
+## v1.0 limitation — one question per file (except `interview/`)
+
+**This automation does not split multiple questions out of a single upload.** For `write-an-email/`, `academic-discussion/`, and `listen-and-repeat/`: if you did a full mock test with, say, three emails, upload each one as its own separate file (you can still batch-upload several files in the same commit — each is processed independently). A future version may add automatic splitting; for now, keep it one question per file so nothing gets misfiled.
+
+## `interview/` is the opposite — one SESSION (all 4 questions) per file
+
+The real Take an Interview task asks 4 connected questions back-to-back in one sitting with zero prep time — that whole session is the natural unit, not any single question inside it. So for `interview/`, do **not** upload one file per question. Instead, put all 4 questions and answers from one session into a single file, labeled like this:
+
+```
+## Q1 Prompt
+...
+## Q1 My Polished Response
+...
+## Q1 My Draft
+...
+## Q2 Prompt
+...
+## Q2 My Polished Response
+...
+## Q2 My Draft
+...
+## Q3 Prompt
+...
+## Q3 My Polished Response
+...
+## Q3 My Draft
+...
+## Q4 Prompt
+...
+## Q4 My Polished Response
+...
+## Q4 My Draft
+...
+## My Key Obstacles Holding You Back from a 5/5
+...
+## My What Changed & Why
+...
+```
+
+`Key Obstacles` and `What Changed & Why` are session-level (one shared diagnosis for the whole session, not per-question). The automation only recognizes explicit `Q1`–`Q4` labels for interview — it does not auto-guess question boundaries from unlabeled pasted text, so an unlabeled interview upload will archive with empty (`...`) fields. Always use the labeled copy block the AI gives you after a full session (see the main [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md)), or label it yourself by hand.
 
 ## Manual alternative
 
