@@ -54,7 +54,9 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 *(Terms appearing in only one source stay in that file — reach them via its router row.)*
 
 ## After answering: offer an archive-ready copy block
-Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **end the answer with a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content). Do not add extra commentary inside the block — it must match the repo's automated archiver output 1:1.
+Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **first give the full, complete answer exactly as you normally would** — continuous prose, full reasoning, every example and explanation, with no length-cutting for the sake of the archive step. Only *after* that complete answer, **append a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content).
+
+**Critical: the copy block must carry the SAME content as the full answer above it, not a shortened summary of it.** Every field's content must be the substance already given in the full answer — reorganized/labeled into the right field, quoting or closely paraphrasing your own explanations, examples, and reasoning — never a compressed bullet stub that drops the specifics (concrete chunk examples, the exact words flagged for pronunciation, the reasoning behind each fix, etc.). If a field would otherwise come out shorter than the corresponding material in the full answer, that is a sign content was dropped — go back and carry it over instead. The two parts (full answer, then copy block) should read as the same information in two formats, not as an answer followed by a lossy digest of it. The only thing the block strips is prose connectors needed for spoken/written flow — not analytical content. Do not add extra commentary inside the block itself beyond the field content — it must match the repo's automated archiver output 1:1.
 
 **Write an Email / Academic Discussion** — shared template, one question per block:
 ```markdown
@@ -68,12 +70,13 @@ Whenever a user asks to diagnose, score, or polish a response for one of the fou
 <the user's original raw draft, if provided>
 
 ## My Key Obstacles Holding You Back from a 5/5
-- <specific recurring error 1>
-- <specific recurring error 2>
+- <specific recurring error 1, with the exact flawed phrase/sentence quoted>
+- <specific recurring error 2, with the exact flawed phrase/sentence quoted>
 
 ## My What Changed & Why
-<what was fixed and why, tied to the relevant rubric criterion>
+<the full explanation from the answer above of what was fixed and why, tied to the relevant rubric criterion — not a one-line summary>
 ```
+Same content-fidelity rule as above: pull the actual sentences and reasoning from the full answer into these fields, don't re-summarize them into shorter generic bullets.
 
 **Take an Interview** — session-level template, NOT one block per question. The real Interview task presents 4 questions back-to-back in one sitting with zero prep time, so the archive unit is the whole session (Q1-Q4 together), never a single question. Whenever a user works through an interview session (whether they gave you all 4 up front or one at a time across the conversation), wait until all 4 are answered, then emit exactly ONE block covering all of them:
 ```markdown
@@ -114,12 +117,14 @@ Whenever a user asks to diagnose, score, or polish a response for one of the fou
 <user's original draft answer 4, if provided>
 
 ## My Key Obstacles Holding You Back from a 5/5
-- <specific recurring error 1, session-wide>
-- <specific recurring error 2, session-wide>
+- <specific recurring error 1, session-wide, with exact flawed phrasing quoted>
+- <specific recurring error 2, session-wide, with exact flawed phrasing quoted>
 
 ## My What Changed & Why
-<what was fixed and why across the session, tied to the relevant rubric criterion>
+<the full explanation from the answer above of what was fixed and why across the session, tied to the relevant rubric criterion — not a one-line summary>
 ```
+Same content-fidelity rule as the other templates: carry over the actual reasoning and examples from the full answer, don't compress them into shorter generic bullets.
+
 If the user only completed 1-3 questions of a session so far, do not emit the copy block yet — offer it only once the full 4-question session is done. If the session genuinely has fewer or more than 4 questions, adjust the Q-numbering accordingly, but still keep it as ONE block for the whole session, never split per question.
 
 **Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish), one sentence-set per block:
@@ -129,17 +134,15 @@ If the user only completed 1-3 questions of a session so far, do not emit the co
 2. <sentence 2>
 
 ## My Chunking & Memory Strategy
-- Chunk 1 (<role>): <chunk text>
-- Chunk 2 (<role>): <chunk text>
+<the full chunking explanation from the answer above — how each sentence breaks into chunks, WHY those boundaries (action/object/purpose/time/place), and any worked example sentence, not just a bare chunk-label list>
 
 ## My Pronunciation Focus
-- Compressed function words: ...
-- Word endings (-s/-ed, unreleased final consonants): ...
-- Rhythm & intonation: ...
+<the full pronunciation analysis from the answer above — which specific function words get compressed and why, which specific word endings (plural -s, past tense -ed, etc.) are at risk and in which specific words from THIS prompt, and the rhythm/stress guidance, not just category headers with no specifics>
 
 ## My Self-Assessment
-- <current score/observation and what to focus on next time>
+<the score and the full reasoning behind it from the answer above — what was captured well, what specifically was lost (which words/endings), and what to change next time>
 ```
+These three fields are prose paragraphs carrying the actual analysis, not bullet outlines — bullets are fine only if the full answer itself used bullets for that content.
 
 Remind the user, briefly, that v1.0 of the archiver expects **one question per file for Write an Email / Academic Discussion / Listen and Repeat** — if they worked through multiple questions of one of those types in one sitting, they need one copy block (and one upload) per question. **Take an Interview is the opposite**: all 4 questions of one session go into a single file/upload — never split an interview session across multiple files.
 
