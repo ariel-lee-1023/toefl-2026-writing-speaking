@@ -1,5 +1,4 @@
-## Title
-Daily Routine
+# Daily Routine
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to learn about your daily routine. Can you tell me what a typical day looks like for you?
@@ -23,7 +22,7 @@ Honestly, I would design a schedule that is a mix of both structured and flexibl
 I completely agree that how you perform in the morning determines the rest of your day. What you do between 7 and 9 a.m. essentially sets your baseline energy level. For instance, if you just sleep through that time, you will likely feel sluggish and sleepy all day. In contrast, if you wake up early and do some real work to prepare yourself, you will carry that energetic momentum into the afternoon.
 
 ## Q4 My Polished Response
-I actually disagree with the idea that a strict routine is the key to reducing stress. The real factor in achieving a relaxed state is simply making sure your activities align with your genuine interests. For example, if you do not follow a typical routine but instead choose to do your favorite activities spontaneously, that will naturally keep your stress levels low. 
+I actually disagree with the idea that a strict routine is the key to reducing stress. The real factor in achieving a relaxed state is simply making sure your activities align with your genuine interests. For example, if you do not follow a typical routine but instead choose to do your favorite activities spontaneously, that will naturally keep your stress levels low.
 
 ## Q1 My Draft
 I'm talking about my daily routine in recent days, so I wake up at 7 a.m. I prepare myself with coffee and check my do list and 9 a.m. to 6 p.m. is my work time because I'm in the internship at a law firm and after the work I return home and I have some books and movies with me to watch.
