@@ -350,22 +350,27 @@ ${s.whatChanged || "..."}
 }
 
 function renderInterview({ title, qa, keyObstacles, whatChanged }) {
-  const blocks = qa
-    .map(
-      (q, i) => `## Q${i + 1} Prompt
-${q.prompt || "..."}
-
-## Q${i + 1} My Polished Response
-${q.polishedResponse || "..."}
-
-## Q${i + 1} My Draft
-${q.myDraft || "..."}`
-    )
+  // Grouped by field type (all Prompts, then all Polished Responses, then
+  // all Drafts) rather than grouped by question - this is a deliberate
+  // layout choice so a reader can scan all four prompts together, then all
+  // four polished answers together, then all four drafts together.
+  const prompts = qa
+    .map((q, i) => `## Q${i + 1} Prompt\n${q.prompt || "..."}`)
+    .join("\n\n");
+  const polished = qa
+    .map((q, i) => `## Q${i + 1} My Polished Response\n${q.polishedResponse || "..."}`)
+    .join("\n\n");
+  const drafts = qa
+    .map((q, i) => `## Q${i + 1} My Draft\n${q.myDraft || "..."}`)
     .join("\n\n");
 
   return `# ${title}
 
-${blocks}
+${prompts}
+
+${polished}
+
+${drafts}
 
 ## My Key Obstacles Holding You Back from a 5/5
 ${keyObstacles || "..."}

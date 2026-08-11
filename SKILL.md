@@ -78,40 +78,40 @@ Whenever a user asks to diagnose, score, or polish a response for one of the fou
 ```
 Same content-fidelity rule as above: pull the actual sentences and reasoning from the full answer into these fields, don't re-summarize them into shorter generic bullets.
 
-**Take an Interview** — session-level template, NOT one block per question. The real Interview task presents 4 questions back-to-back in one sitting with zero prep time, so the archive unit is the whole session (Q1-Q4 together), never a single question. Whenever a user works through an interview session (whether they gave you all 4 up front or one at a time across the conversation), wait until all 4 are answered, then emit exactly ONE block covering all of them:
+**Take an Interview** — session-level template, NOT one block per question. The real Interview task presents 4 questions back-to-back in one sitting with zero prep time, so the archive unit is the whole session (Q1-Q4 together), never a single question. Whenever a user works through an interview session (whether they gave you all 4 up front or one at a time across the conversation), wait until all 4 are answered, then emit exactly ONE block covering all of them. Group by field type, not by question — all four Prompts together, then all four Polished Responses together, then all four Drafts together — so a reader can scan straight down each field type across the whole session:
 ```markdown
 ## Q1 Prompt
 <question 1>
 
-## Q1 My Polished Response
-<polished answer 1>
-
-## Q1 My Draft
-<user's original draft answer 1, if provided>
-
 ## Q2 Prompt
 <question 2>
-
-## Q2 My Polished Response
-<polished answer 2>
-
-## Q2 My Draft
-<user's original draft answer 2, if provided>
 
 ## Q3 Prompt
 <question 3>
 
-## Q3 My Polished Response
-<polished answer 3>
-
-## Q3 My Draft
-<user's original draft answer 3, if provided>
-
 ## Q4 Prompt
 <question 4>
 
+## Q1 My Polished Response
+<polished answer 1>
+
+## Q2 My Polished Response
+<polished answer 2>
+
+## Q3 My Polished Response
+<polished answer 3>
+
 ## Q4 My Polished Response
 <polished answer 4>
+
+## Q1 My Draft
+<user's original draft answer 1, if provided>
+
+## Q2 My Draft
+<user's original draft answer 2, if provided>
+
+## Q3 My Draft
+<user's original draft answer 3, if provided>
 
 ## Q4 My Draft
 <user's original draft answer 4, if provided>
@@ -123,7 +123,7 @@ Same content-fidelity rule as above: pull the actual sentences and reasoning fro
 ## My What Changed & Why
 <the full explanation from the answer above of what was fixed and why across the session, tied to the relevant rubric criterion — not a one-line summary>
 ```
-Same content-fidelity rule as the other templates: carry over the actual reasoning and examples from the full answer, don't compress them into shorter generic bullets.
+The archiving script accepts any order for these labels internally (each field is independently detected by its own heading and regrouped into this Prompt/Polished/Draft layout regardless of the order the host AI wrote them in), but produce them in this order directly since it reads more naturally and avoids relying on the script's regrouping. Same content-fidelity rule as the other templates: carry over the actual reasoning and examples from the full answer, don't compress them into shorter generic bullets.
 
 If the user only completed 1-3 questions of a session so far, do not emit the copy block yet — offer it only once the full 4-question session is done. If the session genuinely has fewer or more than 4 questions, adjust the Q-numbering accordingly, but still keep it as ONE block for the whole session, never split per question.
 
