@@ -1,79 +1,79 @@
 # Polished 5/5 Responses
 
-收集"AI 在不太违背我表达习惯的前提下，把我的原始回答打磨到接近满分"的定稿，用于**考前复习**和**考后整理为教学材料**。
+A collection of responses where an AI polished my original draft into a near-perfect version — **without deviating too much from my own phrasing habits** — kept for **pre-exam review** and later reuse as **teaching material**.
 
-**注意**：这里的内容不是凭空写的范文，而是"我的原始回答 → 诊断问题 → 打磨定稿"的产物，保留个人用词和思路，只消除拉低分数的硬伤（搭配错误、语法断裂、介词/连词误用等）。`listen-and-repeat/` 例外，见下文。
+**Note:** nothing here is written from scratch. Every entry is the product of "my raw draft → diagnosis → AI-polished final version," so it keeps my own vocabulary and reasoning while removing the errors that were capping the score (bad collocations, broken syntax, wrong prepositions/conjunctions, etc.). `listen-and-repeat/` is the one exception — see below.
 
-## 目录结构
+## Folder structure
 
 ```
 polished-5-5-responses/
-├── README.md                  ← 本文件：流程说明 + 总索引
-├── incoming/                  ← 临时暂存区，只放"待处理"的题目+原始回答
+├── README.md                  ← this file: workflow + master index
+├── incoming/                  ← scratch pad — only unprocessed prompt + raw draft pairs live here
 │   └── _template.md
-├── write-an-email/            ← 正式内容：Write an Email 定稿
-├── academic-discussion/       ← 正式内容：Academic Discussion 定稿
-├── listen-and-repeat/         ← 正式内容：Listen and Repeat 句子整理
-└── interview/                 ← 正式内容：Interview 定稿
+├── write-an-email/            ← archived: Write an Email finals
+├── academic-discussion/       ← archived: Academic Discussion finals
+├── listen-and-repeat/         ← archived: Listen and Repeat sentence sets
+└── interview/                 ← archived: Interview finals
 ```
 
-## 工作流程
+## Workflow
 
-1. **暂存**：在 `incoming/` 里新建一个文件（复制 `incoming/_template.md`），粘贴题目原文和自己的原始回答，格式不用讲究。
-2. **打磨**：让 AI 对照 `references/reference-ets-task-specs.md`（评分标准）和对应的 `references/reference-magoosh-*.md`（该任务类型的写作思路）诊断问题、给出打磨版本，同时说明改了什么、为什么改。
-3. **归档**：打磨定稿后，按下方模板整理成正式文件，存进对应分类文件夹，文件名格式为 `NNN-主题slug.md`（三位数字编号，按完成时间递增，不按难度重排）。
-4. **清空暂存**：正式归档后，删除或清空 `incoming/` 里对应的临时文件，让它始终保持"零常驻内容"。
-5. **登记索引**：在下方总索引表中追加一行。
+1. **Stage it**: create a new file in `incoming/` (copy `incoming/_template.md`), paste in the original prompt and your raw draft. Formatting doesn't need to be clean at this stage.
+2. **Polish it**: have the AI diagnose the draft against `references/reference-ets-task-specs.md` (scoring rubric) and the matching `references/reference-magoosh-*.md` file (task-specific strategy), then produce a polished version — with an explanation of what changed and why.
+3. **Archive it**: once polished, format it using the template below and save it into the matching task-type folder, named `NNN-topic-slug.md` (three-digit number, increasing by completion order — not by difficulty or category).
+4. **Clear the scratch pad**: delete or empty the corresponding file in `incoming/` once it's archived, so `incoming/` always stays effectively empty.
+5. **Update the index**: add a row to the master index below.
 
-## 正式内容文件模板（write-an-email / academic-discussion / interview）
+## Archive file template (write-an-email / academic-discussion / interview)
 
 ```markdown
-# <题目简述>
+# <Short topic title>
 
-## Prompt（原题）
+## Prompt
 ...
 
-## My Draft（我的原始回答）
+## My Draft
 ...
 
-## Polished Response（打磨定稿 —— 考前复习/教学用）
+## Polished Response (final — for review & teaching)
 ...
 
-## What Changed & Why（诊断要点）
-- 用词/搭配问题：...
-- 语法结构问题：...
-- 对照 references/reference-ets-task-specs.md 的评分维度说明为什么这样改
+## What Changed & Why
+- Word choice / collocation issues: ...
+- Grammar / structure issues: ...
+- Explain the fix against the relevant criterion in references/reference-ets-task-specs.md
 
-## Reusable Patterns（可迁移句式，教学时可直接引用）
-- ...
+## Reusable Patterns
+- Phrases or structures worth reusing in other prompts (for teaching material)
 ```
 
-每个分类文件夹内也放了一份 `_template.md`，可直接复制使用。
+Each task-type folder also has its own `_template.md` you can copy directly.
 
-## Listen and Repeat 的特殊格式
+## Special format for Listen and Repeat
 
-这个任务是跟读句子练习，不走"原始回答 → 打磨"流程，按批次整理：
+This task is sentence-level shadowing practice, not a "raw draft → polish" exercise, so it's organized by batch instead:
 
 ```markdown
-# <句子批次简述>
+# <Sentence batch title>
 
-## Sentences（句子原文）
+## Sentences
 1. ...
 2. ...
 
-## Difficulty Notes（跟读难点标注）
-- 连读 / 重音 / 语调问题...
+## Difficulty Notes
+- Linking, stress, intonation issues...
 
-## Self-Assessment（自我评估）
-- 哪几句已能流畅复现，哪几句仍需练习
+## Self-Assessment
+- Which sentences are fluent now, which still need work
 ```
 
-## 总索引
+## Master index
 
-| # | 任务类型 | 主题 / 文件 | 完成日期 | 备注 |
+| # | Task Type | Topic / File | Date Completed | Notes |
 |---|---|---|---|---|
-| — | — | — | — | 尚未收录任何范例，归档后请更新本表 |
+| — | — | — | — | No entries archived yet — add a row once you archive one |
 
-## 与 references/ 的关系
+## Relationship to references/
 
-`references/` 是只读的外部权威规则库（ETS 评分标准 + Magoosh 写作模板），打磨时始终以它为依据。`polished-5-5-responses/` 是你自己的产出成果库，两者不要混放：改规则文件时不要顺手往里塞个人范例，归档个人范例时也不要修改 references 里的内容。
+`references/` is the read-only, authoritative rubric and template library (ETS scoring criteria + Magoosh strategy guides) — always polish against it. `polished-5-5-responses/` is your personal output archive. Keep them separate: don't drop personal samples into `references/`, and don't edit `references/` content while archiving a sample here.

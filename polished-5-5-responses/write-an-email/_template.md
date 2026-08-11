@@ -1,18 +1,18 @@
-# <题目简述>
+# <Short topic title>
 
-## Prompt（原题）
+## Prompt
 ...
 
-## My Draft（我的原始回答）
+## My Draft
 ...
 
-## Polished Response（打磨定稿 —— 考前复习/教学用）
+## Polished Response (final — for review & teaching)
 ...
 
-## What Changed & Why（诊断要点）
-- 用词/搭配问题：...
-- 语法结构问题：...
-- 对照 references/reference-ets-task-specs.md 的评分维度说明为什么这样改
+## What Changed & Why
+- Word choice / collocation issues: ...
+- Grammar / structure issues: ...
+- Explain the fix against the relevant criterion in references/reference-ets-task-specs.md
 
-## Reusable Patterns（可迁移句式，教学时可直接引用）
-- ...
+## Reusable Patterns
+- Phrases or structures worth reusing in other prompts (for teaching material)

@@ -1,25 +1,26 @@
 <!--
-临时暂存文件模板。
-用法：
-1. 复制本文件为 incoming/<任意名称>.md
-2. 填入任务类型、题目原文、自己的原始回答
-3. 请 AI 打磨
-4. 打磨完成后，把结果整理进对应分类文件夹（正式格式见 ../README.md），
-   然后删除这个临时文件，保持 incoming/ 始终为空。
+Scratch pad template.
+Usage:
+1. Copy this file to incoming/<any-name>.md
+2. Fill in the task type, the original prompt, and your raw draft
+3. Ask the AI to polish it
+4. Once polished, archive the result into the matching task-type folder
+   (see the format in ../README.md), then delete this scratch file so
+   incoming/ stays empty.
 -->
 
-## 任务类型
-<!-- 从下列四选一，删除其余三行 -->
+## Task Type
+<!-- pick one of the four below, delete the other three -->
 Write an Email
 Academic Discussion
 Interview
 Listen and Repeat
 
-## Prompt（题目原文）
+## Prompt
 ...
 
-## My Draft（我的原始回答）
+## My Draft
 ...
 
-## 备注（可选，例如现在的分数、想解决的具体问题）
+## Notes (optional — e.g. current score, specific issue you want fixed)
 ...
