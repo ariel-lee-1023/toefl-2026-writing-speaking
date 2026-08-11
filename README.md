@@ -20,13 +20,18 @@ toefl-2026-writing-speaking/
 ├── SKILL.md
 ├── references/                  # read-only rubric/template library
 ├── polished-5-5-responses/      # personal polished drafts, for review & teaching
-│   ├── incoming/                # scratch pad: paste prompt + raw draft here
+│   ├── incoming/                # upload here, GitHub Action auto-archives
+│   │   ├── write-an-email/
+│   │   ├── academic-discussion/
+│   │   ├── listen-and-repeat/
+│   │   └── interview/
 │   ├── write-an-email/
 │   ├── academic-discussion/
 │   ├── listen-and-repeat/
 │   └── interview/
-└── tools/
-    └── polished5-tool/          # web app that auto-archives into polished-5-5-responses/
+└── .github/
+    ├── workflows/archive-incoming.yml   # runs the script below on push
+    └── scripts/archive-incoming.js      # reformats + archives incoming/ uploads
 ```
 
 | File | Loaded | Contents |
@@ -37,8 +42,7 @@ toefl-2026-writing-speaking/
 | `references/reference-magoosh-email-templates.md` | on demand | Write an Email — 7-min plan, register ladder, 5 speech-act types |
 | `references/reference-magoosh-discussion-templates.md` | on demand | Academic Discussion — 10-min plan, engaging both student posts |
 | `references/reference-magoosh-interview-templates.md` | on demand | Take an Interview — the C–D–E–F 45-second shape |
-| `polished-5-5-responses/` | on demand | Personal raw-draft → AI-polished response pairs, kept for pre-exam review and post-exam teaching material. See its own [README](polished-5-5-responses/README.md) for the incoming → archive workflow. |
-| `tools/polished5-tool/` | on demand | A web app that automates the archiving workflow above: paste a raw transcript, it classifies the task type and commits the formatted result straight into `polished-5-5-responses/`. See its own [README](tools/polished5-tool/README.md). |
+| `polished-5-5-responses/` | on demand | Personal polished-response archive, kept for pre-exam review and post-exam teaching material. Upload to `incoming/<task-type>/` and a GitHub Action reformats + archives it automatically — no server, no AI/API calls. See its own [README](polished-5-5-responses/README.md) and [`incoming/README.md`](polished-5-5-responses/incoming/README.md) for the workflow. |
 
 Only `SKILL.md` occupies context by default; reference files load when the router points at them.
 

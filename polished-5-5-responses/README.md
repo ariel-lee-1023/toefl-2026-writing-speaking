@@ -9,8 +9,12 @@ A collection of responses where an AI polished my original draft into a near-per
 ```
 polished-5-5-responses/
 ├── README.md                  ← this file: workflow + master index
-├── incoming/                  ← scratch pad — only unprocessed prompt + raw draft pairs live here
-│   └── _template.md
+├── incoming/                  ← upload here — GitHub Action auto-archives on push
+│   ├── README.md              ← exactly what labels/format to upload
+│   ├── write-an-email/
+│   ├── academic-discussion/
+│   ├── interview/
+│   └── listen-and-repeat/
 ├── write-an-email/            ← archived: Write an Email finals
 ├── academic-discussion/       ← archived: Academic Discussion finals
 ├── listen-and-repeat/         ← archived: Listen and Repeat sentence sets
@@ -21,21 +25,23 @@ polished-5-5-responses/
 
 There are two ways to archive a response — pick either one:
 
-### Option A — the web tool (fastest, fully automatic)
+### Option A — upload to `incoming/<task-type>/` (fastest, fully automatic)
 
-A small web app lives at [`tools/polished5-tool/`](../tools/polished5-tool/) in this repo. Paste the raw tutoring transcript (prompt + your draft + AI-polished version) into it, and it will:
-1. Classify the task type automatically (write-an-email / academic-discussion / interview / listen-and-repeat).
-2. Reformat it into the correct template below.
-3. Commit the finished file straight into the right folder here, with the next sequential `NNN` index — no manual steps, no `incoming/` staging needed.
+Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-email/`](incoming/write-an-email/), [`incoming/academic-discussion/`](incoming/academic-discussion/), [`incoming/interview/`](incoming/interview/), or [`incoming/listen-and-repeat/`](incoming/listen-and-repeat/) — and push to `main`. A GitHub Action picks it up automatically:
+1. Detects whichever labeled sections you included (Prompt, Polished Response, My Draft, etc.) — no task-type guessing, since you already chose the folder.
+2. Reformats it into the correct template below, in a fixed section order, leaving anything you didn't include blank.
+3. Commits the finished file straight into the right folder here, with the next sequential `NNN` index, and deletes the file from `incoming/` — no manual steps, no AI/API calls, nothing to run locally.
 
-**If you forked this repo:** the tool is configured entirely through environment variables (which GitHub account/repo to commit to), so forking it does not send your archived responses back to the original author's repo. See [`tools/polished5-tool/README.md`](../tools/polished5-tool/README.md) for setup, configuration, and how to run/deploy it.
+**v1.0 limitation:** one question per file — it does not split a multi-question upload (e.g. a full mock test) into separate archive entries yet. See [`incoming/README.md`](incoming/README.md) for exactly what labels to use and more detail.
 
-### Option B — manual (no tool needed)
+**Forking this repo:** this automation runs entirely inside your own fork via GitHub Actions, so it always commits to your own copy of the repo — nothing is sent anywhere else.
 
-1. **Stage it**: create a new file in `incoming/` (copy `incoming/_template.md`), paste in the original prompt and your raw draft. Formatting doesn't need to be clean at this stage.
+### Option B — manual (no automation)
+
+1. **Stage it**: create a new file in `incoming/<task-type>/` (copy that folder's `../<task-type>/_template.md`), paste in the original prompt and your raw draft. Formatting doesn't need to be clean at this stage.
 2. **Polish it**: have the AI diagnose the draft against `references/reference-ets-task-specs.md` (scoring rubric) and the matching `references/reference-magoosh-*.md` file (task-specific strategy), then produce a polished version — with an explanation of what changed and why.
 3. **Archive it**: once polished, format it using the template below and save it into the matching task-type folder, named `NNN-topic-slug.md` (three-digit number, increasing by completion order — not by difficulty or category).
-4. **Clear the scratch pad**: delete or empty the corresponding file in `incoming/` once it's archived, so `incoming/` always stays effectively empty.
+4. **Clear the scratch pad**: delete the corresponding file in `incoming/<task-type>/` once it's archived, so `incoming/` always stays effectively empty.
 5. **Update the index**: add a row to the master index below.
 
 ## Archive file template (write-an-email / academic-discussion / interview)
@@ -46,19 +52,19 @@ A small web app lives at [`tools/polished5-tool/`](../tools/polished5-tool/) in 
 ## Prompt
 ...
 
+## My Polished Response
+...
+
 ## My Draft
 ...
 
-## Polished Response (final — for review & teaching)
-...
+## My Key Obstacles Holding You Back from a 5/5
+- ...
 
-## What Changed & Why
+## My What Changed & Why
 - Word choice / collocation issues: ...
 - Grammar / structure issues: ...
 - Explain the fix against the relevant criterion in references/reference-ets-task-specs.md
-
-## Reusable Patterns
-- Phrases or structures worth reusing in other prompts (for teaching material)
 ```
 
 Each task-type folder also has its own `_template.md` you can copy directly.

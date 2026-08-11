@@ -1,0 +1,57 @@
+name: Archive incoming responses
+
+# Watches polished-5-5-responses/incoming/<task-type>/ for newly uploaded
+# .txt/.md files. Whenever one lands on `main`, this splits it into one
+# archive file per question, reformats it into the matching task-type
+# template, writes it into polished-5-5-responses/<task-type>/ with the
+# next sequential number, deletes the original incoming file, and commits
+# the result back to the repo — fully automatic, no manual steps.
+#
+# No AI/external API calls and no task-type guessing: the user picks the
+# right incoming/<task-type>/ folder when uploading, and this workflow only
+# splits + reformats + archives what's already there.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "polished-5-5-responses/incoming/**/*.txt"
+      - "polished-5-5-responses/incoming/**/*.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-incoming
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    # Avoid infinite loops: skip commits made by this workflow itself.
+    if: github.event.head_commit.author.name != 'github-actions[bot]'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run archive script
+        run: node .github/scripts/archive-incoming.js
+
+      - name: Commit and push archived files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add polished-5-5-responses/
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "Auto-archive incoming response(s) [skip ci]"
+            git push
+          fi
