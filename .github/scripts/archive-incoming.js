@@ -65,6 +65,7 @@ function readIncomingFiles(taskType) {
 // Patterns are matched against a trimmed line with any leading "#"/markdown
 // stripped and trailing ":"/"-"/"—" stripped, case-insensitively.
 const PROSE_SECTIONS = [
+  { key: "sessionTitle", labels: ["title", "session title"] },
   { key: "prompt", labels: ["prompt", "question"] },
   {
     key: "polishedResponse",
@@ -106,6 +107,7 @@ const PROSE_SECTIONS = [
 // consecutive prompts, zero prep time). A single archived file represents
 // the whole session, not one question — see INTERVIEW_SESSION_SECTIONS below.
 const INTERVIEW_SHARED_SECTIONS = [
+  { key: "sessionTitle", labels: ["title", "session title"] },
   {
     key: "keyObstacles",
     labels: [
@@ -149,6 +151,7 @@ function interviewQuestionSections(qNum) {
 }
 
 const LISTEN_REPEAT_SECTIONS = [
+  { key: "sessionTitle", labels: ["title", "session title"] },
   { key: "prompt", labels: ["prompt", "sentences", "sentence list", "question"] },
   {
     key: "chunkingStrategy",
@@ -420,7 +423,11 @@ function processFile(taskType, filePath) {
       // No labeled sections found — treat the whole file as the sentence list.
       sections.prompt = raw.trim();
     }
-    slugSource = sections.prompt.split("\n")[0];
+    // Prefer the host AI's explicit Title field for naming the file — it
+    // names the actual topic (e.g. "Retail Checkout"), where the Prompt's
+    // first line is often just "1. " plus a sentence fragment that makes a
+    // poor slug source.
+    slugSource = sections.sessionTitle || sections.prompt.split("\n")[0];
   } else if (taskType === "interview") {
     // Interview archives a whole 4-question session in one file, not one
     // question — the real exam presents all four prompts back-to-back with
@@ -448,7 +455,13 @@ function processFile(taskType, filePath) {
     // Q1..Q4 labels), so an unlabeled upload archives as an empty skeleton
     // (all fields "...") rather than a guessed, possibly-wrong split.
     sections = { qa, keyObstacles: shared.keyObstacles, whatChanged: shared.whatChanged };
-    slugSource = qa.find((q) => q.prompt)?.prompt || baseName;
+    // Prefer the host AI's explicit Title field — Interview's Q1 Prompt is
+    // often interviewer small talk ("Thank you for your participation...")
+    // whose first real words carry no topical signal, so falling back to it
+    // produces meaningless titles like "Thank Participation". The host AI
+    // knows the session's actual topic (e.g. "Reading Habits") and should
+    // say so directly instead of the script guessing from the Q1 opener.
+    slugSource = detected.sessionTitle || qa.find((q) => q.prompt)?.prompt || baseName;
   } else {
     sections = detectSections(raw, PROSE_SECTIONS);
     if (!sections.prompt && !sections.polishedResponse) {
@@ -456,7 +469,7 @@ function processFile(taskType, filePath) {
       sections.prompt = sections.prompt || fb.prompt;
       sections.polishedResponse = sections.polishedResponse || fb.polishedResponse;
     }
-    slugSource = sections.prompt || sections.polishedResponse || baseName;
+    slugSource = sections.sessionTitle || sections.prompt || sections.polishedResponse || baseName;
   }
 
   const slug = slugify(slugSource, baseName || "untitled");

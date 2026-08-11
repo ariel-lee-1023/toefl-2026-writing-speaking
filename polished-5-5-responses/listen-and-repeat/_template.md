@@ -1,4 +1,5 @@
 # <Sentence(s) title>
+<!-- Rendered from the incoming file's "## Title" field — host AI must supply Title, not guessed by the script. -->
 
 ## Prompt
 1. ...

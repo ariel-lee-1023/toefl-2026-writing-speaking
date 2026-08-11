@@ -56,10 +56,15 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 ## After answering: offer an archive-ready copy block
 Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **first give the full, complete answer exactly as you normally would** — continuous prose, full reasoning, every example and explanation, with no length-cutting for the sake of the archive step. Only *after* that complete answer, **append a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content).
 
+**Every copy block starts with a `## Title` field.** This is the ONE field the archiving script does not try to extract from anything else — it uses your Title verbatim to name the archived file (e.g. `## Title\nReading Habits` archives as `00X-reading-habits.md`). Do not skip it and do not let the script guess: guessing from the first few words of the Prompt fails badly when the prompt opens with small talk or instructions ("Thank you for your participation...", "Before they leave, thank customers...") — the real topic gets buried past the words the script samples, producing meaningless filenames. Write 2-5 words naming the actual topic or scenario of the session (e.g. `Reading Habits`, `Retail Checkout`, `Requesting a Deadline Extension`), in title case, with no punctuation, and no restating of the task type itself (never `Interview Session` or `Email Prompt`).
+
 **Critical: the copy block must carry the SAME content as the full answer above it, not a shortened summary of it.** Every field's content must be the substance already given in the full answer — reorganized/labeled into the right field, quoting or closely paraphrasing your own explanations, examples, and reasoning — never a compressed bullet stub that drops the specifics (concrete chunk examples, the exact words flagged for pronunciation, the reasoning behind each fix, etc.). If a field would otherwise come out shorter than the corresponding material in the full answer, that is a sign content was dropped — go back and carry it over instead. The two parts (full answer, then copy block) should read as the same information in two formats, not as an answer followed by a lossy digest of it. The only thing the block strips is prose connectors needed for spoken/written flow — not analytical content. Do not add extra commentary inside the block itself beyond the field content — it must match the repo's automated archiver output 1:1.
 
 **Write an Email / Academic Discussion** — shared template, one question per block:
 ```markdown
+## Title
+<2-5 words naming this question's actual topic/scenario, e.g. "Requesting a Deadline Extension">
+
 ## Prompt
 <the exact original question/prompt>
 
@@ -80,6 +85,9 @@ Same content-fidelity rule as above: pull the actual sentences and reasoning fro
 
 **Take an Interview** — session-level template, NOT one block per question. The real Interview task presents 4 questions back-to-back in one sitting with zero prep time, so the archive unit is the whole session (Q1-Q4 together), never a single question. Whenever a user works through an interview session (whether they gave you all 4 up front or one at a time across the conversation), wait until all 4 are answered, then emit exactly ONE block covering all of them. Group by field type, not by question — all four Prompts together, then all four Polished Responses together, then all four Drafts together — so a reader can scan straight down each field type across the whole session:
 ```markdown
+## Title
+<2-5 words naming this session's actual topic, e.g. "Reading Habits" — never derived from Q1's opening small talk>
+
 ## Q1 Prompt
 <question 1>
 
@@ -129,6 +137,9 @@ If the user only completed 1-3 questions of a session so far, do not emit the co
 
 **Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish), one sentence-set per block:
 ```markdown
+## Title
+<2-5 words naming this sentence set's actual scenario, e.g. "Retail Checkout" — never derived from the sentences' opening words>
+
 ## Prompt
 1. <sentence 1>
 2. <sentence 2>

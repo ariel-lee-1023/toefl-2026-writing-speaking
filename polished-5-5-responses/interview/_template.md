@@ -1,4 +1,5 @@
 # <Session topic title>
+<!-- Rendered from the incoming file's "## Title" field — host AI must supply Title (the session's actual topic, e.g. "Reading Habits"), never guessed from Q1's opening small talk. -->
 
 ## Q1 Prompt
 ...
