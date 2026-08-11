@@ -1,3 +1,5 @@
+# Before They Leave Thank Customers Business
+
 ## Prompt
 1. Before they leave, thank customers for their business and assist them as needed.
 2. Scan the barcode for each item on the belt.
