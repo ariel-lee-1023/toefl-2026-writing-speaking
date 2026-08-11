@@ -24,7 +24,12 @@ Just paste your content in with clear labels. The automation looks for these lab
 
 Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the first paragraph as the Prompt and everything after it as the Polished Response.
 
-`listen-and-repeat/` uses its own three labels instead: `Sentences`, `Difficulty Notes`, `Self-Assessment`.
+`listen-and-repeat/` uses its own four labels instead, in this fixed order:
+
+1. `Prompt` (the sentence list)
+2. `Chunking & Memory Strategy` (becomes **My Chunking & Memory Strategy**)
+3. `Pronunciation Focus` (becomes **My Pronunciation Focus**; `Difficulty Notes` is also recognized for backward compatibility)
+4. `Self-Assessment` (becomes **My Self-Assessment**)
 
 ## v1.0 limitation — one question per file
 

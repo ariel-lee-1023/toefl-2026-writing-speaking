@@ -71,19 +71,25 @@ Each task-type folder also has its own `_template.md` you can copy directly.
 
 ## Special format for Listen and Repeat
 
-This task is sentence-level shadowing practice, not a "raw draft → polish" exercise, so it's organized by batch instead:
+This task is sentence-level shadowing practice, not a "raw draft → polish" exercise, so it uses its own fixed order instead:
 
 ```markdown
-# <Sentence batch title>
+# <Sentence(s) title>
 
-## Sentences
+## Prompt
 1. ...
 2. ...
 
-## Difficulty Notes
-- Linking, stress, intonation issues...
+## My Chunking & Memory Strategy
+- Chunk 1 (...): ...
+- Chunk 2 (...): ...
 
-## Self-Assessment
+## My Pronunciation Focus
+- Compressed function words: ...
+- Word endings (-s/-ed, unreleased final consonants): ...
+- Rhythm & intonation: ...
+
+## My Self-Assessment
 - Which sentences are fluent now, which still need work
 ```
 

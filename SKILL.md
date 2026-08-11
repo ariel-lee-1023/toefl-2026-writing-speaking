@@ -53,5 +53,48 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 
 *(Terms appearing in only one source stay in that file — reach them via its router row.)*
 
+## After answering: offer an archive-ready copy block
+Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **end the answer with a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking) — one question per block, ready to copy, paste into a `.md`/`.txt` file, and upload as-is. Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content). Do not add extra commentary inside the block — it must match the repo's automated archiver output 1:1.
+
+**Write an Email / Academic Discussion / Take an Interview** — shared template:
+```markdown
+## Prompt
+<the exact original question/prompt>
+
+## My Polished Response
+<the polished, upload-ready version>
+
+## My Draft
+<the user's original raw draft, if provided>
+
+## My Key Obstacles Holding You Back from a 5/5
+- <specific recurring error 1>
+- <specific recurring error 2>
+
+## My What Changed & Why
+<what was fixed and why, tied to the relevant rubric criterion>
+```
+
+**Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish):
+```markdown
+## Prompt
+1. <sentence 1>
+2. <sentence 2>
+
+## My Chunking & Memory Strategy
+- Chunk 1 (<role>): <chunk text>
+- Chunk 2 (<role>): <chunk text>
+
+## My Pronunciation Focus
+- Compressed function words: ...
+- Word endings (-s/-ed, unreleased final consonants): ...
+- Rhythm & intonation: ...
+
+## My Self-Assessment
+- <current score/observation and what to focus on next time>
+```
+
+Remind the user, briefly, that v1.0 of the archiver expects **one question per file** — if they worked through multiple questions in one session, they need one copy block (and one upload) per question, into the matching `incoming/<task-type>/` subfolder.
+
 ## Scope & limits
 Covers the **Writing** section (Build a Sentence, Write an Email, Write for an Academic Discussion) and the **Speaking** section (Listen and Repeat, Take an Interview) of the 2026 TOEFL iBT, plus the CEFR-aligned section descriptors. **Not covered**: Reading, Listening, registration/logistics, scoring-service policy, or any task-type not in these five sources. For anything outside that, say so rather than inventing it.

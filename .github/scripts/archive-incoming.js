@@ -103,9 +103,36 @@ const PROSE_SECTIONS = [
 ];
 
 const LISTEN_REPEAT_SECTIONS = [
-  { key: "sentences", labels: ["sentences", "sentence list"] },
-  { key: "difficultyNotes", labels: ["difficulty notes", "difficulties"] },
-  { key: "selfAssessment", labels: ["self-assessment", "self assessment"] },
+  { key: "prompt", labels: ["prompt", "sentences", "sentence list", "question"] },
+  {
+    key: "chunkingStrategy",
+    labels: [
+      "my chunking & memory strategy",
+      "my chunking and memory strategy",
+      "chunking & memory strategy",
+      "chunking and memory strategy",
+      "chunking strategy",
+      "memory strategy",
+      "chunking",
+    ],
+  },
+  {
+    key: "pronunciationFocus",
+    labels: [
+      "my pronunciation focus",
+      "pronunciation focus",
+      "pronunciation & delivery",
+      "pronunciation and delivery",
+      "pronunciation points",
+      "pronunciation",
+      "difficulty notes",
+      "difficulties",
+    ],
+  },
+  {
+    key: "selfAssessment",
+    labels: ["my self-assessment", "my self assessment", "self-assessment", "self assessment"],
+  },
 ];
 
 /** Normalize a line for label matching: strip markdown heading marks, bold, trailing punctuation. */
@@ -279,13 +306,16 @@ ${s.whatChanged || "..."}
 function renderListenRepeat({ title, sections }) {
   return `# ${title}
 
-## Sentences
-${sections.sentences || "1. ..."}
+## Prompt
+${sections.prompt || "1. ..."}
 
-## Difficulty Notes
-${sections.difficultyNotes || "- Linking, stress, intonation issues..."}
+## My Chunking & Memory Strategy
+${sections.chunkingStrategy || "- Chunk 1 (...): ...\n- Chunk 2 (...): ..."}
 
-## Self-Assessment
+## My Pronunciation Focus
+${sections.pronunciationFocus || "- Compressed function words: ...\n- Word endings (-s/-ed, unreleased final consonants): ...\n- Rhythm & intonation: ..."}
+
+## My Self-Assessment
 ${sections.selfAssessment || "- Which sentences are fluent now, which still need work"}
 `;
 }
@@ -309,11 +339,11 @@ function processFile(taskType, filePath) {
 
   if (taskType === "listen-and-repeat") {
     sections = detectSections(raw, LISTEN_REPEAT_SECTIONS);
-    if (!sections.sentences) {
+    if (!sections.prompt) {
       // No labeled sections found — treat the whole file as the sentence list.
-      sections.sentences = raw.trim();
+      sections.prompt = raw.trim();
     }
-    slugSource = sections.sentences.split("\n")[0];
+    slugSource = sections.prompt.split("\n")[0];
   } else {
     sections = detectSections(raw, PROSE_SECTIONS);
     if (!sections.prompt && !sections.polishedResponse) {
