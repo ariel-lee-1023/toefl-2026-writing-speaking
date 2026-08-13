@@ -1,6 +1,6 @@
 # toefl-2026-writing-speaking
 
-An agent skill for the **Writing** and **Speaking** sections of the 2026 TOEFL iBT — a router plus five on-demand reference files, aimed at C2-level performance.
+An agent skill for the **Writing** and **Speaking** sections of the 2026 TOEFL iBT — a router plus six on-demand reference files, aimed at C2-level performance.
 
 ## Install
 
@@ -42,6 +42,7 @@ toefl-2026-writing-speaking/
 | `references/reference-magoosh-email-templates.md` | on demand | Write an Email — 7-min plan, register ladder, 5 speech-act types |
 | `references/reference-magoosh-discussion-templates.md` | on demand | Academic Discussion — 10-min plan, engaging both student posts |
 | `references/reference-magoosh-interview-templates.md` | on demand | Take an Interview — the C–D–E–F 45-second shape |
+| `references/reference-course-listen-repeat-lessons.md` | on demand | Listen and Repeat — the 7-sentence set map, chunking for memory, compressed function words and word endings |
 | `polished-5-5-responses/` | on demand | Personal polished-response archive, kept for pre-exam review and post-exam teaching material. Upload to `incoming/<task-type>/` and a GitHub Action reformats + archives it automatically — no server, no AI/API calls. See its own [README](polished-5-5-responses/README.md) and [`incoming/README.md`](polished-5-5-responses/incoming/README.md) for the workflow. |
 
 Only `SKILL.md` occupies context by default; reference files load when the router points at them.
@@ -72,11 +73,12 @@ Not covered: Reading, Listening, registration or scoring-service logistics.
 
 ## Sources and attribution
 
-Distilled from five documents. These files are **original synthesis** — structure, frameworks, decision rules, and worked examples reconstructed in new wording — not reproductions. Short quoted fragments are attributed inline. Consult the originals for the authoritative text:
+Distilled from six sources. These files are **original synthesis** — structure, frameworks, decision rules, and worked examples reconstructed in new wording — not reproductions. Short quoted fragments are attributed inline. Consult the originals for the authoritative text:
 
 - *The Official Guide to the TOEFL iBT® Test, Pocket Edition*, Chapters 4–5 — **ETS**
 - Writing & Speaking Section Performance Descriptors (Appendix) — **ETS**
 - Write an Email / Academic Discussion / Interview template guides — **Magoosh**
+- Listen and Repeat lesson series (task rules · chunking · scoring and common errors) — third-party TOEFL prep course
 
 Where the third-party guides conflict with ETS on any point of fact, the skill treats **ETS as authoritative**.
 

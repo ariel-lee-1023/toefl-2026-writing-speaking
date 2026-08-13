@@ -1,18 +1,19 @@
 ---
 name: toefl-2026-writing-speaking
-description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL iBT Writing and Speaking sections, built from 5 sources: the Official Guide chapters on both sections, the ETS CEFR performance descriptors, and Magoosh's Email, Academic Discussion, and Interview template guides. Use to score or draft responses against the real rubrics, diagnose a response's band, plan practice, or resolve template-vs-authenticity questions. ALWAYS write TOEFL responses as continuous prose — never a title, heading, bullet list, or bold label; enumerate with First/Second/Finally instead. Each source has its own references/reference-<slug>.md, loaded on demand."
+description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL iBT Writing and Speaking sections, built from 6 sources: the Official Guide chapters on both sections, the ETS CEFR performance descriptors, Magoosh's Email, Academic Discussion, and Interview template guides, and a Listen and Repeat course-lesson series. Use to score or draft responses against the real rubrics, diagnose a response's band, plan practice, or resolve template-vs-authenticity questions. ALWAYS write TOEFL responses as continuous prose — never a title, heading, bullet list, or bold label; enumerate with First/Second/Finally instead. Each source has its own references/reference-<slug>.md, loaded on demand."
 ---
 
 <!-- argument-hint: [task name, rubric criterion, CEFR band, or "score this response"] -->
 
 # TOEFL 2026 — Writing & Speaking, at C2
-**Sources**: 5 | **Generated**: 2026-08-03 | **Depth**: study
+**Sources**: 6 | **Generated**: 2026-08-03 | **Updated**: 2026-08-13 (Listen and Repeat) | **Depth**: study
 
 ## How to use
 - No args → read this router, pick the file(s).
 - "about &lt;topic&gt;" → use the Topic Index below.
 - "score/diagnose this response" → open `references/reference-ets-task-specs.md` (task rubric, 0–5) **and** `references/reference-ets-cefr-descriptors.md` (capability band, 1–6). They answer different questions.
-- Drafting or coaching a specific task → open that task's Magoosh file **plus** the ETS task-specs file. Never the Magoosh file alone.
+- Drafting or coaching a specific task → open that task's third-party file (Magoosh, or the Listen and Repeat lessons) **plus** the ETS task-specs file. Never the third-party file alone.
+- "chunk / shadow / repeat this sentence", or anything about hearing and reproducing a sentence → `references/reference-course-listen-repeat-lessons.md` **plus** the ETS task-specs file. This task is scored on intelligibility and accuracy only, so the usual elaboration advice does not apply to it.
 
 ## Which source for which job (start here)
 | Source (→ file) | Reach for it when you need… | Its one big idea |
@@ -22,10 +23,12 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 | **Write an Email (Magoosh)** → [reference-magoosh-email-templates.md](references/reference-magoosh-email-templates.md) | 7-min email plan, register ladder, 5 speech-act task types | Requests, criticisms, and refusals each have a required *form*, and that form is scored |
 | **Academic Discussion (Magoosh)** → [reference-magoosh-discussion-templates.md](references/reference-magoosh-discussion-templates.md) | 10-min post plan, engaging the two student posts, support menus | **Agree with one student, disagree with the other** — and always add a new increment |
 | **Interview (Magoosh)** → [reference-magoosh-interview-templates.md](references/reference-magoosh-interview-templates.md) | The 45-second, zero-prep response shape | **C–D–E–F**: Commit → Detail → Elaborate → Finish(optional) |
+| **Listen and Repeat (course lessons)** → [reference-course-listen-repeat-lessons.md](references/reference-course-listen-repeat-lessons.md) | The 7-sentence set's positional shapes, chunking for memory, and why points are lost | **Listen for ideas, not words** — 2–4 chunks max; compressed function words are recoverable from chunk type, word endings are not |
 
 ## Operating stance (apply before any advice)
 0. **Output format: continuous prose, always.** Every response on this test is typed into a plain text box or spoken aloud. **Never** emit a title, a markdown heading, bullet points, a numbered list, bold/italic markup, or `Label:` lines — in a drafted response *or* in a sample you show the user. An email adds a greeting and sign-off; a discussion post has neither; neither ever has bullets. Parallel points are rendered as *First… Second… Finally…* in prose. This is scored, not cosmetic: ETS's score-1 band names **"telegraphic language (i.e., short and/or disconnected phrases and sentences)"**, and its score-4 speaking band is elaborated content that **"may lack effective sentence-level connectors."** Bulleting deletes exactly the connective tissue the rubric measures.
-1. **ETS outranks Magoosh** on every point of fact. Magoosh supplies clocks and taxonomies ETS omits; ETS defines what is scored.
+0b. **Listen and Repeat is the one exception to almost everything else here.** You are not the author on that task: no ideas, no stance, no elaboration, no grammar or vocabulary of your own — the words are handed to you and the only job is to reproduce them. Never coach it with elaboration advice, never "improve" the sentence, and never treat memorized language as a risk there, since nothing is composed. Its two criteria are **intelligibility** and **accuracy**; its method is **chunking for memory then imitation of the speaker's rhythm**; and its governing rule is that **finishing an imperfect sentence beats stopping to fix one.** Stances 2–5 below are about composed responses and apply to the other four tasks.
+1. **ETS outranks the third-party sources** on every point of fact. Magoosh and the Listen and Repeat lessons supply clocks, sentence taxonomies, and practice protocols ETS omits; ETS defines what is scored.
 2. **Two scales.** Section scores 1–6 = CEFR A1–C2. Task scoring guides 0–5. A task "5" is not a section "6" — never conflate them.
 3. **The library's central tension, and its resolution.** ETS penalizes memorized/formulaic language in four separate places; the Magoosh guides are phrase menus and say so themselves. Resolution: **borrow the frame, invent the substance.** Connectives, greetings, stance markers, and concession moves are what real emails, posts, and speech contain — safe. Prefabricated intros/conclusions, canned arguments, and invented *citations* — penalized. **Test every sentence: could it move to a different prompt unchanged?** If yes and it isn't a bare connective, rewrite it.
 4. **Calibrate to the official samples, not to perfection.** ETS's rated score-5 email contains three grammar errors; its four rated score-5 interview answers are full of "um," restarts, and hedges. Optimize in rubric order: address the prompt → elaborate concretely → vary syntax *for a reason* → accuracy last.
@@ -46,7 +49,12 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 - **Delivery: pace, pauses, intonation** → ets-task-specs, ets-cefr-descriptors, magoosh-interview
 - **Pausing (precision-search vs. shortage)** → ets-cefr-descriptors, ets-task-specs
 - **Intelligibility & accent** → ets-task-specs, ets-cefr-descriptors
-- **Shadowing / record-and-review** → ets-cefr-descriptors, magoosh-interview
+- **Shadowing / record-and-review** → ets-cefr-descriptors, magoosh-interview, course-listen-repeat
+- **Chunking for retention (action/object/place/time/purpose)** → course-listen-repeat, ets-task-specs
+- **Compressed function words & word endings (-s, -ed)** → course-listen-repeat, ets-task-specs
+- **Imitating rhythm & stress instead of speaking naturally** → course-listen-repeat, ets-cefr-descriptors
+- **Finishing over correcting (truncation penalty)** → course-listen-repeat, ets-task-specs
+- **Intelligibility & accuracy as the only two criteria** → course-listen-repeat, ets-task-specs
 - **Three-draft practice protocol** → magoosh-email, magoosh-discussion, magoosh-interview
 - **Rigidity as the B2 marker** → ets-cefr-descriptors, magoosh-email
 - **Scoring scales (1–6 vs 0–5)** → ets-task-specs, ets-cefr-descriptors
@@ -135,7 +143,7 @@ The archiving script accepts any order for these labels internally (each field i
 
 If the user only completed 1-3 questions of a session so far, do not emit the copy block yet — offer it only once the full 4-question session is done. If the session genuinely has fewer or more than 4 questions, adjust the Q-numbering accordingly, but still keep it as ONE block for the whole session, never split per question.
 
-**Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish), one sentence-set per block:
+**Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish), one sentence-set per block. Fill these fields from `references/reference-course-listen-repeat-lessons.md`: name each chunk by type (action / object / place-manner / time / purpose), identify which of the four long-sentence shapes the 13–15 word sentences use, and split the pronunciation analysis into compressed function words (recoverable from chunk type) versus word endings (not predictable):
 ```markdown
 ## Title
 <2-5 words naming this sentence set's actual scenario, e.g. "Retail Checkout" — never derived from the sentences' opening words>
