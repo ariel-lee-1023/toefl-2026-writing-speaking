@@ -1,5 +1,4 @@
-## Title
-Emma Surprise Party Help
+# Emma Surprise Party Help
 
 ## Prompt
 You are planning a surprise birthday party for your friend Emma. You need to buy decorations, order a cake, and invite guests, among other things. You are busy with school and would like your friend, John, to help you.
@@ -35,7 +34,7 @@ You on August 10, 2026
 Dear John, I am planning a surprise party to my friend Emma and I believe you have some impression on her. For this party successfully setted up,I need buy decorations,order cakes and invite gests. GIven my high-intense academic schedule,I may not have enough time to buy all items on my list. There is a gooledrive link that contains some items that I need,and these items are presented in the supermarket near your house. If you are free these days,please let me know and tell me if I time I suggest your are available or not. I want to meet you at school any time next week. And I am happy to
 Thanks for your time. Sincerely, Alex Reed
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Frequent language errors that slow reading and occasionally obscure meaning (“surprise party to my friend,” “successfully setted up,” “need buy,” “invite gests,” “high-intense,” “gooledrive,” “if I time I suggest your are available”).
 - Incomplete final sentence and abrupt ending.
 - Vague meeting suggestion (“any time next week”) instead of a concrete day and time.
