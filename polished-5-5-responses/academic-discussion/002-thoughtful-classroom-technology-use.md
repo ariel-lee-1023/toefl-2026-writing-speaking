@@ -1,5 +1,4 @@
-## Title
-Thoughtful Classroom Technology Use
+# Thoughtful Classroom Technology Use
 
 ## Prompt
 Your professor is teaching a class on educational technology. Write a post responding to the professor’s question.
@@ -25,7 +24,7 @@ I agree with Paul that thoughtfully chosen technology can make learning more eng
 ## My Draft
 I agree with Paul's analysis about the important role of intergrating techlogy into education on student's adoption in digital World. Technology is essential for the businesses in this age,because it improve the information management system inside the firms and also help teams trace the new oppounities and increace their efficience obiviously. Student can increase their digtial ilteracy from virtual labs and other innovative educational tools,which can help them have a general operative skill for new devices and applications. What's more, involving in applying new technologies in seeking knowledge can help them become more creative talent in future,because it requires deep understanding the goal of a specific task and how to use modern tools to help you achieve it. While Kelly correctly points that technology causes distractions in the classroom,but I think that shortage is temporary in most cases and can be significantly reduced after a responsible guiding.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Surface language errors that occasionally slow reading and slightly obscure meaning (“intergrating techlogy,” “digtial ilteracy,” “increace their efficience,” “after a responsible guiding”).
 - Partial topic drift into general business-technology benefits instead of staying inside the classroom educational experience the professor asked about.
 - Under-developed counter to Kelly: the claim that distractions are “temporary” and solvable by “responsible guiding” is directionally correct but lacks a concrete classroom mechanism, so the elaboration criterion is only partially satisfied.
