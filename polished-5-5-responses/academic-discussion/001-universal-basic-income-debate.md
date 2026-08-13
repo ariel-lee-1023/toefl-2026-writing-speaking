@@ -1,5 +1,4 @@
-## Title
-Universal Basic Income Debate
+# Universal Basic Income Debate
 
 ## Prompt
 Your professor is teaching a class on economics. Write a post responding to the professor’s question.
