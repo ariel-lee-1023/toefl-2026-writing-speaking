@@ -1,5 +1,4 @@
-## Title
-Green Mountain Inn Inquiry
+# Green Mountain Inn Inquiry
 
 ## Prompt
 You are a member of your university’s hiking club and have volunteered to arrange hotel accommodations for the club’s upcoming trip to Green Mountain. There are fifteen to twenty people in your group, and you will need to check out at 4 a.m. to start hiking. Another member has recommended Green Mountain Inn, where he has stayed before.
