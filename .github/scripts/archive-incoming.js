@@ -7,8 +7,9 @@
  * multi-question uploads — see README). The script:
  *   1. Detects which of the known sections are present in the raw text
  *      (Prompt / Polished Response / My Draft / Key Obstacles.../
- *      What Changed & Why — or, for listen-and-repeat, Sentences /
- *      Difficulty Notes / Self-Assessment), tolerating messy input:
+ *      What Changed & Why — or, for listen-and-repeat, Prompt / Set Map /
+ *      Chunking & Memory Strategy / Pronunciation Focus / Self-Assessment),
+ *      tolerating messy input:
  *      "##Label", "Label:", "Label -", or a label alone on its own line.
  *   2. Reformats the content into the matching task-type template, in a
  *      fixed section order, leaving any section not found blank.
@@ -153,6 +154,20 @@ function interviewQuestionSections(qNum) {
 const LISTEN_REPEAT_SECTIONS = [
   { key: "sessionTitle", labels: ["title", "session title"] },
   { key: "prompt", labels: ["prompt", "sentences", "sentence list", "question"] },
+  {
+    // Per-sentence diagnostic table: block, chunks, shape/cues, at-risk function
+    // words and word endings. This is the field that makes an archived set
+    // reviewable later, so it sits directly under the sentence list.
+    key: "setMap",
+    labels: [
+      "set map",
+      "sentence map",
+      "set profile",
+      "sentence-by-sentence breakdown",
+      "sentence by sentence breakdown",
+      "breakdown",
+    ],
+  },
   {
     key: "chunkingStrategy",
     labels: [
@@ -384,19 +399,28 @@ ${whatChanged || "..."}
 }
 
 function renderListenRepeat({ title, sections }) {
+  const setMapSkeleton = [
+    "| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |",
+    "|---|---|---|---|---|---|",
+    "| 1 | short | ... | ... | ... | ... |",
+  ].join("\n");
+
   return `# ${title}
 
 ## Prompt
 ${sections.prompt || "1. ..."}
 
+## Set Map
+${sections.setMap || setMapSkeleton}
+
 ## My Chunking & Memory Strategy
-${sections.chunkingStrategy || "- Chunk 1 (...): ...\n- Chunk 2 (...): ..."}
+${sections.chunkingStrategy || "Why the chunk boundaries fall where they do, and what generalizes to the next set: ..."}
 
 ## My Pronunciation Focus
-${sections.pronunciationFocus || "- Compressed function words: ...\n- Word endings (-s/-ed, unreleased final consonants): ...\n- Rhythm & intonation: ..."}
+${sections.pronunciationFocus || "- Compressed function words: ...\n- Word endings (-s / -ed / final t-d): ...\n- Rhythm & stress: ...\n- Content words to say crisply: ..."}
 
 ## My Self-Assessment
-${sections.selfAssessment || "- Which sentences are fluent now, which still need work"}
+${sections.selfAssessment || "- Set score: .../5 average\n- Error tally: function word \u00d7_ \u00b7 word ending \u00d7_ \u00b7 blurred content word \u00d7_ \u00b7 truncation \u00d7_ \u00b7 rhythm \u00d7_\n- Next drill: ..."}
 `;
 }
 

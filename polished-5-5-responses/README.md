@@ -125,27 +125,45 @@ The real Interview task presents 4 connected questions in one sitting with zero 
 
 ## Special format for Listen and Repeat
 
-This task is sentence-level shadowing practice, not a "raw draft → polish" exercise, so it uses its own fixed order instead:
+This task is sentence-level shadowing practice, not a "raw draft → polish" exercise, so it uses its own fixed order instead. The `Set Map` table is the point of the format: **one row per sentence**, so that months later you can still see which chunk, which quiet function word, and which clipped ending belonged to which sentence — a pooled list across all seven loses exactly that.
 
 ```markdown
-# <Sentence(s) title>
+# <Sentence set title>
 
 ## Prompt
+Scenario: ...
+
 1. ...
 2. ...
 
+## Set Map
+| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
+|---|---|---|---|---|---|
+| 1 | short | action → ... · purpose → ... | bare imperative | ... | ... |
+| 7 | long | <2–4 chunks> | and-serial / softened / front-loaded time-purpose / that-who or if-then | ... | ... |
+
 ## My Chunking & Memory Strategy
-- Chunk 1 (...): ...
-- Chunk 2 (...): ...
+Why the boundaries fall where they do, and what generalizes to the next set: ...
 
 ## My Pronunciation Focus
 - Compressed function words: ...
-- Word endings (-s/-ed, unreleased final consonants): ...
-- Rhythm & intonation: ...
+- Word endings (-s / -ed / final t-d): ...
+- Rhythm & stress: ...
+- Content words to say crisply: ...
 
 ## My Self-Assessment
-- Which sentences are fluent now, which still need work
+| # | Score | What I lost | Cause category |
+|---|---|---|---|
+| 1 | /5 | ... | ... |
+
+- Set score: .../5 average
+- Error tally: function word ×_ · word ending ×_ · blurred content word ×_ · truncation ×_ · rhythm ×_
+- Next drill: ...
 ```
+
+Terminology — the chunk types (action / object / place-manner / time / purpose), the short/medium/long ladder, the four long-sentence shapes, and the five error categories — all comes from [`references/reference-course-listen-repeat-lessons.md`](../references/reference-course-listen-repeat-lessons.md). `listen-and-repeat/_template.md` carries the same structure with inline guidance comments.
+
+**Reviewing an archived set**: read the Prompt aloud from memory first, then check yourself against the Set Map row by row, and finally scan the error tallies across several sets — a category that appears in every tally is the thing to drill, which a column of scores would never have told you.
 
 ## Master index
 

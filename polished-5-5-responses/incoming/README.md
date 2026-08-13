@@ -24,12 +24,15 @@ Just paste your content in with clear labels. The automation looks for these lab
 
 This applies to `write-an-email/` and `academic-discussion/`. Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the first paragraph as the Prompt and everything after it as the Polished Response.
 
-`listen-and-repeat/` uses its own four labels instead, in this fixed order:
+`listen-and-repeat/` uses its own five labels instead, in this fixed order:
 
-1. `Prompt` (the sentence list)
-2. `Chunking & Memory Strategy` (becomes **My Chunking & Memory Strategy**)
-3. `Pronunciation Focus` (becomes **My Pronunciation Focus**; `Difficulty Notes` is also recognized for backward compatibility)
-4. `Self-Assessment` (becomes **My Self-Assessment**)
+1. `Prompt` (a scenario line plus the numbered sentence list)
+2. `Set Map` (the per-sentence table — block, chunks by type, shape and cue words, at-risk function words, at-risk endings; `Sentence Map` and `Sentence-by-Sentence Breakdown` are also recognized)
+3. `Chunking & Memory Strategy` (becomes **My Chunking & Memory Strategy**)
+4. `Pronunciation Focus` (becomes **My Pronunciation Focus**; `Difficulty Notes` is also recognized for backward compatibility)
+5. `Self-Assessment` (becomes **My Self-Assessment** — per-sentence scores, the error tally by cause category, and the next drill)
+
+One `Set Map` row per sentence is the whole point of the format — it is what lets you re-diagnose a set weeks later instead of re-reading a pooled list of chunks. Leave a field out and it archives as a blank skeleton you can fill in by hand later. The terminology comes from [`references/reference-course-listen-repeat-lessons.md`](../../references/reference-course-listen-repeat-lessons.md), and the AI's copy block in [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md) already emits all five labels in this order.
 
 `interview/` is different again — see the dedicated section below.
 

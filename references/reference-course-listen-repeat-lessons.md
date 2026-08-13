@@ -121,10 +121,10 @@ Worked example: *Stack the sealed boxes on the outgoing shelf* — content words
 
 ## Practice protocol
 1. **Blind attempt** — play once, repeat immediately, record yourself. No text.
-2. **Compare against the text** — mark exactly what was lost, and sort it: function word, word ending, blurred content word, or rhythm.
+2. **Compare against the text** — mark exactly what was lost, and sort every difference into exactly one of five cause categories: **function word · word ending · blurred content word · truncation · rhythm substitution.** The category, not the score, is what makes practice cumulative.
 3. **Second pass with the text visible** — this one is a pronunciation drill, matching stress and melody, not a memory drill.
 4. **Ladder practice** — drill 13–15 word sentences with *if…then* and relative clauses specifically. Short imperatives are already easy; the last two sentences of the set are where sets are lost.
-5. **Log by error category, not by score.** Two weeks of logs showing "dropped *-ed*" eleven times is actionable; a column of 4s is not.
+5. **Log by error category, not by score.** Two weeks of logs showing "dropped *-ed*" eleven times is actionable; a column of 4s is not. Attack **one** category at a time, at one sentence length — the archive format in `polished-5-5-responses/listen-and-repeat/` keeps a per-sentence map and a per-set tally precisely so the recurring category becomes visible across sets.
 
 ## Key Takeaways
 1. **You are not the author.** No ideas, no grammar, no vocabulary — only *hear it, say it back*. Imitate the speaker instead of speaking naturally.
