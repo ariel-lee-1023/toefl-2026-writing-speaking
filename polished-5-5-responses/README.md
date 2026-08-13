@@ -58,7 +58,7 @@ Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-
 ## My Draft
 ...
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - ...
 
 ## My What Changed & Why
@@ -66,6 +66,8 @@ Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-
 - Grammar / structure issues: ...
 - Explain the fix against the relevant criterion in references/reference-ets-task-specs.md
 ```
+
+`My Diagnosis` is a general standing summary, not a forced list of flaws: name real recurring errors when they exist (quoting the exact phrase), but if the response already reads as a clean 5/5, say so directly and add only genuine ceiling-level refinement notes — never invent a flaw just to fill the field.
 
 Each task-type folder also has its own `_template.md` you can copy directly.
 
@@ -112,7 +114,7 @@ The real Interview task presents 4 connected questions in one sitting with zero 
 ## Q4 My Draft
 ...
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - ...
 
 ## My What Changed & Why
@@ -121,7 +123,7 @@ The real Interview task presents 4 connected questions in one sitting with zero 
 - Explain the fix against the relevant criterion in references/reference-ets-task-specs.md
 ```
 
-`Key Obstacles` and `What Changed & Why` are session-level, covering all 4 questions together. The automation only recognizes explicit `Q1`–`Q4` labels for interview uploads — it will not guess question boundaries from unlabeled text.
+`My Diagnosis` and `What Changed & Why` are session-level, covering all 4 questions together. The automation only recognizes explicit `Q1`–`Q4` labels for interview uploads — it will not guess question boundaries from unlabeled text.
 
 ## Special format for Listen and Repeat
 

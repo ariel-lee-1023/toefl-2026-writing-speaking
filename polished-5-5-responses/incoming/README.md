@@ -19,10 +19,12 @@ Just paste your content in with clear labels. The automation looks for these lab
 1. `Prompt`
 2. `Polished Response` (becomes **My Polished Response**)
 3. `My Draft`
-4. `Key Obstacles Holding You Back from a 5/5` (becomes **My Key Obstacles Holding You Back from a 5/5**)
+4. `Diagnosis` (becomes **My Diagnosis**; `Key Obstacles Holding You Back from a 5/5` is also recognized for backward compatibility)
 5. `What Changed & Why` (becomes **My What Changed & Why**)
 
 This applies to `write-an-email/` and `academic-discussion/`. Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the first paragraph as the Prompt and everything after it as the Polished Response.
+
+`My Diagnosis` is a general standing summary, not a forced list of flaws — name real recurring errors when they exist (quoting the exact phrase), but if the response already reads as a clean 5/5, say so directly and add only genuine ceiling-level refinement notes.
 
 `listen-and-repeat/` uses its own five labels instead, in this fixed order:
 
@@ -69,13 +71,13 @@ The real Take an Interview task asks 4 connected questions back-to-back in one s
 ...
 ## Q4 My Draft
 ...
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 ...
 ## My What Changed & Why
 ...
 ```
 
-`Key Obstacles` and `What Changed & Why` are session-level (one shared diagnosis for the whole session, not per-question). The automation only recognizes explicit `Q1`–`Q4` labels for interview — it does not auto-guess question boundaries from unlabeled pasted text, so an unlabeled interview upload will archive with empty (`...`) fields. Always use the labeled copy block the AI gives you after a full session (see the main [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md)), or label it yourself by hand.
+`My Diagnosis` and `What Changed & Why` are session-level (one shared diagnosis for the whole session, not per-question). The automation only recognizes explicit `Q1`–`Q4` labels for interview — it does not auto-guess question boundaries from unlabeled pasted text, so an unlabeled interview upload will archive with empty (`...`) fields. Always use the labeled copy block the AI gives you after a full session (see the main [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md)), or label it yourself by hand.
 
 ## Manual alternative
 

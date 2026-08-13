@@ -78,6 +78,8 @@ This task has no draft to polish, so the other tasks' diagnose→rewrite loop do
 ## After answering: offer an archive-ready copy block
 Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **first give the full, complete answer exactly as you normally would** — continuous prose, full reasoning, every example and explanation, with no length-cutting for the sake of the archive step. Only *after* that complete answer, **append a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content).
 
+**`My Diagnosis` covers both outcomes, not just gaps.** Its job is to summarize the response's rubric standing in a couple of sentences — most drafts still have real, quotable errors to name, but a response that already reads as a clean 5/5 deserves that verdict stated plainly (with, at most, genuine ceiling-level refinement notes), never a manufactured flaw just to fill the field.
+
 **Every copy block starts with a `## Title` field.** This is the ONE field the archiving script does not try to extract from anything else — it uses your Title verbatim to name the archived file (e.g. `## Title\nReading Habits` archives as `00X-reading-habits.md`). Do not skip it and do not let the script guess: guessing from the first few words of the Prompt fails badly when the prompt opens with small talk or instructions ("Thank you for your participation...", "Before they leave, thank customers...") — the real topic gets buried past the words the script samples, producing meaningless filenames. Write 2-5 words naming the actual topic or scenario of the session (e.g. `Reading Habits`, `Retail Checkout`, `Requesting a Deadline Extension`), in title case, with no punctuation, and no restating of the task type itself (never `Interview Session` or `Email Prompt`).
 
 **Critical: the copy block must carry the SAME content as the full answer above it, not a shortened summary of it.** Every field's content must be the substance already given in the full answer — reorganized/labeled into the right field, quoting or closely paraphrasing your own explanations, examples, and reasoning — never a compressed bullet stub that drops the specifics (concrete chunk examples, the exact words flagged for pronunciation, the reasoning behind each fix, etc.). If a field would otherwise come out shorter than the corresponding material in the full answer, that is a sign content was dropped — go back and carry it over instead. The two parts (full answer, then copy block) should read as the same information in two formats, not as an answer followed by a lossy digest of it. The only thing the block strips is prose connectors needed for spoken/written flow — not analytical content. Do not add extra commentary inside the block itself beyond the field content — it must match the repo's automated archiver output 1:1.
@@ -96,9 +98,10 @@ Whenever a user asks to diagnose, score, or polish a response for one of the fou
 ## My Draft
 <the user's original raw draft, if provided>
 
-## My Key Obstacles Holding You Back from a 5/5
-- <specific recurring error 1, with the exact flawed phrase/sentence quoted>
-- <specific recurring error 2, with the exact flawed phrase/sentence quoted>
+## My Diagnosis
+<if gaps remain: specific recurring error 1, with the exact flawed phrase/sentence quoted>
+<specific recurring error 2, with the exact flawed phrase/sentence quoted>
+<if the response already reads as a clean 5/5: say so directly, then note only genuine ceiling-level refinements, if any — never invent a flaw to fill this field>
 
 ## My What Changed & Why
 <the full explanation from the answer above of what was fixed and why, tied to the relevant rubric criterion — not a one-line summary>
@@ -146,9 +149,10 @@ Same content-fidelity rule as above: pull the actual sentences and reasoning fro
 ## Q4 My Draft
 <user's original draft answer 4, if provided>
 
-## My Key Obstacles Holding You Back from a 5/5
-- <specific recurring error 1, session-wide, with exact flawed phrasing quoted>
-- <specific recurring error 2, session-wide, with exact flawed phrasing quoted>
+## My Diagnosis
+<if gaps remain: specific recurring error 1, session-wide, with exact flawed phrasing quoted>
+<specific recurring error 2, session-wide, with exact flawed phrasing quoted>
+<if the session already reads as a clean 5/5 across all four answers: say so directly, then note only genuine ceiling-level refinements, if any — never invent a flaw to fill this field>
 
 ## My What Changed & Why
 <the full explanation from the answer above of what was fixed and why across the session, tied to the relevant rubric criterion — not a one-line summary>

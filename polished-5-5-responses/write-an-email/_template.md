@@ -10,7 +10,10 @@
 ## My Draft
 ...
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
+<!-- If gaps remain: name each recurring error, quoting the exact flawed phrase/sentence.
+     If the response already reads as a clean 5/5: say so directly, then note only
+     genuine ceiling-level refinements (if any) — don't invent a flaw to fill the field. -->
 - ...
 
 ## My What Changed & Why

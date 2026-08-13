@@ -6,7 +6,7 @@
  * files. Each file is expected to contain ONE question (v1.0 does not split
  * multi-question uploads — see README). The script:
  *   1. Detects which of the known sections are present in the raw text
- *      (Prompt / Polished Response / My Draft / Key Obstacles.../
+ *      (Prompt / Polished Response / My Draft / My Diagnosis /
  *      What Changed & Why — or, for listen-and-repeat, Prompt / Set Map /
  *      Chunking & Memory Strategy / Pronunciation Focus / Self-Assessment),
  *      tolerating messy input:
@@ -86,6 +86,8 @@ const PROSE_SECTIONS = [
   {
     key: "keyObstacles",
     labels: [
+      "my diagnosis",
+      "diagnosis",
       "my key obstacles holding you back from a 5/5",
       "key obstacles holding you back from a 5/5",
       "key obstacles",
@@ -112,6 +114,8 @@ const INTERVIEW_SHARED_SECTIONS = [
   {
     key: "keyObstacles",
     labels: [
+      "my diagnosis",
+      "diagnosis",
       "my key obstacles holding you back from a 5/5",
       "key obstacles holding you back from a 5/5",
       "key obstacles",
@@ -359,7 +363,7 @@ ${s.polishedResponse || "..."}
 ## My Draft
 ${s.myDraft || "..."}
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 ${s.keyObstacles || "..."}
 
 ## My What Changed & Why
@@ -390,7 +394,7 @@ ${polished}
 
 ${drafts}
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 ${keyObstacles || "..."}
 
 ## My What Changed & Why

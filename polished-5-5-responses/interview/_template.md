@@ -37,7 +37,10 @@
 ## Q4 My Draft
 ...
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
+<!-- Session-wide. If gaps remain: name each recurring error, quoting the exact flawed phrase/sentence.
+     If the session already reads as a clean 5/5 across all four answers: say so directly, then note
+     only genuine ceiling-level refinements (if any) — don't invent a flaw to fill the field. -->
 - ...
 
 ## My What Changed & Why
