@@ -1,5 +1,4 @@
-## Title
-Universal Basic Income
+# Universal Basic Income
 
 ## Prompt
 Your professor is teaching a class on economics. Write a post responding to the professor’s question.
