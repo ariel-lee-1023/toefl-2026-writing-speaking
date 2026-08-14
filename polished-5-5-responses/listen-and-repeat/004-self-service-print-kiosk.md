@@ -1,5 +1,4 @@
-## Title
-Self-Service Print Kiosk
+# Self Service Print Kiosk
 
 ## Prompt
 Scenario: a self-service print kiosk using a USB drive

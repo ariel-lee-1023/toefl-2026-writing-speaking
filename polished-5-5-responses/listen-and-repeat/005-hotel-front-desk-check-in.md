@@ -1,5 +1,4 @@
-## Title
-Hotel Front Desk Check-In
+# Hotel Front Desk Check In
 
 ## Prompt
 Scenario: a hotel front desk during guest check-in

@@ -1,5 +1,4 @@
-## Title
-Gym Equipment Orientation
+# Gym Equipment Orientation
 
 ## Prompt
 Scenario: a gym or fitness-center orientation on equipment and safe use

@@ -1,5 +1,4 @@
-## Title
-Pharmacy Prescription Dispensing
+# Pharmacy Prescription Dispensing
 
 ## Prompt
 Scenario: a pharmacy counter dispensing prescriptions to customers

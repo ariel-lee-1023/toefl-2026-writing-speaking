@@ -1,5 +1,4 @@
-## Title
-Home Wi-Fi Router Setup
+# Home Wi Fi Router Setup
 
 ## Prompt
 Scenario: setting up a home Wi-Fi router

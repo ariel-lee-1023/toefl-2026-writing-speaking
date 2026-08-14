@@ -1,5 +1,4 @@
-## Title
-Urban Farm Community Garden
+# Urban Farm Community Garden
 
 ## Prompt
 Scenario: orientation or training at an urban farm and community garden

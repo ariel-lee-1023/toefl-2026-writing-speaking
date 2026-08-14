@@ -1,5 +1,4 @@
-## Title
-Fire Safety Evacuation Drill
+# Fire Safety Evacuation Drill
 
 ## Prompt
 Scenario: a workplace fire-safety or evacuation-drill briefing

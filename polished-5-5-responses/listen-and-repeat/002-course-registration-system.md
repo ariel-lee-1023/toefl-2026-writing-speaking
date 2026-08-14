@@ -1,5 +1,4 @@
-## Title
-Course Registration System
+# Course Registration System
 
 ## Prompt
 Scenario: a student working through the online course-registration system
