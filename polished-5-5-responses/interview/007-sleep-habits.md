@@ -1,5 +1,4 @@
-## Title
-Sleep Habits
+# Sleep Habits
 
 ## Q1 Prompt
 Thank you for joining the study. I'd like to ask you about your sleep habits. What kinds of activities do you usually do before going to bed?
