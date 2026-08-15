@@ -1,5 +1,4 @@
-## Title
-Heating System Maintenance Request
+# Heating System Maintenance Request
 
 ## Prompt
 You live in a university dormitory managed by the campus housing office. For the past week, the heating system in your room has not been working properly, and the temperature drops significantly at night. You have tried adjusting the thermostat, but the problem continues.
@@ -28,7 +27,7 @@ The uncomfortable temperature in the room has been disrupting our sleep and nega
 Could you please let us know when a repair team might be able to come by? Thank you for your time and help, and I wish you all the best with your work.
 Sincerely, Alex Lee
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Incomplete Request Specificity: The prompt specifically required requesting a specific time for a maintenance visit, but the draft asked a broad open question ("Could you please let us know when a repair team might be able to come by?").
 - Broad / Unsupported Generalities: Asserting "widespread heating issues affecting multiple dorm rooms" without specific context or proof weakened the focus and realism of the personal campus scenario.
 - Typographical and Formatting Errors: Missing space after punctuation in the salutation ("Ms.Dubois") and lack of paragraph breaks separating the distinct prompt actions.
