@@ -1,5 +1,4 @@
-## Title
-Suggesting Festival Schedule Change
+# Suggesting Festival Schedule Change
 
 ## Prompt
 You are a member of your neighborhood's cultural association. The association hosts a monthly international food festival on Saturday afternoons. However, many members, including yourself, have recently found it difficult to attend on Saturdays due to work commitments. You would like to suggest a schedule change.
