@@ -1,5 +1,4 @@
-## Title
-Apartment Air Conditioning Issue
+# Apartment Air Conditioning Issue
 
 ## Prompt
 You are a university student who has recently moved into a new apartment. You have noticed several problems and want to inform your landlord, Mr. Thompson. Write an email to Mr. Thompson. In your email, do the following:
@@ -30,7 +29,7 @@ Could you please arrange for a maintenance worker to inspect the air conditioner
  Sincerely，
 Alex Lee
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Syntactic Parallelism Error: "I had to go to the supermarket as soon as possible to buy a lot of tape and rags, and improvising my own drainage pipe..." (Mixing infinitives and gerunds disrupts sentence flow).
 - Unnatural/Awkward Collocations: Phrasing like "clearly excited the local mosquitoes" and "normal study review" read slightly unnaturally and lack the precise, idiomatic word choice expected at the top C2 band.
 - Typographical Conventions: Using a full-width character comma ("Sincerely，") instead of a standard half-width English comma ("Sincerely,").
