@@ -1,5 +1,4 @@
-## Title
-Priya Job Offer Advice
+# Priya Job Offer Advice
 
 ## Prompt
 Your friend Priya recently graduated from university and has received two job offers. One is at a large corporation with a higher salary, and the other is at a small startup closer to her family. She is having difficulty deciding and has asked for your advice.

@@ -1,5 +1,4 @@
-## Title
-Rooftop Community Garden
+# Rooftop Community Garden
 
 ## Prompt
 You recently moved into a new apartment building. Your neighbor, Mr. Okonkwo, has organized a community garden on the building's rooftop for several years. You would like to join the garden project and grow some vegetables this summer.

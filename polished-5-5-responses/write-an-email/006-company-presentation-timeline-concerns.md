@@ -1,5 +1,4 @@
-## Title
-Company Presentation Timeline Concerns
+# Company Presentation Timeline Concerns
 
 ## Prompt
 You have been selected to represent your department at a company-wide presentation next month. Your manager, Mr. Chen, chose you because of your experience with the project. However, you have some concerns about the timeline and would like to discuss the presentation topic.
