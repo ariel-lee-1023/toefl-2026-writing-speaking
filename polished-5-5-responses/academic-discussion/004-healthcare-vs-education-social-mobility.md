@@ -1,5 +1,4 @@
-## Title
-Healthcare vs Education for Social Mobility
+# Healthcare Vs Education Social Mobility
 
 ## Prompt
 Your professor is teaching a class on sociology. Write a post responding to the professor’s question.

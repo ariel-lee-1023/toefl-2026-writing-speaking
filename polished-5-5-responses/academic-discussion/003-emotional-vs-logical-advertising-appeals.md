@@ -1,5 +1,4 @@
-## Title
-Emotional vs Logical Advertising Appeals
+# Emotional Vs Logical Advertising Appeals
 
 ## Prompt
 Your professor is teaching a class on marketing. Write a post responding to the professor’s question.

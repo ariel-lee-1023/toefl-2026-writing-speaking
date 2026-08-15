@@ -1,5 +1,4 @@
-## Title
-Individual Actions vs Government Policy on Climate
+# Individual Actions Vs Government Policy Climate
 
 ## Prompt
 Your professor is teaching a class on environmental studies. Write a post responding to the professor's question.
