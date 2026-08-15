@@ -1,5 +1,4 @@
-## Title
-Animal shelter tour
+# Animal Shelter Tour
 
 ## Prompt
 Begin with a greeting at the reception desk.
@@ -9,6 +8,11 @@ Then visit the small pet area down the hallway.
 Stay with visitors in the meet-and-greet room while they decide.
 Follow the hand-washing rules and remember that some animals can become nervous quickly.
 You may also show visitors the outdoor walking yard behind the dog area.
+
+## Set Map
+| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
+|---|---|---|---|---|---|
+| 1 | short | ... | ... | ... | ... |
 
 ## My Chunking & Memory Strategy
 1 short: action → Begin with a greeting · place → at the reception desk

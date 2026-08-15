@@ -1,5 +1,4 @@
-## Title
-Library front desk
+# Library Front Desk
 
 ## Prompt
 Read every patron at the front desk.
@@ -9,6 +8,11 @@ Pull requested books from the reserve shelf behind you.
 Show patrons how to start the self-checkout machine.
 You can point patrons to the bulletin board for upcoming community events.
 If a requested book is missing from the reserve shelf, check the return cart first.
+
+## Set Map
+| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
+|---|---|---|---|---|---|
+| 1 | short | ... | ... | ... | ... |
 
 ## My Chunking & Memory Strategy
 1 short: action → Read every patron · place → at the front desk

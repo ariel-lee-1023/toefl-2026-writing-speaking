@@ -1,5 +1,4 @@
-## Title
-Restaurant order screen
+# Restaurant Order Screen
 
 ## Prompt
 Start by tapping the New Order button.
@@ -9,6 +8,11 @@ Tap each item the diner wants to order.
 Add notes about any allergies in the modifier panel.
 You will need to confirm the order before it goes to the kitchen.
 Be sure to print a copy of the cheque before the diners leave the table.
+
+## Set Map
+| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
+|---|---|---|---|---|---|
+| 1 | short | ... | ... | ... | ... |
 
 ## My Chunking & Memory Strategy
 1 short: action → Start by tapping the New Order button

@@ -1,5 +1,4 @@
-## Title
-Pet clinic check-in
+# Pet Clinic Check In
 
 ## Prompt
 Begin by greeting each pet owner warmly.
@@ -9,6 +8,11 @@ Direct the owners to seats in the waiting area.
 Watch the screen for the next exam room number.
 You can offer each pet a small treat from the jar after their appointment.
 Make sure to keep every dog on a leash whenever they are inside the clinic.
+
+## Set Map
+| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
+|---|---|---|---|---|---|
+| 1 | short | ... | ... | ... | ... |
 
 ## My Chunking & Memory Strategy
 1 short: action → greeting each pet owner · manner → warmly

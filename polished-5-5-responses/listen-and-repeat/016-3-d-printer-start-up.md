@@ -1,5 +1,4 @@
-## Title
-3-D printer start-up
+# 3 D Printer Start Up
 
 ## Prompt
 we keep the power switch on the side.
@@ -9,6 +8,11 @@ Choose a project file from the touchscreen menu.
 Watch the nozzle carefully as the print starts.
 you can adjust the cooling fan speed directly from the control panel.
 take care with the hot parts and use the scraper to gently remove finished prints.
+
+## Set Map
+| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
+|---|---|---|---|---|---|
+| 1 | short | ... | ... | ... | ... |
 
 ## My Chunking & Memory Strategy
 1 short: action → keep the power switch · place → on the side

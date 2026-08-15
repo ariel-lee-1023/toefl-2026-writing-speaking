@@ -1,5 +1,4 @@
-## Title
-Telescope dome
+# Telescope Dome
 
 ## Prompt
 This is our largest telescope inside the dome.
@@ -9,6 +8,11 @@ Turn the focus knob until the image looks sharp.
 Lock the tripod base before raising the telescope.
 You may use the small slow motion knobs to follow a moving star or planet.
 Remember to put the cap on the front lens when you finish observing.
+
+## Set Map
+| # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
+|---|---|---|---|---|---|
+| 1 | short | ... | ... | ... | ... |
 
 ## My Chunking & Memory Strategy
 1 short: object → This is our largest telescope · place → inside the dome
