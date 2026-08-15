@@ -3,8 +3,8 @@
 ## Prompt
 Scenario: a pharmacy counter dispensing prescriptions to customers
 
-1. Then look up their prescription in the system.
-2. Start by asking the customer for their name.
+1. Start by asking the customer for their name.
+2. Then look up their prescription in the system.
 3. Get the labelled bag from the shelf to verify.
 4. Check the dosage on the medication label.
 5. Explain the dosing instructions before taking payment.
@@ -14,8 +14,8 @@ Scenario: a pharmacy counter dispensing prescriptions to customers
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
 |---|---|---|---|---|---|
-| 1 | short (8 w) | action → Then look up their prescription · place → in the system | bare imperative | their, in, the | prescription |
-| 2 | short (8 w) | action → Start by asking the customer · purpose → for their name | bare imperative + purpose | by, the, for, their | customer |
+| 1 | short (8 w) |  action → Start by asking the customer · purpose → for their name | bare imperative + purpose | by, the, for, their | customer |
+| 2 | short (8 w) |  action → Then look up their prescription · place → in the system | bare imperative | their, in, the | prescription |
 | 3 | medium (9 w) | action → Get the labelled bag · place → from the shelf · purpose → to verify | place + purpose | the, from, the, to | labelled |
 | 4 | medium (7 w) | action → Check the dosage · place → on the medication label | place | the, on, the | dosage |
 | 5 | medium (7 w) | action → Explain the dosing instructions · time → before taking payment | time | the, before | dosing, instructions |
