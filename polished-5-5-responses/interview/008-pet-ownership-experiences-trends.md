@@ -1,5 +1,4 @@
-## Title
-Pet Ownership Experiences and Trends
+# Pet Ownership Experiences Trends
 
 ## Q1 Prompt
 Thank you for participating. I'd like to ask you about your experiences with pets. What kinds of pets are popular with families in your area? For example, dogs, cats, birds, or fish?
@@ -37,7 +36,7 @@ First, I think it's definitely beneficial for the children because children can 
 ## Q4 My Draft
 I think in the future PADS will likely become more common in urban areas because first of all the PADS videos are the most vital and popular kind of content in any social media and short video forms. Young people are also very like PADS, even rather they love children. And second, when these people have money and enough resources they want to hold a PADS.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Subject-verb agreement and singular/plural confusion: Quoted "my only pet are cats" and "Young people are also very like PADS".
 - Misused vocabulary and non-standard terms: Quoted "objectively", "PADS" (instead of "pets"), and "inserted into your custom, it's not forbidden".
 - Choppy phrasing and lack of smooth sentence connectors: Quoted "First of all, dogs. The families who had a dog often appear...", and "they don't want to go out".
