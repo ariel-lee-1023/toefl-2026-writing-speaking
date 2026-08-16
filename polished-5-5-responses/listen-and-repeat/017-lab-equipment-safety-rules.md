@@ -1,5 +1,4 @@
-## Title
-Lab Equipment and Safety Rules
+# Lab Equipment Safety Rules
 
 ## Prompt
 Scenario: A lab instructor guiding students through equipment and safety procedures in a chemistry lab.
