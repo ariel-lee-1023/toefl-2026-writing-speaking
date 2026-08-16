@@ -1,5 +1,4 @@
-## Title
-Cooking Habits and Future of Food
+# Cooking Habits Future Food
 
 ## Q1 Prompt
 Thank you for participating. I'd like to ask you about your cooking habits. Are there certain times of the day when you're more likely to cook something? For example, breakfast, lunch, dinner, or snacks?
@@ -37,10 +36,10 @@ I think it's not necessary for people to leave because you can buy your food eas
 ## Q4 My Draft
 I think to imagine that's a future question, we need to ask them whether they are now in nowadays. Nowadays, people prefer traditional foods rather than fast food because the traditional foods are tasty and the options are endless. If people choose traditional food now and they prefer these choices rather than the past, it's a natural culture that they prefer and more value traditional tastes.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Run-on clauses lacking explicit sentence-level connectors: quoted from Q1 draft, "when I complete the morning work, my internship, workplace or finish my courses at school, cook lunch make me feel relaxed", and from Q3 draft, "whether it's in local restaurants or you can have a delivery in your mobile phone apps I think it's necessary".
 - Unclear or self-contradictory stance mid-response: quoted from Q3 draft, "I think it's not necessary for people to leave... I think it's necessary for your physical health", and from Q4 draft, "I think to imagine that's a future question, we need to ask them whether they are now in nowadays".
 - Grammatical errors distorting meaning: quoted from Q1 draft, "cook lunch make me feel relaxed... rather than main", and from Q4 draft, "it's a natural culture that they prefer".
 
 ## My What Changed & Why
- Across the session, every answer was restructured into the C-D-E-F shape (Commit, Detail, Elaborate, Finish) to eliminate run-on sentences and enforce steady pacing. Long, unpunctuated clause strings were split into distinct sentences using transitional discourse markers ("The biggest reason is...", "On top of that...", "Granted...", "However...", "In my opinion..."). Unclear or shifting stances in Q3 and Q4 were replaced by immediate, one-sentence commitments in the opening 8 seconds. Abstract, repetitive generalizations were anchored using concrete examples (a vegetable stir-fry, modifying a curry base, ingredient/nutrition control) to meet the ETS score-5 requirement for well-elaborated personal support.
+Across the session, every answer was restructured into the C-D-E-F shape (Commit, Detail, Elaborate, Finish) to eliminate run-on sentences and enforce steady pacing. Long, unpunctuated clause strings were split into distinct sentences using transitional discourse markers ("The biggest reason is...", "On top of that...", "Granted...", "However...", "In my opinion..."). Unclear or shifting stances in Q3 and Q4 were replaced by immediate, one-sentence commitments in the opening 8 seconds. Abstract, repetitive generalizations were anchored using concrete examples (a vegetable stir-fry, modifying a curry base, ingredient/nutrition control) to meet the ETS score-5 requirement for well-elaborated personal support.
