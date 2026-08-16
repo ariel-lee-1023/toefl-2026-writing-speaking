@@ -1,5 +1,4 @@
-## Title
-Club Meeting Schedule Change
+# Club Meeting Schedule Change
 
 ## Prompt
 Cooking Club Schedule
@@ -26,7 +25,7 @@ Thank you for considering this request. I look forward to the next club activity
 Best，
 Alex Lee
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Minor typo: Full-width commas and colons were used instead of standard English punctuation.
 
 ## My What Changed & Why

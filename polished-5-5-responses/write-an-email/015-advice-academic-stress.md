@@ -1,5 +1,4 @@
-## Title
-Advice on Academic Stress
+# Advice Academic Stress
 
 ## Prompt
 Advice to Alex
@@ -33,7 +32,7 @@ Please take care of yourself， and call me if you want help planning this week.
 Best，
 Ariel Lee
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Minor typo: Full-width commas were used instead of standard English punctuation.
 
 ## My What Changed & Why

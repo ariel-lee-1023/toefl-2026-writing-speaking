@@ -1,5 +1,4 @@
-## Title
-Requesting Missed Notes
+# Requesting Missed Notes
 
 ## Prompt
 Absent from Class / Request Notes
@@ -25,7 +24,7 @@ Thank you very much for helping me. I would be happy to proofread your project o
 Best，
 Alex Lee
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Minor typo: Full-width commas were used instead of standard English punctuation.
 
 ## My What Changed & Why

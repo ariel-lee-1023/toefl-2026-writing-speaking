@@ -1,5 +1,4 @@
-## Title
-Study Group First Meeting
+# Study Group First Meeting
 
 ## Prompt
 Study Group First Meeting
@@ -28,7 +27,7 @@ I look forward to studying together.
 Best，
 Alex Lee
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Minor register mismatch: "Hi fellas" is slightly too colloquial for an academic peer group.
 - Punctuation errors: Full-width commas and colons were used instead of standard English punctuation.
 

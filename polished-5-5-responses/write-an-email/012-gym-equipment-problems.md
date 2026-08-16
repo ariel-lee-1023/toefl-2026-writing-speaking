@@ -1,5 +1,4 @@
-## Title
-Gym Equipment Problems
+# Gym Equipment Problems
 
 ## Prompt
 Gym Equipment Problems
@@ -28,7 +27,7 @@ Thank you for your attention.
 Best，
 Alex Lee
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Minor typo: Full-width commas were used instead of standard English punctuation.
 
 ## My What Changed & Why
