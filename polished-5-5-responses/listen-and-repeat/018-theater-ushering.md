@@ -1,5 +1,4 @@
-## Title
-Theater Ushering
+# Theater Ushering
 
 ## Prompt
 Scenario: training as an usher at a theater
