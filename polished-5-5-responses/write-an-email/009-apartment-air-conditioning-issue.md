@@ -12,7 +12,7 @@ Dear Mr. Thompson,
 
 I am writing to report a serious issue with the air conditioning unit in the bedroom of my new apartment. Since last week, the system has been continuously leaking water, and the dripping is so rapid that the noise is incredibly disruptive.
 
-These conditions are severely affecting my daily routine and academic work. To prevent the water from spreading and ruining my furniture, I had to construct a makeshift drainage system using tape and rags, which still leaks and requires a catch basin. The stagnant pooling water has begun to attract mosquitoes, and the constant dripping noise makes it nearly impossible for me to concentrate on my case research for the Jessup Competition or hear my professors during live Voov meetings. 
+These conditions are severely affecting my daily routine and academic work. To prevent the water from spreading and ruining my furniture, I had to construct a makeshift drainage system using tape and rags, which still leaks and requires a catch basin. The stagnant pooling water has begun to attract mosquitoes, and the constant dripping noise makes it nearly impossible for me to concentrate on my case research for the moot court Competition or hear my professors during live Voov meetings. 
 
 Could you please arrange for a maintenance worker to inspect and repair the air conditioner this week? I am available to provide access to the apartment on Tuesday and Thursday after 3:00 p.m. Please let me know in advance which day works best.
 
