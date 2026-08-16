@@ -1,5 +1,4 @@
-## Title
-Globalization and Local Economies
+# Globalization Local Economies
 
 ## Prompt
 Dr. Gupta
@@ -19,7 +18,7 @@ I believe globalization can have a positive impact on local economies， but onl
 However， Kelly correctly notes that the benefits are not distributed automatically. A factory may close when a company moves production abroad， and small stores may struggle against large international competitors. Communities that depend on one industry can suffer serious short-term losses.
 Governments can fund retraining for displaced workers， provide loans and digital tools to small businesses， and require foreign investors to follow labor and environmental standards.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Non-standard Asian punctuation artifacts (`，` instead of `,`).
 
 ## My What Changed & Why

@@ -1,5 +1,4 @@
-## Title
-Cultural Globalization vs Local Traditions
+# Cultural Globalization Vs Local Traditions
 
 ## Prompt
 Dr. Gupta
@@ -17,7 +16,7 @@ While I agree with Andrew that cultural exchange can help people appreciate dive
 ## My Draft
 While I agree with Andrew that cultural exchange can help people appreciate diverse traditions, I do not believe that increased cultural familiarity automatically makes the world more harmonious, because globalization often acts as a destructive force on local heritage, as Kelly noted. More importantly, each culture provides a coherent set of customs and languages through which cultivate people express feelings and narrate their shared history. This living heritage creates a supportive environment for individuals to build their identity, rather than merely consume mass-marketed cultural goods. For instance, when traditional oral storytelling and local dialects are replaced by global media, young people lose the unique linguistic tools used to articulate their specific life experiences. Therefore, preserving distinct local traditions is essential for maintaining true human diversity.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Minor typographical slip: "...through which cultivate people express feelings..." contains a misplaced verb form that breaks syntactic precision.
 
 ## My What Changed & Why

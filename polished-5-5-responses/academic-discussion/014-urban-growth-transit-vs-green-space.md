@@ -1,5 +1,4 @@
-## Title
-Urban Growth Transit vs Green Space
+# Urban Growth Transit Vs Green Space
 
 ## Prompt
 Dr. Gupta
@@ -17,7 +16,7 @@ While I acknowledge Paul's point that parks and gardens offer refreshing outdoor
 ## My Draft
 While I acknowledge Paul's point that parks and gardens provide appealing outdoor spaces for residents to relax, I agree with Kelly that expanding public transportation is the more effective strategy for managing urban growth. Public transit directly addresses pressing urban challenges by reducing air pollution and alleviating severe traffic congestion. Furthermore, given the reality of climate change, unstable and uncomfortable weather has made outdoor activies less pleasant for much of the year, driving people toward indoor destinations. As a result, reliable transit that offers comfortable, climate-controlled commutes meets a much more immediate demand from urban residents.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Minor typo: "outdoor activies" (missing 't' in activities).
 - Slightly informal phrasing: "given the reality of climate change, unstable and uncomfortable weather..." can be elevated to "intensifying climate volatility..." for tighter academic register.
 

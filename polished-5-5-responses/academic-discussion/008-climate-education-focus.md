@@ -1,5 +1,4 @@
-## Title
-Climate Education Focus
+# Climate Education Focus
 
 ## Prompt
 Dr. Achebe
@@ -20,7 +19,7 @@ First， technical courses give students tools for reducing emissions. In chemis
 Second， scientific training helps students evaluate claims accurately. Climate debates often include misleading statistics about energy costs or pollution. Students who can interpret data are better able to compare policies and identify solutions that produce real results. They can also explain those results clearly to the public.
 Claire is right that social sciences encourage cooperation and help students understand fairness. However，
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Incomplete thought: The draft ended mid-sentence after acknowledging Claire's point.
 - Punctuation: Full-width Chinese commas (`，`) were used in place of standard English commas.
 

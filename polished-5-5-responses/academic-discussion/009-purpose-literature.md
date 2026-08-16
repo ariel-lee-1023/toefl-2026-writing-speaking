@@ -1,5 +1,4 @@
-## Title
-Purpose of Literature
+# Purpose Literature
 
 ## Prompt
 Dr. Gupta
@@ -23,7 +22,7 @@ I believe the primary purpose of literature is to deepen readers' understanding 
 For example, a novel about a family facing discrimination can show how unfair policies affect ordinary decisions about school, work, and safety. Readers may begin to question assumptions that previously seemed normal. Literature does not directly pass laws, but it can change the public attitudes that make reform possible.
 Andrew is right that entertainment matters. If a book has flat characters or an uninteresting plot, few people will finish it, and its social message will have little influence. However, entertainment is best understood as the method that draws readers into a larger reflection, not necessarily the final purpose. Therefore, strong literature should engage readers while helping them see the world from a new perspective. Its lasting value comes from making complex social and personal questions feel immediate, memorable, and worthy of discussion.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Missed direct engagement with Kelly by name in the opening statement, which slightly reduces the explicit demonstration of reading and synthesizing both peers' contributions right from the start[cite: 5].
 - Slightly general phrasing in the thesis sentence ("place readers inside the life of someone") where more precise lexical choices could create stronger academic resonance[cite: 3].
 
