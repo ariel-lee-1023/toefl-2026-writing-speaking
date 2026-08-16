@@ -1,5 +1,4 @@
-## Title
-Pet Ownership Trends
+# Pet Ownership Trends
 
 ## Q1 Prompt
 Good points. I just have one last question. In the future, do you think pets will become more common in big cities, or will city life make pet ownership less common? Please explain.
@@ -37,7 +36,7 @@ To be honest, my only pet are cats. They are not as required to take a walk, rou
 ## Q4 My Draft
 First, I think it's definitely beneficial for the children because children can learn how other wonderful creatures in this earth and treat them as families, teach them how to take care of others and know what actually others need rather than their own imagination. And about parents' extra work, if that becomes a good habit, it's inserted into your custom, it's not forbidden.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Persistent lexical error: repeatedly using "PADS" and "hold a PADS" instead of "pets" and "own/keep a pet."
 - Sentence boundary collapse: "They are not as required to take a walk, routine, based on their lifestyle, and also they are not like fish..."
 - Incomplete grammatical structures: "...children can learn how other wonderful creatures in this earth and treat them as families..."
