@@ -1,5 +1,4 @@
-## Title
-Minimum Wage Laws
+# Minimum Wage Laws
 
 ## Prompt
 Your professor is teaching a class on economics. Write a post responding to the professor's question.
@@ -24,7 +23,7 @@ While I understand Andrew's concern that a higher minimum wage might increase op
 I agree with Claire that raising the minimum wage benefits the economy as a whole because it encourages workers to work harder. Furthermore, raising the minimum wage can stimulate consumption, which is the best engine for contemporary economic growth, and increased consumption leads to better overall profitability for market entities.
 Andrew's view that raising the minimum wage compared to current standards might cause companies to hire fewer workers due to the mathematically higher labor costs. On the contrary, I believe most companies can hire more people to handle growing business demands thanks to steady profit growth—this has always been the case. In the past, many workers had to join companies reluctantly under excessively low wages; now, the existence of a minimum wage forces companies to accept the regulation while still hiring enough workers.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Sentence Fragment: "Andrew's view that raising the minimum wage compared to current standards might cause companies to hire fewer workers due to the mathematically higher labor costs." (This acts as a noun phrase missing a main verb).
 - Absolute Claims: Phrasing like "this has always been the case" lacks the nuanced qualification and hedging expected in the top C1/C2 capability bands.
 
