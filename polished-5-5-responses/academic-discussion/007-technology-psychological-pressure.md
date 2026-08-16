@@ -1,5 +1,4 @@
-## Title
-Technology and Psychological Pressure
+# Technology Psychological Pressure
 
 ## Prompt
 Dr. Diaz
@@ -17,7 +16,7 @@ While I acknowledge that many professionals face significant psychological press
 ## My Draft
 While I am sure that people have significant social and psychological pressures, and I dont agree with Paul's theory that such stress and burnout are contributed by tech product. Technologies provide more convenient communicational methods and effective tools to assist people to complete their innovative works as Claired said,but it will not change our relationship with collegues and whether we satify with our jobs or not. What's more,techlogies give access for people to find neccesscary knowledge to improve their relationships and achive their goals,which can lead the untimate change for human could be solve easier than 19 century. Overall,Technolgy enhance pur informations seeking skill,nu
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Run-on clauses lacking punctuation boundaries: quoted from draft, "While I am sure that people have significant social and psychological pressures, and I dont agree with Paul's theory that such stress and burnout are contributed by tech product."
 - Frequent mechanical and spelling errors affecting tone and clarity: quoted from draft, "dont", "techlogies", "collegues", "satify", "neccesscary", "achive", "untimate", "pur informations seeking skill".
 - Abstract claims without concrete instances or clear causal mechanisms: claiming technology does not alter colleague relationships without explaining why or providing an example.
