@@ -1,5 +1,4 @@
-## Title
-Cooking And Food Delivery
+# Cooking Food Delivery
 
 ## Q1 Prompt
 Thank you for your participation. Today, I'd like to ask you some questions about your cooking habits. First, what kind of meals are most common or popular where you live? For example, do people usually prefer traditional dishes, fast food, or other types?
@@ -37,7 +36,7 @@ In my opinion, ordering food online has more advantages than disadvantages for m
 ## Q4 My Draft
 I believe cooking at home is much better than other foods at any restaurant because, first of all, you can choose what to add in the meal. Don't worry if the food has too much oil or too much salt. And second, the flavor, and third, is the skill improved to enhance your satisfaction in life because there can be such a happy and creative world.
 
-## My Key Obstacles Holding You Back from a 5/5
+## My Diagnosis
 - Abstract repetition instead of concrete examples (e.g., repeatedly saying "tools" instead of naming a "food processor").
 - Listing too many underdeveloped points (e.g., "first... second... third...") instead of deeply elaborating on one strong reason.
 - A lack of explicit sentence-level connectors joining the ideas, leading to run-on sentences.
