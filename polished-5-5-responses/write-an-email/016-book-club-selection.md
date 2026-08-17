@@ -1,5 +1,4 @@
-## Title
-Book Club Selection
+# Book Club Selection
 
 ## Prompt
 You are the president of your university’s book club. The club has decided to read a classic novel for the next meeting. One member, Maria, emailed you to ask if the club can read another book instead. She wrote that she finds the novel too difficult for her to read.
