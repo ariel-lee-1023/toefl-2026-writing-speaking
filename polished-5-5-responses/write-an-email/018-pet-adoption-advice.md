@@ -11,8 +11,10 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Alex,
+
 I am sorry to hear that you have been feeling lonely lately, but I fully understand why you are looking for a companion to help you feel less isolated. Adopting a dog can certainly bring warmth and joy to a home, and it naturally encourages you to get outside for daily exercise. However, caring for a dog requires significant living space, constant attention, and a predictable schedule. Given your long work hours and compact apartment, taking on a dog right now might create more stress than comfort. I strongly advise you to hold off on dog ownership for now and consider adopting an older cat instead, as cats adapt far better to smaller spaces and do not mind being alone while you are at work. Beyond getting a pet, there are several other ways we can tackle your loneliness together. First, we should make a point to hang out more frequently next semester, whether that means studying together or getting coffee on weekends. Second, you might join a campus interest club to meet people who share your hobbies. Finally, volunteering at a local animal shelter would let you spend time with dogs without the full-time commitment. 
 Best, 
+
 Ariel Lee
 
 ## My Draft
