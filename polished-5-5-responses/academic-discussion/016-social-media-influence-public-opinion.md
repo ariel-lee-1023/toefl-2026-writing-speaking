@@ -1,5 +1,4 @@
-## Title
-Social Media Influence on Public Opinion
+# Social Media Influence Public Opinion
 
 ## Prompt
 Your professor is teaching a class on social sciences. Write a post responding to the professor’s question.
