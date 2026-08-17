@@ -21,11 +21,11 @@ Ariel Lee
 ## My Draft
 Hi Alex，
 
-I am sorry to hear that your assignments have become so overwhelming. Please remember that protecting your health is not separate from academic success. Without enough sleep， regular meals， and exercise， it becomes much harder to concentrate， remember information， and make good decisions.
+I am sorry to hear that your assignments have become so overwhelming. Please remember that protecting your health is not separate from academic success. Without enough sleep,regular meals,and exercise,it becomes much harder to concentrate,remember information,and make good decisions.
 
 I suggest listing every assignment with its deadline and breaking large projects into smaller daily tasks. Choose the two most urgent tasks each morning， and take a short walk or stretch after every fifty minutes of focused work. If the workload is still unrealistic， contact your professors early instead of waiting until the deadline.
 
-You could also try time blocking. Put classes， meals， exercise， study periods， and bedtime directly on your calendar. Leave one free hour each evening for unexpected work， but stop studying at a fixed time.
+You could also try time blocking. Put classes,meals,exercise， study periods,and bedtime directly on your calendar. Leave one free hour each evening for unexpected work,but stop studying at a fixed time.
 
 Please take care of yourself， and call me if you want help planning this week.
 
