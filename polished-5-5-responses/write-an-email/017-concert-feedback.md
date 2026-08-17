@@ -1,5 +1,4 @@
-## Title
-Concert Feedback
+# Concert Feedback
 
 ## Prompt
 You recently attended a music concert at a local venue and had a great time, but you noticed some issues with the sound quality and seating arrangements. You want to provide feedback to the venue manager to help improve future events.
