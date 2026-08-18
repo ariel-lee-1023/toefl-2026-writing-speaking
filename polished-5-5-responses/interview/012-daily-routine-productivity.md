@@ -1,5 +1,4 @@
-## Title
-Daily Routine and Productivity
+# Daily Routine Productivity
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to learn about your daily routine. Can you tell me what a typical day looks like for you?
