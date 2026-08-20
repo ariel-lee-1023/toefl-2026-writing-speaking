@@ -1,5 +1,4 @@
-## Title
-Daycare Center Routine
+# Daycare Center Routine
 
 ## Prompt
 Scenario: A daycare supervisor training you on the daily morning routine.
