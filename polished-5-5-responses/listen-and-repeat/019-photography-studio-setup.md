@@ -1,5 +1,4 @@
-## Title
-Photography Studio Setup
+# Photography Studio Setup
 
 ## Prompt
 Scenario: A photography instructor guiding you through studio setup.
