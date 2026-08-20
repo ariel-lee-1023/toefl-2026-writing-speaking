@@ -1,5 +1,4 @@
-## Title
-Standardized Testing in Education
+# Standardized Testing Education
 
 ## Prompt
 Dr. Sharma
