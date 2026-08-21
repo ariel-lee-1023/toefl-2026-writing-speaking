@@ -1,5 +1,4 @@
-## Title
-Role of Art in Social Progress
+# Role Art Social Progress
 
 ## Prompt
 Dr. Gupta:
