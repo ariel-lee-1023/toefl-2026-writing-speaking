@@ -1,5 +1,4 @@
-## Title
-Business Ethics versus Profitability
+# Business Ethics Versus Profitability
 
 ## Prompt
 Dr. Gupta: We've been discussing the importance of ethical behavior in business. Ethical practices, like fair wages or sustainable production policies, can enhance a company's reputation and build trust with customers. Some argue that companies should prioritize ethical practices even if it affects profitability, while others believe that profit should always come first. What is your opinion on this issue?
