@@ -1,5 +1,4 @@
-## Title
-Urban Planning and Gentrification
+# Urban Planning Gentrification
 
 ## Prompt
 Your professor is teaching a class on urban planning. Write a post responding to the professor's question.
