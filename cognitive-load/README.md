@@ -6,14 +6,15 @@ A universal note-taking system only works as an **Active Re-Encoding Pipeline**:
 
 This is a companion pipeline to [`polished-5-5-responses/`](../polished-5-5-responses/): that folder archives finished **output** (drafted responses polished against the rubric); this one archives finished **input processing** (raw episodes re-encoded into structured semantic scaffolding you can review, translate from, and vocalize from later).
 
-## The four-stage schema
+## The five-field schema
 
-Every episode, run through the host AI, is forced into exactly these four sections — the schema itself is the cognitive exercise:
+Every episode, run through the host AI, is forced into exactly these fields — the schema itself is the cognitive exercise. Each one targets a specific cognitive/neurolinguistic mechanism rather than being a stylistic choice:
 
-1. **Prefrontal Abstraction (The Core Thesis)** — one complex English sentence synthesizing the entire episode, built around a subordinate clause (`Although...`, `While...`). Forces top-down compression before any detail is recorded.
-2. **Associative Evidence Mapping (Logical Architecture)** — exactly three pillars supporting the thesis (Context/Problem, Mechanism/Intervention, Implication/Result), written strictly in English and framed as causal mechanisms (X → Y), not a list of facts.
-3. **Lexical Binding (Cross-Linguistic & Academic Vocabulary)** — 3-5 high-density concepts. Source material in Chinese gets translated to its academic English equivalent; source material already in English gets redefined using TOEFL-register synonyms. Either direction, the point is binding a concept to its L2 academic form.
-4. **Motor-Speech Synthesis (The TOEFL Output Drill)** — a 2-minute unscripted spoken summary of the note, with the resulting syntactic hesitation points recorded as the drill target for next time.
+0. **Semantic Anchoring (Domain Metadata)** — classify the episode into one standard academic domain (Sociology, Economics, Biology, Humanities, ...). This becomes the note's `toefl_domain` frontmatter field. *Mechanism*: naming the domain primes the relevant English academic lexicon before any content is processed — the same top-down priming a TOEFL Integrated task relies on when it names its domain up front.
+1. **Prefrontal Abstraction (The Core Thesis)** — one complex English sentence synthesizing the entire episode, built around a subordinate clause (`Although...`, `While...`). *Mechanism*: caps the thesis at one sentence to exercise the dlPFC's inhibitory control, actively suppressing tangential detail (neural noise) and raising the signal-to-noise ratio of the core semantic representation; the mandated subordinate clause primes the complex syntax high-scoring Integrated Writing responses require.
+2. **Associative Evidence Mapping (Logical Architecture)** — exactly three pillars supporting the thesis (Context/Problem, Mechanism/Intervention, Implication/Result), written strictly in English and framed as causal mechanisms (X → Y), not a list of facts. *Mechanism*: mirrors how TOEFL academic lectures and reading passages are structured, training your predictive-processing model to anticipate the same structural transitions on test day, lowering prediction error when you meet them again.
+3. **Lexical Binding (Cross-Linguistic & Academic Vocabulary)** — 3-5 high-density concepts. Source material in Chinese gets translated to its academic English equivalent; source material already in English gets redefined using TOEFL-register synonyms. *Mechanism*: while consuming L1 material, the L1 semantic node is highly activated and suppresses the weaker L2 lemma (lateral inhibition); binding the term to its English equivalent immediately, while the concept is still active, trains faster L2 lexical selection under the time pressure of spontaneous speech.
+4. **Motor-Speech Synthesis (The TOEFL Output Drill)** — a 2-minute unscripted spoken summary of the note, with the resulting syntactic hesitation points recorded as the drill target for next time. *Mechanism*: silently understanding a concept and vocalizing it use different circuitry — actual speech recruits the primary motor cortex and Broca's area. Naming "friction points" afterward is a metacognitive step that makes the syntactic gap explicit so the next attempt corrects it.
 
 ## Folder structure
 

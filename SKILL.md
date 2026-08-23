@@ -79,8 +79,17 @@ This task has no draft to polish, so the other tasks' diagnose→rewrite loop do
 ## Active Cognitive Buffer: re-encoding raw input
 This feature is separate from the four practice tasks above and from `polished-5-5-responses/` — it is **input-side** processing, not output drafting. Its premise: a universal note-taking system only works as an **Active Re-Encoding Pipeline**. Raw auditory or reading input — a lecture, a recording, a meeting, a conversation, in any source language — must be forced through a fixed schema that compels synthesis rather than transcription. The output is a TOEFL-ready L2 semantic map of the episode, archived to [`cognitive-load/`](cognitive-load/) in this repo.
 
-**When the user gives you raw input and asks you to process, log, or take notes on it**, do not draft a plain summary. Instead produce exactly these four sections, in this order, holding to each constraint:
+**Why the schema is rigid, not stylistic.** Each field below maps to a specific cognitive/neurolinguistic mechanism relevant to TOEFL Integrated Writing and Speaking. Understanding the mechanism is what prevents you from "softening" a field into a generic summary when the source material resists it — the constraint is the exercise:
 
+- **Semantic Anchoring** (the `toefl_domain` field) primes the relevant English academic lexicon before any content is processed — tagging an episode "Economics" vs. "Biology" activates a different vocabulary network, the same top-down priming a TOEFL Integrated task relies on when it names its domain up front.
+- **Prefrontal Abstraction** (Core Thesis) exercises the dlPFC's inhibitory control: capping the thesis at one sentence forces you to actively suppress tangential detail (neural noise) and raise the signal-to-noise ratio of the core semantic representation. The mandated subordinate clause additionally primes the complex syntax that high-scoring Integrated Writing responses require.
+- **Associative Evidence Mapping** (the three pillars) mirrors how TOEFL academic lectures and reading passages are structured — hierarchical logic, not a flat list of facts. Decomposing an episode into Problem → Mechanism → Result trains your predictive-processing model to anticipate structural transitions, which lowers prediction error when you meet the same structure again on test day.
+- **Lexical Binding** (the vocabulary pairs) directly targets L1 lateral inhibition: while consuming Chinese-language material, L1 semantic nodes are highly activated and suppress the weaker L2 lemma. Explicitly mapping each high-density term to its English equivalent immediately, while the concept is still active, trains faster L2 lexical selection under the time pressure of spontaneous speech.
+- **Motor-Speech Synthesis** (the output drill) matters because silently understanding a concept and vocalizing it use different circuitry — actual speech recruits the primary motor cortex and Broca's area, which silent comprehension does not. Naming "friction points" afterward is a metacognitive step: it makes the syntactic gap explicit so the next attempt can correct it, rather than repeating the same hesitation unnoticed.
+
+**When the user gives you raw input and asks you to process, log, or take notes on it**, do not draft a plain summary. Instead produce exactly these five fields, in this order, holding to each constraint:
+
+0. **Semantic Anchoring (Domain Metadata)** — classify the episode into one standard academic domain (e.g. Sociology, Economics, Biology, Humanities). State it plainly; this also becomes the note's `toefl_domain` frontmatter field. If the episode spans domains, name the dominant one — do not hedge with multiple domains.
 1. **Prefrontal Abstraction (The Core Thesis)** — ONE complex English sentence synthesizing the entire episode, built on a subordinate clause (`Although...`, `While...`). This forces top-down compression before any supporting detail is recorded.
 2. **Associative Evidence Mapping (Logical Architecture)** — exactly three pillars supporting the thesis, written strictly in English and framed as causal mechanisms (X → Y), not a list of facts:
    - Pillar A (Context/Problem)
@@ -89,7 +98,7 @@ This feature is separate from the four practice tasks above and from `polished-5
 3. **Lexical Binding (Cross-Linguistic & Academic Vocabulary)** — 3-5 high-density concepts from the episode. If the source term is L1 (Chinese), translate it to its academic L2 equivalent. If the source term is already L2 (English), redefine it using a TOEFL-register synonym. Format each as `` `[Original Term]` → `[English Academic Equivalent]` ``.
 4. **Motor-Speech Synthesis (The TOEFL Output Drill)** — instruct the user to spend 2 minutes vocalizing a summary of the note aloud, without looking at the text, then record their own reported points of syntactic hesitation under **Syntactic Friction Points**. Leave this as `...` until the user reports back from the drill; do not invent friction points on their behalf.
 
-Give the user the complete four-section note first, in full — same standard as the archive-ready copy block below: no shortening for the sake of the archive step.
+Give the user the complete five-field note first, in full — same standard as the archive-ready copy block below: no shortening for the sake of the archive step.
 
 ### Archive-ready copy block for Cognitive Load
 After giving the complete note, append a single fenced markdown block formatted for direct upload to [`cognitive-load/incoming/`](cognitive-load/incoming/) in this repo, ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one episode per block** — if the user processed several source episodes in one sitting, offer one block per episode, never pooled into one file. Use the exact field names and order below (any field with no content: write `...`, never invent content):
@@ -102,7 +111,7 @@ After giving the complete note, append a single fenced markdown block formatted 
 <Chinese or English — the language of the ORIGINAL raw input, not the note itself, which is always written in English>
 
 ## TOEFL Domain
-<e.g. Sociology, Economics, Biology, Humanities>
+<the domain named in Semantic Anchoring above, e.g. Sociology, Economics, Biology, Humanities>
 
 ## Core Thesis
 <the one complex synthesizing sentence from section 1 above, verbatim>
@@ -123,7 +132,7 @@ After giving the complete note, append a single fenced markdown block formatted 
 <the user's reported hesitation points from the section 4 drill, or "..." if they have not yet done the drill>
 ```
 
-Same content-fidelity rule as the polished-response archive below: the copy block carries the SAME content as the full note already given, reorganized into fields — never a shortened digest of it. `Source Language`, `TOEFL Domain`, `Title`, and `Syntactic Friction Points` are the only fields not literally quoted from the four numbered sections; everything else must match verbatim.
+Same content-fidelity rule as the polished-response archive below: the copy block carries the SAME content as the full note already given, reorganized into fields — never a shortened digest of it. `Source Language`, `Title`, and `Syntactic Friction Points` are the only fields not literally quoted from the five numbered sections above; `TOEFL Domain` is the Semantic Anchoring classification stated verbatim, and everything else must match the corresponding section exactly.
 
 The [`cognitive-load/`](cognitive-load/) automation (unlike `polished-5-5-responses/`) has a single `incoming/` folder, not one per task type — every episode uses this same schema regardless of domain or source language, so there is no folder to choose.
 
