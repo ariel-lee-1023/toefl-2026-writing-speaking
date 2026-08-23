@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 /**
- * archive-cognitive-load.js  (v1.0)
+ * archive-semantic-consolidation-buffer.js  (v1.0)
  *
- * Watches cognitive-load/incoming/ for uploaded .txt/.md files. Each file is
- * expected to contain ONE re-encoded episode (one lecture segment, one
- * recording, one reading — see cognitive-load/incoming/README.md). Unlike
+ * Watches semantic-consolidation-buffer/incoming/ for uploaded .txt/.md
+ * files. Each file is expected to contain ONE re-encoded episode (one
+ * lecture segment, one recording, one reading — see
+ * semantic-consolidation-buffer/incoming/README.md). Unlike
  * archive-incoming.js's four task types, there is a single incoming folder
  * here: every episode uses the same Active Cognitive Buffer schema
  * regardless of toefl_domain or the source material's original language,
@@ -16,8 +17,9 @@
  *   2. Reformats the content into the fixed Active Cognitive Buffer
  *      template (frontmatter + 3 numbered sections), leaving any section
  *      not found blank.
- *   3. Writes the result into cognitive-load/content/ with the next
- *      sequential NNN- index, and deletes the original incoming file.
+ *   3. Writes the result into semantic-consolidation-buffer/content/ with
+ *      the next sequential NNN- index, and deletes the original incoming
+ *      file.
  *
  * No AI/external API calls and no domain/language classification: the host
  * AI already produced the structured note upstream. This script only
@@ -28,9 +30,9 @@ const fs = require("fs");
 const path = require("path");
 
 const REPO_ROOT = path.resolve(__dirname, "..", "..");
-const COGNITIVE_LOAD_ROOT = path.join(REPO_ROOT, "cognitive-load");
-const ARCHIVE_ROOT = path.join(COGNITIVE_LOAD_ROOT, "content");
-const INCOMING_DIR = path.join(COGNITIVE_LOAD_ROOT, "incoming");
+const SEMANTIC_CONSOLIDATION_BUFFER_ROOT = path.join(REPO_ROOT, "semantic-consolidation-buffer");
+const ARCHIVE_ROOT = path.join(SEMANTIC_CONSOLIDATION_BUFFER_ROOT, "content");
+const INCOMING_DIR = path.join(SEMANTIC_CONSOLIDATION_BUFFER_ROOT, "incoming");
 const SKIP_FILES = new Set([".gitkeep", "_template.md", "README.md"]);
 const STOPWORDS = new Set([
   "the","a","an","and","or","but","of","to","in","on","for","with","is","are",
@@ -59,7 +61,7 @@ function readIncomingFiles() {
 // Section detection
 // ---------------------------------------------------------------------------
 
-const COGNITIVE_LOAD_SECTIONS = [
+const SEMANTIC_CONSOLIDATION_BUFFER_SECTIONS = [
   { key: "title", labels: ["title", "episode title"] },
   { key: "toeflDomain", labels: ["toefl domain", "toefl_domain", "domain"] },
   { key: "tier", labels: ["tier", "expansion tier", "density tier"] },
@@ -266,7 +268,7 @@ function processFile(filePath) {
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");
 
-  const sections = detectSections(raw, COGNITIVE_LOAD_SECTIONS);
+  const sections = detectSections(raw, SEMANTIC_CONSOLIDATION_BUFFER_SECTIONS);
 
   // No prose fallback split: unlike the polished-response archive's two-field
   // prompt/response shape, this schema has three structurally distinct fields

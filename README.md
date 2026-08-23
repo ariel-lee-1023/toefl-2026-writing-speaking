@@ -29,15 +29,15 @@ toefl-2026-writing-speaking/
 │   ├── academic-discussion/
 │   ├── listen-and-repeat/
 │   └── interview/
-├── cognitive-load/              # Active Re-Encoding Pipeline for raw input → TOEFL-ready notes
+├── semantic-consolidation-buffer/  # Active Re-Encoding Pipeline for raw input → TOEFL-ready notes
 │   ├── incoming/                # upload here, GitHub Action auto-archives
 │   ├── content/                 # archived episodes, in upload order
 │   └── _template.md
 └── .github/
     ├── workflows/archive-incoming.yml         # archives polished-5-5-responses/incoming/
-    ├── workflows/archive-cognitive-load.yml    # archives cognitive-load/incoming/
+    ├── workflows/archive-semantic-consolidation-buffer.yml    # archives semantic-consolidation-buffer/incoming/
     ├── scripts/archive-incoming.js             # reformats + archives polished-5-5-responses uploads
-    └── scripts/archive-cognitive-load.js       # reformats + archives cognitive-load uploads
+    └── scripts/archive-semantic-consolidation-buffer.js       # reformats + archives semantic-consolidation-buffer uploads
 ```
 
 | File | Loaded | Contents |
@@ -50,7 +50,7 @@ toefl-2026-writing-speaking/
 | `references/reference-magoosh-interview-templates.md` | on demand | Take an Interview — the C–D–E–F 45-second shape |
 | `references/reference-course-listen-repeat-lessons.md` | on demand | Listen and Repeat — the 7-sentence set map, chunking for memory, compressed function words and word endings |
 | `polished-5-5-responses/` | on demand | Personal polished-response archive, kept for pre-exam review and post-exam teaching material. Upload to `incoming/<task-type>/` and a GitHub Action reformats + archives it automatically — no server, no AI/API calls. See its own [README](polished-5-5-responses/README.md) and [`incoming/README.md`](polished-5-5-responses/incoming/README.md) for the workflow. |
-| `cognitive-load/` | on demand | The Neuro-Cognitive Architecture of Active Re-Encoding: forces raw input (a lecture, a recording, a reading — any source language) through a fixed schema (Semantic Anchoring → Prefrontal Abstraction → Associative Evidence Mapping → Lexical Binding) that produces a structured, TOEFL-ready L2 semantic map instead of a transcript — comprehension material for reading, listening, writing, and speaking alike, not a spoken-output drill. Upload to `incoming/` and the same kind of GitHub Action reformats + archives it automatically. See its own [README](cognitive-load/README.md) and [`incoming/README.md`](cognitive-load/incoming/README.md). |
+| `semantic-consolidation-buffer/` | on demand | The Neuro-Cognitive Architecture of Active Re-Encoding: forces raw input (a lecture, a recording, a reading — any source language) through a fixed schema (Semantic Anchoring → Prefrontal Abstraction → Associative Evidence Mapping → Lexical Binding) that produces a structured, TOEFL-ready L2 semantic map instead of a transcript — comprehension material for reading, listening, writing, and speaking alike, not a spoken-output drill. Upload to `incoming/` and the same kind of GitHub Action reformats + archives it automatically. See its own [README](semantic-consolidation-buffer/README.md) and [`incoming/README.md`](semantic-consolidation-buffer/incoming/README.md). |
 
 Only `SKILL.md` occupies context by default; reference files load when the router points at them.
 

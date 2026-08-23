@@ -1,10 +1,11 @@
-name: Archive incoming cognitive-load notes
+name: Archive incoming semantic-consolidation-buffer notes
 
-# Watches cognitive-load/incoming/ for newly uploaded .txt/.md files.
-# Whenever one lands on `main`, this reformats it into the fixed Active
-# Cognitive Buffer template, writes it into cognitive-load/content/ with the
-# next sequential number, deletes the original incoming file, and commits
-# the result back to the repo — fully automatic, no manual steps.
+# Watches semantic-consolidation-buffer/incoming/ for newly uploaded
+# .txt/.md files. Whenever one lands on `main`, this reformats it into the
+# fixed Active Cognitive Buffer template, writes it into
+# semantic-consolidation-buffer/content/ with the next sequential number,
+# deletes the original incoming file, and commits the result back to the
+# repo — fully automatic, no manual steps.
 #
 # No AI/external API calls and no domain/language classification: the host
 # AI already produced the structured note upstream. This workflow only
@@ -14,14 +15,14 @@ on:
   push:
     branches: [main]
     paths:
-      - "cognitive-load/incoming/**/*.txt"
-      - "cognitive-load/incoming/**/*.md"
+      - "semantic-consolidation-buffer/incoming/**/*.txt"
+      - "semantic-consolidation-buffer/incoming/**/*.md"
 
 permissions:
   contents: write
 
 concurrency:
-  group: archive-cognitive-load
+  group: archive-semantic-consolidation-buffer
   cancel-in-progress: false
 
 jobs:
@@ -41,16 +42,16 @@ jobs:
           node-version: "20"
 
       - name: Run archive script
-        run: node .github/scripts/archive-cognitive-load.js
+        run: node .github/scripts/archive-semantic-consolidation-buffer.js
 
       - name: Commit and push archived files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cognitive-load/incoming/ cognitive-load/content/
+          git add semantic-consolidation-buffer/incoming/ semantic-consolidation-buffer/content/
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else
-            git commit -m "Auto-archive incoming cognitive-load note(s) [skip ci]"
+            git commit -m "Auto-archive incoming semantic-consolidation-buffer note(s) [skip ci]"
             git push
           fi

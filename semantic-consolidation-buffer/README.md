@@ -1,4 +1,4 @@
-# Cognitive Load
+# Semantic Consolidation Buffer
 
 **The Neuro-Cognitive Architecture of Active Re-Encoding.**
 
@@ -31,7 +31,7 @@ The computed Tier (e.g. `T3 (D≈14)`) is recorded in the note's `tier` frontmat
 ## Folder structure
 
 ```
-cognitive-load/
+semantic-consolidation-buffer/
 ├── README.md          ← this file: schema + workflow
 ├── _template.md        ← copy this for the manual path
 ├── incoming/           ← upload here — GitHub Action auto-archives on push
@@ -91,6 +91,6 @@ All fields are written entirely in English, regardless of the source language �
 Keep the two archives conceptually separate even though the mechanics (an `incoming/` staging folder, a GitHub Action, sequential `NNN-` numbering) are the same pattern reused:
 
 - `polished-5-5-responses/` = **output-side** practice — draft an answer, polish it against the rubric, archive the finished response.
-- `cognitive-load/` = **input-side** processing — take in raw auditory/reading material in any language, force it through the re-encoding schema, archive the resulting semantic map.
+- `semantic-consolidation-buffer/` = **input-side** processing — take in raw auditory/reading material in any language, force it through the re-encoding schema, archive the resulting semantic map.
 
 Both feed the same goal (C2-level TOEFL readiness) from opposite ends of the pipeline: one trains producing L2 output, the other trains re-encoding L1/L2 input into L2-ready structure.
