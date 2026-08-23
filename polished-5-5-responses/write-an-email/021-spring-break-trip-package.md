@@ -1,5 +1,4 @@
-## Title
-Spring Break Trip Package
+# Spring Break Trip Package
 
 ## Prompt
 You and your friend Alex are planning a spring break trip together. You found a travel package to a nearby city. Write an email to invite Alex. Requirements: Explain why this package would be a fun vacation for both of you, describe what the package includes, and invite Alex to book it with you.
