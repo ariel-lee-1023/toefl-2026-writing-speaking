@@ -16,6 +16,20 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 - "chunk / shadow / repeat this sentence", or anything about hearing and reproducing a sentence → run **"Coaching a Listen and Repeat set"** below, with `references/reference-course-listen-repeat-lessons.md` open **plus** the ETS task-specs file. This task is scored on intelligibility and accuracy only, so the usual elaboration advice does not apply to it.
 - User pastes or describes raw, unstructured input to process — a lecture transcript, a recording, a reading, meeting notes, a conversation, in any source language — and asks to take notes on it, summarize it, process it, or "log" it → run **"Active Cognitive Buffer: re-encoding raw input"** below. Do not draft a plain summary for this kind of input; the point of the feature is that the note itself is the cognitive exercise.
 
+## `cognitive-load/` vs. `polished-5-5-responses/` — which pipeline fires
+These two archives never fire on the same request; use this one question to decide: **is the user handing you material to learn FROM, or a response to be scored/drafted/polished?**
+
+| Signal | Pipeline |
+|---|---|
+| Input is a lecture, recording, reading, podcast, meeting, or conversation — raw material the user consumed, in any language, with no TOEFL task prompt attached | `cognitive-load/` (Active Cognitive Buffer) |
+| Input is (or responds to) one of the four TOEFL task prompts — an email prompt, a discussion-post prompt with student posts, an interview question, or a Listen-and-Repeat sentence set — and the user wants it drafted, scored, diagnosed, or polished | `polished-5-5-responses/` (the four task-type archives) |
+| User explicitly says "score/diagnose/polish this response," or gives you their own draft answer | `polished-5-5-responses/` — always, even if the underlying topic came from a lecture |
+| User explicitly says "take notes on/log/process this," or hands you a transcript/recording with no draft response attached | `cognitive-load/` — always, even if the topic is one a TOEFL task could plausibly use |
+
+**Sequential use is normal and expected — the two are not mutually exclusive across a conversation.** A realistic flow: the user pastes a Chinese podcast segment → you produce an Active Cognitive Buffer note (`cognitive-load/`) → later in the same session the user says "now write an Academic Discussion post using pillar B" → that second request is a fresh `polished-5-5-responses/` task, drafted using the pillar as source material, then diagnosed/polished/archived through the normal four-task flow. **Never conflate the two archive outputs into one file or one copy block** — each pipeline produces its own copy block, for its own folder, even when they're chained in the same conversation.
+
+**If a single message is genuinely ambiguous** (e.g., "here's a lecture transcript, take notes and also grade how well I explained it" bundles both in one turn), do both explicitly and separately: produce the Active Cognitive Buffer note first (with its own copy block), then treat the grading request as its own step against whatever response the user actually wrote, rather than inventing a response to score. If the user gave no response of their own to score, say so instead of guessing which pipeline they meant.
+
 ## Which source for which job (start here)
 | Source (→ file) | Reach for it when you need… | Its one big idea |
 |---|---|---|
