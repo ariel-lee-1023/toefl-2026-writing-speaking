@@ -23,7 +23,3 @@ tier: [e.g., T3 (D≈14) — the Expansion Tier computed from source density; se
 - Concept 1: `[Original Term]` → `[English Academic Equivalent]`
 - Concept 2: `[Original Term]` → `[English Academic Equivalent]`
 - Concept 3: `[Original Term]` → `[English Academic Equivalent]`
-
-## 4. Motor-Speech Synthesis (The TOEFL Output Drill)
-<!-- Constraint: 2 minutes (Tier T1/T2) or 3 minutes (Tier T3/T4) vocalizing a summary of this note without looking at the text; record primary points of syntactic hesitation. -->
-- **Syntactic Friction Points:** ...

@@ -6,16 +6,15 @@
  * expected to contain ONE re-encoded episode (one lecture segment, one
  * recording, one reading — see cognitive-load/incoming/README.md). Unlike
  * archive-incoming.js's four task types, there is a single incoming folder
- * here: every episode uses the same four-stage Active Cognitive Buffer
+ * here: every episode uses the same Active Cognitive Buffer
  * schema regardless of toefl_domain or source_language, so no task-type
  * classification or subfolder choice is needed. The script:
  *   1. Detects which of the known sections are present in the raw text
  *      (Title / Source Language / TOEFL Domain / Tier / Core Thesis /
- *      Pillar A-C / Lexical Bindings / Syntactic Friction Points),
- *      tolerating messy input: "##Label", "Label:", "Label -", or a label
- *      alone on its own line.
+ *      Pillar A-C / Lexical Bindings), tolerating messy input: "##Label",
+ *      "Label:", "Label -", or a label alone on its own line.
  *   2. Reformats the content into the fixed Active Cognitive Buffer
- *      template (frontmatter + 4 numbered sections), leaving any section
+ *      template (frontmatter + 3 numbered sections), leaving any section
  *      not found blank.
  *   3. Writes the result into cognitive-load/content/ with the next
  *      sequential NNN- index, and deletes the original incoming file.
@@ -94,16 +93,6 @@ const COGNITIVE_LOAD_SECTIONS = [
       "3. lexical binding (cross-linguistic & academic vocabulary)",
       "cross-linguistic & academic vocabulary",
       "vocabulary",
-    ],
-  },
-  {
-    key: "syntacticFriction",
-    labels: [
-      "syntactic friction points",
-      "syntactic friction",
-      "motor-speech synthesis",
-      "4. motor-speech synthesis (the toefl output drill)",
-      "toefl output drill",
     ],
   },
 ];
@@ -269,9 +258,6 @@ tier: ${tier}
 
 ## 3. Lexical Binding (Cross-Linguistic & Academic Vocabulary)
 ${s.lexicalBindings || "* Concept 1: `[Original Term]` \u2192 `[English Academic Equivalent]`"}
-
-## 4. Motor-Speech Synthesis (The TOEFL Output Drill)
-* **Syntactic Friction Points:** ${s.syntacticFriction || "..."}
 `;
 }
 
@@ -292,15 +278,14 @@ function processFile(filePath) {
   const sections = detectSections(raw, COGNITIVE_LOAD_SECTIONS);
 
   // No prose fallback split: unlike the polished-response archive's two-field
-  // prompt/response shape, this schema has four structurally distinct fields
-  // (thesis, three pillars, vocabulary, friction points) that cannot be
-  // guessed apart from unlabeled prose. An unlabeled upload archives with
-  // the whole file as the Core Thesis and every other field left blank.
+  // prompt/response shape, this schema has three structurally distinct fields
+  // (thesis, three pillars, vocabulary) that cannot be guessed apart from
+  // unlabeled prose. An unlabeled upload archives with the whole file as the
+  // Core Thesis and every other field left blank.
   if (
     !sections.coreThesis &&
     !sections.pillarA &&
-    !sections.lexicalBindings &&
-    !sections.syntacticFriction
+    !sections.lexicalBindings
   ) {
     sections.coreThesis = raw.trim();
   }

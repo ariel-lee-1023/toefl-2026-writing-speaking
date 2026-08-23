@@ -2,7 +2,7 @@
 
 Drop a `.txt` or `.md` file here and push it to `main`. A GitHub Action picks it up, reformats it into the standard **Active Cognitive Buffer** template, saves it into [`../content/`](../content/) with the next sequential number, and deletes the file from here — no manual steps, no AI/API calls, nothing to run locally.
 
-Unlike `polished-5-5-responses/incoming/`, there is only **one** folder here, not one per task type — every episode uses the same four-field schema regardless of `toefl_domain` or source language. All archived notes land flat in [`../content/`](../content/), numbered in upload order; the domain and language stay recorded in each file's frontmatter rather than in the folder path.
+Unlike `polished-5-5-responses/incoming/`, there is only **one** folder here, not one per task type — every episode uses the same schema regardless of `toefl_domain` or source language. All archived notes land flat in [`../content/`](../content/), numbered in upload order; the domain and language stay recorded in each file's frontmatter rather than in the folder path.
 
 ## What to put in the file
 
@@ -15,9 +15,8 @@ Paste the host AI's output with clear labels. The automation looks for these lab
 5. `Core Thesis` (becomes **1. Prefrontal Abstraction**) — the one complex synthesizing sentence (may carry a second embedded clause at Tier T3/T4, but always one sentence).
 6. `Pillar A` / `Pillar B` / `Pillar C` (becomes **2. Associative Evidence Mapping**) — the three causal pillars (each may extend to a two-hop causal chain at Tier T3/T4 — never a fourth pillar).
 7. `Lexical Bindings` (becomes **3. Lexical Binding**) — the term → academic-equivalent pairs, one per line (3-5 at Tier T1/T2, up to 10 at Tier T4).
-8. `Syntactic Friction Points` (becomes **4. Motor-Speech Synthesis**) — hesitation notes from the spoken-summary drill (2-minute drill at T1/T2, 3-minute at T3/T4).
 
-Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the whole file as the Core Thesis and leaves the other sections blank — labeling is strongly recommended since, unlike the polished-response archive, there is no prose fallback split that makes sense across four structurally different fields.
+Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the whole file as the Core Thesis and leaves the other sections blank — labeling is strongly recommended since, unlike the polished-response archive, there is no prose fallback split that makes sense across structurally different fields.
 
 ## v1.0 limitation — one episode per file
 
