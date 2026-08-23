@@ -1,5 +1,4 @@
-## Title
-Environmental Habits and Responsibilities
+# Environmental Habits Responsibilities
 
 ## Q1 Prompt
 Thank you for taking the time to speak with me. I'd like to ask you about your environmental habits. What do you usually do at home to help the environment?

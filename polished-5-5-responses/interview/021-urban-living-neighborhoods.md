@@ -1,5 +1,4 @@
-## Title
-Urban Living and Neighborhoods
+# Urban Living Neighborhoods
 
 ## Q1 Prompt
 Thanks for taking part. I'd like to ask you about cities and neighborhoods. What kinds of places do people often visit in your local area? For example, do they usually go to parks, shops, libraries, or somewhere else?
