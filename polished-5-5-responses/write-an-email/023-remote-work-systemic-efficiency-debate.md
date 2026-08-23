@@ -1,5 +1,4 @@
-## Title
-Remote Work Systemic Efficiency Debate
+# Remote Work Systemic Efficiency Debate
 
 ## Prompt
 Your professor is teaching a class on labor studies. Write a post responding to the professor's question.
