@@ -29,9 +29,14 @@ toefl-2026-writing-speaking/
 │   ├── academic-discussion/
 │   ├── listen-and-repeat/
 │   └── interview/
+├── cognitive-load/              # Active Re-Encoding Pipeline for raw input → TOEFL-ready notes
+│   ├── incoming/                # upload here, GitHub Action auto-archives
+│   └── _template.md
 └── .github/
-    ├── workflows/archive-incoming.yml   # runs the script below on push
-    └── scripts/archive-incoming.js      # reformats + archives incoming/ uploads
+    ├── workflows/archive-incoming.yml         # archives polished-5-5-responses/incoming/
+    ├── workflows/archive-cognitive-load.yml    # archives cognitive-load/incoming/
+    ├── scripts/archive-incoming.js             # reformats + archives polished-5-5-responses uploads
+    └── scripts/archive-cognitive-load.js       # reformats + archives cognitive-load uploads
 ```
 
 | File | Loaded | Contents |
@@ -44,6 +49,7 @@ toefl-2026-writing-speaking/
 | `references/reference-magoosh-interview-templates.md` | on demand | Take an Interview — the C–D–E–F 45-second shape |
 | `references/reference-course-listen-repeat-lessons.md` | on demand | Listen and Repeat — the 7-sentence set map, chunking for memory, compressed function words and word endings |
 | `polished-5-5-responses/` | on demand | Personal polished-response archive, kept for pre-exam review and post-exam teaching material. Upload to `incoming/<task-type>/` and a GitHub Action reformats + archives it automatically — no server, no AI/API calls. See its own [README](polished-5-5-responses/README.md) and [`incoming/README.md`](polished-5-5-responses/incoming/README.md) for the workflow. |
+| `cognitive-load/` | on demand | The Neuro-Cognitive Architecture of Active Re-Encoding: forces raw input (a lecture, a recording, a reading — any source language) through a fixed four-stage schema (Prefrontal Abstraction → Associative Evidence Mapping → Lexical Binding → Motor-Speech Synthesis) that produces a structured, TOEFL-ready L2 semantic map instead of a transcript. Upload to `incoming/` and the same kind of GitHub Action reformats + archives it automatically. See its own [README](cognitive-load/README.md) and [`incoming/README.md`](cognitive-load/incoming/README.md). |
 
 Only `SKILL.md` occupies context by default; reference files load when the router points at them.
 

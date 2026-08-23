@@ -14,6 +14,7 @@ description: "C2-level examiner-and-coach knowledge library for the 2026 TOEFL i
 - "score/diagnose this response" → open `references/reference-ets-task-specs.md` (task rubric, 0–5) **and** `references/reference-ets-cefr-descriptors.md` (capability band, 1–6). They answer different questions.
 - Drafting or coaching a specific task → open that task's third-party file (Magoosh, or the Listen and Repeat lessons) **plus** the ETS task-specs file. Never the third-party file alone.
 - "chunk / shadow / repeat this sentence", or anything about hearing and reproducing a sentence → run **"Coaching a Listen and Repeat set"** below, with `references/reference-course-listen-repeat-lessons.md` open **plus** the ETS task-specs file. This task is scored on intelligibility and accuracy only, so the usual elaboration advice does not apply to it.
+- User pastes or describes raw, unstructured input to process — a lecture transcript, a recording, a reading, meeting notes, a conversation, in any source language — and asks to take notes on it, summarize it, process it, or "log" it → run **"Active Cognitive Buffer: re-encoding raw input"** below. Do not draft a plain summary for this kind of input; the point of the feature is that the note itself is the cognitive exercise.
 
 ## Which source for which job (start here)
 | Source (→ file) | Reach for it when you need… | Its one big idea |
@@ -74,6 +75,57 @@ This task has no draft to polish, so the other tasks' diagnose→rewrite loop do
 **When the user supplies their own attempt or transcript**, diff it against the source sentence word by word before scoring, and classify each difference by the step-6 categories. Report the diff — a missing *the* and a dropped *-ed* are two different problems with two different fixes, and pooling them as "pronunciation" destroys the diagnosis.
 
 **Never, on this task:** rewrite or improve the sentence · give elaboration, stance, or connective advice · treat template language as a memorization risk · let a chunk analysis stand as the spoken response · show the user the text before they have attempted it blind · advise note-taking. And always restate the governing tradeoff when the user reports freezing: **finishing an imperfect sentence beats stopping to fix one** — truncation turns a likely 4 into a 2, while a missing article stays inside the 4 band.
+
+## Active Cognitive Buffer: re-encoding raw input
+This feature is separate from the four practice tasks above and from `polished-5-5-responses/` — it is **input-side** processing, not output drafting. Its premise: a universal note-taking system only works as an **Active Re-Encoding Pipeline**. Raw auditory or reading input — a lecture, a recording, a meeting, a conversation, in any source language — must be forced through a fixed schema that compels synthesis rather than transcription. The output is a TOEFL-ready L2 semantic map of the episode, archived to [`cognitive-load/`](cognitive-load/) in this repo.
+
+**When the user gives you raw input and asks you to process, log, or take notes on it**, do not draft a plain summary. Instead produce exactly these four sections, in this order, holding to each constraint:
+
+1. **Prefrontal Abstraction (The Core Thesis)** — ONE complex English sentence synthesizing the entire episode, built on a subordinate clause (`Although...`, `While...`). This forces top-down compression before any supporting detail is recorded.
+2. **Associative Evidence Mapping (Logical Architecture)** — exactly three pillars supporting the thesis, written strictly in English and framed as causal mechanisms (X → Y), not a list of facts:
+   - Pillar A (Context/Problem)
+   - Pillar B (Mechanism/Intervention)
+   - Pillar C (Implication/Result)
+3. **Lexical Binding (Cross-Linguistic & Academic Vocabulary)** — 3-5 high-density concepts from the episode. If the source term is L1 (Chinese), translate it to its academic L2 equivalent. If the source term is already L2 (English), redefine it using a TOEFL-register synonym. Format each as `` `[Original Term]` → `[English Academic Equivalent]` ``.
+4. **Motor-Speech Synthesis (The TOEFL Output Drill)** — instruct the user to spend 2 minutes vocalizing a summary of the note aloud, without looking at the text, then record their own reported points of syntactic hesitation under **Syntactic Friction Points**. Leave this as `...` until the user reports back from the drill; do not invent friction points on their behalf.
+
+Give the user the complete four-section note first, in full — same standard as the archive-ready copy block below: no shortening for the sake of the archive step.
+
+### Archive-ready copy block for Cognitive Load
+After giving the complete note, append a single fenced markdown block formatted for direct upload to [`cognitive-load/incoming/`](cognitive-load/incoming/) in this repo, ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one episode per block** — if the user processed several source episodes in one sitting, offer one block per episode, never pooled into one file. Use the exact field names and order below (any field with no content: write `...`, never invent content):
+
+```markdown
+## Title
+<2-5 words naming the episode's actual topic, title case, no punctuation, e.g. "Urban Heat Islands">
+
+## Source Language
+<Chinese or English — the language of the ORIGINAL raw input, not the note itself, which is always written in English>
+
+## TOEFL Domain
+<e.g. Sociology, Economics, Biology, Humanities>
+
+## Core Thesis
+<the one complex synthesizing sentence from section 1 above, verbatim>
+
+## Pillar A
+<Context/Problem pillar from section 2 above, verbatim>
+
+## Pillar B
+<Mechanism/Intervention pillar from section 2 above, verbatim>
+
+## Pillar C
+<Implication/Result pillar from section 2 above, verbatim>
+
+## Lexical Bindings
+<all 3-5 concept lines from section 3 above, one per line, verbatim>
+
+## Syntactic Friction Points
+<the user's reported hesitation points from the section 4 drill, or "..." if they have not yet done the drill>
+```
+
+Same content-fidelity rule as the polished-response archive below: the copy block carries the SAME content as the full note already given, reorganized into fields — never a shortened digest of it. `Source Language`, `TOEFL Domain`, `Title`, and `Syntactic Friction Points` are the only fields not literally quoted from the four numbered sections; everything else must match verbatim.
+
+The [`cognitive-load/`](cognitive-load/) automation (unlike `polished-5-5-responses/`) has a single `incoming/` folder, not one per task type — every episode uses this same schema regardless of domain or source language, so there is no folder to choose.
 
 ## After answering: offer an archive-ready copy block
 Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **first give the full, complete answer exactly as you normally would** — continuous prose, full reasoning, every example and explanation, with no length-cutting for the sake of the archive step. Only *after* that complete answer, **append a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content).
@@ -205,4 +257,4 @@ The two prose fields (`My Chunking & Memory Strategy`, `My Pronunciation Focus`)
 Remind the user, briefly, that v1.0 of the archiver expects **one question per file for Write an Email / Academic Discussion / Listen and Repeat** — if they worked through multiple questions of one of those types in one sitting, they need one copy block (and one upload) per question. **Take an Interview is the opposite**: all 4 questions of one session go into a single file/upload — never split an interview session across multiple files.
 
 ## Scope & limits
-Covers the **Writing** section (Build a Sentence, Write an Email, Write for an Academic Discussion) and the **Speaking** section (Listen and Repeat, Take an Interview) of the 2026 TOEFL iBT, plus the CEFR-aligned section descriptors. **Not covered**: Reading, Listening, registration/logistics, scoring-service policy, or any task-type not in these six sources. For anything outside that, say so rather than inventing it.
+Covers the **Writing** section (Build a Sentence, Write an Email, Write for an Academic Discussion) and the **Speaking** section (Listen and Repeat, Take an Interview) of the 2026 TOEFL iBT, plus the CEFR-aligned section descriptors, plus the **Active Cognitive Buffer** input-processing feature above (which is schema-driven note-taking, not tied to any one of the six sources). **Not covered**: Reading, Listening, registration/logistics, scoring-service policy, or any task-type not in these six sources. For anything outside that, say so rather than inventing it.
