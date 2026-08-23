@@ -1,5 +1,4 @@
-## Title
-Animal Testing in Scientific Research Debate
+# Animal Testing Scientific Research Debate
 
 ## Prompt
 Your professor is teaching a class on ethics. Write a post responding to the professor's question.
