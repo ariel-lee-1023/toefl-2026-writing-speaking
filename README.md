@@ -78,6 +78,17 @@ task mechanics, and phrasing.
 
 Not covered: Reading, Listening, registration or scoring-service logistics.
 
+## Pairs well with: Cognitive-Neuroscience-Expert
+
+[Cognitive-Neuroscience-Expert](https://github.com/ariel-lee-1023/Cognitive-Neuroscience-Expert.git) is a companion skill — a mechanism-oriented cognitive neuroscience knowledge library (attention, memory systems, PFC/executive function, language, model-based cognitive neuroscience). It has no built-in diagnostic feature of its own; the pairing works by pointing its mechanism knowledge at material **this** repo already has archived about you:
+
+1. Load both skills in the same session (or point a retrieval host at both repos).
+2. Ask it to analyze your own already-archived material here — your `semantic-consolidation-buffer/content/` notes (domain distribution, recurring Lexical Binding gaps) and/or your `polished-5-5-responses/*/` archive (recurring `My Diagnosis` errors across drafts) — through its mechanism frameworks (e.g. working-memory load, attentional control, executive-function bottlenecks).
+3. That analysis is your **cognitive baseline profile** — an archive-derived read, not a clinical or psychometric assessment, and it should say so and name which files it drew from.
+4. Feed that profile into a Flexible Mode request here, e.g. "design three academic writing templates based on my cognitive profile" or "map a practice path from my latest score." Flexible Mode (see `SKILL.md`) will use it as the personalization input instead of asking you to state your profile from scratch.
+
+This only works if the profiling step is grounded in real archived material — neither skill should invent a profile from tone or guess representative weaknesses.
+
 ## Sources and attribution
 
 Distilled from six sources. These files are **original synthesis** — structure, frameworks, decision rules, and worked examples reconstructed in new wording — not reproductions. Short quoted fragments are attributed inline. Consult the originals for the authoritative text:
