@@ -1,5 +1,4 @@
-## Title
-Advanced Statistics Study Group Proposal
+# Advanced Statistics Study Group Proposal
 
 ## Prompt
 Write an email proposing a weekly study group for your class, including proposed times, location, and a request for topics to focus on.
