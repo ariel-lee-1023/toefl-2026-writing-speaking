@@ -13,7 +13,7 @@ Interesting. Some schools require their students to wear uniforms every day. Do 
 Good point. For my final question, in your opinion, how important is it for people to choose appropriate clothes when meeting new people for the first time, such as at a job interview, and why?
 
 ## Q1 My Polished Response
-In my daily life, I usually choose business casual clothing because it balances comfort and professional appearance. First, keeping a streamlined business casual wardrobe makes dressing in the morning fast and convenient without wasting time selecting outfits. Second, these clothes allow me to feel relaxed throughout the day while still maintaining a tidy, respectable appearance for work.
+In my daily life, I usually choose business casual clothing because it balances comfort and professional appearance. First, keeping a streamlined business casual closet makes dressing in the morning fast and convenient without wasting time selecting outfits. Second, these clothes allow me to feel relaxed throughout the day while still maintaining a tidy, respectable appearance for work.
 
 ## Q2 My Polished Response
 I cannot recall a specific event that required me to wear unusually formal attire. First, my daily routine and professional environment generally allow for a relaxed, functional dress code. Second, I intentionally select versatile, classic outfits for my standard wardrobe, so I rarely need to purchase or wear specialized clothing for unique events.
