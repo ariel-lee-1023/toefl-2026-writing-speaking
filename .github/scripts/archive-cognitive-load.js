@@ -17,8 +17,8 @@
  *   2. Reformats the content into the fixed Active Cognitive Buffer
  *      template (frontmatter + 4 numbered sections), leaving any section
  *      not found blank.
- *   3. Writes the result into cognitive-load/ with the next sequential
- *      NNN- index, and deletes the original incoming file.
+ *   3. Writes the result into cognitive-load/content/ with the next
+ *      sequential NNN- index, and deletes the original incoming file.
  *
  * No AI/external API calls and no domain/language classification: the host
  * AI already produced the structured note upstream. This script only
@@ -29,8 +29,9 @@ const fs = require("fs");
 const path = require("path");
 
 const REPO_ROOT = path.resolve(__dirname, "..", "..");
-const ARCHIVE_ROOT = path.join(REPO_ROOT, "cognitive-load");
-const INCOMING_DIR = path.join(ARCHIVE_ROOT, "incoming");
+const COGNITIVE_LOAD_ROOT = path.join(REPO_ROOT, "cognitive-load");
+const ARCHIVE_ROOT = path.join(COGNITIVE_LOAD_ROOT, "content");
+const INCOMING_DIR = path.join(COGNITIVE_LOAD_ROOT, "incoming");
 const SKIP_FILES = new Set([".gitkeep", "_template.md", "README.md"]);
 const STOPWORDS = new Set([
   "the","a","an","and","or","but","of","to","in","on","for","with","is","are",

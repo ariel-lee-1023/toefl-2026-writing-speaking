@@ -31,6 +31,7 @@ toefl-2026-writing-speaking/
 │   └── interview/
 ├── cognitive-load/              # Active Re-Encoding Pipeline for raw input → TOEFL-ready notes
 │   ├── incoming/                # upload here, GitHub Action auto-archives
+│   ├── content/                 # archived episodes, in upload order
 │   └── _template.md
 └── .github/
     ├── workflows/archive-incoming.yml         # archives polished-5-5-responses/incoming/

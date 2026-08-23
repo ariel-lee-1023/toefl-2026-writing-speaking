@@ -2,9 +2,9 @@ name: Archive incoming cognitive-load notes
 
 # Watches cognitive-load/incoming/ for newly uploaded .txt/.md files.
 # Whenever one lands on `main`, this reformats it into the fixed Active
-# Cognitive Buffer template, writes it into cognitive-load/ with the next
-# sequential number, deletes the original incoming file, and commits the
-# result back to the repo — fully automatic, no manual steps.
+# Cognitive Buffer template, writes it into cognitive-load/content/ with the
+# next sequential number, deletes the original incoming file, and commits
+# the result back to the repo — fully automatic, no manual steps.
 #
 # No AI/external API calls and no domain/language classification: the host
 # AI already produced the structured note upstream. This workflow only
@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add cognitive-load/
+          git add cognitive-load/incoming/ cognitive-load/content/
           if git diff --cached --quiet; then
             echo "Nothing to commit."
           else

@@ -1,8 +1,8 @@
 # incoming/ — upload here, get archived automatically
 
-Drop a `.txt` or `.md` file here and push it to `main`. A GitHub Action picks it up, reformats it into the standard **Active Cognitive Buffer** template, saves it into [`cognitive-load/`](../) with the next sequential number, and deletes the file from here — no manual steps, no AI/API calls, nothing to run locally.
+Drop a `.txt` or `.md` file here and push it to `main`. A GitHub Action picks it up, reformats it into the standard **Active Cognitive Buffer** template, saves it into [`../content/`](../content/) with the next sequential number, and deletes the file from here — no manual steps, no AI/API calls, nothing to run locally.
 
-Unlike `polished-5-5-responses/incoming/`, there is only **one** folder here, not one per task type — every episode uses the same four-field schema regardless of `toefl_domain` or source language. All archived notes land flat in `cognitive-load/`, numbered in upload order; the domain and language stay recorded in each file's frontmatter rather than in the folder path.
+Unlike `polished-5-5-responses/incoming/`, there is only **one** folder here, not one per task type — every episode uses the same four-field schema regardless of `toefl_domain` or source language. All archived notes land flat in [`../content/`](../content/), numbered in upload order; the domain and language stay recorded in each file's frontmatter rather than in the folder path.
 
 ## What to put in the file
 
@@ -24,4 +24,4 @@ Each upload is one re-encoded episode (one lecture segment, one recording, one r
 
 ## Manual alternative
 
-You don't have to use this automation at all: copy [`../_template.md`](../_template.md) by hand, fill it in, and save it directly into `cognitive-load/` with the next `NNN-topic-slug.md` name.
+You don't have to use this automation at all: copy [`../_template.md`](../_template.md) by hand, fill it in, and save it directly into [`../content/`](../content/) with the next `NNN-topic-slug.md` name.

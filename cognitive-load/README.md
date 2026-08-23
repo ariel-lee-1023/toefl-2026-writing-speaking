@@ -24,9 +24,10 @@ cognitive-load/
 ├── incoming/           ← upload here — GitHub Action auto-archives on push
 │   ├── README.md       ← exactly what labels/format to upload
 │   └── .gitkeep
-├── 001-topic-slug.md   ← archived episodes, in upload order
-├── 002-topic-slug.md
-└── ...
+└── content/            ← archived episodes, in upload order
+    ├── 001-topic-slug.md
+    ├── 002-topic-slug.md
+    └── ...
 ```
 
 ## Workflow
@@ -35,7 +36,7 @@ cognitive-load/
 
 1. Feed your raw input (a lecture recording's transcript, meeting notes, a reading, a conversation) to the host AI and ask it to produce an Active Cognitive Buffer note using the four-stage schema above.
 2. Save the AI's output as a `.txt` or `.md` file into [`incoming/`](incoming/), following the label format in [`incoming/README.md`](incoming/README.md).
-3. Push to `main`. A GitHub Action detects the labeled sections, reformats them into the fixed template below, commits the result into `cognitive-load/` with the next sequential `NNN` index, and deletes the file from `incoming/` — no manual steps, no AI/API calls, nothing to run locally.
+3. Push to `main`. A GitHub Action detects the labeled sections, reformats them into the fixed template below, commits the result into [`content/`](content/) with the next sequential `NNN` index, and deletes the file from `incoming/` — no manual steps, no AI/API calls, nothing to run locally.
 
 **Forking this repo:** this automation runs entirely inside your own fork via GitHub Actions, so it always commits to your own copy of the repo — nothing is sent anywhere else.
 
@@ -43,7 +44,7 @@ cognitive-load/
 
 1. Copy [`_template.md`](_template.md).
 2. Fill in the frontmatter (`date`, `source_language`, `toefl_domain`) and the four sections.
-3. Save it directly into `cognitive-load/`, named `NNN-topic-slug.md` (three-digit number, increasing by processing order).
+3. Save it directly into [`content/`](content/), named `NNN-topic-slug.md` (three-digit number, increasing by processing order).
 
 ## Archive file template
 
