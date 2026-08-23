@@ -6,11 +6,11 @@
  * expected to contain ONE re-encoded episode (one lecture segment, one
  * recording, one reading — see cognitive-load/incoming/README.md). Unlike
  * archive-incoming.js's four task types, there is a single incoming folder
- * here: every episode uses the same Active Cognitive Buffer
- * schema regardless of toefl_domain or source_language, so no task-type
- * classification or subfolder choice is needed. The script:
+ * here: every episode uses the same Active Cognitive Buffer schema
+ * regardless of toefl_domain or the source material's original language,
+ * so no task-type classification or subfolder choice is needed. The script:
  *   1. Detects which of the known sections are present in the raw text
- *      (Title / Source Language / TOEFL Domain / Tier / Core Thesis /
+ *      (Title / TOEFL Domain / Tier / Core Thesis /
  *      Pillar A-C / Lexical Bindings), tolerating messy input: "##Label",
  *      "Label:", "Label -", or a label alone on its own line.
  *   2. Reformats the content into the fixed Active Cognitive Buffer
@@ -61,7 +61,6 @@ function readIncomingFiles() {
 
 const COGNITIVE_LOAD_SECTIONS = [
   { key: "title", labels: ["title", "episode title"] },
-  { key: "sourceLanguage", labels: ["source language", "source_language", "l1", "input language"] },
   { key: "toeflDomain", labels: ["toefl domain", "toefl_domain", "domain"] },
   { key: "tier", labels: ["tier", "expansion tier", "density tier"] },
   {
@@ -92,6 +91,7 @@ const COGNITIVE_LOAD_SECTIONS = [
       "lexical binding",
       "3. lexical binding (cross-linguistic & academic vocabulary)",
       "cross-linguistic & academic vocabulary",
+      "3. lexical binding (academic vocabulary)",
       "vocabulary",
     ],
   },
@@ -226,22 +226,13 @@ function todayISO() {
 // Rendering — fixed section order
 // ---------------------------------------------------------------------------
 
-function normalizeSourceLanguage(raw) {
-  const v = (raw || "").trim().toLowerCase();
-  if (v.startsWith("chin") || v === "zh" || v === "cn") return "Chinese";
-  if (v.startsWith("eng") || v === "en") return "English";
-  return raw ? raw.trim() : "English";
-}
-
 function render({ title, sections }) {
   const s = sections;
-  const sourceLanguage = normalizeSourceLanguage(s.sourceLanguage);
   const toeflDomain = s.toeflDomain ? s.toeflDomain.trim() : "...";
   const tier = s.tier ? s.tier.trim() : "...";
 
   return `---
 date: ${todayISO()}
-source_language: ${sourceLanguage}
 toefl_domain: ${toeflDomain}
 tier: ${tier}
 ---
@@ -256,8 +247,8 @@ tier: ${tier}
 * **Pillar B (Mechanism/Intervention):** ${s.pillarB || "..."}
 * **Pillar C (Implication/Result):** ${s.pillarC || "..."}
 
-## 3. Lexical Binding (Cross-Linguistic & Academic Vocabulary)
-${s.lexicalBindings || "* Concept 1: `[Original Term]` \u2192 `[English Academic Equivalent]`"}
+## 3. Lexical Binding (Academic Vocabulary)
+${s.lexicalBindings || "* Concept 1: `[Plain/Original English Term]` \u2192 `[TOEFL Academic Equivalent]`"}
 `;
 }
 

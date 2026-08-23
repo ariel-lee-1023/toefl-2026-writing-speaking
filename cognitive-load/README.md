@@ -13,9 +13,9 @@ Every episode, run through the host AI, is forced into exactly these fields — 
 0. **Semantic Anchoring (Domain Metadata)** — classify the episode into one standard academic domain (Sociology, Economics, Biology, Humanities, ...). This becomes the note's `toefl_domain` frontmatter field. *Mechanism*: naming the domain primes the relevant English academic lexicon before any content is processed — the same top-down priming a TOEFL Integrated task relies on when it names its domain up front.
 1. **Prefrontal Abstraction (The Core Thesis)** — one complex English sentence synthesizing the entire episode, built around a subordinate clause (`Although...`, `While...`). *Mechanism*: caps the thesis at one sentence to exercise the dlPFC's inhibitory control, actively suppressing tangential detail (neural noise) and raising the signal-to-noise ratio of the core semantic representation; the mandated subordinate clause primes the complex syntax high-scoring Integrated Writing responses require.
 2. **Associative Evidence Mapping (Logical Architecture)** — exactly three pillars supporting the thesis (Context/Problem, Mechanism/Intervention, Implication/Result), written strictly in English and framed as causal mechanisms (X → Y), not a list of facts. *Mechanism*: mirrors how TOEFL academic lectures and reading passages are structured, training your predictive-processing model to anticipate the same structural transitions on test day, lowering prediction error when you meet them again.
-3. **Lexical Binding (Cross-Linguistic & Academic Vocabulary)** — 3-5 high-density concepts. Source material in Chinese gets translated to its academic English equivalent; source material already in English gets redefined using TOEFL-register synonyms. *Mechanism*: while consuming L1 material, the L1 semantic node is highly activated and suppresses the weaker L2 lemma (lateral inhibition); binding the term to its English equivalent immediately, while the concept is still active, trains faster L2 lexical selection under the time pressure of spontaneous speech.
+3. **Lexical Binding (Academic Vocabulary)** — 3-5 high-density concepts. Source material in Chinese (or any non-English source) gets translated to its academic English equivalent; source material already in English gets redefined using TOEFL-register synonyms. *Mechanism*: while consuming L1 material, the L1 semantic node is highly activated and suppresses the weaker L2 lemma (lateral inhibition); binding the term to its English equivalent immediately, while the concept is still active, trains faster L2 lexical selection under the time pressure of spontaneous speech.
 
-This stops at the synthesized semantic map by design: the note is comprehension material for you to draw on across all four TOEFL skills, not a spoken-output drill, so there is no speaking-recall step required to consider it complete.
+The whole note is written entirely in English regardless of source language — no non-English text appears anywhere in the note, including inside the Lexical Binding entries. This stops at the synthesized semantic map by design: the note is comprehension material for you to draw on across all four TOEFL skills, not a spoken-output drill, so there is no speaking-recall step required to consider it complete.
 
 ## Length calibration: Density Score and Expansion Tiers
 
@@ -56,7 +56,7 @@ cognitive-load/
 ### Option B — manual (no automation)
 
 1. Copy [`_template.md`](_template.md).
-2. Fill in the frontmatter (`date`, `source_language`, `toefl_domain`, `tier`) and the three sections.
+2. Fill in the frontmatter (`date`, `toefl_domain`, `tier`) and the three sections, writing everything in English regardless of the source language.
 3. Save it directly into [`content/`](content/), named `NNN-topic-slug.md` (three-digit number, increasing by processing order).
 
 ## Archive file template
@@ -64,7 +64,6 @@ cognitive-load/
 ```markdown
 ---
 date: 2026-08-23
-source_language: Chinese
 toefl_domain: Sociology
 tier: T3 (D≈14)
 ---
@@ -79,11 +78,13 @@ tier: T3 (D≈14)
 * **Pillar B (Mechanism/Intervention):** ...
 * **Pillar C (Implication/Result):** ...
 
-## 3. Lexical Binding (Cross-Linguistic & Academic Vocabulary)
-* Concept 1: `[Original Term]` → `[English Academic Equivalent]`
-* Concept 2: `[Original Term]` → `[English Academic Equivalent]`
-* Concept 3: `[Original Term]` → `[English Academic Equivalent]`
+## 3. Lexical Binding (Academic Vocabulary)
+* Concept 1: `[Plain/Original English Term]` → `[TOEFL Academic Equivalent]`
+* Concept 2: `[Plain/Original English Term]` → `[TOEFL Academic Equivalent]`
+* Concept 3: `[Plain/Original English Term]` → `[TOEFL Academic Equivalent]`
 ```
+
+All fields are written entirely in English, regardless of the source language — no Chinese or other non-English text should appear anywhere in an archived note.
 
 ## Relationship to `polished-5-5-responses/`
 

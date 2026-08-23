@@ -1,6 +1,5 @@
 ---
 date: {{date}}
-source_language: [Chinese / English]
 toefl_domain: [e.g., Sociology, Economics, Biology, Humanities]
 tier: [e.g., T3 (D≈14) — the Expansion Tier computed from source density; see SKILL.md "Length calibration"]
 ---
@@ -18,8 +17,8 @@ tier: [e.g., T3 (D≈14) — the Expansion Tier computed from source density; se
 - **Pillar B (Mechanism/Intervention):** ...
 - **Pillar C (Implication/Result):** ...
 
-## 3. Lexical Binding (Cross-Linguistic & Academic Vocabulary)
-<!-- Constraint: 3-5 high-density concepts at Tier T1/T2, extending up to 10 at Tier T4 (see SKILL.md "Length calibration"). If L1 (Chinese), translate to academic L2. If L2 (English), define using TOEFL synonyms. -->
-- Concept 1: `[Original Term]` → `[English Academic Equivalent]`
-- Concept 2: `[Original Term]` → `[English Academic Equivalent]`
-- Concept 3: `[Original Term]` → `[English Academic Equivalent]`
+## 3. Lexical Binding (Academic Vocabulary)
+<!-- Constraint: 3-5 high-density concepts at Tier T1/T2, extending up to 10 at Tier T4 (see SKILL.md "Length calibration"). If the source term is L1 (Chinese or other non-English), translate it fully to its academic L2 (English) equivalent — do not keep the original-language word. If already L2 (English), define using TOEFL synonyms. The whole note, including this section, must be entirely in English. -->
+- Concept 1: `[Plain/Original English Term]` → `[TOEFL Academic Equivalent]`
+- Concept 2: `[Plain/Original English Term]` → `[TOEFL Academic Equivalent]`
+- Concept 3: `[Plain/Original English Term]` → `[TOEFL Academic Equivalent]`

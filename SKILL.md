@@ -98,7 +98,7 @@ This feature is separate from the four practice tasks above and from `polished-5
 - **Semantic Anchoring** (the `toefl_domain` field) primes the relevant English academic lexicon before any content is processed — tagging an episode "Economics" vs. "Biology" activates a different vocabulary network, the same top-down priming a TOEFL Integrated task relies on when it names its domain up front.
 - **Prefrontal Abstraction** (Core Thesis) exercises the dlPFC's inhibitory control: capping the thesis at one sentence forces you to actively suppress tangential detail (neural noise) and raise the signal-to-noise ratio of the core semantic representation. The mandated subordinate clause additionally primes the complex syntax that high-scoring Integrated Writing responses require.
 - **Associative Evidence Mapping** (the three pillars) mirrors how TOEFL academic lectures and reading passages are structured — hierarchical logic, not a flat list of facts. Decomposing an episode into Problem → Mechanism → Result trains your predictive-processing model to anticipate structural transitions, which lowers prediction error when you meet the same structure again on test day.
-- **Lexical Binding** (the vocabulary pairs) directly targets L1 lateral inhibition: while consuming Chinese-language material, L1 semantic nodes are highly activated and suppress the weaker L2 lemma. Explicitly mapping each high-density term to its English equivalent immediately, while the concept is still active, trains faster L2 lexical selection under the time pressure of spontaneous speech.
+- **Lexical Binding** (the vocabulary pairs) directly targets L1 lateral inhibition: while consuming Chinese-language material, L1 semantic nodes are highly activated and suppress the weaker L2 lemma. Explicitly remapping each high-density term to its precise English academic equivalent immediately, while the concept is still active, trains faster L2 lexical selection under the time pressure of spontaneous speech — and forcing the whole note into English, with no source-language text retained anywhere, is what makes this remapping happen rather than deferring it.
 
 ### Length calibration: the Density Score and Expansion Tiers
 The four-field count above is fixed for every episode, short or long — that part of the schema never changes. But a fixed field *count* rendered at a fixed *depth* breaks down on dense source material: a 5-minute reading passage and a 48-minute, 19-subtopic interview should not produce the same word count, yet a schema with no density awareness will flatten both to the same short note. The fix is not to add more pillars or more fields for long material — that would defeat the inhibitory-control purpose of the rigid field count. Instead, **only the depth allowed inside each field scales, gated by a Density Score computed from the source before you draft anything.**
@@ -134,7 +134,9 @@ Compute `D = S + W / 1500`. (1,500 is an initial calibration constant — adjust
    - Pillar A (Context/Problem)
    - Pillar B (Mechanism/Intervention)
    - Pillar C (Implication/Result)
-3. **Lexical Binding (Cross-Linguistic & Academic Vocabulary)** — high-density concepts from the episode, count per the Tier rules above (base range 3-5, extending to a maximum of 10 at T4). If the source term is L1 (Chinese), translate it to its academic L2 equivalent. If the source term is already L2 (English), redefine it using a TOEFL-register synonym. Format each as `` `[Original Term]` → `[English Academic Equivalent]` ``.
+3. **Lexical Binding (Academic Vocabulary)** — high-density concepts from the episode, count per the Tier rules above (base range 3-5, extending to a maximum of 10 at T4). Every concept is stated entirely in English: if the source term is L1 (Chinese, or any non-English source), translate it to its academic L2 equivalent and use only that English term as the entry — never keep the original-language word. If the source term is already L2 (English), redefine it using a TOEFL-register synonym. Format each as `` `[Plain/Original English Term]` → `[TOEFL Academic Equivalent]` ``.
+
+The whole note is written entirely in English, regardless of the source language — no Chinese or other non-English text appears anywhere in the note, including inside the Lexical Binding entries. Translating fully into English at note-writing time is itself part of the re-encoding exercise, not a cosmetic formatting choice.
 
 This is deliberately input-side comprehension material, not a speaking-output drill: the note is meant to become raw understanding you can call on across reading, listening, writing, and speaking tasks alike, so it stops at the synthesized semantic map and does not require a spoken-recall step to be complete.
 
@@ -146,9 +148,6 @@ After giving the complete note, append a single fenced markdown block formatted 
 ```markdown
 ## Title
 <2-5 words naming the episode's actual topic, title case, no punctuation, e.g. "Urban Heat Islands">
-
-## Source Language
-<Chinese or English — the language of the ORIGINAL raw input, not the note itself, which is always written in English>
 
 ## TOEFL Domain
 <the domain named in Semantic Anchoring above, e.g. Sociology, Economics, Biology, Humanities>
@@ -172,7 +171,7 @@ After giving the complete note, append a single fenced markdown block formatted 
 <all 3-5 concept lines from section 3 above, one per line, verbatim>
 ```
 
-Same content-fidelity rule as the polished-response archive below: the copy block carries the SAME content as the full note already given, reorganized into fields — never a shortened digest of it. `Source Language`, `Title`, and `Tier` are the only fields not literally quoted from the four numbered sections above; `TOEFL Domain` is the Semantic Anchoring classification stated verbatim, `Tier` is the Density Score/Tier line stated verbatim, and everything else must match the corresponding section exactly.
+Same content-fidelity rule as the polished-response archive below: the copy block carries the SAME content as the full note already given, reorganized into fields — never a shortened digest of it. `Title` and `Tier` are the only fields not literally quoted from the four numbered sections above; `TOEFL Domain` is the Semantic Anchoring classification stated verbatim, `Tier` is the Density Score/Tier line stated verbatim, and everything else must match the corresponding section exactly — all in English, regardless of the source language.
 
 The [`cognitive-load/`](cognitive-load/) automation (unlike `polished-5-5-responses/`) has a single `incoming/` folder, not one per task type — every episode uses this same schema regardless of domain or source language, so there is no folder to choose.
 
