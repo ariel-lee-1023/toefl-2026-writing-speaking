@@ -10,10 +10,10 @@
  * schema regardless of toefl_domain or source_language, so no task-type
  * classification or subfolder choice is needed. The script:
  *   1. Detects which of the known sections are present in the raw text
- *      (Title / Source Language / TOEFL Domain / Core Thesis / Pillar A-C /
- *      Lexical Bindings / Syntactic Friction Points), tolerating messy
- *      input: "##Label", "Label:", "Label -", or a label alone on its own
- *      line.
+ *      (Title / Source Language / TOEFL Domain / Tier / Core Thesis /
+ *      Pillar A-C / Lexical Bindings / Syntactic Friction Points),
+ *      tolerating messy input: "##Label", "Label:", "Label -", or a label
+ *      alone on its own line.
  *   2. Reformats the content into the fixed Active Cognitive Buffer
  *      template (frontmatter + 4 numbered sections), leaving any section
  *      not found blank.
@@ -64,6 +64,7 @@ const COGNITIVE_LOAD_SECTIONS = [
   { key: "title", labels: ["title", "episode title"] },
   { key: "sourceLanguage", labels: ["source language", "source_language", "l1", "input language"] },
   { key: "toeflDomain", labels: ["toefl domain", "toefl_domain", "domain"] },
+  { key: "tier", labels: ["tier", "expansion tier", "density tier"] },
   {
     key: "coreThesis",
     labels: [
@@ -247,11 +248,13 @@ function render({ title, sections }) {
   const s = sections;
   const sourceLanguage = normalizeSourceLanguage(s.sourceLanguage);
   const toeflDomain = s.toeflDomain ? s.toeflDomain.trim() : "...";
+  const tier = s.tier ? s.tier.trim() : "...";
 
   return `---
 date: ${todayISO()}
 source_language: ${sourceLanguage}
 toefl_domain: ${toeflDomain}
+tier: ${tier}
 ---
 
 # 🧠 Active Cognitive Buffer: ${title}

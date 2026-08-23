@@ -11,10 +11,11 @@ Paste the host AI's output with clear labels. The automation looks for these lab
 1. `Title` — 2-5 words naming the episode's actual topic, in title case, no punctuation (e.g. `Urban Heat Islands`). This is the ONE field the script does not guess — it names the archived file directly. Do not skip it.
 2. `Source Language` — `Chinese` or `English` (defaults to `English` if omitted).
 3. `TOEFL Domain` — the episode's Semantic Anchoring classification (e.g. `Sociology`, `Economics`, `Biology`, `Humanities`), left as `...` if omitted. Naming the domain primes the matching English academic vocabulary before the rest of the note is written — see the mechanism note in [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md).
-4. `Core Thesis` (becomes **1. Prefrontal Abstraction**) — the one complex synthesizing sentence.
-5. `Pillar A` / `Pillar B` / `Pillar C` (becomes **2. Associative Evidence Mapping**) — the three causal pillars.
-6. `Lexical Bindings` (becomes **3. Lexical Binding**) — the 3-5 term → academic-equivalent pairs, one per line.
-7. `Syntactic Friction Points` (becomes **4. Motor-Speech Synthesis**) — hesitation notes from the spoken-summary drill.
+4. `Tier` — the Expansion Tier the host AI computed from source density (e.g. `T3 (D≈14)`), left as `...` if omitted. This records how much depth was permitted inside the fields below for this episode — see [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md#length-calibration-the-density-score-and-expansion-tiers) "Length calibration" for the full Density Score algorithm.
+5. `Core Thesis` (becomes **1. Prefrontal Abstraction**) — the one complex synthesizing sentence (may carry a second embedded clause at Tier T3/T4, but always one sentence).
+6. `Pillar A` / `Pillar B` / `Pillar C` (becomes **2. Associative Evidence Mapping**) — the three causal pillars (each may extend to a two-hop causal chain at Tier T3/T4 — never a fourth pillar).
+7. `Lexical Bindings` (becomes **3. Lexical Binding**) — the term → academic-equivalent pairs, one per line (3-5 at Tier T1/T2, up to 10 at Tier T4).
+8. `Syntactic Friction Points` (becomes **4. Motor-Speech Synthesis**) — hesitation notes from the spoken-summary drill (2-minute drill at T1/T2, 3-minute at T3/T4).
 
 Any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the whole file as the Core Thesis and leaves the other sections blank — labeling is strongly recommended since, unlike the polished-response archive, there is no prose fallback split that makes sense across four structurally different fields.
 

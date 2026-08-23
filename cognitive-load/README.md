@@ -14,7 +14,19 @@ Every episode, run through the host AI, is forced into exactly these fields — 
 1. **Prefrontal Abstraction (The Core Thesis)** — one complex English sentence synthesizing the entire episode, built around a subordinate clause (`Although...`, `While...`). *Mechanism*: caps the thesis at one sentence to exercise the dlPFC's inhibitory control, actively suppressing tangential detail (neural noise) and raising the signal-to-noise ratio of the core semantic representation; the mandated subordinate clause primes the complex syntax high-scoring Integrated Writing responses require.
 2. **Associative Evidence Mapping (Logical Architecture)** — exactly three pillars supporting the thesis (Context/Problem, Mechanism/Intervention, Implication/Result), written strictly in English and framed as causal mechanisms (X → Y), not a list of facts. *Mechanism*: mirrors how TOEFL academic lectures and reading passages are structured, training your predictive-processing model to anticipate the same structural transitions on test day, lowering prediction error when you meet them again.
 3. **Lexical Binding (Cross-Linguistic & Academic Vocabulary)** — 3-5 high-density concepts. Source material in Chinese gets translated to its academic English equivalent; source material already in English gets redefined using TOEFL-register synonyms. *Mechanism*: while consuming L1 material, the L1 semantic node is highly activated and suppresses the weaker L2 lemma (lateral inhibition); binding the term to its English equivalent immediately, while the concept is still active, trains faster L2 lexical selection under the time pressure of spontaneous speech.
-4. **Motor-Speech Synthesis (The TOEFL Output Drill)** — a 2-minute unscripted spoken summary of the note, with the resulting syntactic hesitation points recorded as the drill target for next time. *Mechanism*: silently understanding a concept and vocalizing it use different circuitry — actual speech recruits the primary motor cortex and Broca's area. Naming "friction points" afterward is a metacognitive step that makes the syntactic gap explicit so the next attempt corrects it.
+4. **Motor-Speech Synthesis (The TOEFL Output Drill)** — an unscripted spoken summary of the note (2 or 3 minutes, per the Tier below), with the resulting syntactic hesitation points recorded as the drill target for next time. *Mechanism*: silently understanding a concept and vocalizing it use different circuitry — actual speech recruits the primary motor cortex and Broca's area. Naming "friction points" afterward is a metacognitive step that makes the syntactic gap explicit so the next attempt corrects it.
+
+## Length calibration: Density Score and Expansion Tiers
+
+The field *count* above never changes — that's the fixed cognitive exercise. But a fixed field count rendered at a fixed *depth* fails on dense source material: a 5-minute reading passage and a 48-minute, 19-subtopic interview shouldn't produce the same word count. So before drafting, the host AI computes a **Density Score** from the source: `D = S + W / 1500`, where `S` is the number of distinct sub-topics/sub-arguments in the source (counted from existing headers/summary sections, or estimated from speaker changes and topic-shift markers in an unlabeled transcript) and `W` is the source's total word count. `D` maps to one of four discrete **Expansion Tiers** (T1 baseline, D<5; T2 moderate, 5≤D<12; T3 high, 12≤D<20; T4 very high, D≥20), and the Tier controls how much is allowed *inside* each field — never how many fields or pillars exist:
+
+- **Semantic Anchoring** and pillar/thesis/domain *counts* never scale — always one domain, one thesis sentence, three pillars.
+- **Core Thesis** may use a second embedded subordinate clause at T3/T4 (still one sentence).
+- **Pillars** may each expand from a single-hop mechanism (X → Y) to a two-hop causal chain (X → Y → Z) at T3/T4, folding related sub-arguments from a dense source into one pillar's chain rather than adding a fourth pillar.
+- **Lexical Binding** count extends from the base 3-5 up to 10 at T4, since it's a list rather than a compression exercise.
+- **The output drill** extends from 2 to 3 minutes at T3/T4.
+
+The computed Tier (e.g. `T3 (D≈14)`) is recorded in the note's `tier` frontmatter field so the calibration is auditable later. Full step-by-step rules live in [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md#length-calibration-the-density-score-and-expansion-tiers).
 
 ## Folder structure
 
@@ -44,7 +56,7 @@ cognitive-load/
 ### Option B — manual (no automation)
 
 1. Copy [`_template.md`](_template.md).
-2. Fill in the frontmatter (`date`, `source_language`, `toefl_domain`) and the four sections.
+2. Fill in the frontmatter (`date`, `source_language`, `toefl_domain`, `tier`) and the four sections.
 3. Save it directly into [`content/`](content/), named `NNN-topic-slug.md` (three-digit number, increasing by processing order).
 
 ## Archive file template
@@ -54,6 +66,7 @@ cognitive-load/
 date: 2026-08-23
 source_language: Chinese
 toefl_domain: Sociology
+tier: T3 (D≈14)
 ---
 
 # 🧠 Active Cognitive Buffer: <Short episode title>
