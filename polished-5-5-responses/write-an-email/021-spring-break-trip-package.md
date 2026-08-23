@@ -15,7 +15,7 @@ Since you already have a strong grasp of our remaining travel budget for this se
 Let me know if a quick call on Tuesday or Wednesday afternoon works for you to finalize this.
 
 Best,
-Zijia
+Ariel 
 
 ## My Draft
 ...
