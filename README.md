@@ -1,6 +1,6 @@
 # toefl-2026-writing-speaking
 
-An agent skill for the **Writing** and **Speaking** sections of the 2026 TOEFL iBT — a router plus six on-demand reference files, aimed at C2-level performance.
+An agent skill for the **Writing** and **Speaking** sections of the 2026 TOEFL iBT — a router plus six on-demand reference files, aimed at C2-level performance. Beyond its fixed-schema features (task templates, Listen and Repeat scoring, the Active Cognitive Buffer note-taking pipeline), it also runs a **Flexible Mode** for requests that don't fit a template — personalized template design, practice-path planning from a real score, or anything requiring synthesis across the library rather than execution of one fixed procedure.
 
 ## Install
 
