@@ -10,14 +10,17 @@
  * here: every episode uses the same Active Cognitive Buffer schema
  * regardless of toefl_domain or the source material's original language,
  * so no task-type classification or subfolder choice is needed. The script:
- *   1. Detects which of the known sections are present in the raw text
+ *   1. Strips leftover chat-UI citation markers ("[cite: 1]",
+ *      "[cite: 1, 4]", "[cite_start]", "[cite_end]") from the raw text --
+ *      artifacts of copy-pasting from Gemini-style hosts, never content.
+ *   2. Detects which of the known sections are present in the raw text
  *      (Title / TOEFL Domain / Tier / Core Thesis /
  *      Pillar A-C / Lexical Bindings), tolerating messy input: "##Label",
  *      "Label:", "Label -", or a label alone on its own line.
- *   2. Reformats the content into the fixed Active Cognitive Buffer
+ *   3. Reformats the content into the fixed Active Cognitive Buffer
  *      template (frontmatter + 3 numbered sections), leaving any section
  *      not found blank.
- *   3. Writes the result into semantic-consolidation-buffer/content/ with
+ *   4. Writes the result into semantic-consolidation-buffer/content/ with
  *      the next sequential NNN- index, and deletes the original incoming
  *      file.
  *
@@ -43,6 +46,22 @@ const STOPWORDS = new Set([
   "although","while","because","since","although","note","notes","episode",
   "cognitive","buffer","thesis","core",
 ]);
+
+/**
+ * Strip leftover citation markers that Gemini-style hosts sometimes inject
+ * into copy-pasted output, e.g. "[cite: 1]", "[cite: 1, 4]", "[cite_start]",
+ * "[cite_end]". These are artifacts of the source chat UI, not content --
+ * they must never survive into an archived note. Matching is
+ * case-insensitive and tolerates extra internal whitespace.
+ */
+function stripCitationMarkers(text) {
+  return text
+    .replace(/\[\s*cite_start\s*\]/gi, "")
+    .replace(/\[\s*cite_end\s*\]/gi, "")
+    .replace(/\[\s*cite\s*:\s*[\d,\s]+\]/gi, "")
+    .replace(/[ \t]+([.,;:!?])/g, "$1") // collapse space left behind before punctuation
+    .replace(/[ \t]{2,}/g, " ");
+}
 
 function log(...args) {
   console.log(...args);
@@ -259,7 +278,7 @@ ${s.lexicalBindings || "* Concept 1: `[Plain/Original English Term]` \u2192 `[TO
 // ---------------------------------------------------------------------------
 
 function processFile(filePath) {
-  const raw = fs.readFileSync(filePath, "utf8");
+  const raw = stripCitationMarkers(fs.readFileSync(filePath, "utf8"));
   const baseName = path
     .basename(filePath)
     .replace(/\.(txt|md)$/i, "")
