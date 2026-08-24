@@ -1,5 +1,4 @@
-## Title
-Welcoming New Team Member David
+# Welcoming New Team Member David
 
 ## Prompt
 A new employee, David, has recently joined your team at a marketing firm. Your manager has asked you to help him get settled during his first few weeks. You remember how challenging it was when you first started and would like to make his transition easier.

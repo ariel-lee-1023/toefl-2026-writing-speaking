@@ -1,5 +1,4 @@
-## Title
-Campus Recycling Program Feedback
+# Campus Recycling Program Feedback
 
 ## Prompt
 Your university recently introduced a recycling program in all campus buildings. While you support the initiative, you have noticed that many students are confused about which items go in which bins. You would like to share your observations with the sustainability office.
