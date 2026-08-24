@@ -1,5 +1,4 @@
-## Title
-Self Service Ticket Kiosk
+# Self Service Ticket Kiosk
 
 ## Prompt
 Scenario: A supervisor training an usher on how to assist guests using a theater's ticket kiosk.

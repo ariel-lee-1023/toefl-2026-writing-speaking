@@ -1,5 +1,4 @@
-## Title
-Florist Floral Arrangement Guide
+# Florist Floral Arrangement Guide
 
 ## Prompt
 Scenario: A supervisor guiding a new employee on how to prepare a custom bouquet for a customer.

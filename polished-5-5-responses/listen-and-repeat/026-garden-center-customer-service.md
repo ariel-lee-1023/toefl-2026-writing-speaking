@@ -1,5 +1,4 @@
-## Title
-Garden Center Customer Service
+# Garden Center Customer Service
 
 ## Prompt
 Scenario: Daily customer service instructions given by a supervisor at a garden center store.[cite: 1]

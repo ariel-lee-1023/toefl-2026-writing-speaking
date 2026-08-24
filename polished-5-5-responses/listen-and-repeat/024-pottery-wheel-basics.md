@@ -1,5 +1,4 @@
-## Title
-Pottery Wheel Basics
+# Pottery Wheel Basics
 
 ## Prompt
 Scenario: An instructor guiding a student through the steps of shaping clay on a pottery wheel.

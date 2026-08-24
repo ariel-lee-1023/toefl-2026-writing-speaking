@@ -1,5 +1,4 @@
-## Title
-Paint Department Service Guide
+# Paint Department Service Guide
 
 ## Prompt
 Scenario: A supervisor guiding a store associate through custom paint mixing procedures.

@@ -1,5 +1,4 @@
-## Title
-Apartment Amenity Tour
+# Apartment Amenity Tour
 
 ## Prompt
 Scenario: A supervisor training you on how to guide new residents through a building's shared amenities.
