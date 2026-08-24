@@ -1,5 +1,4 @@
-## Title
-Impact of Technology on Daily Life
+# Impact Technology Daily Life
 
 ## Prompt
 Dr. Diaz: We’ve been discussing the role of technology in modern society. While some people believe technology has improved our quality of life, others argue that it has created new social and psychological challenges. How do you feel about the impact of technology on our daily lives?

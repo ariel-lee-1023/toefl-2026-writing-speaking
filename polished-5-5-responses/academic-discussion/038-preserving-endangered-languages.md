@@ -1,5 +1,4 @@
-## Title
-Preserving Endangered Languages
+# Preserving Endangered Languages
 
 ## Prompt
 Dr. Moreno: We've been discussing the decline of endangered languages around the world. Linguists estimate that nearly half of the world's approximately 7,000 languages could disappear within the next century. Some scholars argue that significant resources should be dedicated to preserving these languages, as they carry unique cultural knowledge and heritage. Others believe that language loss is a natural process and that resources would be better spent elsewhere. What is your view?

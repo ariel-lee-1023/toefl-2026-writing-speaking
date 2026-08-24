@@ -1,5 +1,4 @@
-## Title
-Authoritarian vs Democratic Leadership
+# Authoritarian Vs Democratic Leadership
 
 ## Prompt
 Dr. Diaz: We’ve been discussing the effects of different leadership styles on businesses. Some argue that authoritarian leadership, where a boss makes decisions with little input from their workers, is effective because it provides clear direction and expectations. Others believe that democratic leadership is better as it encourages employee participation and morale. Which leadership style do you think is more effective? Why?

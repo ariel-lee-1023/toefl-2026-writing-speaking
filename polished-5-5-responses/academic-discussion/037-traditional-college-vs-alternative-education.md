@@ -1,5 +1,4 @@
-## Title
-Traditional College vs Alternative Education
+# Traditional College Vs Alternative Education
 
 ## Prompt
 Dr. Okafor: We've been discussing whether a traditional college education is still necessary for career success. For decades, earning a college degree has been considered essential for securing a high-paying job. However, some argue that alternative paths such as trade schools, apprenticeships, and self-directed learning can be equally effective in preparing individuals for successful careers. Do you think a college degree is still necessary? Why or why not?
