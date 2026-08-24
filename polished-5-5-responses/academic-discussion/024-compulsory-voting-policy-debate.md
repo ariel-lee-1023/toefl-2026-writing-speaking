@@ -1,5 +1,4 @@
-## Title
-Compulsory Voting Policy Debate
+# Compulsory Voting Policy Debate
 
 ## Prompt
 Your professor is teaching a class on political philosophy. Write a post responding to the professor's question.

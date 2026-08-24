@@ -1,5 +1,4 @@
-## Title
-Public Health Fast Food Regulation vs Personal Responsibility
+# Public Health Fast Food Regulation Vs
 
 ## Prompt
 Your professor is teaching a class on nutrition and society. Write a post responding to the professor's question.

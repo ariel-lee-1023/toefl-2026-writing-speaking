@@ -1,5 +1,4 @@
-## Title
-Screen Time and Child Development
+# Screen Time Child Development
 
 ## Prompt
 Your professor is teaching a class on media psychology. Write a post responding to the professor's question.

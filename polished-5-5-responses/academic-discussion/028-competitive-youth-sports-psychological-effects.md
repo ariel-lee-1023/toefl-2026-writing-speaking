@@ -1,5 +1,4 @@
-## Title
-Competitive Youth Sports Psychological Effects
+# Competitive Youth Sports Psychological Effects
 
 ## Prompt
 Your professor is teaching a class on developmental psychology. Write a post responding to the professor's question.

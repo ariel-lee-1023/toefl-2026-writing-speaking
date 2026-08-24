@@ -1,5 +1,4 @@
-## Title
-Traditional College Degree vs Alternative Career Paths
+# Traditional College Degree Vs Alternative Career
 
 ## Prompt
 Your professor is teaching a class on sociology of education. Write a post responding to the professor's question.

@@ -1,5 +1,4 @@
-## Title
-Cultural Globalization vs Local Traditions
+# Cultural Globalization Vs Local Traditions
 
 ## Prompt
 Your professor is teaching a class on cultural studies. Write a post responding to the professor's question.

@@ -1,5 +1,4 @@
-## Title
-Preserving Endangered Languages Cognitive Diversity
+# Preserving Endangered Languages Cognitive Diversity
 
 ## Prompt
 Your professor is teaching a class on linguistics. Write a post responding to the professor's question.

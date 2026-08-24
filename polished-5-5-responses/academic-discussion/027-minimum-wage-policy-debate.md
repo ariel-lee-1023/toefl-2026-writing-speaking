@@ -1,5 +1,4 @@
-## Title
-Minimum Wage Policy Debate
+# Minimum Wage Policy Debate
 
 ## Prompt
 Your professor is teaching a class on public policy. Write a post responding to the professor's question.
