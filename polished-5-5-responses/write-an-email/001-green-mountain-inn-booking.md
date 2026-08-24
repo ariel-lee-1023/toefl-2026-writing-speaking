@@ -13,7 +13,7 @@ Dear Ms. Ngo,
 
 I am writing on behalf of our university hiking club to inquire about lodging for our upcoming trip to Green Mountain. A member who stayed at the inn last season recommended it highly and specifically praised the quiet rooms and the staff’s willingness to accommodate early starts.
 
-Our group will number between fifteen and twenty people, and we intend to arrive the evening before the hike so we can rest and organize our gear. Because the trailhead opens at first light, we will need to check out at 4:00 a.m.; I would be grateful if you could confirm that such an early departure can be arranged smoothly and whether a simple packed breakfast or coffee service would be possible at that hour.
+Our group will number between fifteen and twenty people, and we intend to arrive the evening before the hike so we can rest and organize our gear. Because the trailhead opens at first light, we will need to check out at 4:00 a.m. I would be grateful if you could confirm that such an early departure can be arranged smoothly and whether a simple packed breakfast or coffee service would be possible at that hour.
 
 Could you please let me know your availability for a weekend night for a group of this size, the room rates, and any group discount that might apply?
 
