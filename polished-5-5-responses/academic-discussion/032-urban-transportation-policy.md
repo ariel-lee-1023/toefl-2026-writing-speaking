@@ -1,5 +1,4 @@
-## Title
-Urban Transportation Policy
+# Urban Transportation Policy
 
 ## Prompt
 Dr. Sharma: We've been discussing transportation policy and how cities should plan for the future of mobility. Some urban planners argue that cities should invest heavily in expanding public transportation systems, such as buses and trains, to reduce traffic congestion and pollution. Others believe that improving roads and supporting personal vehicle use is a more practical approach, as it gives individuals greater freedom and convenience. Which approach do you support? Why?

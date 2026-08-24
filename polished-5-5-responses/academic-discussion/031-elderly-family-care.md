@@ -1,5 +1,4 @@
-## Title
-Elderly Family Care
+# Elderly Family Care
 
 ## Prompt
 Dr. Moreno: We've been discussing approaches to caring for elderly family members. As populations age in many parts of the world, families must decide how best to support their aging relatives. Some believe that families should be primarily responsible for caring for elderly members at home, as it preserves family bonds and dignity. Others argue that professional care facilities are better equipped to provide the specialized attention and medical support that older adults often need. What do you think?

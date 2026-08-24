@@ -1,5 +1,4 @@
-## Title
-Historic Preservation vs Modern Development
+# Historic Preservation Vs Modern Development
 
 ## Prompt
 Dr. Okafor: We've been discussing the tension between historic preservation and modern development in growing cities. Some urban planners argue that preserving historic buildings is essential for maintaining a city's cultural heritage and sense of identity. Others believe that older structures should make way for modern development to accommodate population growth and meet current economic needs. Which approach do you think cities should prioritize? Why?

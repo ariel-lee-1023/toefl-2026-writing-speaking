@@ -1,5 +1,4 @@
-## Title
-Foreign Aid Effectiveness
+# Foreign Aid Effectiveness
 
 ## Prompt
 Dr. Sharma: We've been discussing the role of foreign aid in international development. Foreign aid refers to financial assistance, resources, or expertise provided by wealthier nations to support developing countries. Some scholars argue that foreign aid is essential for reducing global poverty and promoting stability. Others contend that it can create dependency and may not always reach the people who need it most. What are your thoughts on this issue?
