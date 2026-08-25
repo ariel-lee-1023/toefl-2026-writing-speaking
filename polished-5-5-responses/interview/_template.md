@@ -14,6 +14,7 @@
 ...
 
 ## Q1 My Polished Response
+<!-- already-confirmed 5/5, not a draft -->
 ...
 
 ## Q2 My Polished Response
@@ -25,25 +26,9 @@
 ## Q4 My Polished Response
 ...
 
-## Q1 My Draft
-...
-
-## Q2 My Draft
-...
-
-## Q3 My Draft
-...
-
-## Q4 My Draft
-...
-
-## My Diagnosis
-<!-- Session-wide. If gaps remain: name each recurring error, quoting the exact flawed phrase/sentence.
-     If the session already reads as a clean 5/5 across all four answers: say so directly, then note
-     only genuine ceiling-level refinements (if any) — don't invent a flaw to fill the field. -->
+## My Score Explained
+<!-- Session-wide: explain WHY the whole 4-question session earns a 5/5, citing references/reference-ets-task-specs.md criteria —
+     task fulfillment/relevance to each question, coherent and idiomatic delivery, appropriate development and detail,
+     natural connectors between ideas — quoting the exact phrases from the polished responses above that demonstrate each one.
+     State the 5/5 verdict directly; never invent a flaw or hedge the score just to fill this field. -->
 - ...
-
-## My What Changed & Why
-- Word choice / collocation issues: ...
-- Grammar / structure issues: ...
-- Explain the fix against the relevant criterion in references/reference-ets-task-specs.md

@@ -191,7 +191,7 @@ If a request fits an existing feature, use that feature — Flexible Mode is not
 
 1. **Ground every claim in the library, and cite which source it came from** (e.g. "per the ETS score-5 band..." / "per the CEFR C2 descriptor for..." / "per Magoosh's Interview shape..."). Load whichever `references/reference-*.md` files are relevant — Flexible Mode still draws on the same six sources, it just doesn't force the output into one of their fixed templates. Never invent a rule, band description, or scoring criterion; if a claim isn't traceable to a loaded source, say it's your own synthesis, not a rubric fact.
 2. **Never fabricate the user's own data.** Requests like "design three templates for my cognitive profile" or "map a practice path from my latest score" require an actual cognitive profile or an actual score — neither exists in this library unless the user supplies it. Do not infer a profile from tone, guess a score, or invent representative weaknesses to make the answer feel complete. If the needed input is missing, ask for it before answering:
-   - "my cognitive profile" → ask what that refers to concretely — is it a pattern the user has already noticed across their own practice, an existing personality/learning-style assessment they want you to work from, or should you look for a pattern across their already-archived work? If it's the last, check `semantic-consolidation-buffer/content/` for domain distribution and recurring Lexical Binding gaps, and `polished-5-5-responses/{write-an-email,interview,listen-and-repeat}/` for recurring `My Diagnosis` errors across archived responses (academic-discussion archives only confirmed-5/5 responses via `My Score Explained` and has no error field to draw a gap pattern from) — but say plainly that this is a pattern read off their archive, not a clinical or psychometric profile, and name which files it's drawn from. If the companion skill [Cognitive-Neuroscience-Expert](https://github.com/ariel-lee-1023/Cognitive-Neuroscience-Expert.git) is also loaded, that same archive material can instead be run through its mechanism frameworks (working-memory load, attentional control, executive-function bottlenecks) to produce a richer baseline — see this repo's README, "Pairs well with: Cognitive-Neuroscience-Expert" — but the source is still this user's own archive either way, never an invented profile.
+   - "my cognitive profile" → ask what that refers to concretely — is it a pattern the user has already noticed across their own practice, an existing personality/learning-style assessment they want you to work from, or should you look for a pattern across their already-archived work? If it's the last, check `semantic-consolidation-buffer/content/` for domain distribution and recurring Lexical Binding gaps, and `polished-5-5-responses/listen-and-repeat/` for recurring `My Pronunciation Focus`/self-assessment error patterns across archived responses (write-an-email, academic-discussion, and interview all archive only confirmed-5/5 responses via `My Score Explained` and have no error field to draw a gap pattern from) — but say plainly that this is a pattern read off their archive, not a clinical or psychometric profile, and name which files it's drawn from. If the companion skill [Cognitive-Neuroscience-Expert](https://github.com/ariel-lee-1023/Cognitive-Neuroscience-Expert.git) is also loaded, that same archive material can instead be run through its mechanism frameworks (working-memory load, attentional control, executive-function bottlenecks) to produce a richer baseline — see this repo's README, "Pairs well with: Cognitive-Neuroscience-Expert" — but the source is still this user's own archive either way, never an invented profile.
    - "my latest score" → ask for the actual section score(s)/band, or the specific task scores, if not already given. Never assume a band from context.
    - Any other personal baseline (weak areas, timing habits, a specific past error) → ask directly rather than assuming, unless the user already stated it earlier in the same conversation, in which case reuse what they said instead of asking again.
 3. **Answer in whatever structure actually serves the request** — prose, a short table, a numbered plan, several labeled templates — the continuous-prose rule in Operating Stance §0 governs *drafted TOEFL responses themselves* (things meant to be typed into the actual test), not meta-level coaching output like a study plan or a template design. A template you're designing for future use, a diagnosis summary, or a practice roadmap may use headings, bullets, and structure freely; a sample answer embedded inside that output must still follow §0.
@@ -203,13 +203,13 @@ If a request fits an existing feature, use that feature — Flexible Mode is not
 ## After answering: offer an archive-ready copy block
 Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **first give the full, complete answer exactly as you normally would** — continuous prose, full reasoning, every example and explanation, with no length-cutting for the sake of the archive step. Only *after* that complete answer, **append a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content).
 
-**`My Diagnosis` (Write an Email / Take an Interview) covers both outcomes, not just gaps.** Its job is to summarize the response's rubric standing in a couple of sentences — most drafts still have real, quotable errors to name, but a response that already reads as a clean 5/5 deserves that verdict stated plainly (with, at most, genuine ceiling-level refinement notes), never a manufactured flaw just to fill the field. **Academic Discussion has no `My Diagnosis` field** — it archives only confirmed-5/5 responses, so it uses `My Score Explained` instead (see below), which always states the 5/5 verdict and the rubric criteria behind it, never a gap analysis.
+**None of the four task types use a `My Diagnosis` field anymore.** Write an Email, Academic Discussion, and Take an Interview all archive only confirmed-5/5 responses, so they use `My Score Explained` instead (see below), which always states the 5/5 verdict and the rubric criteria behind it, never a gap analysis. Listen and Repeat keeps its own separate shape (`My Self-Assessment`, etc. — see below) and was never part of the diagnosis pipeline in the first place.
 
 **Every copy block starts with a `## Title` field.** This is the ONE field the archiving script does not try to extract from anything else — it uses your Title verbatim to name the archived file (e.g. `## Title\nReading Habits` archives as `00X-reading-habits.md`). Do not skip it and do not let the script guess: guessing from the first few words of the Prompt fails badly when the prompt opens with small talk or instructions ("Thank you for your participation...", "Before they leave, thank customers...") — the real topic gets buried past the words the script samples, producing meaningless filenames. Write 2-5 words naming the actual topic or scenario of the session (e.g. `Reading Habits`, `Retail Checkout`, `Requesting a Deadline Extension`), in title case, with no punctuation, and no restating of the task type itself (never `Interview Session` or `Email Prompt`).
 
 **Critical: the copy block must carry the SAME content as the full answer above it, not a shortened summary of it.** Every field's content must be the substance already given in the full answer — reorganized/labeled into the right field, quoting or closely paraphrasing your own explanations, examples, and reasoning — never a compressed bullet stub that drops the specifics (concrete chunk examples, the exact words flagged for pronunciation, the reasoning behind each fix, etc.). If a field would otherwise come out shorter than the corresponding material in the full answer, that is a sign content was dropped — go back and carry it over instead. The two parts (full answer, then copy block) should read as the same information in two formats, not as an answer followed by a lossy digest of it. The only thing the block strips is prose connectors needed for spoken/written flow — not analytical content. Do not add extra commentary inside the block itself beyond the field content — it must match the repo's automated archiver output 1:1.
 
-**Write an Email** — one question per block:
+**Write an Email** — confirmed-5/5 record, one question per block. The human user has already confirmed the polished response IS a 5/5 answer before it gets archived, so there is no draft-vs-final diagnosis step and no "what changed" to explain — there is nothing being fixed. Never ask for or include a raw draft here, and never frame this as a before/after correction:
 ```markdown
 ## Title
 <2-5 words naming this question's actual topic/scenario, e.g. "Requesting a Deadline Extension">
@@ -218,22 +218,14 @@ Whenever a user asks to diagnose, score, or polish a response for one of the fou
 <the exact original question/prompt>
 
 ## My Polished Response
-<the polished, upload-ready version>
+<the confirmed-5/5 response, upload-ready as-is>
 
-## My Draft
-<the user's original raw draft, if provided>
-
-## My Diagnosis
-<if gaps remain: specific recurring error 1, with the exact flawed phrase/sentence quoted>
-<specific recurring error 2, with the exact flawed phrase/sentence quoted>
-<if the response already reads as a clean 5/5: say so directly, then note only genuine ceiling-level refinements, if any — never invent a flaw to fill this field>
-
-## My What Changed & Why
-<the full explanation from the answer above of what was fixed and why, tied to the relevant rubric criterion — not a one-line summary>
+## My Score Explained
+<name each rubric criterion from references/reference-ets-task-specs.md the response satisfies — task fulfillment/all required content points addressed, appropriate register and tone for the recipient, clear organization, idiomatic/error-free language, sufficient length — quoting the exact phrase or sentence that demonstrates each one. State the 5/5 verdict directly; do not invent a flaw or hedge the score just to fill this field.>
 ```
-Same content-fidelity rule as above: pull the actual sentences and reasoning from the full answer into these fields, don't re-summarize them into shorter generic bullets.
+Same content-fidelity rule as above: carry over the actual reasoning from the full answer into this field, don't compress it into a generic bullet.
 
-**Academic Discussion** — confirmed-5/5 record, one question per block. This archive is different in kind from Write an Email: the human user has already confirmed the polished response IS a 5/5 answer before it gets archived, so there is no draft-vs-final diagnosis step and no "what changed" to explain — there is nothing being fixed. Never ask for or include a raw draft here, and never frame this as a before/after correction:
+**Academic Discussion** — confirmed-5/5 record, one question per block. Same shape as Write an Email above and for the same reason: the human user has already confirmed the polished response IS a 5/5 answer before it gets archived, so there is no draft-vs-final diagnosis step and no "what changed" to explain. Never ask for or include a raw draft here, and never frame this as a before/after correction:
 ```markdown
 ## Title
 <2-5 words naming this question's actual topic/scenario, e.g. "Universal Basic Income Debate">
@@ -249,7 +241,7 @@ Same content-fidelity rule as above: pull the actual sentences and reasoning fro
 ```
 Same content-fidelity rule: carry over the actual reasoning from the full answer, don't compress it into a generic bullet.
 
-**Take an Interview** — session-level template, NOT one block per question. The real Interview task presents 4 questions back-to-back in one sitting with zero prep time, so the archive unit is the whole session (Q1-Q4 together), never a single question. Whenever a user works through an interview session (whether they gave you all 4 up front or one at a time across the conversation), wait until all 4 are answered, then emit exactly ONE block covering all of them. Group by field type, not by question — all four Prompts together, then all four Polished Responses together, then all four Drafts together — so a reader can scan straight down each field type across the whole session:
+**Take an Interview** — session-level template, NOT one block per question, and a confirmed-5/5 record like Write an Email and Academic Discussion above. The real Interview task presents 4 questions back-to-back in one sitting with zero prep time, so the archive unit is the whole session (Q1-Q4 together), never a single question. By the time a session gets archived, **the human user has already confirmed all 4 answers read as a 5/5 session** — so there is no `My Draft` and no `My What Changed & Why`, only one shared `My Score Explained` at the end. Whenever a user works through an interview session (whether they gave you all 4 up front or one at a time across the conversation), wait until all 4 are answered and confirmed, then emit exactly ONE block covering all of them. Group by field type, not by question — all four Prompts together, then all four Polished Responses together — so a reader can scan straight down each field type across the whole session:
 ```markdown
 ## Title
 <2-5 words naming this session's actual topic, e.g. "Reading Habits" — never derived from Q1's opening small talk>
@@ -267,38 +259,21 @@ Same content-fidelity rule: carry over the actual reasoning from the full answer
 <question 4>
 
 ## Q1 My Polished Response
-<polished answer 1>
+<confirmed-5/5 answer 1, upload-ready as-is>
 
 ## Q2 My Polished Response
-<polished answer 2>
+<confirmed-5/5 answer 2, upload-ready as-is>
 
 ## Q3 My Polished Response
-<polished answer 3>
+<confirmed-5/5 answer 3, upload-ready as-is>
 
 ## Q4 My Polished Response
-<polished answer 4>
+<confirmed-5/5 answer 4, upload-ready as-is>
 
-## Q1 My Draft
-<user's original draft answer 1, if provided>
-
-## Q2 My Draft
-<user's original draft answer 2, if provided>
-
-## Q3 My Draft
-<user's original draft answer 3, if provided>
-
-## Q4 My Draft
-<user's original draft answer 4, if provided>
-
-## My Diagnosis
-<if gaps remain: specific recurring error 1, session-wide, with exact flawed phrasing quoted>
-<specific recurring error 2, session-wide, with exact flawed phrasing quoted>
-<if the session already reads as a clean 5/5 across all four answers: say so directly, then note only genuine ceiling-level refinements, if any — never invent a flaw to fill this field>
-
-## My What Changed & Why
-<the full explanation from the answer above of what was fixed and why across the session, tied to the relevant rubric criterion — not a one-line summary>
+## My Score Explained
+<name each rubric criterion from references/reference-ets-task-specs.md the session satisfies across all 4 answers — relevance/task fulfillment for each question, coherent and idiomatic delivery, appropriate development and detail, natural connectors between ideas — quoting the exact phrase or sentence from the polished responses above that demonstrates each one. State the 5/5 verdict directly; do not invent a flaw or hedge the score just to fill this field.>
 ```
-The archiving script accepts any order for these labels internally (each field is independently detected by its own heading and regrouped into this Prompt/Polished/Draft layout regardless of the order the host AI wrote them in), but produce them in this order directly since it reads more naturally and avoids relying on the script's regrouping. Same content-fidelity rule as the other templates: carry over the actual reasoning and examples from the full answer, don't compress them into shorter generic bullets.
+The archiving script accepts any order for these labels internally (each field is independently detected by its own heading and regrouped into this Prompt/Polished layout regardless of the order the host AI wrote them in), but produce them in this order directly since it reads more naturally and avoids relying on the script's regrouping. Same content-fidelity rule as the other templates: carry over the actual reasoning and examples from the full answer, don't compress them into shorter generic bullets.
 
 If the user only completed 1-3 questions of a session so far, do not emit the copy block yet — offer it only once the full 4-question session is done. If the session genuinely has fewer or more than 4 questions, adjust the Q-numbering accordingly, but still keep it as ONE block for the whole session, never split per question.
 

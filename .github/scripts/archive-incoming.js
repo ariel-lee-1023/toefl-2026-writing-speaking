@@ -6,11 +6,13 @@
  * files. Each file is expected to contain ONE question (v1.0 does not split
  * multi-question uploads — see README). The script:
  *   1. Detects which of the known sections are present in the raw text
- *      (write-an-email: Prompt / Polished Response / My Draft / My Diagnosis /
- *      What Changed & Why; academic-discussion: Prompt / My Polished Response /
- *      My Score Explained — a confirmed-5/5 record, no draft or diagnosis fields;
- *      or, for listen-and-repeat, Prompt / Set Map / Chunking & Memory Strategy /
- *      Pronunciation Focus / Self-Assessment), tolerating messy input:
+ *      (write-an-email / academic-discussion / interview: Prompt / My
+ *      Polished Response / My Score Explained — all three are confirmed-5/5
+ *      records, no draft or diagnosis fields; interview keeps a per-question
+ *      Q1-Q4 Prompt / Polished Response plus one shared My Score Explained;
+ *      or, for listen-and-repeat, Prompt / Set Map / Chunking & Memory
+ *      Strategy / Pronunciation Focus / Self-Assessment), tolerating messy
+ *      input:
  *      "##Label", "Label:", "Label -", or a label alone on its own line.
  *   2. Reformats the content into the matching task-type template, in a
  *      fixed section order, leaving any section not found blank.
@@ -66,52 +68,12 @@ function readIncomingFiles(taskType) {
 // Each entry: canonical key -> array of label patterns that may introduce it.
 // Patterns are matched against a trimmed line with any leading "#"/markdown
 // stripped and trailing ":"/"-"/"—" stripped, case-insensitively.
-const PROSE_SECTIONS = [
-  { key: "sessionTitle", labels: ["title", "session title"] },
-  { key: "prompt", labels: ["prompt", "question"] },
-  {
-    key: "polishedResponse",
-    labels: [
-      "my polished response",
-      "polished response",
-      "final response",
-      "final answer",
-      "my response",
-      "my answer",
-      "polished",
-      "response",
-      "answer",
-    ],
-  },
-  { key: "myDraft", labels: ["my draft", "draft", "original draft", "raw draft"] },
-  {
-    key: "keyObstacles",
-    labels: [
-      "my diagnosis",
-      "diagnosis",
-      "my key obstacles holding you back from a 5/5",
-      "key obstacles holding you back from a 5/5",
-      "key obstacles",
-      "obstacles",
-    ],
-  },
-  {
-    key: "whatChanged",
-    labels: [
-      "my what changed & why",
-      "my what changed and why",
-      "what changed & why",
-      "what changed and why",
-      "what changed",
-    ],
-  },
-];
-
-// Academic Discussion: the human user has already confirmed the polished response is a
-// 5/5 answer before archiving — this is a confirmation record, not a draft-to-diagnosis
-// pipeline. No "My Draft" or "My What Changed & Why" fields; "My Score Explained" replaces
-// "My Diagnosis" and explains why the confirmed response earns the score, not what was fixed.
-const ACADEMIC_DISCUSSION_SECTIONS = [
+// write-an-email and academic-discussion: the human user has already confirmed
+// the polished response is a 5/5 answer before archiving — this is a
+// confirmation record, not a draft-to-diagnosis pipeline. No "My Draft" or
+// "My What Changed & Why" fields; "My Score Explained" replaces "My Diagnosis"
+// and explains why the confirmed response earns the score, not what was fixed.
+const CONFIRMED_5_SECTIONS = [
   { key: "sessionTitle", labels: ["title", "session title"] },
   { key: "prompt", labels: ["prompt", "question"] },
   {
@@ -141,12 +103,18 @@ const ACADEMIC_DISCUSSION_SECTIONS = [
 
 // Interview is a 4-question session in one sitting (one interviewer, four
 // consecutive prompts, zero prep time). A single archived file represents
-// the whole session, not one question — see INTERVIEW_SESSION_SECTIONS below.
+// the whole session, not one question. Interview is also a confirmed-5/5
+// record like write-an-email/academic-discussion: the human user has already
+// confirmed the whole session IS a 5/5 before archiving, so there is no
+// per-question My Draft and no session-level My What Changed & Why — only
+// one shared My Score Explained field covering all 4 answers.
 const INTERVIEW_SHARED_SECTIONS = [
   { key: "sessionTitle", labels: ["title", "session title"] },
   {
-    key: "keyObstacles",
+    key: "scoreExplained",
     labels: [
+      "my score explained",
+      "score explained",
       "my diagnosis",
       "diagnosis",
       "my key obstacles holding you back from a 5/5",
@@ -155,19 +123,9 @@ const INTERVIEW_SHARED_SECTIONS = [
       "obstacles",
     ],
   },
-  {
-    key: "whatChanged",
-    labels: [
-      "my what changed & why",
-      "my what changed and why",
-      "what changed & why",
-      "what changed and why",
-      "what changed",
-    ],
-  },
 ];
 
-/** Build the per-question label set for interview Q1..Q4 ("Q1 Prompt", "Q2 My Draft", etc.). */
+/** Build the per-question label set for interview Q1..Q4 ("Q1 Prompt", "Q2 My Polished Response", etc.). */
 function interviewQuestionSections(qNum) {
   return [
     { key: `q${qNum}_prompt`, labels: [`q${qNum} prompt`, `question ${qNum} prompt`, `q${qNum} question`] },
@@ -180,10 +138,6 @@ function interviewQuestionSections(qNum) {
         `q${qNum} response`,
         `q${qNum} answer`,
       ],
-    },
-    {
-      key: `q${qNum}_myDraft`,
-      labels: [`q${qNum} my draft`, `q${qNum} draft`, `question ${qNum} draft`],
     },
   ];
 }
@@ -383,32 +337,15 @@ function titleCase(slug) {
 // Rendering — fixed section order per task type
 // ---------------------------------------------------------------------------
 
-function renderProse({ title, promptLabel, sections }) {
+// write-an-email and academic-discussion are both confirmed-5/5 archives: the
+// human user has already confirmed the polished response IS a 5/5 before it
+// gets archived, so neither has a draft-vs-final diagnosis step. They share
+// this render shape and differ only in the Prompt heading text.
+function renderConfirmed5of5({ title, promptLabel, sections }) {
   const s = sections;
   return `# ${title}
 
 ## ${promptLabel}
-${s.prompt || "..."}
-
-## My Polished Response
-${s.polishedResponse || "..."}
-
-## My Draft
-${s.myDraft || "..."}
-
-## My Diagnosis
-${s.keyObstacles || "..."}
-
-## My What Changed & Why
-${s.whatChanged || "..."}
-`;
-}
-
-function renderAcademicDiscussion({ title, sections }) {
-  const s = sections;
-  return `# ${title}
-
-## Prompt (including both student posts)
 ${s.prompt || "..."}
 
 ## My Polished Response
@@ -419,19 +356,18 @@ ${s.scoreExplained || "..."}
 `;
 }
 
-function renderInterview({ title, qa, keyObstacles, whatChanged }) {
-  // Grouped by field type (all Prompts, then all Polished Responses, then
-  // all Drafts) rather than grouped by question - this is a deliberate
-  // layout choice so a reader can scan all four prompts together, then all
-  // four polished answers together, then all four drafts together.
+function renderInterview({ title, qa, scoreExplained }) {
+  // Grouped by field type (all Prompts, then all Polished Responses) rather
+  // than grouped by question - this is a deliberate layout choice so a
+  // reader can scan all four prompts together, then all four polished
+  // answers together. Interview is a confirmed-5/5 record like
+  // write-an-email/academic-discussion, so there is no per-question My Draft
+  // — only one shared My Score Explained field at the end.
   const prompts = qa
     .map((q, i) => `## Q${i + 1} Prompt\n${q.prompt || "..."}`)
     .join("\n\n");
   const polished = qa
     .map((q, i) => `## Q${i + 1} My Polished Response\n${q.polishedResponse || "..."}`)
-    .join("\n\n");
-  const drafts = qa
-    .map((q, i) => `## Q${i + 1} My Draft\n${q.myDraft || "..."}`)
     .join("\n\n");
 
   return `# ${title}
@@ -440,13 +376,8 @@ ${prompts}
 
 ${polished}
 
-${drafts}
-
-## My Diagnosis
-${keyObstacles || "..."}
-
-## My What Changed & Why
-${whatChanged || "..."}
+## My Score Explained
+${scoreExplained || "..."}
 `;
 }
 
@@ -519,18 +450,16 @@ function processFile(taskType, filePath) {
       ...INTERVIEW_SHARED_SECTIONS,
     ];
     const detected = detectSections(raw, allInterviewSections);
-    const shared = { keyObstacles: detected.keyObstacles, whatChanged: detected.whatChanged };
     const qa = [1, 2, 3, 4].map((q) => ({
       prompt: detected[`q${q}_prompt`] || "",
       polishedResponse: detected[`q${q}_polishedResponse`] || "",
-      myDraft: detected[`q${q}_myDraft`] || "",
     }));
     // No automatic guessing when Q1..Q4 labels are missing — v1.0 does not
     // attempt to split or classify raw pasted text. The user is expected to
     // paste the copy-ready block from SKILL.md (which already carries the
     // Q1..Q4 labels), so an unlabeled upload archives as an empty skeleton
     // (all fields "...") rather than a guessed, possibly-wrong split.
-    sections = { qa, keyObstacles: shared.keyObstacles, whatChanged: shared.whatChanged };
+    sections = { qa, scoreExplained: detected.scoreExplained };
     // Prefer the host AI's explicit Title field — Interview's Q1 Prompt is
     // often interviewer small talk ("Thank you for your participation...")
     // whose first real words carry no topical signal, so falling back to it
@@ -538,21 +467,14 @@ function processFile(taskType, filePath) {
     // knows the session's actual topic (e.g. "Reading Habits") and should
     // say so directly instead of the script guessing from the Q1 opener.
     slugSource = detected.sessionTitle || qa.find((q) => q.prompt)?.prompt || baseName;
-  } else if (taskType === "academic-discussion") {
-    // Academic Discussion archives a response the human user has already
-    // confirmed is a 5/5 — no draft-vs-final diagnosis pipeline, so it uses
-    // its own (shorter) section set: Prompt, My Polished Response, My Score
-    // Explained. "My Diagnosis" is still recognized as an input label for
-    // backward compatibility but always renders under "My Score Explained".
-    sections = detectSections(raw, ACADEMIC_DISCUSSION_SECTIONS);
-    if (!sections.prompt && !sections.polishedResponse) {
-      const fb = fallbackProseSplit(raw);
-      sections.prompt = sections.prompt || fb.prompt;
-      sections.polishedResponse = sections.polishedResponse || fb.polishedResponse;
-    }
-    slugSource = sections.sessionTitle || sections.prompt || sections.polishedResponse || baseName;
   } else {
-    sections = detectSections(raw, PROSE_SECTIONS);
+    // write-an-email and academic-discussion both archive a response the
+    // human user has already confirmed is a 5/5 — no draft-vs-final diagnosis
+    // pipeline, so they share the shorter section set: Prompt, My Polished
+    // Response, My Score Explained. "My Diagnosis" is still recognized as an
+    // input label for backward compatibility but always renders under
+    // "My Score Explained".
+    sections = detectSections(raw, CONFIRMED_5_SECTIONS);
     if (!sections.prompt && !sections.polishedResponse) {
       const fb = fallbackProseSplit(raw);
       sections.prompt = sections.prompt || fb.prompt;
@@ -563,6 +485,7 @@ function processFile(taskType, filePath) {
 
   const slug = slugify(slugSource, baseName || "untitled");
   const title = titleCase(slug);
+  const promptLabel = taskType === "academic-discussion" ? "Prompt (including both student posts)" : "Prompt";
   const content =
     taskType === "listen-and-repeat"
       ? renderListenRepeat({ title, sections })
@@ -570,12 +493,9 @@ function processFile(taskType, filePath) {
       ? renderInterview({
           title,
           qa: sections.qa,
-          keyObstacles: sections.keyObstacles,
-          whatChanged: sections.whatChanged,
+          scoreExplained: sections.scoreExplained,
         })
-      : taskType === "academic-discussion"
-      ? renderAcademicDiscussion({ title, sections })
-      : renderProse({ title, promptLabel: "Prompt", sections });
+      : renderConfirmed5of5({ title, promptLabel, sections });
 
   const idx = nextIndex(taskType);
   const num = String(idx).padStart(3, "0");

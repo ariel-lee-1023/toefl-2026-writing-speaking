@@ -16,23 +16,13 @@ incoming/
 
 Just paste your content in with clear labels. The automation looks for these labels (as a markdown heading, a line ending in `:`, or `Label: content` all on one line) and slots each one into the matching section of the final archive file.
 
-**`write-an-email/`** uses this fixed order:
+**`write-an-email/` and `academic-discussion/` are both confirmed-5/5 records, not a draft-to-diagnosis pipeline** — by the time you upload here, you've already confirmed the response IS a 5/5. They use the same short, fixed order:
 
-1. `Prompt`
-2. `Polished Response` (becomes **My Polished Response**)
-3. `My Draft`
-4. `Diagnosis` (becomes **My Diagnosis**; `Key Obstacles Holding You Back from a 5/5` is also recognized for backward compatibility)
-5. `What Changed & Why` (becomes **My What Changed & Why**)
-
-`My Diagnosis` is a general standing summary, not a forced list of flaws — name real recurring errors when they exist (quoting the exact phrase), but if the response already reads as a clean 5/5, say so directly and add only genuine ceiling-level refinement notes.
-
-**`academic-discussion/` is a confirmed-5/5 record, not a draft-to-diagnosis pipeline** — by the time you upload here, you've already confirmed the response IS a 5/5. It uses its own, shorter, fixed order:
-
-1. `Prompt` (include both student posts)
+1. `Prompt` (for academic-discussion, include both student posts)
 2. `Polished Response` (becomes **My Polished Response**)
 3. `Score Explained` (becomes **My Score Explained**; `Diagnosis`/`My Diagnosis` is still recognized as an input label for backward compatibility, but always renders under **My Score Explained**)
 
-There is no `My Draft` and no `My What Changed & Why` field for academic-discussion — don't paste a raw draft here. `My Score Explained` states the 5/5 verdict directly and names the rubric criteria (from `references/reference-ets-task-specs.md`) the response satisfies, quoting the exact phrase that demonstrates each one — it is never a gap analysis.
+There is no `My Draft` and no `My What Changed & Why` field for either — don't paste a raw draft here. `My Score Explained` states the 5/5 verdict directly and names the rubric criteria (from `references/reference-ets-task-specs.md`) the response satisfies, quoting the exact phrase that demonstrates each one — it is never a gap analysis.
 
 For both folders, any label you don't include is simply left blank (`...`) in the archived file for you to fill in later. If you don't label anything at all, the automation treats the first paragraph as the Prompt and everything after it as the Polished Response.
 
@@ -54,40 +44,30 @@ One `Set Map` row per sentence is the whole point of the format — it is what l
 
 ## `interview/` is the opposite — one SESSION (all 4 questions) per file
 
-The real Take an Interview task asks 4 connected questions back-to-back in one sitting with zero prep time — that whole session is the natural unit, not any single question inside it. So for `interview/`, do **not** upload one file per question. Instead, put all 4 questions and answers from one session into a single file, labeled like this:
+The real Take an Interview task asks 4 connected questions back-to-back in one sitting with zero prep time — that whole session is the natural unit, not any single question inside it. So for `interview/`, do **not** upload one file per question. **`interview/` is also a confirmed-5/5 record, not a draft-to-diagnosis pipeline** — by the time you upload here, you've already confirmed the session IS a 5/5, so there is no `My Draft` and no `My What Changed & Why` field. Instead, put all 4 questions and answers from one session into a single file, labeled like this:
 
 ```
 ## Q1 Prompt
 ...
 ## Q1 My Polished Response
 ...
-## Q1 My Draft
-...
 ## Q2 Prompt
 ...
 ## Q2 My Polished Response
-...
-## Q2 My Draft
 ...
 ## Q3 Prompt
 ...
 ## Q3 My Polished Response
 ...
-## Q3 My Draft
-...
 ## Q4 Prompt
 ...
 ## Q4 My Polished Response
 ...
-## Q4 My Draft
-...
-## My Diagnosis
-...
-## My What Changed & Why
+## My Score Explained
 ...
 ```
 
-`My Diagnosis` and `What Changed & Why` are session-level (one shared diagnosis for the whole session, not per-question). The automation only recognizes explicit `Q1`–`Q4` labels for interview — it does not auto-guess question boundaries from unlabeled pasted text, so an unlabeled interview upload will archive with empty (`...`) fields. Always use the labeled copy block the AI gives you after a full session (see the main [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md)), or label it yourself by hand.
+`My Score Explained` is session-level (one shared explanation for the whole session, not per-question) — it states the confirmed 5/5 verdict directly and names the rubric criteria (from `references/reference-ets-task-specs.md`) the session satisfies across all 4 answers, quoting the exact phrase that demonstrates each one; it is never a gap analysis. (`Diagnosis`/`My Diagnosis` is still recognized as an input label for backward compatibility, but always renders under **My Score Explained**.) The automation only recognizes explicit `Q1`–`Q4` labels for interview — it does not auto-guess question boundaries from unlabeled pasted text, so an unlabeled interview upload will archive with empty (`...`) fields. Always use the labeled copy block the AI gives you after a full session (see the main [`SKILL.md`](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking/blob/main/SKILL.md)), or label it yourself by hand.
 
 ## Manual alternative
 
