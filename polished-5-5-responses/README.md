@@ -2,7 +2,7 @@
 
 A collection of responses where an AI polished my original draft into a near-perfect version — **without deviating too much from my own phrasing habits** — kept for **pre-exam review** and later reuse as **teaching material**.
 
-**Note:** nothing here is written from scratch. Every entry is the product of "my raw draft → diagnosis → AI-polished final version," so it keeps my own vocabulary and reasoning while removing the errors that were capping the score (bad collocations, broken syntax, wrong prepositions/conjunctions, etc.). `listen-and-repeat/` is the one exception — see below.
+**Note:** nothing here is written from scratch. For write-an-email, interview, and listen-and-repeat, every entry is the product of "my raw draft → diagnosis → AI-polished final version," so it keeps my own vocabulary and reasoning while removing the errors that were capping the score (bad collocations, broken syntax, wrong prepositions/conjunctions, etc.). `academic-discussion/` is different: it only archives responses I've already confirmed as a 5/5, so each entry is "my confirmed 5/5 response → why it earns that score," with no raw draft or before/after diff. `listen-and-repeat/` is also its own shape — see below.
 
 ## Folder structure
 
@@ -44,7 +44,7 @@ Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-
 4. **Clear the scratch pad**: delete the corresponding file in `incoming/<task-type>/` once it's archived, so `incoming/` always stays effectively empty.
 5. **Update the index**: add a row to the master index below.
 
-## Archive file template (write-an-email / academic-discussion)
+## Archive file template (write-an-email)
 
 ```markdown
 # <Short topic title>
@@ -68,6 +68,25 @@ Drop a `.txt` or `.md` file into the matching subfolder — [`incoming/write-an-
 ```
 
 `My Diagnosis` is a general standing summary, not a forced list of flaws: name real recurring errors when they exist (quoting the exact phrase), but if the response already reads as a clean 5/5, say so directly and add only genuine ceiling-level refinement notes — never invent a flaw just to fill the field.
+
+## Archive file template (academic-discussion) — confirmed-5/5 record
+
+This archive is different in kind from write-an-email: by the time a response lands here, **the human user has already confirmed it IS a 5/5 answer**. There is no draft-vs-final diagnosis step and nothing being "fixed," so this template has no `My Draft` and no `My What Changed & Why` — only a confirmation of the score and why it holds:
+
+```markdown
+# <Short topic title>
+
+## Prompt (including both student posts)
+...
+
+## My Polished Response
+...
+
+## My Score Explained
+- ...
+```
+
+`My Score Explained` states the confirmed 5/5 verdict directly, then names the rubric criteria (from `references/reference-ets-task-specs.md`) the response satisfies — clear stance, engagement with both student posts by name/paraphrase, an original contribution beyond either student, coherent sequencing, sufficient length, idiomatic/error-free language — quoting the exact phrase or sentence that demonstrates each one. It is never a gap analysis and never invents a flaw.
 
 Each task-type folder also has its own `_template.md` you can copy directly.
 

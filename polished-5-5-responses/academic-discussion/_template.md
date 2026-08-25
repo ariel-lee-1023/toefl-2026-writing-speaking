@@ -5,18 +5,15 @@
 ...
 
 ## My Polished Response
+<!-- The human user has already confirmed this response is a 5/5 answer — this is not a draft
+     awaiting diagnosis. Archive it as the confirmed final. -->
 ...
 
-## My Draft
-...
-
-## My Diagnosis
-<!-- If gaps remain: name each recurring error, quoting the exact flawed phrase/sentence.
-     If the response already reads as a clean 5/5: say so directly, then note only
-     genuine ceiling-level refinements (if any) — don't invent a flaw to fill the field. -->
+## My Score Explained
+<!-- The user has confirmed this is a 5/5. Explain WHY it earns that score: name each rubric
+     criterion from references/reference-ets-task-specs.md it satisfies (taking a clear stance,
+     engaging both student posts by name/paraphrase, contributing an original point beyond either
+     student, coherent sequencing, sufficient length, idiomatic/error-free language), quoting the
+     exact phrase or sentence that demonstrates each one. This is a confirmation record, not an
+     error diagnosis — do not invent flaws or hedge the score. -->
 - ...
-
-## My What Changed & Why
-- Word choice / collocation issues: ...
-- Grammar / structure issues: ...
-- Explain the fix against the relevant criterion in references/reference-ets-task-specs.md

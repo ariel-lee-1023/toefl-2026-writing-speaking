@@ -6,10 +6,11 @@
  * files. Each file is expected to contain ONE question (v1.0 does not split
  * multi-question uploads — see README). The script:
  *   1. Detects which of the known sections are present in the raw text
- *      (Prompt / Polished Response / My Draft / My Diagnosis /
- *      What Changed & Why — or, for listen-and-repeat, Prompt / Set Map /
- *      Chunking & Memory Strategy / Pronunciation Focus / Self-Assessment),
- *      tolerating messy input:
+ *      (write-an-email: Prompt / Polished Response / My Draft / My Diagnosis /
+ *      What Changed & Why; academic-discussion: Prompt / My Polished Response /
+ *      My Score Explained — a confirmed-5/5 record, no draft or diagnosis fields;
+ *      or, for listen-and-repeat, Prompt / Set Map / Chunking & Memory Strategy /
+ *      Pronunciation Focus / Self-Assessment), tolerating messy input:
  *      "##Label", "Label:", "Label -", or a label alone on its own line.
  *   2. Reformats the content into the matching task-type template, in a
  *      fixed section order, leaving any section not found blank.
@@ -102,6 +103,38 @@ const PROSE_SECTIONS = [
       "what changed & why",
       "what changed and why",
       "what changed",
+    ],
+  },
+];
+
+// Academic Discussion: the human user has already confirmed the polished response is a
+// 5/5 answer before archiving — this is a confirmation record, not a draft-to-diagnosis
+// pipeline. No "My Draft" or "My What Changed & Why" fields; "My Score Explained" replaces
+// "My Diagnosis" and explains why the confirmed response earns the score, not what was fixed.
+const ACADEMIC_DISCUSSION_SECTIONS = [
+  { key: "sessionTitle", labels: ["title", "session title"] },
+  { key: "prompt", labels: ["prompt", "question"] },
+  {
+    key: "polishedResponse",
+    labels: [
+      "my polished response",
+      "polished response",
+      "final response",
+      "final answer",
+      "my response",
+      "my answer",
+      "polished",
+      "response",
+      "answer",
+    ],
+  },
+  {
+    key: "scoreExplained",
+    labels: [
+      "my score explained",
+      "score explained",
+      "my diagnosis",
+      "diagnosis",
     ],
   },
 ];
@@ -371,6 +404,21 @@ ${s.whatChanged || "..."}
 `;
 }
 
+function renderAcademicDiscussion({ title, sections }) {
+  const s = sections;
+  return `# ${title}
+
+## Prompt (including both student posts)
+${s.prompt || "..."}
+
+## My Polished Response
+${s.polishedResponse || "..."}
+
+## My Score Explained
+${s.scoreExplained || "..."}
+`;
+}
+
 function renderInterview({ title, qa, keyObstacles, whatChanged }) {
   // Grouped by field type (all Prompts, then all Polished Responses, then
   // all Drafts) rather than grouped by question - this is a deliberate
@@ -490,6 +538,19 @@ function processFile(taskType, filePath) {
     // knows the session's actual topic (e.g. "Reading Habits") and should
     // say so directly instead of the script guessing from the Q1 opener.
     slugSource = detected.sessionTitle || qa.find((q) => q.prompt)?.prompt || baseName;
+  } else if (taskType === "academic-discussion") {
+    // Academic Discussion archives a response the human user has already
+    // confirmed is a 5/5 — no draft-vs-final diagnosis pipeline, so it uses
+    // its own (shorter) section set: Prompt, My Polished Response, My Score
+    // Explained. "My Diagnosis" is still recognized as an input label for
+    // backward compatibility but always renders under "My Score Explained".
+    sections = detectSections(raw, ACADEMIC_DISCUSSION_SECTIONS);
+    if (!sections.prompt && !sections.polishedResponse) {
+      const fb = fallbackProseSplit(raw);
+      sections.prompt = sections.prompt || fb.prompt;
+      sections.polishedResponse = sections.polishedResponse || fb.polishedResponse;
+    }
+    slugSource = sections.sessionTitle || sections.prompt || sections.polishedResponse || baseName;
   } else {
     sections = detectSections(raw, PROSE_SECTIONS);
     if (!sections.prompt && !sections.polishedResponse) {
@@ -512,6 +573,8 @@ function processFile(taskType, filePath) {
           keyObstacles: sections.keyObstacles,
           whatChanged: sections.whatChanged,
         })
+      : taskType === "academic-discussion"
+      ? renderAcademicDiscussion({ title, sections })
       : renderProse({ title, promptLabel: "Prompt", sections });
 
   const idx = nextIndex(taskType);
