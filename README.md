@@ -105,3 +105,7 @@ TOEFL and TOEFL iBT are registered trademarks of ETS. This project is unaffiliat
 ## Built with
 
 [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs) — multi-source distillation into a cross-referenced knowledge library.
+
+## License
+
+[MIT](LICENSE) © 2026 Ariel Lee. This covers the skill files, templates, and automation script in this repository — it does not extend any rights to the third-party TOEFL/ETS/Magoosh source material referenced above (see **Sources and attribution**).
