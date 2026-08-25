@@ -1,0 +1,17 @@
+# Standardized Testing Education
+
+## Prompt (including both student posts)
+Dr. Sharma
+We've been discussing the role of standardized testing in education. Standardized tests are exams administered and scored in a consistent manner across all test-takers. Some educators argue that these tests provide an objective and reliable way to measure student achievement and hold schools accountable. Others believe that standardized testing narrows the curriculum and places too much pressure on students. Do you think standardized testing is beneficial or harmful? Why?
+
+Sam
+I think standardized tests are beneficial because they give students, parents, and schools a clear picture of academic progress. Without some kind of consistent measurement, it would be hard to identify which students need extra help or which schools are falling behind. They also help ensure fairness in college admissions by providing a common benchmark.
+
+Mia
+I believe standardized testing does more harm than good. It forces teachers to focus on test preparation instead of meaningful learning, and it puts enormous stress on students who may not perform under timed, high-stakes conditions. There are better ways to assess what students actually know and can do.
+
+## My Polished Response
+While I understand Sam's point that standardized tests provide schools with a uniform baseline to measure student achievement, I agree with Mia that relying on them ultimately does more harm than good. When high-stakes exams determine funding or admissions, instruction inevitably shifts away from deep comprehension and toward rote test preparation. This environment suppresses the critical thinking skills that education ought to foster. What this test-oriented culture overlooks is that standardized assessments require uniform answers, which discourages students from questioning assumptions or exploring unconventional solutions. For example, in a secondary school history class, a student who offers a nuanced, well-reasoned critique of a historical event might be marked incorrect simply because their interpretation does not match the exam's pre-selected answer key. Consequently, students learn to memorize pre-packaged information rather than build independent analytical skills. Sam is right that objective measurement has value, yet Mia is more convincing, because an assessment system that rewards conformity ultimately stifles genuine intellectual growth.
+
+## My Score Explained
+The post receives a Band 5 rating for its direct engagement with both Sam and Mia, clear logical progression, and well-developed original example. It addresses Sam's argument for objective measurement while endorsing Mia's position, adding a unique insight into how uniform answer keys force intellectual conformity in subjects like history. The response flows seamlessly with strong connective transitions and full grammatical accuracy.

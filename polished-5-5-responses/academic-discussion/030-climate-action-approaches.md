@@ -1,0 +1,17 @@
+# Climate Action Approaches
+
+## Prompt (including both student posts)
+Dr. Okafor
+We've been discussing approaches to addressing climate change and environmental sustainability. Some experts argue that individual actions, such as reducing personal consumption and recycling, are the most effective way to protect the environment. Others contend that meaningful change can only come from government policies and regulations that hold corporations accountable. Which approach do you think is more important for addressing environmental challenges? Why?
+
+Mia
+I think individual actions are the key to protecting the environment. When people make conscious choices like using less plastic, conserving energy, and supporting sustainable brands, it sends a message to businesses and governments. Change starts with everyday habits, and if enough people commit to greener lifestyles, the collective impact can be enormous.
+
+Sam
+I believe government policies are far more important. Individual efforts, while admirable, are simply not enough to address problems on the scale of climate change. We need regulations that require companies to reduce emissions and invest in clean energy. Without systemic changes at the policy level, personal actions alone won't make a meaningful difference.
+
+## My Polished Response
+I agree with Mia that cultivating environmentally conscious individual habits is the most fundamental factor of long-term ecological sustainability. The overarching health of our planet is the ultimate result of billions of everyday decisions. When responsible citizens actively embrace sustainable lifestyles, they not only reduce their direct environmental footprints but also exert powerful bottom-up pressure on the commercial marketplace. What's more, surging public demand for sustainable alternatives incentivizes innovative firms to develop cleaner technologies, improve energy efficiency, and phase out high-emission manufacturing processes to remain competitive. While Sam makes a valid point that corporate regulations and legal mandates are necessary to enforce nationwide emissions caps, sweeping governmental policies rarely gain political momentum without strong civic awareness and widespread grassroots support.
+
+## My Score Explained
+The post earns a Band 5 rating by demonstrating advanced coherent sequencing and an insightful original contribution. It supports Mia's position by explaining the economic feedback loop between individual consumer choices and corporate innovation, while acknowledging Sam's counterpoint regarding legislative mandates by arguing that policies require grassroots momentum to exist. Vocabulary is precise and idiomatic throughout.

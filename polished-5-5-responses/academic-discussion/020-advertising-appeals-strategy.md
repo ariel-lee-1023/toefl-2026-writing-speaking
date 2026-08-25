@@ -1,0 +1,17 @@
+# Advertising Appeals Strategy
+
+## Prompt (including both student posts)
+Dr. Gupta
+We’ve been discussing the effectiveness of different advertising strategies. Some experts believe that emotional appeals through advertising are the most effective because these appeals have a lasting effect on the consumer. Others argue that logical and factual appeals work better because most consumers make purchases based on the quality and features a product or service offers. Which type of advertising appeal do you think is more effective? Why?
+
+Kelly
+I think emotional appeals are more effective in advertising. Emotions drive consumer behavior, and ads that make people feel happy, excited, or nostalgic are more likely to be remembered and shared. Emotional connections can build brand loyalty.
+
+Andrew
+In my opinion, logical and factual appeals are more effective. Consumers appreciate honesty and clarity, especially when making purchasing decisions. Ads that provide clear information about the benefits and features of a product are more likely to persuade rational buyers.
+
+## My Polished Response
+While I agree with Andrew that factual details are essential for establishing a product's baseline credibility, I do not believe that presenting objective information alone is enough to drive sales. Kelly makes a far more persuasive argument by noting that emotional connections are vital for building long-term brand loyalty. First, emotional appeals help an advertisement break through daily visual clutter. Consumers are exposed to thousands of marketing messages every day, and facts alone rarely capture their immediate attention; an ad must first evoke a genuine feeling—such as excitement or nostalgia—to make viewers stop and engage. For instance, car commercials rarely focus solely on engine specifications; instead, they highlight family safety or the thrill of freedom, which leaves a lasting impression. Second, once an emotional connection is established, consumers become significantly more receptive to the underlying product specifications. Ultimately, Andrew is right that quality provides the foundation, yet Kelly is more convincing because emotional resonance is what turns abstract features into actual purchases.
+
+## My Score Explained
+This post achieves a 5/5 rating by synthesizing both perspectives into a multi-stage consumer acquisition model[cite: 1]. It validates Andrew's focus on product facts as a baseline while agreeing with Kelly that emotion is the necessary trigger for initial engagement[cite: 1]. The argument is supported by a real-world example (car commercials) and demonstrates high-level vocabulary and syntax[cite: 1].

@@ -1,0 +1,17 @@
+# Ethics Animal Testing
+
+## Prompt (including both student posts)
+Dr. Sharma
+We've been discussing the ethics of using animals in scientific research. Animal testing has contributed to many medical breakthroughs, including the development of vaccines and treatments for serious diseases. However, some ethicists argue that using animals for experimentation is morally wrong, as animals cannot consent and often suffer during the process. Do you believe animal testing is justified? Why or why not?
+
+Mia
+I think animal testing is justified when it leads to important medical advances that save human lives. Without animal research, many of the treatments and medications we rely on today would not exist. As long as researchers follow ethical guidelines and minimize suffering, the benefits outweigh the costs.
+
+Lena
+I believe animal testing is wrong regardless of the potential benefits. Animals are living beings that experience pain and fear, and we have no right to subject them to suffering for our own purposes. With modern technology, there are increasingly viable alternatives like computer simulations and lab-grown tissue that should be pursued instead.
+
+## My Polished Response
+While I acknowledge Mia's point regarding the historical importance of medical breakthroughs, I agree with Lena that transitioning toward modern technological alternatives ultimately strengthens scientific progress by improving predictive reliability. The fundamental advantage is not merely about moral empathy, but also about clinical efficiency. When researchers utilize human-derived lab-grown tissue or organs-on-chips, they decouple the testing phase from the unpredictable biological variables of cross-species experimentation. For instance, in complex pharmacological research, relying on animal models often causes major setbacks when a drug succeeds in mice but fails in human clinical trials, leading to wasted capital and delayed treatments. By adopting human-specific computational models, researchers can generate highly accurate predictive data. Therefore, standardizing advanced synthetic models remains the most decisive strategy for long-term clinical success.
+
+## My Score Explained
+This post merits a 5/5 score for advancing Lena's position beyond moral ethics into scientific and economic efficiency. It directly counters Mia's point on historical necessity by highlighting the cross-species translational failure rate in clinical trials. It introduces precise scientific terminology (organs-on-chips, cross-species experimentation, predictive reliability) and maintains total linguistic control.

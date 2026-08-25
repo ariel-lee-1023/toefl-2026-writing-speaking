@@ -1,0 +1,17 @@
+# Endangered Language Preservation
+
+## Prompt (including both student posts)
+Dr. Moreno
+We've been discussing the decline of endangered languages around the world. Linguists estimate that nearly half of the world's approximately 7,000 languages could disappear within the next century. Some scholars argue that significant resources should be dedicated to preserving these languages, as they carry unique cultural knowledge and heritage. Others believe that language loss is a natural process and that resources would be better spent elsewhere. What is your view?
+
+Lena
+I think preserving endangered languages is extremely important. Each language represents a unique way of seeing the world, and when a language dies, the cultural traditions, stories, and knowledge it carries are lost forever. We should invest in documentation and education programs to keep these languages alive for future generations.
+
+Jordan
+I understand the desire to preserve languages, but I think it's a natural part of human history for some languages to fade as societies evolve. Focusing limited resources on preserving languages that very few people speak may not be the most practical use of funding when there are more pressing social needs to address.
+
+## My Polished Response
+While I acknowledge Jordan's point regarding the immediate opportunity costs of allocating limited public funding, I agree with Lena that prioritizing the preservation of endangered languages ultimately strengthens global resilience by protecting our shared cognitive infrastructure. This is not merely about nostalgic storytelling or cultural sentiment, but about maintaining diverse ways of organizing knowledge. First, when linguists are given resources to document a fading language, they do not simply record old vocabulary; they also preserve unique syntactic patterns and local knowledge. For example, some Indigenous languages contain detailed terms for plants, weather, and land use that can help later generations manage their environment. Relying only on Jordan's idea of meeting immediate material needs ignores the irreversible loss of these cognitive resources. Therefore, institutional support for language preservation remains important for long-term human adaptability.
+
+## My Score Explained
+This response scores a 5/5 by addressing both peers by name and elevating Lena's argument from general cultural heritage to functional "cognitive infrastructure"[cite: 1]. It counters Jordan's economic objection by providing a concrete example of how indigenous linguistic terms yield practical value for ecological management[cite: 1]. Sentence structures are varied, and language usage is academic and concise[cite: 1].
