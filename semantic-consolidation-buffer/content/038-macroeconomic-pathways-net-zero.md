@@ -1,0 +1,23 @@
+---
+date: 2026-08-25
+toefl_domain: Environmental Economics
+tier: T4 (D≈23)
+---
+
+# 🧠 Active Cognitive Buffer: Macroeconomic Pathways to Net Zero
+
+## 1. Prefrontal Abstraction (The Core Thesis)
+* **Core Thesis:** Although achieving global net-zero greenhouse gas emissions requires rapid technological decarbonization across power generation, agriculture, and heavy manufacturing, successful market adoption hinges on systematically reducing the green premium through targeted innovation and supportive public policy.
+
+## 2. Associative Evidence Mapping (Logical Architecture)
+* **Pillar A (Context/Problem):** Pervasive economic dependencies on low-cost fossil fuels drive annual global emissions upward -> unmitigated atmospheric warming threatens severe ecological disruptions, food insecurity, and escalating mortality rates -> economic damage compounding over time threatens long-term civilizational stability.
+* **Pillar B (Mechanism/Intervention):** Deploying capital into low-emission infrastructure—such as firm zero-carbon electricity generation, advanced carbon capture systems, and alternative agricultural practices—targets primary emission sectors -> technological advancements and targeted policy incentives drive down cost differentials relative to fossil alternatives -> the green premium decreases toward parity across developed and developing economies.
+* **Pillar C (Implication/Result):** Reaching cost-parity between clean energy technologies and fossil fuels accelerates global market adoption -> atmospheric greenhouse gas accumulation stabilizes at net-zero -> pioneering nations establish sustainable competitive advantages while averting catastrophic climate impacts.
+
+## 3. Lexical Binding (Academic Vocabulary)
+`[Net Zero]` -> `[Atmospheric Net-Zero Parity]`
+`[Green Premium]` -> `[Clean Technology Cost Differential]`
+`[Intermittency Curse]` -> `[Renewable Supply Volatility]`
+`[Traveling Wave Reactor]` -> `[Advanced Molten-Salt Fission Reactor]`
+`[Point-Source Capture]` -> `[Point-Source Industrial Carbon Capture]`
+`[Direct Air Capture]` -> `[Ambient Direct Air Carbon Extraction]`
