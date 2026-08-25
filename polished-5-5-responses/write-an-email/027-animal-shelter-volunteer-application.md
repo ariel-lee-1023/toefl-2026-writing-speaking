@@ -1,5 +1,4 @@
-## Title
-Animal Shelter Volunteer Application
+# Animal Shelter Volunteer Application
 
 ## Prompt
 Your friend told you that a local animal shelter is looking for volunteers to help with various tasks, such as taking care of dogs and cats, keeping records of adoption requests, and handling social media accounts. You would like to apply.

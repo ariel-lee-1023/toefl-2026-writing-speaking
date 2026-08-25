@@ -1,5 +1,4 @@
-## Title
-Employee Wellness Program Proposal
+# Employee Wellness Program Proposal
 
 ## Prompt
 You work at a technology company and have noticed that many of your colleagues feel stressed during busy periods. You believe a wellness activity, such as a yoga class or guided meditation, would benefit employees. You would like to propose this idea to the human resources department.

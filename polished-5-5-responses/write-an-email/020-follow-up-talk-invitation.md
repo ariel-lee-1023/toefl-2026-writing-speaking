@@ -1,5 +1,4 @@
-## Title
-Follow-up Talk Invitation
+# Follow Up Talk Invitation
 
 ## Prompt
 Your university's environmental science club recently invited Dr. Osei, a marine biologist, to give a talk about ocean conservation. The presentation was received by the club members, and several students expressed interest in learning more about the topic.

@@ -1,5 +1,4 @@
-## Title
-Late Night Visitors
+# Late Night Visitors
 
 ## Prompt
 You share an apartment with your friend Sam. Recently, Sam has been inviting friends over late at night, which has made it difficult for you to sleep and focus on your studies. You value your friendship with Sam and want to address the situation carefully.

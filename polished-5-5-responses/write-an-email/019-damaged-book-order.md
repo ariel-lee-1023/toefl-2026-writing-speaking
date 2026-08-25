@@ -1,5 +1,4 @@
-## Title
-Damaged Book Order
+# Damaged Book Order
 
 ## Prompt
 You recently ordered a set of textbooks from an online bookstore, Campus Books Direct. When the package arrived, two of the books had water damage and several pages were torn. You have already taken photos of the damaged items and would like to resolve the issue.

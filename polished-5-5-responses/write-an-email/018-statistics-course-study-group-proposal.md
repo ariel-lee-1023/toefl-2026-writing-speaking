@@ -1,5 +1,4 @@
-## Title
-Statistics Course Study Group Proposal
+# Statistics Course Study Group Proposal
 
 ## Prompt
 You are enrolled in an advanced statistics course that has a difficult final exam at the end of the semester. You have found that studying with others helps you understand the material better. You would like to form a study group with other students in the class.

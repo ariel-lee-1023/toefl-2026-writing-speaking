@@ -1,5 +1,4 @@
-## Title
-Graduate School Recommendation Letter Request
+# Graduate School Recommendation Letter Request
 
 ## Prompt
 You are applying to a graduate program in education and need a letter of recommendation from a former instructor. Professor Kim taught your favorite undergraduate course two years ago, and you earned a high grade in her class. You would like to ask her to write a letter on your behalf.

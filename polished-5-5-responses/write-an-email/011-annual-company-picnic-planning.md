@@ -1,5 +1,4 @@
-## Title
-Annual Company Picnic Planning
+# Annual Company Picnic Planning
 
 ## Prompt
 You are responsible for organizing an annual picnic for employees at your company. You need to find volunteers to help you arrange a picnic location, food and beverages, and activities for employees to do at the picnic.

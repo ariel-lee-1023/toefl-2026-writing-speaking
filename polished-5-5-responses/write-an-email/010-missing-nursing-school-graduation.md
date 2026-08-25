@@ -1,5 +1,4 @@
-## Title
-Missing Nursing School Graduation
+# Missing Nursing School Graduation
 
 ## Prompt
 Your friend Rosa recently graduated from nursing school, and you had promised to attend her graduation ceremony. Unfortunately, you were unable to go because of a family emergency. You feel bad about missing the event and would like to explain what happened.

@@ -1,5 +1,4 @@
-## Title
-Bookstore Shift Change Request
+# Bookstore Shift Change Request
 
 ## Prompt
 You work part-time at a campus bookstore managed by Mr. Fitzgerald. Your class schedule for next semester has changed, and you will no longer be available to work on Tuesday and Thursday mornings. You would like to switch to a different shift.

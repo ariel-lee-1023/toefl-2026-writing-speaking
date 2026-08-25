@@ -1,5 +1,4 @@
-## Title
-Charity Run Invitation
+# Charity Run Invitation
 
 ## Prompt
 You and several friends are planning to participate in a charity run to raise money for a local hospital. Your friend Tomas has expressed interest in running but is unsure whether he is fit enough to complete the race. You would like to encourage him to join your group.

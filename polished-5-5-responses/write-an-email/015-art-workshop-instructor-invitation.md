@@ -1,5 +1,4 @@
-## Title
-Art Workshop Instructor Invitation
+# Art Workshop Instructor Invitation
 
 ## Prompt
 You are a volunteer coordinator at the Riverside Community Center. The center is planning a series of weekend art workshops for teenagers during the summer. A local painter, Ms. Sorensen, has been recommended by several community members as an excellent teacher.

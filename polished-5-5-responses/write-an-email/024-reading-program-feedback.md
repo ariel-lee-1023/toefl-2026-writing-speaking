@@ -1,5 +1,4 @@
-## Title
-Reading Program Feedback
+# Reading Program Feedback
 
 ## Prompt
 Your local library recently started a weekend reading program for children in the community. You have been bringing your younger siblings to the program every week, and they have enjoyed it very much. You would like to share your feedback with the head librarian, Ms. Adebayo.

@@ -1,5 +1,4 @@
-## Title
-Speech Competition Follow Up
+# Speech Competition Follow Up
 
 ## Prompt
 You recently organized a speech competition at your university where Professor Kawu served as one of the judges. The event went smoothly, but you hope to attract more participants when you hold the event again next year.

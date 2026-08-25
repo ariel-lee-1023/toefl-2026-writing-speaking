@@ -1,5 +1,4 @@
-## Title
-Dormitory Heating System Issue
+# Dormitory Heating System Issue
 
 ## Prompt
 You live in a university dormitory managed by the campus housing office. For the past week, the heating system in your room has not been working properly, and the temperature drops significantly at night. You have tried adjusting the thermostat, but the problem continues.

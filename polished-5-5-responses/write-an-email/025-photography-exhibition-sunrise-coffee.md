@@ -1,5 +1,4 @@
-## Title
-Photography Exhibition Sunrise Coffee
+# Photography Exhibition Sunrise Coffee
 
 ## Prompt
 You are the vice president of your university's photography club. The club would like to organize a photo exhibition at a local café, Sunrise Coffee, to display members' work. You have heard that the café has hosted similar events before and want to inquire about the possibility.

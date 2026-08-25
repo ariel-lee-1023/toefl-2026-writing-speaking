@@ -1,5 +1,4 @@
-## Title
-Pet Adoption Advice
+# Pet Adoption Advice
 
 ## Prompt
 Your friend Alex is considering adopting a dog and has asked for your advice. She often feels lonely and hopes to get a dog as a companion, but she lives in a small apartment and does not have much space.

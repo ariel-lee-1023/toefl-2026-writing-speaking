@@ -1,5 +1,4 @@
-## Title
-Moving to City Neighborhood Advice
+# Moving City Neighborhood Advice
 
 ## Prompt
 Your friend Aisha has recently accepted a job in your city and will be moving there next month. She does not know the area and is feeling anxious about finding an apartment and adjusting to a new place. You would like to offer your help.

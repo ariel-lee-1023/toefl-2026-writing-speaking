@@ -1,5 +1,4 @@
-## Title
-Emma Surprise Party Help
+# Emma Surprise Party Help
 
 ## Prompt
 You are planning a surprise birthday party for your friend Emma. You need to buy decorations, order a cake, and invite guests, among other things. You are busy with school and would like your friend, John, to help you.
