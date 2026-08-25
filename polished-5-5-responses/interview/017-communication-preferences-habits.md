@@ -1,5 +1,4 @@
-## Title
-Communication Preferences Habits
+# Communication Preferences Habits
 
 ## Q1 Prompt
 Thanks for taking part. I'd like to ask you about your communication preferences. How do you usually keep in touch with friends and family who live far away? Through phone calls, text messages, video chats, or another way?

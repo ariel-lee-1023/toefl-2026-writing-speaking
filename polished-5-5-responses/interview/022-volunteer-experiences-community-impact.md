@@ -1,5 +1,4 @@
-## Title
-Volunteer Experiences Community Impact
+# Volunteer Experiences Community Impact
 
 ## Q1 Prompt
 Thank you for joining the study. I'd like to ask you about volunteer experiences. What kinds of volunteer work are common in your community? For example, helping at schools, cleaning up parks, or working with the elderly?

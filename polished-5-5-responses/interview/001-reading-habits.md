@@ -1,5 +1,4 @@
-## Title
-Reading Habits
+# Reading Habits
 
 ## Q1 Prompt
 Thank you for your participation. I’d like to know about your reading habits. How do you usually get information or stay entertained? Through reading, videos, conversations with others, or another way? Why does that approach work for you?

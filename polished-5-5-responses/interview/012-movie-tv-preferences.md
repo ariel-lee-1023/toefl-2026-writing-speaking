@@ -1,5 +1,4 @@
-## Title
-Movie TV Preferences
+# Movie Tv Preferences
 
 ## Q1 Prompt
 Thanks for taking part. I'd like to learn about your movie and TV preferences. Are there any kinds of movies or TV shows you enjoy more than others? Like action movies, comedies, dramas, or something else?

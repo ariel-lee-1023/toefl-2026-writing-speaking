@@ -1,5 +1,4 @@
-## Title
-Renewable Energy Transition
+# Renewable Energy Transition
 
 ## Q1 Prompt
 To start, how important is the issue of renewable energy, such as wind and solar power, to you personally? Why would you say you feel that way?

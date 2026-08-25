@@ -1,5 +1,4 @@
-## Title
-Jobs Careers Trends
+# Jobs Careers Trends
 
 ## Q1 Prompt
 Thank you for participating. I'd like to ask you some questions about jobs and careers. First, from what you've noticed about people around you, what kinds of jobs or careers seem popular among young people where you live?

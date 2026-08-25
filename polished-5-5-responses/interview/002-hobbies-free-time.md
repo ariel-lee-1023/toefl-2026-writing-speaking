@@ -1,5 +1,4 @@
-## Title
-Hobbies Free Time
+# Hobbies Free Time
 
 ## Q1 Prompt
 Thank you for participating. Today, I'd like to ask you about your hobbies and free time activities. What kind of activities do you enjoy doing in your free time?

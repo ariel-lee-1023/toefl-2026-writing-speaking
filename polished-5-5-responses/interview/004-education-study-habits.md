@@ -1,5 +1,4 @@
-## Title
-Education Study Habits
+# Education Study Habits
 
 ## Q1 Prompt
 Thank you for joining the study. I'd like to ask you about your attitudes toward education. Could you describe a class or subject you have found interesting?

@@ -1,5 +1,4 @@
-## Title
-Celebrations Special Occasions
+# Celebrations Special Occasions
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to ask you about celebrations and special occasions. What kinds of activities do people in your area usually do to celebrate? For example, do they prefer sharing meals, giving gifts, dancing, or other types?
