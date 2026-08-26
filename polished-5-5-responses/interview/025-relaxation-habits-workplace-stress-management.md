@@ -1,5 +1,4 @@
-## Title
-Relaxation Habits and Workplace Stress Management
+# Relaxation Habits Workplace Stress Management
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to ask you about your relaxation habits. What kinds of activities do you do to relax after a busy day?
