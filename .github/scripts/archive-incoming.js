@@ -366,16 +366,49 @@ function slugify(text, fallback) {
   return slug || fallback;
 }
 
-function nextIndex(taskType) {
+/**
+ * List the numeric NNN- indices already used in a task-type folder,
+ * sorted ascending.
+ */
+function existingIndices(taskType) {
   const dir = path.join(ARCHIVE_ROOT, taskType);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  const existing = fs
+  return fs
     .readdirSync(dir)
     .map((f) => f.match(/^(\d{3})-/))
     .filter(Boolean)
-    .map((m) => parseInt(m[1], 10));
-  const max = existing.length ? Math.max(...existing) : 0;
-  return max + 1;
+    .map((m) => parseInt(m[1], 10))
+    .sort((a, b) => a - b);
+}
+
+/**
+ * Pick the next archive index for a task type, filling the lowest gap in
+ * the existing NNN- sequence first (e.g. 001,002,004 -> next is 003)
+ * rather than always appending after the current max. Once there are no
+ * gaps left, falls back to max + 1 as before. `used` is a Set of indices
+ * already claimed earlier in this same run (so a multi-file batch fills
+ * gaps in order — 004 first, then 009, etc. — instead of every file in
+ * the batch racing for the same lowest gap), and is updated in place.
+ */
+function nextIndex(taskType, used) {
+  const existing = existingIndices(taskType);
+  const taken = new Set([...existing, ...used]);
+
+  let candidate = 1;
+  const maxExisting = existing.length ? existing[existing.length - 1] : 0;
+  while (candidate <= maxExisting && taken.has(candidate)) {
+    candidate++;
+  }
+  if (candidate > maxExisting) {
+    // No gap available (or none left after this run's earlier picks) —
+    // append after the highest index either on disk or already claimed
+    // this run.
+    const maxTaken = taken.size ? Math.max(...taken) : 0;
+    candidate = maxTaken + 1;
+  }
+
+  used.add(candidate);
+  return candidate;
 }
 
 function titleCase(slug) {
@@ -464,7 +497,7 @@ ${sections.selfAssessment || "- Set score: .../5 average\n- Error tally: functio
 // Main per-file processing
 // ---------------------------------------------------------------------------
 
-function processFile(taskType, filePath) {
+function processFile(taskType, filePath, usedIndices) {
   const raw = fs.readFileSync(filePath, "utf8");
   const baseName = path
     .basename(filePath)
@@ -554,7 +587,7 @@ function processFile(taskType, filePath) {
         })
       : renderConfirmed5of5({ title, promptLabel, sections });
 
-  const idx = nextIndex(taskType);
+  const idx = nextIndex(taskType, usedIndices);
   const num = String(idx).padStart(3, "0");
   const outPath = path.join(ARCHIVE_ROOT, taskType, `${num}-${slug}.md`);
   fs.writeFileSync(outPath, content, "utf8");
@@ -566,9 +599,13 @@ function main() {
   const written = [];
   for (const taskType of TASK_TYPES) {
     const files = readIncomingFiles(taskType);
+    // Tracks indices claimed by this run so far for this task type, so a
+    // multi-file batch fills gaps in ascending order instead of every file
+    // racing for the same lowest gap.
+    const usedIndices = new Set();
     for (const filePath of files) {
       log(`Processing ${path.relative(REPO_ROOT, filePath)} as ${taskType} ...`);
-      const out = processFile(taskType, filePath);
+      const out = processFile(taskType, filePath, usedIndices);
       log(`  -> archived ${path.relative(REPO_ROOT, out)}`);
       written.push(out);
     }

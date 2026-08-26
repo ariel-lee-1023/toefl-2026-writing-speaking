@@ -1,6 +1,8 @@
 # incoming/ — upload here, get archived automatically
 
-Drop a `.txt` or `.md` file into the matching task-type subfolder below and push it to `main`. A GitHub Action picks it up automatically, reformats it into the standard archive template, strips any stray AI citation markers (e.g. `[cite: 19]`, `[cite:3,7]`, `[cite_start]`) left over from pasted AI chat output, saves it into `polished-5-5-responses/<task-type>/` with the next sequential number, and deletes the file from here — no manual steps, no AI calls, nothing to run locally.
+Drop a `.txt` or `.md` file into the matching task-type subfolder below and push it to `main`. A GitHub Action picks it up automatically, reformats it into the standard archive template, strips any stray AI citation markers (e.g. `[cite: 19]`, `[cite:3,7]`, `[cite_start]`) left over from pasted AI chat output, saves it into `polished-5-5-responses/<task-type>/`, and deletes the file from here — no manual steps, no AI calls, nothing to run locally.
+
+**Numbering fills gaps first.** If the existing `NNN-` sequence in a task-type folder has a gap (e.g. `001, 002, 004` — `003` is missing), the next archived file takes the lowest missing number (`003`) instead of always appending after the current max. Only once there's no gap left does it append after the highest number in use. Uploading several files in one push fills the gaps in ascending order (first gap goes to the first file processed, second gap to the next, and so on) before it starts appending.
 
 ```
 incoming/
