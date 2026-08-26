@@ -1,5 +1,4 @@
-## Title
-Pet Ownership Experiences and Urban Trends
+# Pet Ownership Experiences Urban Trends
 
 ## Q1 Prompt
 Thank you for participating. I'd like to ask you about your experiences with pets. What kinds of pets are popular with families in your area? For example, dogs, cats, birds, or fish?
