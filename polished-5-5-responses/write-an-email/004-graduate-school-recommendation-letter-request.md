@@ -13,8 +13,8 @@ Write as much as you can and in complete sentences.
 Dear Professor Kim,
 I hope this email finds you well. I am writing to ask if you would be willing to write a letter of recommendation for my graduate school application. I thoroughly enjoyed taking your "Media and Society" course two years ago. Earning an A in your class and receiving your insightful feedback inspired me to pursue advanced research. My passion for analyzing modern media systems has grown significantly, making me eager to take this next step in my academic journey. The submission deadline for the recommendation letter is December 15. If you are able to assist, I would be happy to send over my updated CV, statement of purpose, and transcripts. Thank you very much for your time and support.
 
-Sincerely, 
+Sincerely,
 Ariel Lee
 
 ## My Score Explained
-The email receives a 5/5 rating for satisfying all academic correspondence standards under ETS guidelines[cite: 1]. It establishes clear context ("Media and Society course two years ago... earning an A")[cite: 1], explains the academic motivation for graduate study ("inspired me to pursue advanced research... passion for analyzing modern media systems")[cite: 1], and clearly states the deadline alongside supporting materials ("December 15... updated CV, statement of purpose, and transcripts")[cite: 1]. The tone is highly respectful and academically appropriate throughout[cite: 1].
+The email receives a 5/5 rating for satisfying all academic correspondence standards under ETS guidelines. It establishes clear context ("Media and Society course two years ago... earning an A"), explains the academic motivation for graduate study ("inspired me to pursue advanced research... passion for analyzing modern media systems"), and clearly states the deadline alongside supporting materials ("December 15... updated CV, statement of purpose, and transcripts"). The tone is highly respectful and academically appropriate throughout.

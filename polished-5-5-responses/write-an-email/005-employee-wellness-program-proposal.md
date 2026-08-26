@@ -13,8 +13,8 @@ Write as much as you can and in complete sentences.
 Dear Ms. Hernandez,
 I am writing to propose a weekly employee wellness program. Many colleagues experience heightened stress and exhaustion during peak project cycles, which negatively affects daily concentration, morale, and productivity. I suggest offering a weekly 45-minute guided meditation and gentle yoga session in our second-floor conference room on Wednesday lunchtimes or early Friday afternoons. These sessions would give staff a structured way to manage stress without disrupting core work hours. To assist with organization, I can draft an employee interest survey and compile a roster of certified local instructors for your review. Please let me know your thoughts. I am available for a brief meeting next Tuesday or Thursday afternoon to discuss this proposal further.
 
-Sincerely, 
+Sincerely,
 Ariel Lee
 
 ## My Score Explained
-This email earns a 5/5 score by delivering a highly structured and persuasive workplace proposal[cite: 1]. It explains the necessity based on operational impact ("heightened stress... negatively affects daily concentration, morale, and productivity")[cite: 1], specifies a well-defined wellness activity ("45-minute guided meditation and gentle yoga session in our second-floor conference room")[cite: 1], and provides a clear organizational roadmap ("draft an employee interest survey and compile a roster of certified local instructors")[cite: 1]. The language is executive, professional, and grammatically flawless[cite: 1].
+This email earns a 5/5 score by delivering a highly structured and persuasive workplace proposal. It explains the necessity based on operational impact ("heightened stress... negatively affects daily concentration, morale, and productivity"), specifies a well-defined wellness activity ("45-minute guided meditation and gentle yoga session in our second-floor conference room"), and provides a clear organizational roadmap ("draft an employee interest survey and compile a roster of certified local instructors"). The language is executive, professional, and grammatically flawless.

@@ -16,7 +16,10 @@
  *      "##Label", "Label:", "Label -", or a label alone on its own line.
  *   2. Reformats the content into the matching task-type template, in a
  *      fixed section order, leaving any section not found blank.
- *   3. Writes the result into polished-5-5-responses/<task-type>/ with the
+ *   3. Strips stray AI citation markers (e.g. "[cite: 19]", "[cite:3,7]")
+ *      that sometimes leak into pasted content from AI chat exports, so
+ *      they never end up baked into the archived record.
+ *   4. Writes the result into polished-5-5-responses/<task-type>/ with the
  *      next sequential NNN- index, and deletes the original incoming file.
  *
  * No task-type classification and no AI/external API calls: the user
@@ -49,6 +52,56 @@ const STOPWORDS = new Set([
 
 function log(...args) {
   console.log(...args);
+}
+
+// ---------------------------------------------------------------------------
+// AI citation-marker cleanup
+// ---------------------------------------------------------------------------
+
+// Matches bracketed citation markers some AI chat tools leave behind when
+// their output is copy-pasted, e.g. "[cite: 19]", "[cite:3]", "[cite: 3, 7]",
+// "[cite_start]", "[cite_end]". Case-insensitive; tolerant of missing space
+// after the colon and of multiple comma-separated indices.
+const CITE_MARKER_RE = /\[\s*cite(?:_start|_end)?\s*:?\s*[\d,\s]*\s*\]/gi;
+
+/**
+ * Remove stray AI citation markers from a text block, then tidy up any
+ * doubled spaces or dangling spaces before punctuation that removing the
+ * marker leaves behind (e.g. "criteria[cite: 1]." -> "criteria.").
+ */
+function stripCiteMarkers(text) {
+  if (!text) return text;
+  return text
+    .replace(CITE_MARKER_RE, "")
+    .replace(/[ \t]+([.,;:!?])/g, "$1")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/[ \t]+\n/g, "\n")
+    .trim();
+}
+
+/** Apply stripCiteMarkers() to every string value in a flat sections object. */
+function stripCiteMarkersFromSections(sections) {
+  const cleaned = {};
+  for (const [key, value] of Object.entries(sections)) {
+    if (typeof value === "string") {
+      cleaned[key] = stripCiteMarkers(value);
+    } else if (Array.isArray(value)) {
+      // e.g. interview's qa: [{ prompt, polishedResponse }, ...]
+      cleaned[key] = value.map((item) => {
+        if (item && typeof item === "object") {
+          const cleanedItem = {};
+          for (const [k, v] of Object.entries(item)) {
+            cleanedItem[k] = typeof v === "string" ? stripCiteMarkers(v) : v;
+          }
+          return cleanedItem;
+        }
+        return item;
+      });
+    } else {
+      cleaned[key] = value;
+    }
+  }
+  return cleaned;
 }
 
 function readIncomingFiles(taskType) {
@@ -482,6 +535,10 @@ function processFile(taskType, filePath) {
     }
     slugSource = sections.sessionTitle || sections.prompt || sections.polishedResponse || baseName;
   }
+
+  // Strip stray AI citation markers (e.g. "[cite: 19]") from every detected
+  // field before rendering, so they never get baked into the archived file.
+  sections = stripCiteMarkersFromSections(sections);
 
   const slug = slugify(slugSource, baseName || "untitled");
   const title = titleCase(slug);

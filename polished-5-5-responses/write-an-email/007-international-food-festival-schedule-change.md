@@ -13,8 +13,8 @@ Write as much as you can and in complete sentences.
 Dear Mr. Volkov,
 I am writing to suggest changing our monthly international food festival schedule. Recently, many members have found Saturday afternoons difficult to attend due to weekend work commitments. To encourage greater participation, I propose moving the festival to Sunday evenings from 5:00 p.m. to 7:00 p.m. This time slot avoids conflicts for those working on weekends. I would be happy to help communicate this change by drafting a newsletter update or posting details on our community board and group chat. Thank you for your continued efforts in organizing these events.
 
-Best regards, 
+Best regards,
 Ariel Lee
 
 ## My Score Explained
-This email receives a 5/5 score under ETS guidelines[cite: 1]. It meets every prompt requirement cleanly: identifying the participation bottleneck ("weekend work commitments on Saturday afternoons")[cite: 1], proposing a well-justified new schedule ("Sunday evenings from 5:00 p.m. to 7:00 p.m.")[cite: 1], and offering concrete assistance to implement the suggestion ("drafting a newsletter update or posting details on our community board and group chat")[cite: 1]. The register is courteous and civic-minded, using natural transitions and error-free sentence structures[cite: 1].
+This email receives a 5/5 score under ETS guidelines. It meets every prompt requirement cleanly: identifying the participation bottleneck ("weekend work commitments on Saturday afternoons"), proposing a well-justified new schedule ("Sunday evenings from 5:00 p.m. to 7:00 p.m."), and offering concrete assistance to implement the suggestion ("drafting a newsletter update or posting details on our community board and group chat"). The register is courteous and civic-minded, using natural transitions and error-free sentence structures.

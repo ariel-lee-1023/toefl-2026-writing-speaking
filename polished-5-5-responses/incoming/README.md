@@ -1,6 +1,6 @@
 # incoming/ — upload here, get archived automatically
 
-Drop a `.txt` or `.md` file into the matching task-type subfolder below and push it to `main`. A GitHub Action picks it up automatically, reformats it into the standard archive template, saves it into `polished-5-5-responses/<task-type>/` with the next sequential number, and deletes the file from here — no manual steps, no AI calls, nothing to run locally.
+Drop a `.txt` or `.md` file into the matching task-type subfolder below and push it to `main`. A GitHub Action picks it up automatically, reformats it into the standard archive template, strips any stray AI citation markers (e.g. `[cite: 19]`, `[cite:3,7]`, `[cite_start]`) left over from pasted AI chat output, saves it into `polished-5-5-responses/<task-type>/` with the next sequential number, and deletes the file from here — no manual steps, no AI calls, nothing to run locally.
 
 ```
 incoming/

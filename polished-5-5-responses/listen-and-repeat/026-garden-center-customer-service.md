@@ -1,15 +1,15 @@
 # Garden Center Customer Service
 
 ## Prompt
-Scenario: Daily customer service instructions given by a supervisor at a garden center store.[cite: 1]
+Scenario: Daily customer service instructions given by a supervisor at a garden center store.
 
-1. Greet every customer near the entrance.[cite: 1]
-2. Offer them a garden cart from the corral.[cite: 1]
-3. Point out the budding plants on the front tables.[cite: 1]
-4. Show them the fresh herbs in the side section.[cite: 1]
-5. Help them load mulch bags onto the cart.[cite: 1]
-6. Recommend the plants that thrive in low light for customers with shady backyards.[cite: 1]
-7. If a customer asks about delivery, send them to the front counter.[cite: 1]
+1. Greet every customer near the entrance.
+2. Offer them a garden cart from the corral.
+3. Point out the budding plants on the front tables.
+4. Show them the fresh herbs in the side section.
+5. Help them load mulch bags onto the cart.
+6. Recommend the plants that thrive in low light for customers with shady backyards.
+7. If a customer asks about delivery, send them to the front counter.
 
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |

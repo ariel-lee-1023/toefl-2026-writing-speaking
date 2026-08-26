@@ -10,12 +10,12 @@ Ask how to join the project.
 Write as much as you can and in complete sentences.
 
 ## My Polished Response
-Dear Mr. Okonkwo, 
+Dear Mr. Okonkwo,
 My name is Ariel, and I recently moved into apartment 4B. I have always enjoyed gardening and was delighted to learn about the rooftop community garden you organize. This summer, I would love to grow tomatoes, zucchini, basil, and rosemary. These thrive in sunny conditions and would let me cook with homegrown ingredients. Could you please let me know how I can join the project? I would appreciate details on plot availability, shared watering duties, and any upcoming orientations. I am free most weekday evenings if you would like to chat briefly. Thank you for creating this wonderful community space.
 
-Best regards, 
-Ariel Lee 
+Best regards,
+Ariel Lee
 Apartment 4B
 
 ## My Score Explained
-This email secures a 5/5 rating by meeting all ETS task specifications[cite: 1]. It introduces the resident and establishes personal connection ("recently moved into apartment 4B... always enjoyed gardening")[cite: 1], specifies itemized produce choices with practical reasoning ("tomatoes, zucchini, basil, and rosemary... thrive in sunny conditions")[cite: 1], and asks explicit logistical questions about onboarding ("plot availability, shared watering duties, upcoming orientations")[cite: 1]. The register is polite, neighborly, and grammatically flawless[cite: 1].
+This email secures a 5/5 rating by meeting all ETS task specifications. It introduces the resident and establishes personal connection ("recently moved into apartment 4B... always enjoyed gardening"), specifies itemized produce choices with practical reasoning ("tomatoes, zucchini, basil, and rosemary... thrive in sunny conditions"), and asks explicit logistical questions about onboarding ("plot availability, shared watering duties, upcoming orientations"). The register is polite, neighborly, and grammatically flawless.

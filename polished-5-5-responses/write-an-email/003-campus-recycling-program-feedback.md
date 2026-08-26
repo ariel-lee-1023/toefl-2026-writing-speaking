@@ -13,8 +13,8 @@ Write as much as you can and in complete sentences.
 Dear Mr. Andersen,
 I am writing to express my strong support for the university's new campus-wide recycling initiative. It is a fantastic step toward making our community more sustainable. However, I have noticed that many students are confused about proper waste sorting. Many are unsure whether coated coffee cups, plastic food containers, or pizza boxes belong in recycling or trash bins, leading to accidental contamination. To make the system clearer, I suggest placing color-coded signs with visual images above each bin. Additionally, sending a brief one-page sorting guide via email or student newsletter could help clarify common misunderstandings. Thank you for your dedication to improving our campus environment. Please let me know if I can assist further.
 
-Sincerely, 
+Sincerely,
 Ariel Lee
 
 ## My Score Explained
-This response achieves a 5/5 score for constructive and detailed feedback[cite: 1]. It opens with unambiguous support for the initiative[cite: 1], details specific confusion points observed on campus ("coated coffee cups, plastic food containers, or pizza boxes... accidental contamination")[cite: 1], and offers practical, scalable solutions ("color-coded signs with visual images... one-page sorting guide via email")[cite: 1]. The language demonstrates advanced vocabulary, precise syntax, and strong cohesion[cite: 1].
+This response achieves a 5/5 score for constructive and detailed feedback. It opens with unambiguous support for the initiative, details specific confusion points observed on campus ("coated coffee cups, plastic food containers, or pizza boxes... accidental contamination"), and offers practical, scalable solutions ("color-coded signs with visual images... one-page sorting guide via email"). The language demonstrates advanced vocabulary, precise syntax, and strong cohesion.
