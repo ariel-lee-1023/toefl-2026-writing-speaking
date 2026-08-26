@@ -1,5 +1,4 @@
-## Title
-Coffee Machine Operation
+# Coffee Machine Operation
 
 ## Prompt
 Scenario: A supervisor training you on operating a coffee machine at a cafe.
@@ -31,4 +30,4 @@ Short imperatives establish immediate action-object units without introductory f
 - Word endings (-s / -ed / final t-d): begins, spills, messes, and crisp final t in avert
 - Rhythm & stress: stress content verbs avert and Select; avoid substituting /ʃ/ for /s/ in messes
 - Content words to say crisply: cup, avert, messes, filter, timer
-```[cite: 1]
+```
