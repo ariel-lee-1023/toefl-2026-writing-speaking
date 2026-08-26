@@ -1,5 +1,4 @@
-## Title
-Attitudes Toward Technology and AI
+# Attitudes Toward Technology Ai
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to ask you about your attitudes toward technology. What kinds of devices do you use most often in your daily life? For example, do you usually rely on phones, computers, tablets, or other types?
