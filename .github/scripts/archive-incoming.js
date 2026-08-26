@@ -11,8 +11,7 @@
  *      records, no draft or diagnosis fields; interview keeps a per-question
  *      Q1-Q4 Prompt / Polished Response plus one shared My Score Explained;
  *      or, for listen-and-repeat, Prompt / Set Map / Chunking & Memory
- *      Strategy / Pronunciation Focus / Self-Assessment), tolerating messy
- *      input:
+ *      Strategy / Pronunciation Focus), tolerating messy input:
  *      "##Label", "Label:", "Label -", or a label alone on its own line.
  *   2. Reformats the content into the matching task-type template, in a
  *      fixed section order, leaving any section not found blank.
@@ -236,10 +235,6 @@ const LISTEN_REPEAT_SECTIONS = [
       "difficulty notes",
       "difficulties",
     ],
-  },
-  {
-    key: "selfAssessment",
-    labels: ["my self-assessment", "my self assessment", "self-assessment", "self assessment"],
   },
 ];
 
@@ -487,9 +482,6 @@ ${sections.chunkingStrategy || "Why the chunk boundaries fall where they do, and
 
 ## My Pronunciation Focus
 ${sections.pronunciationFocus || "- Compressed function words: ...\n- Word endings (-s / -ed / final t-d): ...\n- Rhythm & stress: ...\n- Content words to say crisply: ..."}
-
-## My Self-Assessment
-${sections.selfAssessment || "- Set score: .../5 average\n- Error tally: function word \u00d7_ \u00b7 word ending \u00d7_ \u00b7 blurred content word \u00d7_ \u00b7 truncation \u00d7_ \u00b7 rhythm \u00d7_\n- Next drill: ..."}
 `;
 }
 

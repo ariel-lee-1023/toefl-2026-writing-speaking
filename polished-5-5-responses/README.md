@@ -130,20 +130,11 @@ Why the boundaries fall where they do, and what generalizes to the next set: ...
 - Word endings (-s / -ed / final t-d): ...
 - Rhythm & stress: ...
 - Content words to say crisply: ...
-
-## My Self-Assessment
-| # | Score | What I lost | Cause category |
-|---|---|---|---|
-| 1 | /5 | ... | ... |
-
-- Set score: .../5 average
-- Error tally: function word ×_ · word ending ×_ · blurred content word ×_ · truncation ×_ · rhythm ×_
-- Next drill: ...
 ```
 
-Terminology — the chunk types (action / object / place-manner / time / purpose), the short/medium/long ladder, the four long-sentence shapes, and the five error categories — all comes from [`references/reference-course-listen-repeat-lessons.md`](../references/reference-course-listen-repeat-lessons.md). `listen-and-repeat/_template.md` carries the same structure with inline guidance comments.
+Terminology — the chunk types (action / object / place-manner / time / purpose), the short/medium/long ladder, and the four long-sentence shapes — all comes from [`references/reference-course-listen-repeat-lessons.md`](../references/reference-course-listen-repeat-lessons.md). `listen-and-repeat/_template.md` carries the same structure with inline guidance comments.
 
-**Reviewing an archived set**: read the Prompt aloud from memory first, then check yourself against the Set Map row by row, and finally scan the error tallies across several sets — a category that appears in every tally is the thing to drill, which a column of scores would never have told you.
+**Reviewing an archived set**: read the Prompt aloud from memory first, then check yourself against the Set Map row by row — the chunk boundaries, cue words, at-risk function words, and at-risk endings are what turn a re-read into a real re-diagnosis.
 
 ## Master index
 

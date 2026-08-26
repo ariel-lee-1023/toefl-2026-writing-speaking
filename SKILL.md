@@ -203,7 +203,7 @@ If a request fits an existing feature, use that feature — Flexible Mode is not
 ## After answering: offer an archive-ready copy block
 Whenever a user asks to diagnose, score, or polish a response for one of the four task types below, **first give the full, complete answer exactly as you normally would** — continuous prose, full reasoning, every example and explanation, with no length-cutting for the sake of the archive step. Only *after* that complete answer, **append a single fenced markdown block** formatted for direct upload to `polished-5-5-responses/incoming/<task-type>/` in the [toefl-2026-writing-speaking repo](https://github.com/ariel-lee-1023/toefl-2026-writing-speaking), ready to copy, paste into a `.md`/`.txt` file, and upload as-is. The archive unit is **one question per block** for Write an Email, Academic Discussion, and Listen and Repeat — but **one full 4-question session per block** for Take an Interview (see below). Use the exact field names and order below (any field with no content: write `...` or omit it, never invent content).
 
-**None of the four task types use a `My Diagnosis` field anymore.** Write an Email, Academic Discussion, and Take an Interview all archive only confirmed-5/5 responses, so they use `My Score Explained` instead (see below), which always states the 5/5 verdict and the rubric criteria behind it, never a gap analysis. Listen and Repeat keeps its own separate shape (`My Self-Assessment`, etc. — see below) and was never part of the diagnosis pipeline in the first place.
+**None of the four task types use a `My Diagnosis` field anymore.** Write an Email, Academic Discussion, and Take an Interview all archive only confirmed-5/5 responses, so they use `My Score Explained` instead (see below), which always states the 5/5 verdict and the rubric criteria behind it, never a gap analysis. Listen and Repeat keeps its own separate shape (`Set Map`, etc. — see below) and was never part of the diagnosis pipeline in the first place.
 
 **Every copy block starts with a `## Title` field.** This is the ONE field the archiving script does not try to extract from anything else — it uses your Title verbatim to name the archived file (e.g. `## Title\nReading Habits` archives as `00X-reading-habits.md`). Do not skip it and do not let the script guess: guessing from the first few words of the Prompt fails badly when the prompt opens with small talk or instructions ("Thank you for your participation...", "Before they leave, thank customers...") — the real topic gets buried past the words the script samples, producing meaningless filenames. Write 2-5 words naming the actual topic or scenario of the session (e.g. `Reading Habits`, `Retail Checkout`, `Requesting a Deadline Extension`), in title case, with no punctuation, and no restating of the task type itself (never `Interview Session` or `Email Prompt`).
 
@@ -277,7 +277,7 @@ The archiving script accepts any order for these labels internally (each field i
 
 If the user only completed 1-3 questions of a session so far, do not emit the copy block yet — offer it only once the full 4-question session is done. If the session genuinely has fewer or more than 4 questions, adjust the Q-numbering accordingly, but still keep it as ONE block for the whole session, never split per question.
 
-**Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish), one sentence-set per block. **This block is the write-up of the six-step procedure above** — steps 1–5 become `Set Map`, and step 6 becomes `My Self-Assessment`. Do not re-derive anything here; transfer it.
+**Listen and Repeat** — different shape (sentence-level shadowing, not draft→polish), one sentence-set per block. **This block is the write-up of the six-step procedure above** — steps 1–5 become `Set Map`. Do not re-derive anything here; transfer it.
 ```markdown
 ## Title
 <2-5 words naming this sentence set's actual scenario, e.g. "Retail Checkout" — never derived from the sentences' opening words>
@@ -303,18 +303,8 @@ Scenario: <the one-line frame the task gave, e.g. "a supervisor training you at 
 - Word endings (-s / -ed / final t-d): <the specific words from THIS set, plus the content words that carry no ending>
 - Rhythm & stress: <which syllables the speaker stressed; where the user substituted their own rhythm>
 - Content words to say crisply: <the ones at risk of being blurred>
-
-## My Self-Assessment
-<per-sentence score, then the tally — this is what makes practice cumulative across sets>
-| # | Score | What I lost | Cause category |
-|---|---|---|---|
-| 1 | 5/5 | <or "nothing"> | <function word / word ending / blurred content word / truncation / rhythm substitution> |
-
-- Set score: <average>/5
-- Error tally: function word ×_ · word ending ×_ · blurred content word ×_ · truncation ×_ · rhythm ×_
-- Next drill: <ONE category plus a sentence length, not a list>
 ```
-Rules for this block: **every sentence in the Prompt gets a Set Map row** — a pooled comma-separated list of chunks across all seven sentences destroys the review value, because you can no longer tell which chunk belonged to which sentence. Chunk counts stay at four or fewer per row. Endings are named word by word, never as a category. If the user did not attempt the sentences aloud, leave the score cells as `...` rather than inventing a score, but still fill the Set Map — the decomposition is valid without an attempt.
+Rules for this block: **every sentence in the Prompt gets a Set Map row** — a pooled comma-separated list of chunks across all seven sentences destroys the review value, because you can no longer tell which chunk belonged to which sentence. Chunk counts stay at four or fewer per row. Endings are named word by word, never as a category.
 
 The two prose fields (`My Chunking & Memory Strategy`, `My Pronunciation Focus`) carry the actual analysis from the answer above, not a compressed digest of it.
 

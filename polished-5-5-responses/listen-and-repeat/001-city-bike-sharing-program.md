@@ -27,6 +27,3 @@ Hold only two to four chunks per sentence. Short items are pure action-plus-plac
 
 ## My Pronunciation Focus
 Content words must stay crisp and unambiguous; the rubric penalizes blur more than almost any other error. Endings on choosing, routes, vehicle, necessary, prevent, perform, resolve, starting, required and helmet are the ones most often clipped. Function words are recovered by inference after the content words are secured, but they must still be spoken once recovered. Match the speaker’s rhythm and stress rather than your normal conversational cadence; the slight unnaturalness is the imitation the task rewards.
-
-## My Self-Assessment
-Overall set target after this drill: move from 3.5 to consistent 4s with occasional 5s. Primary error categories to log: function-word omission on the medium sentences and truncation or ending loss on the two long sentences. Next drill is pure ladder practice on 13–15-word and-serial and that-clause sentences only, one category at a time, until the same errors stop appearing in the log.
