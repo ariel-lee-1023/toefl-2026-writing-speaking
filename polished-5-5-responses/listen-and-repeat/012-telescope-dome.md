@@ -1,13 +1,13 @@
 # Telescope Dome
 
 ## Prompt
-This is our largest telescope inside the dome.
-Look through the eyepiece at the back end.
-Use the small finder scope to locate bright stars.
-Turn the focus knob until the image looks sharp.
-Lock the tripod base before raising the telescope.
-You may use the small slow motion knobs to follow a moving star or planet.
-Remember to put the cap on the front lens when you finish observing.
+1. This is our largest telescope inside the dome.
+2. Look through the eyepiece at the back end.
+3. Use the small finder scope to locate bright stars.
+4. Turn the focus knob until the image looks sharp.
+5. Lock the tripod base before raising the telescope.
+6. You may use the small slow motion knobs to follow a moving star or planet.
+7. Remember to put the cap on the front lens when you finish observing.
 
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |

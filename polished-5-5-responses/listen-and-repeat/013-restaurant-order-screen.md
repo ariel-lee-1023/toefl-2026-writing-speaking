@@ -1,13 +1,13 @@
 # Restaurant Order Screen
 
 ## Prompt
-Start by tapping the New Order button.
-Choose a table number from the grid.
-Open a menu category to see all items.
-Tap each item the diner wants to order.
-Add notes about any allergies in the modifier panel.
-You will need to confirm the order before it goes to the kitchen.
-Be sure to print a copy of the cheque before the diners leave the table.
+1. Start by tapping the New Order button.
+2. Choose a table number from the grid.
+3. Open a menu category to see all items.
+4. Tap each item the diner wants to order.
+5. Add notes about any allergies in the modifier panel.
+6. You will need to confirm the order before it goes to the kitchen.
+7. Be sure to print a copy of the cheque before the diners leave the table.
 
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |

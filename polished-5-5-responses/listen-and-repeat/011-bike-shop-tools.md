@@ -1,13 +1,13 @@
 # Bike Shop Tools
 
 ## Prompt
-First, show customers the hand pump for tires.
-Then point out the wrenches on the table.
-Use the tire levers to remove a punctured tube.
-Apply chain lubricant after each long bike ride.
-Show customers our patch kit for small holes.
-You can also use that set of tools to carefully adjust the bike's seat post.
-The small hand pump will not fit on some tire valves, so use the floor pump instead.
+1. First, show customers the hand pump for tires.
+2. Then point out the wrenches on the table.
+3. Use the tire levers to remove a punctured tube.
+4. Apply chain lubricant after each long bike ride.
+5. Show customers our patch kit for small holes.
+6. You can also use that set of tools to carefully adjust the bike's seat post.
+7. The small hand pump will not fit on some tire valves, so use the floor pump instead.
 
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |

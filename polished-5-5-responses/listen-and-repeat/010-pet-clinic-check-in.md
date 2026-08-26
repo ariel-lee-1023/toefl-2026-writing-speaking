@@ -1,13 +1,13 @@
 # Pet Clinic Check In
 
 ## Prompt
-Begin by greeting each pet owner warmly.
-Have them check in on the front tablet.
-Place each pet on the scale to record weight.
-Direct the owners to seats in the waiting area.
-Watch the screen for the next exam room number.
-You can offer each pet a small treat from the jar after their appointment.
-Make sure to keep every dog on a leash whenever they are inside the clinic.
+1. Begin by greeting each pet owner warmly.
+2. Have them check in on the front tablet.
+3. Place each pet on the scale to record weight.
+4. Direct the owners to seats in the waiting area.
+5. Watch the screen for the next exam room number.
+6. You can offer each pet a small treat from the jar after their appointment.
+7. Make sure to keep every dog on a leash whenever they are inside the clinic.
 
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |

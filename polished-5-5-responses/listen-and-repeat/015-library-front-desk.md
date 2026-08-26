@@ -1,13 +1,13 @@
 # Library Front Desk
 
 ## Prompt
-Read every patron at the front desk.
-Scan their library card on the reader.
-Use the catalog computer to find each title.
-Pull requested books from the reserve shelf behind you.
-Show patrons how to start the self-checkout machine.
-You can point patrons to the bulletin board for upcoming community events.
-If a requested book is missing from the reserve shelf, check the return cart first.
+1. Read every patron at the front desk.
+2. Scan their library card on the reader.
+3. Use the catalog computer to find each title.
+4. Pull requested books from the reserve shelf behind you.
+5. Show patrons how to start the self-checkout machine.
+6. You can point patrons to the bulletin board for upcoming community events.
+7. If a requested book is missing from the reserve shelf, check the return cart first.
 
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |

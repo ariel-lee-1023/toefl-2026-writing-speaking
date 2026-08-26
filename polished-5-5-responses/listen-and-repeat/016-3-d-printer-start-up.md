@@ -1,13 +1,13 @@
 # 3 D Printer Start Up
 
 ## Prompt
-we keep the power switch on the side.
-then load a filament spool onto the holder.
-Level the print bed before starting your project.
-Choose a project file from the touchscreen menu.
-Watch the nozzle carefully as the print starts.
-you can adjust the cooling fan speed directly from the control panel.
-take care with the hot parts and use the scraper to gently remove finished prints.
+1. We keep the power switch on the side.
+2. Then load a filament spool onto the holder.
+3. Level the print bed before starting your project.
+4. Choose a project file from the touchscreen menu.
+5. Watch the nozzle carefully as the print starts.
+6. You can adjust the cooling fan speed directly from the control panel.
+7. Take care with the hot parts and use the scraper to gently remove finished prints.
 
 ## Set Map
 | # | Block | Chunks (type → text) | Shape & cues | Function words at risk | Endings at risk |
