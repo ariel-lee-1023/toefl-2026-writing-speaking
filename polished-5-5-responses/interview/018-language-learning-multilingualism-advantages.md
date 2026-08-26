@@ -1,5 +1,4 @@
-## Title
-Language Learning and Multilingualism Advantages
+# Language Learning Multilingualism Advantages
 
 ## Q1 Prompt
 Thank you for joining the study. I'd like to ask you about your language learning habits. How do you usually practice when you're learning a new language? Through reading, watching videos, talking with others, or another way?
