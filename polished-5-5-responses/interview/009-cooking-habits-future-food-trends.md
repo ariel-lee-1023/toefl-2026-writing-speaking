@@ -1,5 +1,4 @@
-## Title
-Cooking Habits and Future Food Trends
+# Cooking Habits Future Food Trends
 
 ## Q1 Prompt
 Thank you for participating. I'd like to ask you about your cooking habits. Are there certain times of the day when you're more likely to cook something? For example, breakfast, lunch, dinner, or snacks?
