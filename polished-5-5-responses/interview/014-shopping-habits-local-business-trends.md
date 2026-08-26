@@ -1,5 +1,4 @@
-## Title
-Shopping Habits and Local Business Trends
+# Shopping Habits Local Business Trends
 
 ## Q1 Prompt
 Thank you for taking the time to speak with me. I'd like to ask you about your shopping habits. What kinds of things do you usually purchase yourself when you go shopping? For example, food, clothes, books, or something else?

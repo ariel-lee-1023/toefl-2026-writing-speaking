@@ -1,5 +1,4 @@
-## Title
-Travel Essentials and Future Travel Trends
+# Travel Essentials Future Travel Trends
 
 ## Q1 Prompt
 Thank you for joining the study. I'd like to ask you about your travel experiences. What items are essential for you when you travel? Do you tend to pack light or take as much as possible? Please explain.

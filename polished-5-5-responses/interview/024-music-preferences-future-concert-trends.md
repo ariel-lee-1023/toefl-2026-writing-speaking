@@ -1,5 +1,4 @@
-## Title
-Music Preferences and Future Concert Trends
+# Music Preferences Future Concert Trends
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to learn about your music habits. What kinds of music do you most enjoy listening to in your free time? For example, do you usually prefer pop, rock, classical, or other styles?
