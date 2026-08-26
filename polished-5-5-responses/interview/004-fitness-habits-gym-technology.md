@@ -1,5 +1,4 @@
-## Title
-Fitness Habits and Gym Technology
+# Fitness Habits Gym Technology
 
 ## Q1 Prompt
 Thank you for taking the time to speak with me. I'd like to ask you some questions about your fitness habits. To start, what kinds of exercise do you think are most popular among people your age? For example, do they prefer running, swimming, yoga, or other types?
