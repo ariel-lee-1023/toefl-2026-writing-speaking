@@ -1,5 +1,4 @@
-## Title
-News Habits and Information Sources
+# News Habits Information Sources
 
 ## Q1 Prompt
 Thank you for taking the time to speak with me. I'd like to ask you about news and information. Are there any kinds of news you follow more closely than others? Like sports, weather, world events, or something else?

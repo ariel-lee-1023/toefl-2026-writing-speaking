@@ -1,5 +1,4 @@
-## Title
-Outdoor Activity Preferences and Urban Trends
+# Outdoor Activity Preferences Urban Trends
 
 ## Q1 Prompt
 Thank you for taking the time to speak with me. I'd like to ask you about outdoor activities. Are there any kinds of outdoor activities that are popular where you live? Like walking, biking, sports, gardening, or something else?

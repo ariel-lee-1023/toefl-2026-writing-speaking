@@ -1,5 +1,4 @@
-## Title
-Food Preferences and Nutrition
+# Food Preferences Nutrition
 
 ## Q1 Prompt
 Thanks for taking part. I'd like to ask you about your food preferences. What kinds of foods do you enjoy eating most? For example, fresh fruits, vegetables, meat or fish, or sweet foods.
