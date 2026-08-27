@@ -1,5 +1,4 @@
-## Title
-Saving and Spending Habits
+# Saving Spending Habits
 
 ## Q1 Prompt
 Thanks for taking part. I'd like to ask you about your saving and spending habits. Can you tell me what you usually spend money on each week?

@@ -1,5 +1,4 @@
-## Title
-Friendships and Social Connections
+# Friendships Social Connections
 
 ## Q1 Prompt
 Thank you for joining the study. I'd like to ask you about your experiences with friends. Can you tell me what you usually do when you spend time with your friends?
