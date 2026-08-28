@@ -1,5 +1,4 @@
-## Title
-Retail Checkout
+# Retail Checkout
 
 ## Prompt
 Scenario: a supervisor training you on cash register operations at a retail store
@@ -24,7 +23,7 @@ Scenario: a supervisor training you on cash register operations at a retail stor
 | 7 | long (12 w) | time → before they leave · action 1 → thank customers for their business · action 2 → and assist them as needed | front-loaded time (before) | before, for, their, as (time / purpose chunks) | customers (-s), leave (no -n) |
 
 ## My Chunking & Memory Strategy
- boundaries fall naturally along functional syntactic breaks: bare imperatives or modal verbs open the initial action chunk, followed immediately by place, purpose, or time prepositional phrases. In sentence 6, the cue phrase 'make sure to' establishes the governing frame, allowing the remaining ten words to be grouped as an object chunk ('the checkout area organized') and a state chunk ('well stocked and clean at all times'). In sentence 7, the subordinating conjunction 'before' signals a front-loaded time chunk, creating a natural pause boundary after 'leave' that isolates the main imperative actions ('thank customers' and 'assist them'). Recognizing these structural cue words allows long 12–14 word sentences to be retained as three manageable cognitive chunks rather than twelve isolated lexical items.
+boundaries fall naturally along functional syntactic breaks: bare imperatives or modal verbs open the initial action chunk, followed immediately by place, purpose, or time prepositional phrases. In sentence 6, the cue phrase 'make sure to' establishes the governing frame, allowing the remaining ten words to be grouped as an object chunk ('the checkout area organized') and a state chunk ('well stocked and clean at all times'). In sentence 7, the subordinating conjunction 'before' signals a front-loaded time chunk, creating a natural pause boundary after 'leave' that isolates the main imperative actions ('thank customers' and 'assist them'). Recognizing these structural cue words allows long 12–14 word sentences to be retained as three manageable cognitive chunks rather than twelve isolated lexical items.
 
 ## My Pronunciation Focus
 - Compressed function words: 'for' and 'on' in place/purpose chunks; 'by' in manner chunks; 'before' in time chunks; 'to' in the softened command frame 'make sure to'.
