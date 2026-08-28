@@ -1,5 +1,4 @@
-## Title
-Hotel Front Desk Check-In
+# Hotel Front Desk Check In
 
 ## Prompt
 Scenario: a supervisor training you on hotel front desk management software
