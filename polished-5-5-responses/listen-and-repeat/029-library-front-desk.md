@@ -1,5 +1,4 @@
-## Title
-Library Front Desk
+# Library Front Desk
 
 ## Prompt
 Scenario: a senior librarian training you on library front desk procedures
