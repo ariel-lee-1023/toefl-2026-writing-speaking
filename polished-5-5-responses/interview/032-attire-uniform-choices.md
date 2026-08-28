@@ -1,5 +1,4 @@
-## Title
-Attire and Uniform Choices
+# Attire Uniform Choices
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to ask you about your clothing choices. What kinds of clothes do you usually wear in your daily life? Do you tend to dress for comfort or for appearance? Please explain.

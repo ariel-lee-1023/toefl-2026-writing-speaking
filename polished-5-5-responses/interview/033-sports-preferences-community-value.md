@@ -1,5 +1,4 @@
-## Title
-Sports Preferences and Community Value
+# Sports Preferences Community Value
 
 ## Q1 Prompt
 Thank you for taking the time to speak with me. I'd like to ask you about your sports preferences. What kinds of sports do you most enjoy playing? For example, do you usually play soccer, basketball, tennis, or something else?

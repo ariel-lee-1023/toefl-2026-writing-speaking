@@ -1,5 +1,4 @@
-## Title
-Creative Pursuits and Future Childhood Trends
+# Creative Pursuits Future Childhood Trends
 
 ## Q1 Prompt
 Thank you for joining the study. I'd like to ask you about your creative activities. What kinds of creative activities do you most enjoy doing? For example, drawing or writing stories, making crafts, or other things?

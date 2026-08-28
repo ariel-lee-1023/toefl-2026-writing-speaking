@@ -1,5 +1,4 @@
-## Title
-Daily Transportation Habits and Transit Trends
+# Daily Transportation Habits Transit Trends
 
 ## Q1 Prompt
 Thank you for participating. I'd like to ask you about your transportation habits. What kinds of transportation do you usually use to get around in your daily life?
@@ -26,4 +25,4 @@ I strongly agree that the widespread shift toward working from home is a very po
 I strongly agree that learning how to drive remains an essential practical skill for everyone, even for those who rely on public transit daily. The primary reason is that driving provides vital personal mobility and flexibility during emergencies when public transportation is unavailable or impractical. For example, if a family member suddenly falls ill late at night after public train services have stopped running, knowing how to operate a vehicle allows you to drive them to the hospital immediately.
 
 ## My Score Explained
-This response achieves a 5/5 band score across all four questions by fulfilling ETS interview criteria for task completion, delivery, and language use[cite: 1]. Each prompt is answered with a clear stance, followed by fully developed reasons and complete concrete examples[cite: 1]. Awkward phrasing and word choice errors (such as replacing "value of commuters" with "volume of commuters") have been corrected to precise academic and idiomatic terms[cite: 1]. Sentence structures maintain varied syntax connected by smooth transitions ("moreover," "for instance," "in my opinion"), and all thoughts, including Q4, are fully finished within the target time frame[cite: 1].
+This response achieves a 5/5 band score across all four questions by fulfilling ETS interview criteria for task completion, delivery, and language use. Each prompt is answered with a clear stance, followed by fully developed reasons and complete concrete examples. Awkward phrasing and word choice errors (such as replacing "value of commuters" with "volume of commuters") have been corrected to precise academic and idiomatic terms. Sentence structures maintain varied syntax connected by smooth transitions ("moreover," "for instance," "in my opinion"), and all thoughts, including Q4, are fully finished within the target time frame.

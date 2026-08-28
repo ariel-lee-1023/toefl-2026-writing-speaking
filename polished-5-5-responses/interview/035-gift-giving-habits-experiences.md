@@ -1,5 +1,4 @@
-## Title
-Gift Giving Habits and Experiences
+# Gift Giving Habits Experiences
 
 ## Q1 Prompt
 Thank you for your participation. I'd like to ask you about your gift-giving habits. What kinds of gifts do you usually give to family members or friends? For example, food, clothes, books, or flowers?
