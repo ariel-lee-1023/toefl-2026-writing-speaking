@@ -1,5 +1,4 @@
-## Title
-Theater Ushering
+# Theater Ushering
 
 ## Prompt
 Scenario: a lead usher training you on auditorium seating and safety procedures
