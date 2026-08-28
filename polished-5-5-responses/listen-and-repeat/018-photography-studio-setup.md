@@ -1,5 +1,4 @@
-## Title
-Photography Studio Setup
+# Photography Studio Setup
 
 ## Prompt
 Scenario: a lead photographer giving instructions for setting up a studio shoot
