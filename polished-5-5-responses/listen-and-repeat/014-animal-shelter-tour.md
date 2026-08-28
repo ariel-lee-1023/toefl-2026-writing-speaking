@@ -1,5 +1,4 @@
-## Title
-Animal Shelter Tour
+# Animal Shelter Tour
 
 ## Prompt
 Scenario: a supervisor training you on leading public tours at an animal shelter
