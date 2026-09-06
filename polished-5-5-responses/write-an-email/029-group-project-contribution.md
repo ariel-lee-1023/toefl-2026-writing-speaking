@@ -1,5 +1,4 @@
-## Title
-Group Project Contribution
+# Group Project Contribution
 
 ## Prompt
 You are a university student working on a group project for one of your classes. One of your group members, Jake, has not been contributing to the project and has missed several meetings. This is affecting the progress of the project, and you need to address the issue with him. Write an email to Jake. In your email, describe the importance of the project, explain how his absence has affected the group's progress, and suggest ways he can help the group.
