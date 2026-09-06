@@ -1,5 +1,4 @@
-## Title
-Apartment Maintenance Request
+# Apartment Maintenance Request
 
 ## Prompt
 You are a university student who has recently moved into a new apartment. You have noticed some issues with the apartment and would like to inform your landlord, Mr. Thompson, about these problems.
@@ -15,4 +14,4 @@ Sincerely,
 Ariel Lee
 
 ## My Score Explained
-The response satisfies the score-5 criteria by addressing all required content points with clear organization and an appropriate, polite register for a landlord[cite: 1]. It elaborates effectively on the specific issues (the broken heating and unstable chair) and clearly connects them to the negative impact on the student's academic routine. The language is idiomatic and error-free, featuring natural connective phrasing and sufficient length to demonstrate strong syntactic control, earning a 5/5 verdict[cite: 1].
+The response satisfies the score-5 criteria by addressing all required content points with clear organization and an appropriate, polite register for a landlord. It elaborates effectively on the specific issues (the broken heating and unstable chair) and clearly connects them to the negative impact on the student's academic routine. The language is idiomatic and error-free, featuring natural connective phrasing and sufficient length to demonstrate strong syntactic control, earning a 5/5 verdict.

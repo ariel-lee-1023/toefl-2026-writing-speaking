@@ -1,5 +1,4 @@
-## Title
-Requesting Missed Notes
+# Requesting Missed Notes
 
 ## Prompt
 Background:
@@ -16,4 +15,4 @@ Sincerely,
 Ariel
 
 ## My Score Explained
-The response satisfies the score-5 criteria by addressing all required content points with clear organization and an appropriate, polite register for a classmate[cite: 1]. It elaborates effectively on the specific reason for the absence (a medical appointment) and directly connects the request for notes to concrete academic needs (understanding examples and project deadlines)[cite: 1]. The language is idiomatic, well-connected, and error-free, featuring natural syntactic variety and sufficient length, earning a 5/5 verdict[cite: 1].
+The response satisfies the score-5 criteria by addressing all required content points with clear organization and an appropriate, polite register for a classmate. It elaborates effectively on the specific reason for the absence (a medical appointment) and directly connects the request for notes to concrete academic needs (understanding examples and project deadlines). The language is idiomatic, well-connected, and error-free, featuring natural syntactic variety and sufficient length, earning a 5/5 verdict.

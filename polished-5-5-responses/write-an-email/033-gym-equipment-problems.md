@@ -1,5 +1,4 @@
-## Title
-Gym Equipment Problems
+# Gym Equipment Problems
 
 ## Prompt
 Background:

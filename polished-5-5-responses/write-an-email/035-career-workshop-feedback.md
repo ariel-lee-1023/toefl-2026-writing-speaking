@@ -1,5 +1,4 @@
-## Title
-Career Workshop Feedback
+# Career Workshop Feedback
 
 ## Prompt
 Background:
@@ -16,4 +15,4 @@ Best regards,
 Ariel Lee
 
 ## My Score Explained
-The response satisfies the score-5 criteria by addressing all required content points with clear organization and an appropriate, constructive register for a university event organizer[cite: 1]. It elaborates effectively on the specific organizational failures (long registration lines, insufficient seating) and offers highly relevant, concrete solutions. The language is idiomatic and error-free, featuring natural connective phrasing and sufficient length to demonstrate strong syntactic control, earning a 5/5 verdict[cite: 1].
+The response satisfies the score-5 criteria by addressing all required content points with clear organization and an appropriate, constructive register for a university event organizer. It elaborates effectively on the specific organizational failures (long registration lines, insufficient seating) and offers highly relevant, concrete solutions. The language is idiomatic and error-free, featuring natural connective phrasing and sufficient length to demonstrate strong syntactic control, earning a 5/5 verdict.

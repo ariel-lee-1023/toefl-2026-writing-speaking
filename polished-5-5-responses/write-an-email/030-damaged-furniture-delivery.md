@@ -1,5 +1,4 @@
-## Title
-Damaged Furniture Delivery
+# Damaged Furniture Delivery
 
 ## Prompt
 You recently purchased a piece of furniture from the Home Comforts online store. When it was delivered, you discovered that it had been damaged during shipping. You were very disappointed because you had been looking forward to using the new furniture. You need to contact customer service to resolve this issue.
@@ -15,4 +14,4 @@ Best regards,
 Ariel Lee
 
 ## My Score Explained
-The response satisfies the score-5 criteria by addressing all required content points with clear organization and appropriate register[cite: 1]. It elaborates effectively on the damage ("one corner of the desktop is badly cracked") and the resulting disappointment ("disruptive to my preparation"), utilizing idiomatic language and syntactic variety[cite: 1]. The length is sufficient and the language is error-free, earning a 5/5 verdict[cite: 1].
+The response satisfies the score-5 criteria by addressing all required content points with clear organization and appropriate register. It elaborates effectively on the damage ("one corner of the desktop is badly cracked") and the resulting disappointment ("disruptive to my preparation"), utilizing idiomatic language and syntactic variety. The length is sufficient and the language is error-free, earning a 5/5 verdict.
