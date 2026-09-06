@@ -1,5 +1,4 @@
-## Title
-Concert Organizer Feedback
+# Concert Organizer Feedback
 
 ## Prompt
 You recently attended a concert by your favorite band at a local venue. You want to thank the event organizer, Mr. Harris, for arranging the event and provide feedback on what you enjoyed most.
