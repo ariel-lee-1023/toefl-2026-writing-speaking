@@ -1,5 +1,4 @@
-## Title
-Reading Habits
+# Reading Habits
 
 ## Q1 Prompt
 First, what kind of books do your family or friends generally like to read? For example, do they prefer fiction, non fiction, biographies, or other types?
