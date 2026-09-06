@@ -1,5 +1,4 @@
-## Title
-Food Station Procedures
+# Food Station Procedures
 
 ## Prompt
 Scenario: a supervisor training you at a food service station
