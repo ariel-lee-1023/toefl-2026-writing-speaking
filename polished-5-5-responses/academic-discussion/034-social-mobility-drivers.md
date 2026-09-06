@@ -1,7 +1,6 @@
-## Title
-Social Mobility Drivers
+# Social Mobility Drivers
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Gupta: For the past few classes, we have been discussing the concept of social mobility which refers to the ability of individuals or families to move up or down the social hierarchy. Some argue that education is the key to social mobility, while others believe that networking and personal connections are more important. Which viewpoint do you agree with? Why?
 
 Kelly: I believe that education is the key to social mobility. With a good education, individuals can acquire the knowledge and skills needed to access better job opportunities and improve their social status. We have always been taught that education provides a foundation for long-term success and upward mobility.
