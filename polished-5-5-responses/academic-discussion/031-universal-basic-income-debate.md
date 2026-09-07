@@ -1,6 +1,6 @@
 # Universal Basic Income Debate
 
-## Prompt 
+## Prompt (including both student posts)
 Dr. Diaz: We've briefly discussed the concept of a universal basic income (UBI) in our class as a solution to economic inequality. UBI refers to a program that provides all adults with regular cash payments to help cover basic living expenses. Some argue that UBI can provide financial security and reduce poverty, while others believe it can discourage people from working and can negatively impact the economy. Do you think implementing UBI is a good idea? Why or why not?
 Claire: I think UBI is a good idea because it can provide a safety net for people who are struggling financially.
 Andrew: I don't think UBI is a good idea because it might discourage people from working.
