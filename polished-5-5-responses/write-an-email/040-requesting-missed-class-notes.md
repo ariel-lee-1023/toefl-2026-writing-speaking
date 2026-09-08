@@ -1,5 +1,4 @@
-## Title
-Requesting Missed Class Notes
+# Requesting Missed Class Notes
 
 ## Prompt
 Background:

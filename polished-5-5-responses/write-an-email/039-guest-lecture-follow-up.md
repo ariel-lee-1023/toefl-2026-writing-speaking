@@ -1,5 +1,4 @@
-## Title
-Guest Lecture Follow-Up
+# Guest Lecture Follow Up
 
 ## Prompt
 Background:

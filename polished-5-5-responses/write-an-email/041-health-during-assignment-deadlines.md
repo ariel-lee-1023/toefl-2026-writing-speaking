@@ -1,5 +1,4 @@
-## Title
-Health During Assignment Deadlines
+# Health During Assignment Deadlines
 
 ## Prompt
 Background:
