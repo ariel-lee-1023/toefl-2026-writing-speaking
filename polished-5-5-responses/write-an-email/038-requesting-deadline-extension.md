@@ -1,5 +1,4 @@
-## Title
-Requesting a Deadline Extension
+# Requesting Deadline Extension
 
 ## Prompt
 You are a student who has been working on a research project and need to request an extension on the deadline from your professor, Dr. Jones. You have encountered some unexpected challenges that have delayed your progress. Write an email to Dr. Jones. In your email, do the following:
