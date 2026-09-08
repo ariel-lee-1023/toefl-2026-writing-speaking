@@ -10,9 +10,21 @@ Requirements:
 
 ## My Polished Response
 Dear Ms. Garcia,
-I visited your restaurant yesterday evening with my family, and overall, our experience was wonderful. The dishes you offer are fresh and flavorful, and we especially enjoyed the grilled fish because it was perfectly seasoned. However, I am writing to mention that a few aspects of the service were not quite satisfactory. While the staff was friendly, it took an unusually long time for our main courses to arrive, and we had to request water refills multiple times before receiving them. To improve the dining experience, I suggest assigning additional servers to the floor during peak dinner hours or implementing a better system for tracking table requests. I hope you find this feedback helpful, as we truly love your food and hope to return soon.
-Sincerely,
+
+I visited your restaurant with my family yesterday evening and wanted to share some feedback. We enjoyed the fresh, flavorful food, especially the perfectly seasoned grilled fish.
+
+Although the servers were friendly, our main courses took a long time to arrive, and we had to ask several times for water refills. These delays made an otherwise enjoyable meal feel less relaxed.
+
+Scheduling an extra server during busy periods could help staff respond to table requests more promptly. It would also be helpful if servers gave guests an estimated waiting time when the kitchen was running behind.
+
+Thank you for considering these suggestions. We would be happy to visit again.
+
+Best regards,
 Ariel Lee
 
 ## My Score Explained
-The response satisfies the score-5 criteria by addressing all required content points with clear organization and an appropriate, constructive register for a restaurant manager. It elaborates effectively on specific service failures—slow delivery of main courses and missing water refills—rather than substituting a menu complaint, fully satisfying the prompt's constraints. The language is highly idiomatic and error-free, featuring natural connective phrasing and sufficient length to demonstrate strong syntactic control, earning a 5/5 verdict.
+Estimated task score: 5/5 (a coaching assessment of the written response, not an official ETS score or a CEFR section-score determination).
+
+The email fulfills all three requirements with relevant detail. The opening establishes that the overall experience was positive and identifies the grilled fish as a specific highlight. The second paragraph describes two service problems—delayed main courses and repeated requests for water—and explains how they affected the meal. The suggestions respond directly to those problems: an extra server could improve responsiveness during busy periods, while estimated waiting times would help guests understand kitchen delays.
+
+The organization moves clearly from appreciation to concerns, practical suggestions, and a courteous closing. "Although the servers were friendly" makes the criticism balanced, while "could help" and "It would also be helpful" present improvements without sounding demanding. The greeting and sign-off maintain an appropriate register for a restaurant manager. The response demonstrates effective syntactic variety through a concession, a gerund phrase beginning "Scheduling," and clauses beginning "if" and "when." Expressions such as "water refills," "table requests," and "running behind" are precise and idiomatic. Grammar, spelling, and punctuation are consistently controlled, and the concise message provides sufficient elaboration for its purpose.
