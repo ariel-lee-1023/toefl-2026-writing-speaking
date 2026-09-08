@@ -1,7 +1,6 @@
-## Title
-VR History and Marine Biology
+# Vr History Marine Biology
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Diaz:
 We've been discussing the use of virtual reality (VR) in education. VR creates 3-dimensional, computer-simulated environments that people can interact with using electronic equipment such as goggles. Some educators argue that while VR technology can have some benefits, it can also have drawbacks. Do you think VR is a valuable tool in education? Why or why not?
 
