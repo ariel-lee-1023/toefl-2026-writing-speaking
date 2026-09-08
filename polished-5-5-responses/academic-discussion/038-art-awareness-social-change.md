@@ -1,7 +1,6 @@
-## Title
-Art Awareness and Social Change
+# Art Awareness Social Change
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Gupta:
 In our sociology class today, we are discussing the role of art in social progress. Historically, some argue that art—such as protest music, political paintings, or social literature—is a powerful tool that can change society by motivating people to take direct action. However, others contend that art is merely a mirror of social reality; it reflects what is already happening but rarely has the power to awaken people's awareness or spark actual reform. Which perspective do you find more convincing?
 
