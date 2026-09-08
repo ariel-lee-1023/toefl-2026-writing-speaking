@@ -11,7 +11,10 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Ms. Hernandez,
-I am writing to propose a weekly employee wellness program. Many colleagues experience heightened stress and exhaustion during peak project cycles, which negatively affects daily concentration, morale, and productivity. I suggest offering a weekly 45-minute guided meditation and gentle yoga session in our second-floor conference room on Wednesday lunchtimes or early Friday afternoons. These sessions would give staff a structured way to manage stress without disrupting core work hours. To assist with organization, I can draft an employee interest survey and compile a roster of certified local instructors for your review. Please let me know your thoughts. I am available for a brief meeting next Tuesday or Thursday afternoon to discuss this proposal further.
+
+I am writing to propose a weekly employee wellness program. Many colleagues experience heightened stress and exhaustion during peak project cycles, which negatively affects daily concentration, morale, and productivity. I suggest offering a weekly 45-minute guided meditation and gentle yoga session in our second-floor conference room on Wednesday lunchtimes or early Friday afternoons. These sessions would give staff a structured way to manage stress without disrupting core work hours.
+
+To assist with organization, I can draft an employee interest survey and compile a roster of certified local instructors for your review. Please let me know your thoughts. I am available for a brief meeting next Tuesday or Thursday afternoon to discuss this proposal further.
 
 Sincerely,
 Ariel Lee

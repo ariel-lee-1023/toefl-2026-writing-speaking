@@ -11,8 +11,11 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Aisha,
+
 I was thrilled to hear that you accepted the job and will be moving to Macau next month! Living here has been an incredible experience, mostly because of the vibrant blending of traditional culture and modern city life. I especially enjoy how easy it is to find world-class dining, historic neighborhoods, and beautiful coastal walks all within a short distance of one another.
+
 When you start searching for a place to live, I would recommend looking into Taipa. Taipa is wonderful if you prefer a slightly quieter, charming neighborhood with great local cafes, pedestrian streets, and convenient transit links.
+
 Please let me know when you plan to visit for apartment viewings, as I would love to accompany you and help you look at potential places. I can also help you navigate local rental agreements or introduce you to a reliable real estate agent.
 
 Best regards,

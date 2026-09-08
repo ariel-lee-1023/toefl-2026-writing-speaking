@@ -10,12 +10,15 @@ Suggest a time to talk about the issue together.
 Write as much as you can and in complete sentences.
 
 ## My Polished Response
-Dear Sam, 
+Dear Sam,
+
 I hope you are having a good week. I am writing to talk about the late night gatherings we have had at our apartment recently. While I always want you to feel comfortable hosting your friends, the visitors staying past midnight on weeknights have made it very difficult for me to get enough sleep and concentrate on my law school coursework, especially when I have early morning classes.
+
 To keep things manageable for both of us, I think a reasonable visitor schedule would involve setting quiet hours starting around 10:00 p.m. from Sunday through Thursday.
+
 I really value our friendship and want to make sure our living situation works well for both of us. Could we take a few minutes tomorrow evening after dinner to sit down and chat about this together?
 
-Sincerely, 
+Sincerely,
 Ariel Lee
 
 ## My Score Explained

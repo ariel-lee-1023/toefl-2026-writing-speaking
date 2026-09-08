@@ -11,12 +11,16 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Coworkers,
+
 I am currently organizing our upcoming annual employee picnic, and I would love your help to make it a great event for the entire team.
+
 Before the picnic, we need to handle a few key preparations, including choosing a location, planning the food and beverage menu, and organizing fun activities for everyone to participate in.
+
 I would like to suggest hosting the event at Riverfront Park. It offers plenty of open green space for games, shaded pavilion areas for dining, and beautiful scenery that would give us a relaxing break from the office.
+
 If you are interested in volunteering to help arrange any of these details, please let me know by this Friday. Any assistance with planning would be greatly appreciated!
 
-Best regards, 
+Best regards,
 Ariel Lee
 
 ## My Score Explained

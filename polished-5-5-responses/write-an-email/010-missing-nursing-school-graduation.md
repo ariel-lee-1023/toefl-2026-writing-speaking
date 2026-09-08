@@ -11,8 +11,11 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Rosa,
+
 I am writing to send you my warmest congratulations on graduating from nursing school, and to deeply apologize for missing your ceremony yesterday. I was completely prepared to join you, but a sudden family emergency required my immediate presence and attention, making it impossible for me to attend.
+
 To properly honor your incredible achievement, I would love to take you out for a celebratory dinner at your favorite Italian restaurant downtown.
+
 Would you be free to get together next Friday evening around 6:30 p.m.? Let me know if that time works for you, or if another evening next week would be better.
 
 Sincerely,

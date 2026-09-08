@@ -10,10 +10,13 @@ Suggest some online resources that may help her with the novel.
 Write as much as you can and in complete sentences.
 
 ## My Polished Response
-Dear Maria, 
-I completely understand your concerns regarding the complexity of our selected book for this upcoming session. Classic literature can often feel overwhelming due to archaic vocabulary and intricate sentence structures. Unfortunately, we cannot switch to a different book at this stage because the majority of our members have already purchased their copies and begun reading, so altering the selection now would cause significant inconvenience for everyone. There are many online resources that could help you continue to engage in this intriguing reading journey with us, and I recommend utilizing online study guides and literature reviews, which offer detailed chapter summaries, character analyses, and context overviews. Additionally, listening to the audiobook version on platforms while reading along can greatly improve comprehension. I hope these resources make the reading process much smoother for you. 
+Dear Maria,
 
-Best regards, 
+I completely understand your concerns regarding the complexity of our selected book for this upcoming session. Classic literature can often feel overwhelming due to archaic vocabulary and intricate sentence structures. Unfortunately, we cannot switch to a different book at this stage because the majority of our members have already purchased their copies and begun reading, so altering the selection now would cause significant inconvenience for everyone.
+
+There are many online resources that could help you continue to engage in this intriguing reading journey with us, and I recommend utilizing online study guides and literature reviews, which offer detailed chapter summaries, character analyses, and context overviews. Additionally, listening to the audiobook version on platforms while reading along can greatly improve comprehension. I hope these resources make the reading process much smoother for you.
+
+Best regards,
 Ariel Lee
 
 ## My Score Explained

@@ -10,7 +10,11 @@ Requirements:
 
 ## My Polished Response
 Hi Jessica,
-I am sorry I missed class yesterday. I had a medical appointment that could not be rescheduled, and I really do not want to fall behind before our next assignment. Would you be willing to share your notes and let me know whether the professor announced any deadlines or changes to the project? Your notes would tremendously help me understand both the lecture and the specific examples discussed in class. A photo or a scanned copy would be perfect if that is easiest for you. To return the favor, I would love to gift you a subscription to Google AI Pro, or please let me know what else would be most useful to you.
+
+I am sorry I missed class yesterday. I had a medical appointment that could not be rescheduled, and I really do not want to fall behind before our next assignment. Would you be willing to share your notes and let me know whether the professor announced any deadlines or changes to the project? Your notes would tremendously help me understand both the lecture and the specific examples discussed in class.
+
+A photo or a scanned copy would be perfect if that is easiest for you. To return the favor, I would love to gift you a subscription to Google AI Pro, or please let me know what else would be most useful to you.
+
 Sincerely,
 Ariel
 

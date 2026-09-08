@@ -10,7 +10,13 @@ Requirements:
 
 ## My Polished Response
 Dear Ms. Williams,
-I recently attended the university-sponsored career workshop, and I am writing to thank you for organizing such a useful event. The resume section was especially helpful, as the clear examples provided during the first practice activity gave me a much better understanding of how to format my own experiences. However, I did want to mention a few organizational issues that affected the experience. Because the registration line was unexpectedly long, the first session started quite late. Additionally, the room was too small for the size of our group, meaning several attendees had to stand near the back and could not clearly see the presentation slides. For future events, I suggest implementing an online check-in system and reserving a larger classroom to comfortably accommodate everyone. Furthermore, sending the presentation materials to participants in advance and issuing a brief reminder beforehand would greatly reduce confusion on the day of the event. I believe these small adjustments would make future workshops even more effective and enjoyable for all students.
+
+I recently attended the university-sponsored career workshop, and I am writing to thank you for organizing such a useful event. The resume section was especially helpful, as the clear examples provided during the first practice activity gave me a much better understanding of how to format my own experiences. However, I did want to mention a few organizational issues that affected the experience.
+
+Because the registration line was unexpectedly long, the first session started quite late. Additionally, the room was too small for the size of our group, meaning several attendees had to stand near the back and could not clearly see the presentation slides. For future events, I suggest implementing an online check-in system and reserving a larger classroom to comfortably accommodate everyone.
+
+Furthermore, sending the presentation materials to participants in advance and issuing a brief reminder beforehand would greatly reduce confusion on the day of the event. I believe these small adjustments would make future workshops even more effective and enjoyable for all students.
+
 Best regards,
 Ariel Lee
 

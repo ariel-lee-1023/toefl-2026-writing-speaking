@@ -11,8 +11,11 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Ms. Sorensen,
+
 I am writing on behalf of the Riverside Community Center to invite you to lead a session for our upcoming summer art program. We are organizing a series of weekend workshops designed to introduce local teenagers aged thirteen to seventeen to different creative mediums, with the goal of giving young people a productive outlet and helping them develop their artistic confidence during the school break.
+
 The workshops will run on Saturday mornings from ten to twelve throughout July and August at our main facility. Given your extensive painting background and your strong reputation in the community, we would be thrilled if you were interested in guest-leading a two-hour session on painting fundamentals or watercolor techniques. Please let us know if your schedule might allow for this, and we would be happy to discuss honorariums and session details at your convenience.
+
 Thank you for your time and consideration.
 
 Best regards,

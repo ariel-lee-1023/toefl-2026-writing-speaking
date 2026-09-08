@@ -11,7 +11,10 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Ms. Reyes,
-I am the vice president of the university's student photography club. I am here to inquire about the possibility of hosting a photography exhibition at your café next month to showcase our members' recent work. We envision a two-week exhibition centered on the theme of urban rivers, showcasing approximately fifteen to twenty framed, medium-format prints that capture the interplay between local waterways, city bridges, and riverbank life. Could you please let us know if you have wall space available for a two-week display during late September or early October? Furthermore, we would appreciate any details regarding your requirements for hanging artwork and wall damage prevention guidelines. Thank you very much for your time and for your continued support of local young artists, and I look forward to hearing from you.
+
+I am the vice president of the university's student photography club. I am here to inquire about the possibility of hosting a photography exhibition at your café next month to showcase our members' recent work. We envision a two-week exhibition centered on the theme of urban rivers, showcasing approximately fifteen to twenty framed, medium-format prints that capture the interplay between local waterways, city bridges, and riverbank life.
+
+Could you please let us know if you have wall space available for a two-week display during late September or early October? Furthermore, we would appreciate any details regarding your requirements for hanging artwork and wall damage prevention guidelines. Thank you very much for your time and for your continued support of local young artists, and I look forward to hearing from you.
 
 Sincerely,
 Ariel Lee

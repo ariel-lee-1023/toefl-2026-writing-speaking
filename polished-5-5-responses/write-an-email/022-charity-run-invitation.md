@@ -10,9 +10,14 @@ Suggest a plan to train together before the event.
 Write as much as you can and in complete sentences.
 
 ## My Polished Response
-Dear Tomas, 
+Dear Tomas,
+
 I hope you are doing well. I am writing to encourage you to join our group of friends in the upcoming charity run, which is being organized to raise funds for our local hospital. The money collected from the event will go directly toward purchasing new medical equipment and supporting patient care.
-I completely understand why you might feel uncertain about your current fitness level, but you should not let that hold you back from participating. The event is designed to be inclusive for everyone in the community, so participants are welcome to run, jog, or even walk the course at their own comfortable pace. Having you with us would make the experience much more enjoyable, and completing the course together will be a rewarding achievement regardless of our finishing times.
+
+I completely understand why you might feel uncertain about your current fitness level, but you should not let that hold you back from participating. The event is designed to be inclusive for everyone in the community, so participants are welcome to run, jog, or even walk the course at their own comfortable pace.
+
+Having you with us would make the experience much more enjoyable, and completing the course together will be a rewarding achievement regardless of our finishing times.
+
 To help you build up your stamina and feel fully prepared before the race, I propose that we start training together twice a week. We could meet at the local park on Tuesday and Thursday evenings for light jogging sessions, gradually increasing our distance as the event approaches. Please let me know if this training plan works for you so we can register as a team.
 
 Best regards,

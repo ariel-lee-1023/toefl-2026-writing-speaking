@@ -11,7 +11,10 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Mr. Okonkwo,
-My name is Ariel, and I recently moved into apartment 4B. I have always enjoyed gardening and was delighted to learn about the rooftop community garden you organize. This summer, I would love to grow tomatoes, zucchini, basil, and rosemary. These thrive in sunny conditions and would let me cook with homegrown ingredients. Could you please let me know how I can join the project? I would appreciate details on plot availability, shared watering duties, and any upcoming orientations. I am free most weekday evenings if you would like to chat briefly. Thank you for creating this wonderful community space.
+
+My name is Ariel, and I recently moved into apartment 4B. I have always enjoyed gardening and was delighted to learn about the rooftop community garden you organize. This summer, I would love to grow tomatoes, zucchini, basil, and rosemary. These thrive in sunny conditions and would let me cook with homegrown ingredients. Could you please let me know how I can join the project?
+
+I would appreciate details on plot availability, shared watering duties, and any upcoming orientations. I am free most weekday evenings if you would like to chat briefly. Thank you for creating this wonderful community space.
 
 Best regards,
 Ariel Lee

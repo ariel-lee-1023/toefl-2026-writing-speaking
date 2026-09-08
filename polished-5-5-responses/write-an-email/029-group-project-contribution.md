@@ -6,10 +6,13 @@ You are a university student working on a group project for one of your classes.
 ## My Polished Response
 Dear Jake,
 
-I am writing to check in with you about our group project because we really need your contribution to move forward. First, as a reminder, this assignment accounts for forty percent of our final course grade, so doing well on it is absolutely essential for all of us to maintain our standing in the class. Unfortunately, your absence from our last three planning sessions has significantly stalled our progress. Because we did not know if you were going to attend, we were unable to finalize the task delegation or start outlining the main chapters. To help us get back on schedule, we have a few suggestions for how you can contribute this week. It would be highly appreciated if you could send your drafted research notes to the group chat by tomorrow evening so we can integrate them into the introduction. Additionally, since the rest of us have already begun drafting the body paragraphs, it would be a huge help if you could take charge of formatting the final presentation slides. Please let us know if this works for you so we can finally wrap up this assignment.
+I am writing to check in with you about our group project because we really need your contribution to move forward. First, as a reminder, this assignment accounts for forty percent of our final course grade, so doing well on it is absolutely essential for all of us to maintain our standing in the class. Unfortunately, your absence from our last three planning sessions has significantly stalled our progress.
+
+Because we did not know if you were going to attend, we were unable to finalize the task delegation or start outlining the main chapters. To help us get back on schedule, we have a few suggestions for how you can contribute this week. It would be highly appreciated if you could send your drafted research notes to the group chat by tomorrow evening so we can integrate them into the introduction.
+
+Additionally, since the rest of us have already begun drafting the body paragraphs, it would be a huge help if you could take charge of formatting the final presentation slides. Please let us know if this works for you so we can finally wrap up this assignment.
 
 Best regards,
-
 Ariel
 
 ## My Score Explained

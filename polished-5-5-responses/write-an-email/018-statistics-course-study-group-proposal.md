@@ -10,12 +10,15 @@ Ask classmates to share which topics they find most challenging.
 Write as much as you can and in complete sentences.
 
 ## My Polished Response
-Hi everyone, 
-I am reaching out to propose forming a weekly study group for our advanced statistics course, as I have found that discussing challenging concepts with others significantly improves material retention. Specifically, I suggest we hold our regular meetings every Thursday from 4:00 p.m. to 6:00 p.m. in Study Room 2A at the main library, because it offers a quiet environment with a large whiteboard for working through equations. Before our first gathering, could you please reply by Tuesday and let me know which specific topics you currently find most challenging? This will help us focus our review on the areas where we need the most support. 
+Hi everyone,
 
-I look forward to studying together. 
+I am reaching out to propose forming a weekly study group for our advanced statistics course, as I have found that discussing challenging concepts with others significantly improves material retention. Specifically, I suggest we hold our regular meetings every Thursday from 4:00 p.m. to 6:00 p.m. in Study Room 2A at the main library, because it offers a quiet environment with a large whiteboard for working through equations.
 
-Best, 
+Before our first gathering, could you please reply by Tuesday and let me know which specific topics you currently find most challenging? This will help us focus our review on the areas where we need the most support.
+
+I look forward to studying together.
+
+Best,
 Ariel Lee
 
 ## My Score Explained

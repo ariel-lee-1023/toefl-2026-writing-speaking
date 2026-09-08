@@ -11,8 +11,11 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear David,
+
 Welcome to the team! I am thrilled to have you join our marketing department, and I look forward to working together. I vividly remember how overwhelming my own first few weeks here felt when I was trying to navigate our brand guidelines and client databases, so I want to make sure your transition is as smooth and stress-free as possible.
+
 Specifically, I recommend taking a look at our shared drive, where we keep our core strategy templates and project management workflows. To save you time, I have assembled a short quick-start guide with direct links to our primary analytics tools, communication channels, and design assets.
+
 Please feel free to reach out whenever you run into any questions or need help finding specific files. Would you be available for a quick 20-minute coffee chat this Thursday afternoon around 2:00 p.m. so we can touch base and go over any immediate questions?
 
 Best regards,

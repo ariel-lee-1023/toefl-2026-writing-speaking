@@ -11,7 +11,10 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Mr. Volkov,
-I am writing to suggest changing our monthly international food festival schedule. Recently, many members have found Saturday afternoons difficult to attend due to weekend work commitments. To encourage greater participation, I propose moving the festival to Sunday evenings from 5:00 p.m. to 7:00 p.m. This time slot avoids conflicts for those working on weekends. I would be happy to help communicate this change by drafting a newsletter update or posting details on our community board and group chat. Thank you for your continued efforts in organizing these events.
+
+I am writing to suggest changing our monthly international food festival schedule. Recently, many members have found Saturday afternoons difficult to attend due to weekend work commitments. To encourage greater participation, I propose moving the festival to Sunday evenings from 5:00 p.m. to 7:00 p.m. This time slot avoids conflicts for those working on weekends.
+
+I would be happy to help communicate this change by drafting a newsletter update or posting details on our community board and group chat. Thank you for your continued efforts in organizing these events.
 
 Best regards,
 Ariel Lee
