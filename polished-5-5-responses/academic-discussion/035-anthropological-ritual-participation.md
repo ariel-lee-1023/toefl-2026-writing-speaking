@@ -1,7 +1,6 @@
-## Title
-Anthropological Ritual Participation
+# Anthropological Ritual Participation
 
-## Prompt
+## Prompt (including both student posts)
 As we have discussed in class, anthropologists are scientists who usually study cultural rituals and traditions to understand the values and beliefs of different societies. Some believe that anthropologists should participate in these rituals, while others argue that they should observe these rituals from a distance rather than participate in them. What is your perspective on this issue? Why?
 
 Kelly: I believe that participating in cultural rituals is essential because it helps anthropologists gain deep insights about the community. By actively engaging in these practices, anthropologists can experience firsthand the emotions and significance behind them, leading to a more authentic understanding of the culture.
