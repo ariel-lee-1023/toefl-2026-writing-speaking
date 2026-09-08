@@ -1,7 +1,6 @@
-## Title
-Science Led Environmental Education
+# Science Led Environmental Education
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Gupta:
 We are studying different approaches used in environmental education. Some educators believe that science and technology should be the primary focus. Others believe that social sciences and ethics are more important. Which approach do you think is more important in environmental education, and why?
 
