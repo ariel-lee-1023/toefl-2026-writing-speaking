@@ -12,13 +12,20 @@ Write as much as you can and in complete sentences.
 ## My Polished Response
 Dear Mr. Okonkwo,
 
-My name is Ariel, and I recently moved into apartment 4B. I have always enjoyed gardening and was delighted to learn about the rooftop community garden you organize. This summer, I would love to grow tomatoes, zucchini, basil, and rosemary. These thrive in sunny conditions and would let me cook with homegrown ingredients. Could you please let me know how I can join the project?
+My name is Ariel, and I recently moved into apartment 4B. I enjoy looking after plants and was excited to hear about the rooftop garden.
 
-I would appreciate details on plot availability, shared watering duties, and any upcoming orientations. I am free most weekday evenings if you would like to chat briefly. Thank you for creating this wonderful community space.
+I'd like to grow tomatoes and carrots this summer because I often use them in my cooking. Gardening would also give me a relaxing activity after work and a chance to meet my neighbors.
+
+Could you please let me know how to join and whether any space is available? I'd also appreciate information about what tools to bring and how members share watering duties. I'm usually free on weekday evenings and would be happy to help.
+
+Thank you for organizing the garden.
 
 Best regards,
 Ariel Lee
-Apartment 4B
 
 ## My Score Explained
-This email secures a 5/5 rating by meeting all ETS task specifications. It introduces the resident and establishes personal connection ("recently moved into apartment 4B... always enjoyed gardening"), specifies itemized produce choices with practical reasoning ("tomatoes, zucchini, basil, and rosemary... thrive in sunny conditions"), and asks explicit logistical questions about onboarding ("plot availability, shared watering duties, upcoming orientations"). The register is polite, neighborly, and grammatically flawless.
+Estimated task score: 5/5 (a coaching assessment of the written response, not an official ETS score or a CEFR section-score determination).
+
+The email fulfills all three requirements with relevant details. It introduces Ariel as a new resident of apartment 4B and establishes an interest in caring for plants. It names two familiar vegetables, "tomatoes and carrots," and explains the choice through everyday cooking. The additional benefits of relaxation and meeting neighbors make the interest personal and appropriate to a community project. The question beginning "Could you please let me know how to join" directly addresses membership and space availability.
+
+The follow-up questions about tools and shared watering duties make the request practical, while weekday-evening availability shows willingness to contribute. The organization moves clearly from introduction to gardening plans, joining arrangements, and appreciation. The greeting and sign-off are respectful, and "I'd also appreciate" keeps the requests polite. Sentence variety includes a reason clause beginning "because," embedded questions using "whether," "what," and "how," and coordinated statements. Expressions such as "looking after plants" and "share watering duties" are natural and precise. Grammar, spelling, and punctuation are consistently controlled. Familiar vegetable names provide concrete detail without requiring specialized vocabulary.
