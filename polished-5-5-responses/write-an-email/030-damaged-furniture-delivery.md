@@ -9,7 +9,13 @@ Requirements:
 
 ## My Polished Response
 Dear Customer Service,
-I am writing regarding the wooden desk I ordered from your website last week. It arrived yesterday, but unfortunately, one corner of the desktop is badly cracked and two of the metal legs are bent. The shipping box was also torn on one side, which suggests the damage likely occurred during delivery. I purchased this specific desk because I urgently need a stable place to study for my final exams. Because the desk cannot stand safely in its current condition, I am forced to continue working at a small kitchen table, which is highly disappointing and disruptive to my preparation. I have attached photos of both the damaged parts and the original packaging. Could you please send a replacement desk at no additional cost and arrange to collect the damaged one? If a replacement is unavailable this week, I would prefer a full refund instead. Please let me know the next steps and the expected delivery date.
+
+I am writing regarding the wooden desk I ordered from your website last week. It arrived yesterday, but unfortunately, one corner of the desktop is badly cracked and two of the metal legs are bent. The shipping box was also torn on one side, which suggests the damage likely occurred during delivery. I purchased this specific desk because I urgently need a stable place to study for my final exams.
+
+Because the desk cannot stand safely in its current condition, I am forced to continue working at a small kitchen table, which is highly disappointing and disruptive to my preparation. I have attached photos of both the damaged parts and the original packaging. Could you please send a replacement desk at no additional cost and arrange to collect the damaged one? If a replacement is unavailable this week, I would prefer a full refund instead.
+
+Please let me know the next steps and the expected delivery date.
+
 Best regards,
 Ariel Lee
 

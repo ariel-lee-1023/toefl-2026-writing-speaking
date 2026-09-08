@@ -8,7 +8,13 @@ You are a student who has been working on a research project and need to request
 
 ## My Polished Response
 Dear Dr. Jones,
-I hope you are having a wonderful week. I am writing to ask if it might be possible to request a short extension for my research project, which is currently scheduled to conclude next week. I have thoroughly enjoyed researching the topic of people's attitudes toward climate change in different cities, but I recently encountered some unexpected challenges that have delayed my progress. First, our region experienced extreme weather that forced me to postpone my field interviews for three days. Moreover, by the time the traffic recovered and the roads were cleared, I unfortunately came down with a serious cold that left me unable to work. Given these setbacks, I would like to suggest a new submission deadline of next Friday, which will give me enough time to properly analyze the interview data. I am also happy to provide you with a partial draft of my current progress by tomorrow morning so you can review where I am at. Thank you very much for your time and understanding.
+
+I hope you are having a wonderful week. I am writing to ask if it might be possible to request a short extension for my research project, which is currently scheduled to conclude next week. I have thoroughly enjoyed researching the topic of people's attitudes toward climate change in different cities, but I recently encountered some unexpected challenges that have delayed my progress.
+
+First, our region experienced extreme weather that forced me to postpone my field interviews for three days. Moreover, by the time the traffic recovered and the roads were cleared, I unfortunately came down with a serious cold that left me unable to work. Given these setbacks, I would like to suggest a new submission deadline of next Friday, which will give me enough time to properly analyze the interview data.
+
+I am also happy to provide you with a partial draft of my current progress by tomorrow morning so you can review where I am at. Thank you very much for your time and understanding.
+
 Sincerely,
 Airel
 

@@ -11,11 +11,14 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Mr. Fitzgerald,
+
 I am writing to let you know that my university class schedule for next semester was recently updated, and unfortunately, I have several required courses that conflict with my current Tuesday and Thursday morning shifts at the bookstore. Because these lectures are mandatory for my major, I will no longer be available to work during those hours.
+
 I would still love to keep working at the bookstore, so I was wondering if it might be possible to switch to a different shift. I am completely free on Monday and Wednesday afternoons after 1:00 p.m., as well as all day on Fridays and weekends, so any of those times would work well for me.
+
 I know that losing morning coverage on Tuesdays and Thursdays creates a gap in the schedule, so I would be more than happy to help train a new staff member or reach out to our team to see if anyone is interested in taking over those hours. Please let me know if any of these alternative shifts could work for you.
 
-Best regards, 
+Best regards,
 Ariel Lee
 
 ## My Score Explained

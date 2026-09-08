@@ -11,7 +11,10 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Ms. Dubois,
-I am writing to report an issue with the heating in West Hall room 304. For the past week, our thermostat has failed to heat properly, causing room temperatures to drop significantly every night. This cold environment severely disrupts our daily routine, making it hard to sleep and leaving us too tired to focus on our studies. Manual adjustments have not resolved the issue, so we need maintenance assistance. Could you please send a technician to inspect the system tomorrow between 2:00 p.m. and 4:00 p.m.? One of us will be in the room then. Thank you for your assistance.
+
+I am writing to report an issue with the heating in West Hall room 304. For the past week, our thermostat has failed to heat properly, causing room temperatures to drop significantly every night. This cold environment severely disrupts our daily routine, making it hard to sleep and leaving us too tired to focus on our studies. Manual adjustments have not resolved the issue, so we need maintenance assistance.
+
+Could you please send a technician to inspect the system tomorrow between 2:00 p.m. and 4:00 p.m.? One of us will be in the room then. Thank you for your assistance.
 
 Sincerely,
 Ariel Lee

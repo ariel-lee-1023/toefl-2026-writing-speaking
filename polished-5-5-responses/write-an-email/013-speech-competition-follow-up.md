@@ -11,12 +11,16 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Professor Kawu,
+
 Thank you for serving as a judge at our recent university speech competition. Your thoughtful comments and fair scoring helped create a genuinely positive atmosphere, and several students told me how much they appreciated the detailed feedback you provided after each round.
+
 To attract a wider range of participants next year, I plan to start promoting the event earlier in the semester through classroom visits and short demo videos on the student portal. I also intend to introduce a small prize for the top three speakers and offer optional coaching sessions in the weeks leading up to the competition, ensuring that less experienced students feel confident enough to join.
+
 Because you have seen firsthand what makes our speakers successful, I would deeply value your advice on these ideas. Would you be available to meet for about 20 minutes sometime in the next two weeks to discuss how we might improve the event?
+
 Thank you again for your time and support.
 
-Sincerely, 
+Sincerely,
 Ariel Lee
 
 ## My Score Explained

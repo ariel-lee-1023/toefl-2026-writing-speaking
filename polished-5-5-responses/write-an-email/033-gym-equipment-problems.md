@@ -10,7 +10,13 @@ Requirements:
 
 ## My Polished Response
 Dear Ms. Taylor,
-I am a regular member of Fitness Zone, and I am writing to share a few suggestions regarding the facility's equipment. While I truly appreciate the clean environment and friendly staff, I have recently noticed that several machines have fallen into disrepair. For example, two of the treadmills often stop suddenly during use, and the handles on one of the rowing machines are quite loose. Additionally, during peak hours, there is a shortage of functional exercise bikes, causing members to wait for extended periods. Replacing these broken machines and adding some new equipment would significantly improve the workout experience, ensuring that exercises are both safe and enjoyable for everyone. If these issues are not addressed, members may begin to feel that the gym is no longer meeting their needs and might cancel their memberships in favor of another fitness center. I hope you will strongly consider these improvements to maintain the gym's high standards.
+
+I am a regular member of Fitness Zone, and I am writing to share a few suggestions regarding the facility's equipment. While I truly appreciate the clean environment and friendly staff, I have recently noticed that several machines have fallen into disrepair. For example, two of the treadmills often stop suddenly during use, and the handles on one of the rowing machines are quite loose.
+
+Additionally, during peak hours, there is a shortage of functional exercise bikes, causing members to wait for extended periods. Replacing these broken machines and adding some new equipment would significantly improve the workout experience, ensuring that exercises are both safe and enjoyable for everyone. If these issues are not addressed, members may begin to feel that the gym is no longer meeting their needs and might cancel their memberships in favor of another fitness center.
+
+I hope you will strongly consider these improvements to maintain the gym's high standards.
+
 Best regards,
 Ariel Lee
 

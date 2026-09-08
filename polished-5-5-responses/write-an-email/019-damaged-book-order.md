@@ -11,12 +11,16 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Customer Service Team,
+
 I am writing regarding a set of textbooks I recently ordered from Campus Books Direct. Upon opening the package, I discovered that two of the textbooks arrived with severe water damage, and several of the pages inside were torn and stuck together, making them completely unreadable.
+
 Because I need these books for my upcoming academic classes, I would like to request a replacement for both damaged items as soon as possible. I have already taken clear photographs documenting the state of the packaging and the damaged pages, which I am happy to attach for your review.
+
 Could you please inform me of the timeline for processing this replacement request? I would appreciate knowing how soon the new copies can be shipped out, as well as any instructions for returning the damaged volumes.
+
 Thank you for your prompt assistance with this matter.
 
-Sincerely, 
+Sincerely,
 Ariel Lee
 
 ## My Score Explained

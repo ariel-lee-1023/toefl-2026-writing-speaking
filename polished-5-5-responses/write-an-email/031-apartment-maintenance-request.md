@@ -9,7 +9,11 @@ Requirements:
 
 ## My Polished Response
 Dear Mr. Thompson,
-I recently moved into Apartment 304, and I am writing to report several problems that I have noticed during my first week here. While I appreciate the convenient location of the apartment, a few conditions need immediate attention. The main issue is that the heating system does not work properly at night, which leaves the room freezing while I try to study. In addition, the desk chair provided is highly unstable, and I worry for my safety whenever I sit on it. These problems have significantly disrupted my daily routine and made it difficult for me to concentrate on reading and completing assignments after class. Could you please arrange for someone to inspect the heating and replace the broken chair as soon as possible? I would be very grateful for your prompt assistance.
+
+I recently moved into Apartment 304, and I am writing to report several problems that I have noticed during my first week here. While I appreciate the convenient location of the apartment, a few conditions need immediate attention. The main issue is that the heating system does not work properly at night, which leaves the room freezing while I try to study.
+
+In addition, the desk chair provided is highly unstable, and I worry for my safety whenever I sit on it. These problems have significantly disrupted my daily routine and made it difficult for me to concentrate on reading and completing assignments after class. Could you please arrange for someone to inspect the heating and replace the broken chair as soon as possible? I would be very grateful for your prompt assistance.
+
 Sincerely,
 Ariel Lee
 

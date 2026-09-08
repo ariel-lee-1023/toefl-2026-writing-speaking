@@ -10,11 +10,15 @@ Offer to help with future events.
 Write as much as you can and in complete sentences.
 
 ## My Polished Response
-Dear Ms. Adebayo, 
-I am writing to share some feedback regarding the new weekend reading program for children. My younger siblings have been attending every week since it started, and they have thoroughly enjoyed the interactive story circles and hands-on crafts that follow each reading session. While the program has been a wonderful success, one aspect that could be improved is the seating arrangement in the children's section. During popular sessions, the rug area becomes quite crowded, making it difficult for the younger children in the back to see the picture books clearly as they are being read. I would love to offer my help with future events, whether that involves assisting with setting up extra seating beforehand or helping manage the crafts table. Please let me know if you could use an extra pair of hands.
+Dear Ms. Adebayo,
+
+I am writing to share some feedback regarding the new weekend reading program for children. My younger siblings have been attending every week since it started, and they have thoroughly enjoyed the interactive story circles and hands-on crafts that follow each reading session. While the program has been a wonderful success, one aspect that could be improved is the seating arrangement in the children's section.
+
+During popular sessions, the rug area becomes quite crowded, making it difficult for the younger children in the back to see the picture books clearly as they are being read. I would love to offer my help with future events, whether that involves assisting with setting up extra seating beforehand or helping manage the crafts table. Please let me know if you could use an extra pair of hands.
+
 Thank you for organizing such a fantastic program for our community.
 
-Best regards, 
+Best regards,
 Ariel Lee
 
 ## My Score Explained

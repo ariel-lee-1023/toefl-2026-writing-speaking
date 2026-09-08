@@ -13,7 +13,6 @@ First, since you enjoy films, I highly recommend joining a university movie-watc
 Finally, please let me know if you want to schedule a video call this weekend just to vent, or if you would like me to help you research some interesting student organizations on your campus.
 
 Warmly,
-
 Ariel
 
 ## My Score Explained

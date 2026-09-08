@@ -11,8 +11,11 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Dr. Osei,
+
 Thank you so much for taking the time to give your presentation on ocean conservation to our environmental science club. Your talk was remarkably well received by our members, and it sparked vibrant discussions among several students who are now eager to explore marine biology and conservation strategies much further.
+
 Building on that enthusiasm, I would like to suggest a potential topic for a follow-up presentation. Many of our members expressed a strong interest in learning more about local coastal ecosystem restoration, specifically focusing on how community-led initiatives can protect native marine life and mitigate habitat loss.
+
 Given how inspiring your previous session was, we would be honored if you would consider speaking at our club again during the upcoming semester. Please let us know if your schedule might allow for another visit, as we would be delighted to coordinate a date that works best for you.
 
 Best regards,

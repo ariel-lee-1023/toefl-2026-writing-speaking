@@ -11,11 +11,14 @@ Write as much as you can and in complete sentences.
 
 ## My Polished Response
 Dear Ms. Ngo,
+
 I am writing on behalf of our university hiking club to inquire about lodging for our upcoming trip to Green Mountain. A member who previously stayed at Green Mountain Inn recommended your establishment to us and spoke very highly of his experience.
+
 Our group will consist of 15 to 20 people, and we are looking to book rooms for the night before our hike. Because we will need to start on the trail very early, we would need to check out at 4:00 a.m., so I would like to confirm that such an early departure can be arranged smoothly.
+
 Could you please let me know your availability for a group of this size, along with your room rates and any applicable group discounts?
 
-Sincerely, 
+Sincerely,
 Ariel Lee
 
 ## My Score Explained
