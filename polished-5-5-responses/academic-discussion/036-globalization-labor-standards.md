@@ -1,7 +1,6 @@
-## Title
-Globalization and Labor Standards
+# Globalization Labor Standards
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Gupta:
 This week, we have been exploring the effects of globalization on local economies. Globalization refers to businesses and economies becoming interconnected and interdependent worldwide. Some economists argue that globalization leads to economic growth and increased opportunities by creating new markets and encouraging investment. Others hold that it can harm local businesses and lead to job losses as companies move production to countries with cheaper labor. Do you think globalization has a positive or negative impact on local economies? Why?
 

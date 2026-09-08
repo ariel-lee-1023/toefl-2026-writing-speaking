@@ -1,7 +1,6 @@
-## Title
-Technology Led Product Development
+# Technology Led Product Development
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Gupta:
 We've been discussing the importance of customer feedback in product development. Gathering feedback can help companies understand customer needs and improve their products. However, some people argue that relying too heavily on customer feedback may limit innovation and result in mediocre products. On the discussion board, I'd like you to share your opinion on whether customer feedback should play a major role in product development and why.
 
