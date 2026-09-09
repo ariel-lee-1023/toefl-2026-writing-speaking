@@ -1,5 +1,4 @@
-## Title
-Heating System Repair Request
+# Heating System Repair Request
 
 ## Prompt
 You have recently moved into off-campus housing and are experiencing issues with the heating system. You need to contact the property manager, Ms. Green, to report the problem and request a repair.
