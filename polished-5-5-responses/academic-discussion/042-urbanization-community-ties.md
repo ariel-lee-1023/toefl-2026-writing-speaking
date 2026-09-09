@@ -1,7 +1,6 @@
-## Title
-Urbanization Community Ties
+# Urbanization Community Ties
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Diaz:
 
 We've been discussing the impact of urbanization, the process by which an increasing proportion of a population moves from rural areas to cities, often resulting in the expansion and development of urban centers. This shift can significantly reshape community life. Some sociologists argue that urbanization leads to the decline of close-knit communities and weakens social cohesion. Others, however, believe that urban environments foster new forms of social interaction and community building. What is your perspective on this issue?
