@@ -1,5 +1,4 @@
-## Title
-Roman Law Course Inquiry
+# Roman Law Course Inquiry
 
 ## Prompt
 You are a student starting a new semester, and you would like some additional information about a course you are interested in that is taught by Dr. Adams. You want to ensure that the course is suitable for you.
