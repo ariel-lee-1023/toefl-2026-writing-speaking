@@ -1,7 +1,6 @@
-## Title
-Influencer Marketing Effectiveness
+# Influencer Marketing Effectiveness
 
-## Prompt
+## Prompt (including both student posts)
 Your professor is teaching a class on marketing. Write a post responding to the professor’s question.
 
 In your response, you should do the following.
