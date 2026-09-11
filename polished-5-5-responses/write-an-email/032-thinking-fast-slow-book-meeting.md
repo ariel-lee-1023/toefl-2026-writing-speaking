@@ -1,5 +1,4 @@
-## Title
-Thinking Fast Slow Book Meeting
+# Thinking Fast Slow Book Meeting
 
 ## Prompt
 You are a member of the campus book club and are hosting the next meeting. You have selected a book and want to inform the club's members about your choice and about other meeting details.
