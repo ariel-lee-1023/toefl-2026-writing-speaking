@@ -1,5 +1,4 @@
-## Title
-Dietary Habits
+# Dietary Habits
 
 ## Q1 Prompt
 Scenario: As part of a university project, you have agreed to take part in a short research interview about dietary habits. A graduate student conducting the research will ask you some questions online.

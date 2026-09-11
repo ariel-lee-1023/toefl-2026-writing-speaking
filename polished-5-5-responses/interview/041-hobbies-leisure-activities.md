@@ -1,5 +1,4 @@
-## Title
-Hobbies and Leisure Activities
+# Hobbies Leisure Activities
 
 ## Q1 Prompt
 Scenario: You have agreed to participate in a university research study about hobbies and leisure activities. You will have a short online interview with a researcher. The researcher will ask you some questions.

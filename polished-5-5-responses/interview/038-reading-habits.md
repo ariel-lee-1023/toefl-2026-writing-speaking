@@ -1,5 +1,4 @@
-## Title
-Reading Habits
+# Reading Habits
 
 ## Q1 Prompt
 Scenario: You have agreed to participate in a research study about reading habits. You will have a short online interview with a researcher. The researcher will ask you some questions.

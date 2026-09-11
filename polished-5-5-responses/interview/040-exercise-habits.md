@@ -1,5 +1,4 @@
-## Title
-Exercise Habits
+# Exercise Habits
 
 ## Q1 Prompt
 Scenario: As part of a university research project, you have agreed to take part in a short interview about exercise habits. A graduate student conducting the research will ask you some questions.

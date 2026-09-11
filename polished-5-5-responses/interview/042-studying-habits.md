@@ -1,5 +1,4 @@
-## Title
-Studying Habits
+# Studying Habits
 
 ## Q1 Prompt
 Scenario: You have agreed to participate in a research study about studying habits. You will have a short online interview with a researcher. The researcher will ask you some questions.

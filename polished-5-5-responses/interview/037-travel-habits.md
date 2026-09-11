@@ -1,5 +1,4 @@
-## Title
-Travel Habits
+# Travel Habits
 
 ## Q1 Prompt
 Scenario: You have volunteered for a research study at your university about travel habits. You will have a short online interview with a researcher. The researcher will ask you some questions.

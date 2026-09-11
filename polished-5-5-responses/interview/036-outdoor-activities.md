@@ -1,5 +1,4 @@
-## Title
-Outdoor Activities
+# Outdoor Activities
 
 ## Q1 Prompt
 Scenario: You have volunteered for a research study about outdoor activities. You will have a short online interview with a researcher. The researcher will ask you some questions.
