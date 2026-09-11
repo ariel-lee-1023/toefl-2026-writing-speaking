@@ -1,4 +1,4 @@
-# Urbanization Impacts Community
+# Rehabilitation Versus Punishment
 
 ## Prompt (including both student posts)
 Dr. Moreno

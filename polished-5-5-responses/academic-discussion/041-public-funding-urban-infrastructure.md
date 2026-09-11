@@ -12,7 +12,7 @@ An effective response will contain at least 100 words.
 
 Dr. Gupta:
 
-We’ve recently been discussing the concept of modernized cities that use technology—like buildings designed to use less energy—to improve urban living and quality of life. Some believe that investing in modernized and eco-friendly infrastructure is essential for long-term sustainability and growth. Others argue that limited public funds should instead prioritize pressing needs such as affordable housing, healthcare access, and education. What is your opinion on how cities should balance these
+We’ve recently been discussing the concept of modernized cities that use technology—like buildings designed to use less energy—to improve urban living and quality of life. Some believe that investing in modernized and eco-friendly infrastructure is essential for long-term sustainability and growth. Others argue that limited public funds should instead prioritize pressing needs such as affordable housing, healthcare access, and education. What is your opinion on how cities should balance these competing priorities?
 
 Paul:
 
