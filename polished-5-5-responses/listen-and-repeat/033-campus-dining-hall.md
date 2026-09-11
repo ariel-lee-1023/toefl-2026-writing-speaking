@@ -1,5 +1,4 @@
-## Title
-Campus Dining Hall
+# Campus Dining Hall
 
 ## Prompt
 Scenario: You are working at a campus dining hall. A shift supervisor is training you to explain your responsibilities to new student workers. Listen to the supervisor and repeat what the supervisor says. Repeat only once.
@@ -37,14 +36,14 @@ No recorded attempt or response transcript was supplied. Intelligibility, accura
 
 | # | Score | What I lost | Cause category |
 |---|---|---|---|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
-| 7 | ... | ... | ... |
+| 1 |... |... |... |
+| 2 |... |... |... |
+| 3 |... |... |... |
+| 4 |... |... |... |
+| 5 |... |... |... |
+| 6 |... |... |... |
+| 7 |... |... |... |
 
-- Set score: .../5
+- Set score:.../5
 - Error tally: function word ×... · word ending ×... · blurred content word ×... · truncation ×... · rhythm ×...
-- Next drill: ...
+- Next drill:...

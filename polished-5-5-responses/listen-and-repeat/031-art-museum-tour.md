@@ -1,5 +1,4 @@
-## Title
-Art Museum Tour
+# Art Museum Tour
 
 ## Prompt
 Scenario: You are being trained to guide visitors in an art museum. Listen to your trainer and repeat what he says. Repeat only once.
@@ -35,13 +34,13 @@ No recorded attempt or response transcript was supplied. Intelligibility, accura
 
 | # | Score | What I lost | Cause category |
 |---|---|---|---|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
+| 1 |... |... |... |
+| 2 |... |... |... |
+| 3 |... |... |... |
+| 4 |... |... |... |
+| 5 |... |... |... |
+| 6 |... |... |... |
 
-- Set score: .../5
+- Set score:.../5
 - Error tally: function word ×... · word ending ×... · blurred content word ×... · truncation ×... · rhythm ×...
-- Next drill: ...
+- Next drill:...

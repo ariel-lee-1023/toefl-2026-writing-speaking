@@ -1,5 +1,4 @@
-## Title
-Community Center Tours
+# Community Center Tours
 
 ## Prompt
 Scenario: You are volunteering at a community center for course credit. A leader is training you how to give tours to community members. Listen to the leader and repeat what the leader says. Repeat only once.
@@ -37,14 +36,14 @@ No recorded attempt or response transcript was supplied. Intelligibility, accura
 
 | # | Score | What I lost | Cause category |
 |---|---|---|---|
-| 1 | ... | ... | ... |
-| 2 | ... | ... | ... |
-| 3 | ... | ... | ... |
-| 4 | ... | ... | ... |
-| 5 | ... | ... | ... |
-| 6 | ... | ... | ... |
-| 7 | ... | ... | ... |
+| 1 |... |... |... |
+| 2 |... |... |... |
+| 3 |... |... |... |
+| 4 |... |... |... |
+| 5 |... |... |... |
+| 6 |... |... |... |
+| 7 |... |... |... |
 
-- Set score: .../5
+- Set score:.../5
 - Error tally: function word ×... · word ending ×... · blurred content word ×... · truncation ×... · rhythm ×...
-- Next drill: ...
+- Next drill:...
