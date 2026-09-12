@@ -1,7 +1,6 @@
-## Title
-Homework Versus Self Directed Study
+# Homework Versus Self Directed Study
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Moreno
 We've been discussing the role of homework in student learning. Homework has long been a standard part of education, with teachers assigning tasks for students to complete outside of class. Some educators believe that homework reinforces what students learn in the classroom and helps develop strong study habits. Others argue that excessive homework leads to burnout and takes away from valuable free time that children need for rest and social development. What is your view?
 
