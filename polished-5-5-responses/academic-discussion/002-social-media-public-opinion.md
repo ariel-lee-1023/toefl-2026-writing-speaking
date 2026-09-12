@@ -1,7 +1,6 @@
-## Title
-Social Media and Public Opinion
+# Social Media Public Opinion
 
-## Prompt
+## Prompt (including both student posts)
 Dr. Achebe
 We’ve been discussing the role of social media in shaping public opinion. Social media platforms have become powerful tools not only for communication and information sharing, but also for influencing public opinion. Do you think social media has too much influence on public opinion? Why or why not?
 
