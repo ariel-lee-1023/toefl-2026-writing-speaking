@@ -1,0 +1,18 @@
+## Title
+Social Media and Public Opinion
+
+## Prompt
+Dr. Achebe
+We’ve been discussing the role of social media in shaping public opinion. Social media platforms have become powerful tools not only for communication and information sharing, but also for influencing public opinion. Do you think social media has too much influence on public opinion? Why or why not?
+
+Kelly
+I believe social media has a positive influence on public opinion. It provides a powerful platform for people to raise awareness about important issues that affect peoples’ everyday lives. It can also mobilize people for social causes and create a sense of community.
+
+Paul
+In my opinion, social media has a negative influence on public opinion. Because people often frequent sites that discuss issues that they are interested in, social media can lead to people only hearing opinions that reinforce their own beliefs. This can lead to a fragmented society.
+
+## My Polished Response
+Although Kelly is right that social media can draw attention to neglected issues, I believe it has too much influence when a post's popularity carries more weight than the evidence behind it. Paul's concern about people repeatedly encountering similar opinions helps explain this imbalance: repetition can make a claim seem widely accepted without making it more reliable. The problem becomes especially serious when posts leave out essential context. For example, a widely shared clip of an empty bus might convince residents that a proposed bus lane is wasteful, even if the clip was filmed outside rush hour. If residents accept that impression without checking broader ridership data, a selective image can shape their position on an entire transport policy. This does not negate the community benefits Kelly describes. However, those benefits do not justify treating viral content as sufficient grounds for public decisions. Social media should help people discover issues worth investigating; it has excessive influence when it effectively settles their opinions before that investigation begins.
+
+## My Score Explained
+Estimated task score: 5/5. The response directly answers whether social media has too much influence by identifying a clear criterion: "when a post's popularity carries more weight than the evidence behind it." It accurately acknowledges Kelly's point about raising awareness and Paul's concern about repeated exposure to similar opinions. Its original contribution explains how repetition and missing context can allow selective information to shape policy preferences. The hypothetical empty-bus example is relevant and well elaborated: it identifies the misleading impression, the missing rush-hour context, the broader ridership evidence that should be checked, and the resulting policy judgment. The conditional sentence beginning "If residents accept that impression" makes the causal claim appropriately limited. The final distinction between discovering an issue and settling an opinion connects the example to the prompt's question about excessive influence. Concessive, conditional, and relative clauses, together with a purposeful semicolon in the conclusion, demonstrate effective syntactic variety. Expressions including "carries more weight," "essential context," and "sufficient grounds for public decisions" are precise and idiomatic. There are no noticeable lexical or grammatical errors. This is a coaching estimate based on the written response, not an official ETS result.
