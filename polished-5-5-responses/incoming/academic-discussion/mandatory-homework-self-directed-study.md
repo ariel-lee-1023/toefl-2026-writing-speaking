@@ -1,0 +1,18 @@
+## Title
+Homework Versus Self Directed Study
+
+## Prompt
+Dr. Moreno
+We've been discussing the role of homework in student learning. Homework has long been a standard part of education, with teachers assigning tasks for students to complete outside of class. Some educators believe that homework reinforces what students learn in the classroom and helps develop strong study habits. Others argue that excessive homework leads to burnout and takes away from valuable free time that children need for rest and social development. What is your view?
+
+Sam
+I think homework is an important part of learning. It gives students a chance to practice what they've learned and helps them develop responsibility and time management skills. Without homework, students might not retain as much information from class, and it would be hard for teachers to know if students truly understand the material.
+
+Jordan
+I believe homework does more harm than good, especially when students are given too much of it. After spending an entire day at school, kids need time to relax, play, and spend time with their families. Piling on hours of homework can lead to stress and make students resent learning rather than enjoy it.
+
+## My Polished Response
+I share Jordan's concern that excessive homework can undermine students' enthusiasm for learning, so I would replace most repetitive assignments with guided independent study. Sam is right that practice helps students retain material, but that does not mean everyone needs the same worksheet. Once students have demonstrated a skill, requiring more identical exercises leaves less time to address their actual difficulties. Instead, teachers could let students choose a short activity that applies the week's lesson. For example, after studying fractions, a student might adjust a recipe for a different number of people and explain the calculations. Choosing how to apply the concept gives the student a reason to use it beyond earning a grade, while the explanation lets the teacher check understanding. Students who still struggle could receive a few targeted exercises and feedback. This approach requires guidance, since independence does not develop simply because homework disappears. However, it preserves the practice Sam values while leaving more room for the rest Jordan emphasizes.
+
+## My Score Explained
+Estimated task score: 5/5. The response makes a clear, relevant contribution by proposing guided independent study as a replacement for most repetitive assignments. It accurately acknowledges Jordan's concern about excessive homework and Sam's argument for practice, then adds an original distinction between repeating a mastered skill and addressing an actual learning need. The explanation is well elaborated: a concrete fractions-and-recipe example shows what students would do, why choice could give the task a purpose beyond grades, and how the teacher could assess understanding. Targeted exercises for struggling students and the statement that "independence does not develop simply because homework disappears" qualify the proposal and make its reasoning more convincing. The sequence moves coherently from position to rationale, example, support for struggling learners, and a conclusion linked to both student posts. Concessive, conditional, temporal, and relative relationships are expressed through varied structures, including "Once students have demonstrated a skill" and "while the explanation lets the teacher check understanding." Vocabulary such as "targeted exercises," "retain material," and "guided independent study" is precise and natural. There are no noticeable grammatical or lexical errors. This is a coaching estimate based on the written response, not an official ETS result.
