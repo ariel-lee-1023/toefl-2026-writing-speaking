@@ -1,5 +1,4 @@
-## Title
-Requesting Lease Extension
+# Requesting Lease Extension
 
 ## Prompt
 You have been renting an apartment from Mrs. Nakamura for the past two years. Your lease is ending next month, but you have not yet found a new place to live. You would like to ask for a short extension of your current lease.
